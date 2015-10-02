@@ -73,6 +73,7 @@ developer upload rights. The differences are
 
    -  
 
+      -  Owned by the DMB
       -  Self renewal
       -  720 day expiry period
       -  \`~ubuntu-core-dev\` as a member
