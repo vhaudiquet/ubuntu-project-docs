@@ -1,0 +1,126 @@
+This page is intended to list all of the miscellaneous pieces of DMB
+knowledge that have accumulated over the years.
+
+This page is authoritative. If you think you've found a mistake, please
+`email the DMB <mailto:developer-membership-board@lists.ubuntu.com>`__.
+
+.. _conducting_meetings:
+
+Conducting meetings
+===================
+
+Chair
+-----
+
+We share the responsibility of chairing the meetings. There should be a
+list on the `agenda page <DeveloperMembershipBoard/Agenda>`__. If you
+have just chaired, rotate the list and update the entry at the top of
+the page so we know who is chairing next.
+
+Quorum
+------
+
+The quorum is 50% + 1. For example, if the DMB has 7 members (as it does
+at the time of writing), quorum is 4. This number is the minimum number
+of votes that we need for any resolution to pass. Members are allowed to
+submit their votes in advance of a meeting, which will count as if they
+are present when considering quorum.
+
+.. _handling_applications:
+
+Handling applications
+---------------------
+
+-  Try to handle applicants in the order they applied, earliest first.
+-  Applicants will usually attend an IRC meeting to be questioned by the
+   DMB on matters that members wish to clarify before they can vote. If
+   the applicants or the DMB are having trouble meeting each other then
+   the application may be handled over email, but **it is important this
+   happens in a timely fashion**.
+-  Many of our applicants do not have English as their first language.
+
+   -  
+
+      -  Be understanding if the answers you get are not 100% clear
+      -  Ask questions one at a time. Let the meeting know when you are
+         done questioning so that others can take over.
+
+Voting
+------
+
+Applications have to reach +1 in order to pass. If the meeting is
+quorate and all members present vote in the same way (+1 or -1), then
+the application will have passed or failed - the remaining members
+cannot overturn the vote. If the vote is in doubt then it is *hung* and
+the remaining members will be asked to vote by email or at the next
+meeting. In this case those members are entitled to ask the applicant
+further questions if they still have any on reviewing the meeting log.
+
+Packagesets
+===========
+
+Consider making packagesets if someone applies and the grouping makes
+logical sense. The application process is more or less the same as for
+developer upload rights. The differences are
+
+-  Each packageset needs a *description*. This is so that developers can
+   mail \`devel-permissions\` after the set is created in order to have
+   packages added. One DMB member then needs to judge the description
+   against the reqested change and may make it if they decide it is
+   warranted.
+-  We create packagesets with just one uploader, which is a team that we
+   then add developers to. The team should be configured like so
+
+   -  
+
+      -  Self renewal
+      -  720 day expiry period
+      -  \`~ubuntu-core-dev\` as a member
+      -  Member of \`~ubuntu-uploaders\`
+
+If necessary, we can modify the description later on following a full
+vote, either by email or in a meeting.
+
+.. _teams_to_add_uploaders_to:
+
+Teams to add uploaders to
+=========================
+
+XXX: Confirm this after the next meeting on 2015-10-12
+
+By default, uploaders to packagesets and per-package uploaders should be
+granted membership. This does **not** happen automatically - they must
+be added to the \`~ubuntu-dev\` team. The reason for this is that
+occasionally the DMB may want to grant people upload rights if they do
+not meet the usual *significant and sustained* (interpreted as 6 months
+of contributions). Packageset teams usually grant this via
+\`~ubuntu-uploaders\`, but PPU should be added to this team explicitly.
+
+.. _applications_from_dds:
+
+Applications from DDs
+=====================
+
+DDs who are PPU through the normal process can apply by email to have
+their access extended to further packages they (or a team they are a
+member of) maintain. This only requires one DMB member to agree in order
+to pass.
+
+.. _automatically_managed_packagesets:
+
+Automatically managed packagesets
+=================================
+
+Flavour packagesets are automatically managed from seeds. There is a
+script to control this, which contains a list of overrides too. See
+\`lp:~developer-membership-board/+junk/packageset\`. We should look at
+automating runs of this script, but currently we need to remember to
+manually run it from time to time.
+
+The script encodes the logic about which packagesets packages should go
+to, based on how sources are shared between flavours. Broadly,
+kubuntu/ubuntu/ubuntu-server are considered top-tier flavours and if
+they contain a package that is shared with others then they win and it
+goes into their set. core and desktop-core win out over all flavour sets
+too. See the \`seed-sets\` mapping at the top of the \`packageset-push\`
+script in the above branch.
