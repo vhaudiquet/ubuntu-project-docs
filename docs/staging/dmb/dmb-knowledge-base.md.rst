@@ -22,9 +22,9 @@ Quorum
 
 The quorum is 50% + 1. For example, if the DMB has 7 members (as it does
 at the time of writing), quorum is 4. This number is the minimum number
-of votes that we need for any resolution to pass. Members are allowed to
-submit their votes in advance of a meeting, which will count as if they
-are present when considering quorum.
+of **+1** votes that we need for any resolution to pass. Members are
+allowed to submit their votes in advance of a meeting, which will count
+as if they are present when considering quorum.
 
 .. _handling_applications:
 
