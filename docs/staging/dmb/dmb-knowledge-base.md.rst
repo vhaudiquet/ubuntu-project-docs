@@ -77,7 +77,9 @@ developer upload rights. The differences are
       -  Self renewal
       -  720 day expiry period
       -  \`~ubuntu-core-dev\` as a member
-      -  Member of \`~ubuntu-uploaders\`
+      -  Member of \`~ubuntu-uploaders\` (in rare cases the DMB may
+         require membership of packageset uploaders: in this case make
+         the team a member of \`~ubuntu-dev\` instead.)
 
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
@@ -87,15 +89,21 @@ vote, either by email or in a meeting.
 Teams to add uploaders to
 =========================
 
-XXX: Confirm this after the next meeting on 2015-10-12
-
 By default, uploaders to packagesets and per-package uploaders should be
 granted membership. This does **not** happen automatically - they must
 be added to the \`~ubuntu-dev\` team. The reason for this is that
 occasionally the DMB may want to grant people upload rights if they do
 not meet the usual *significant and sustained* (interpreted as 6 months
-of contributions). Packageset teams usually grant this via
-\`~ubuntu-uploaders\`, but PPU should be added to this team explicitly.
+of contributions). That is: **when adding a new packageset or PPU
+uploader, add the individual to \`~ubuntu-dev\` if they are being
+granted membership or (for PPU only) to \`~ubuntu-uploaders\` if they
+are not**.
+
+An exception to the above is that some packagesets *require* membership.
+You can identify these because the uploading teams are a member of
+\`~ubuntu-dev\` instead of \`~ubuntu-uploaders\`. In these cases
+applicants must satisfy the membership critera: granting upload rights
+without membership is not possible.
 
 .. _applications_from_dds:
 
