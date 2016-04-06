@@ -84,6 +84,24 @@ developer upload rights. The differences are
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
 
+.. _delegating_packageset_uploader_permissions:
+
+Delegating packageset uploader permissions
+------------------------------------------
+
+The DMB can decide to delegate the granting of upload rights to a
+packageset to a different group of developers. An example is that the
+Ubuntu desktop team is self managed. This means that applicants to that
+packageset do not come to the DMB, but they come to the team itself
+instead. The procedure is the same as for most other applications:
+somebody approaches the DMB with the proposal and it is voted on at the
+meeting. If approved, the body delegated should be added as an
+administrator of the team. It is very important that the teams come with
+a policy that says how applications will be managed. That is the
+document which you approve. You can see some examples on
+`DeveloperMembershipBoard <DeveloperMembershipBoard>`__, and it is
+important that this list is kept current.
+
 .. _teams_to_add_uploaders_to:
 
 Teams to add uploaders to
