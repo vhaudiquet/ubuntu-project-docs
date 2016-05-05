@@ -84,6 +84,25 @@ developer upload rights. The differences are
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
 
+.. _automatically_managed_packagesets:
+
+Automatically managed packagesets
+---------------------------------
+
+Flavour packagesets are automatically managed from seeds. There is a
+script to control this, which contains a list of overrides too. See
+\`lp:~developer-membership-board/+junk/packageset\`. We should look at
+automating runs of this script, but currently we need to remember to
+manually run it from time to time.
+
+The script encodes the logic about which packagesets packages should go
+to, based on how sources are shared between flavours. Broadly,
+kubuntu/ubuntu/ubuntu-server are considered top-tier flavours and if
+they contain a package that is shared with others then they win and it
+goes into their set. core and desktop-core win out over all flavour sets
+too. See the \`seed-sets\` mapping at the top of the \`packageset-push\`
+script in the above branch.
+
 .. _delegating_packageset_uploader_permissions:
 
 Delegating packageset uploader permissions
@@ -132,22 +151,3 @@ DDs who are PPU through the normal process can apply by email to have
 their access extended to further packages they (or a team they are a
 member of) maintain. This only requires one DMB member to agree in order
 to pass.
-
-.. _automatically_managed_packagesets:
-
-Automatically managed packagesets
-=================================
-
-Flavour packagesets are automatically managed from seeds. There is a
-script to control this, which contains a list of overrides too. See
-\`lp:~developer-membership-board/+junk/packageset\`. We should look at
-automating runs of this script, but currently we need to remember to
-manually run it from time to time.
-
-The script encodes the logic about which packagesets packages should go
-to, based on how sources are shared between flavours. Broadly,
-kubuntu/ubuntu/ubuntu-server are considered top-tier flavours and if
-they contain a package that is shared with others then they win and it
-goes into their set. core and desktop-core win out over all flavour sets
-too. See the \`seed-sets\` mapping at the top of the \`packageset-push\`
-script in the above branch.
