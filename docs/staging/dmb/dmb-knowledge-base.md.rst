@@ -120,8 +120,9 @@ Currently there is only one: personal-gunnarhj. This is defined as the
 set that the DMB has agreed that Gunnar may upload, which includes
 individual packages to which he has PPU, as well as glob expansions. The
 globs are defined in the packageset description. This way, any DMB
-member may update the glob expansions for Gunnar without needing to
-refer to the full DMB for agreement or the TB to make the change.
+member may update the glob expansions for Gunnar (by relying on their
+existing definition) without needing to refer to the full DMB for
+agreement or the TB to make the change.
 
 Currently this is managed manually, but it may be advisable to script
 updates if they are frequent.
