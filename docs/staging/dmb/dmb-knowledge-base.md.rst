@@ -84,10 +84,15 @@ developer upload rights. The differences are
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
 
+.. _special_packagesets:
+
+Special packagesets
+-------------------
+
 .. _automatically_managed_packagesets:
 
 Automatically managed packagesets
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Flavour packagesets are automatically managed from seeds. There is a
 script to control this, which contains a list of overrides too. See
@@ -102,6 +107,28 @@ they contain a package that is shared with others then they win and it
 goes into their set. core and desktop-core win out over all flavour sets
 too. See the \`seed-sets\` mapping at the top of the \`packageset-push\`
 script in the above branch.
+
+.. _personal_packagesets_and_glob_expansions:
+
+Personal packagesets and glob expansions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Where an individual has a special reason for upload rights to a large
+number of packages that the DMB expects to need to manage frequently, we
+can create a "personal packageset" for this person, named "personal-".
+Currently there is only one: personal-gunnarhj. This is defined as the
+set that the DMB has agreed that Gunnar may upload, which includes
+individual packages to which he has PPU, as well as glob expansions. The
+globs are defined in the packageset description. This way, any DMB
+member may update the glob expansions for Gunnar without needing to
+refer to the full DMB for agreement or the TB to make the change.
+
+Currently this is managed manually, but it may be advisable to script
+updates if they are frequent.
+
+See the thread starting at
+https://lists.ubuntu.com/archives/devel-permissions/2016-May/000924.html,
+but extending over June, July, August and September for details.
 
 .. _delegating_packageset_uploader_permissions:
 
