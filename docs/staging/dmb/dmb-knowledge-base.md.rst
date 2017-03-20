@@ -176,6 +176,18 @@ Add successful applicants to the
 `\|~ubuntu-sru-developers <https://launchpad.net/~ubuntu-sru-developers>`__
 team.
 
+Removals
+--------
+
+There was some concern about potential bad uploads bothering the SRU
+team, so to mitigate this the DMB also agreed that individual
+~ubuntu-sru-developers membership will be removed if any of:
+
+#. ~ubuntu-sru resolves to remove the member (how they do so is up to
+   them); or
+
+``2. the DMB resolves to remove the member by a quorate vote, and a vote will be held if any member of ~ubuntu-sru requests it.``
+
 .. _teams_to_add_uploaders_to:
 
 Teams to add uploaders to
