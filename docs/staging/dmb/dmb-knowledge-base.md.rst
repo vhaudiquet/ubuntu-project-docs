@@ -149,6 +149,32 @@ document which you approve. You can see some examples on
 `DeveloperMembershipBoard <DeveloperMembershipBoard>`__, and it is
 important that this list is kept current.
 
+.. _sru_developers:
+
+SRU Developers
+==============
+
+Based on `this
+thread <https://lists.ubuntu.com/archives/ubuntu-devel/2017-February/039652.html>`__,
+the DMB
+`agreed <https://irclogs.ubuntu.com/2017/02/27/%23ubuntu-meeting.html#t19:32>`__
+to create `a new team for SRU
+developers <https://launchpad.net/~ubuntu-sru-developers>`__. This was
+`announced to ubuntu-devel on 28 February
+2017 <https://lists.ubuntu.com/archives/ubuntu-devel/2017-February/039702.html>`__.
+
+This team is for contributors who work mostly on SRUs but don't
+necessarily yet have experience in wider Ubuntu development. Team
+membership allows the sponsors to get out of the way for SRUs only.
+
+This team grants Ubuntu membership. In other words, the DMB must
+determine that an applicant meets the requirements for Ubuntu membership
+before granting an applicant membership of this team.
+
+Add successful applicants to the
+`\|~ubuntu-sru-developers <https://launchpad.net/~ubuntu-sru-developers>`__
+team.
+
 .. _teams_to_add_uploaders_to:
 
 Teams to add uploaders to
