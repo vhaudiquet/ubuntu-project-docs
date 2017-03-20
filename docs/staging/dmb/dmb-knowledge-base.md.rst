@@ -162,6 +162,7 @@ to create `a new team for SRU
 developers <https://launchpad.net/~ubuntu-sru-developers>`__. This was
 `announced to ubuntu-devel on 28 February
 2017 <https://lists.ubuntu.com/archives/ubuntu-devel/2017-February/039702.html>`__.
+See UbuntuDevelopers#SRU_developers for details.
 
 This team is for contributors who work mostly on SRUs but don't
 necessarily yet have experience in wider Ubuntu development. Team
