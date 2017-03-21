@@ -56,6 +56,38 @@ the remaining members will be asked to vote by email or at the next
 meeting. In this case those members are entitled to ask the applicant
 further questions if they still have any on reviewing the meeting log.
 
+.. _actions_after_a_successful_application:
+
+Actions after a successful application
+--------------------------------------
+
+#. Assign two meeting actions: one to make ACL changes, and one to
+   announce the successful applicant. This is to make sure that the
+   announcement does not get forgotten.
+
+| ``2. Adjust ACLs. PPU changes or the creation of a new packageset must be done by the TB. Addition to an existing DMB-managed Launchpad group is the common case, however, and DMB members can do this directly. For requests to the TB, file a bug against the ubuntu-community project and email technical-board@lists.ubuntu.com. Ideally provide the TB with the exact "edit-acl" command to run.``
+| ``3. Announce successful applicants (this can be done in a single email or multiple emails as appropriate), as ``\ ```the community council would like to see these announced`` <https://irclogs.ubuntu.com/2016/07/21/%23ubuntu-meeting.html#t17:17>`__\ `` and ``\ ```we agreed in a subsequent meeting`` <https://irclogs.ubuntu.com/2016/08/01/%23ubuntu-meeting.html#t16:02>`__\ ``. Send emails to:``
+
+#. 
+
+   #. A reply to the original devel-permissions@ thread (useful for
+      future reference).
+
+| `` 2. An email to ubuntu-devel@.``
+| `` 3. An email to ubuntu-news-team@lists.ubuntu.com.``
+| ``4. Remove the applicant's agenda item if it is still present.``
+
+.. _actions_after_an_unsuccessful_application:
+
+Actions after an unsuccessful application
+-----------------------------------------
+
+#. Assign a meeting action to close the application. Closing an
+   application involves:
+
+| ``2. Reply with regrets to the devel-permissions@ thread only (useful for future reference when the applicant reapplies, and to make it clear that voting is complete).``
+| ``3. Remove the applicant's agenda item if it is still present.``
+
 Packagesets
 ===========
 
