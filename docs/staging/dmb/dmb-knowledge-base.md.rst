@@ -250,3 +250,26 @@ DDs who are PPU through the normal process can apply by email to have
 their access extended to further packages they (or a team they are a
 member of) maintain. This only requires one DMB member to agree in order
 to pass.
+
+.. _dmb_staffing_elections:
+
+DMB Staffing Elections
+======================
+
+A `\|Condorcet Internet Voting Service <http://civs.cs.cornell.edu/>`__
+poll will be created by a member of the DMB whose membership is not
+expiring. The poll is initially setup, then the organizer receives an
+email to a control form for the poll where they can add email addresses
+of voters.
+
+This
+`\|script <https://bazaar.launchpad.net/~stefanor/+junk/election-tools/view/head:/voter-addresses.py>`__
+is useful to get the email addresses of members of ubuntu-dev, use the
+'-e' switch to only obtain their email addresses and use those in the
+poll control form.
+
+Then send an email to ubuntu-devel-announce regarding the fact that a
+poll is underway, this provides a way for developers who do not receive
+a ballot to contact the poll organizer and reminds people there is an
+election underway. Here's an `\|example
+email <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2017-August/001222.html>`__.
