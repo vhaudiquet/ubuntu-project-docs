@@ -66,6 +66,7 @@ Actions after a successful application
    announcement does not get forgotten.
 
 | ``2. Adjust ACLs. PPU changes or the creation of a new packageset must be done by the TB. Addition to an existing DMB-managed Launchpad group is the common case, however, and DMB members can do this directly. For requests to the TB, file a bug against the ubuntu-community project and email technical-board@lists.ubuntu.com. Ideally provide the TB with the exact "edit-acl" command to run.``
+| ``2. If not already a member, add the applicant to either ~ubuntu-dev or ~ubuntu-uploaders. See ``\ ```#Teams_to_add_uploaders_to`` <#Teams_to_add_uploaders_to>`__\ ``.``
 | ``3. Announce successful applicants (this can be done in a single email or multiple emails as appropriate), as ``\ ```the community council would like to see these announced`` <https://irclogs.ubuntu.com/2016/07/21/%23ubuntu-meeting.html#t17:17>`__\ `` and ``\ ```we agreed in a subsequent meeting`` <https://irclogs.ubuntu.com/2016/08/01/%23ubuntu-meeting.html#t16:02>`__\ ``. Send emails to:``
 
 #. 
