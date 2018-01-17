@@ -9,6 +9,14 @@ This page is authoritative. If you think you've found a mistake, please
 Conducting meetings
 ===================
 
+Scheduling
+----------
+
+Meetings currently run every other week, alternating between 1500 UTC
+and 1900 UTC. In the case of vacation such as over New Year, cancel or
+move individual meetings as appropriate, but please try not to push all
+future meetings around, as this can cause some confusion.
+
 Chair
 -----
 
