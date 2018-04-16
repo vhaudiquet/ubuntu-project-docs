@@ -282,3 +282,18 @@ poll is underway, this provides a way for developers who do not receive
 a ballot to contact the poll organizer and reminds people there is an
 election underway. Here's an `example
 email <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2017-August/001222.html>`__.
+
+.. _checklist_after_a_dmb_election:
+
+Checklist after a DMB election
+------------------------------
+
+-  Point new members to this page
+   (https://wiki.ubuntu.com/DeveloperMembershipBoard/KnowledgeBase).
+-  Update:
+
+   -  
+
+      -  (TB) ~developer-membership-board Launchpad team
+      -  developer-membership-board@lists.ubuntu.com membership
+      -  Private IRC channel access
