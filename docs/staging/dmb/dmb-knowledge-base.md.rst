@@ -300,3 +300,7 @@ Checklist after a DMB election
       -  List of DMB member IRC nicknames in ubottu's !dmb-ping
 
 ``    * Can be requested by typing: !dmb-ping is ``\ \ ``: DMB ping.``
+
+-  
+
+   -  Calendar meeting event invitation list
