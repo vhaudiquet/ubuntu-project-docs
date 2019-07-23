@@ -100,6 +100,10 @@ Actions after an unsuccessful application
 Packagesets
 ===========
 
+Packagesets exist per-release and are defined in the Launchpad database
+accessible by API (using the edit-acl command). For easy viewing, see
+https://people.canonical.com/~ubuntu-archive/packagesets/
+
 Consider making packagesets if someone applies and the grouping makes
 logical sense. The application process is more or less the same as for
 developer upload rights. The differences are
