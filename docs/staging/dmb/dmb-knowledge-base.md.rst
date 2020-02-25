@@ -276,7 +276,7 @@ email to a control form for the poll where they can add email addresses
 of voters.
 
 This
-`script <https://bazaar.launchpad.net/~stefanor/+junk/election-tools/view/head:/voter-addresses.py>`__
+`script <https://git.launchpad.net/~ubuntu-dev/+git/election-tools/tree/voter-addresses.py>`__
 is useful to get the email addresses of members of ubuntu-dev, use the
 '-e' switch to only obtain their email addresses and use those in the
 poll control form.
