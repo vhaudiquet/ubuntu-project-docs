@@ -264,28 +264,67 @@ their access extended to further packages they (or a team they are a
 member of) maintain. This only requires one DMB member to agree in order
 to pass.
 
-.. _dmb_staffing_elections:
+.. _dmb_restaffing:
 
-DMB Staffing Elections
-======================
+DMB Restaffing
+==============
 
-A `Condorcet Internet Voting Service <http://civs.cs.cornell.edu/>`__
-poll will be created by a member of the DMB whose membership is not
-expiring. The poll is initially setup, then the organizer receives an
-email to a control form for the poll where they can add email addresses
-of voters.
+.. _running_a_dmb_election:
 
-This
-`script <https://git.launchpad.net/~ubuntu-dev/+git/election-tools/tree/voter-addresses.py>`__
-is useful to get the email addresses of members of ubuntu-dev, use the
-'-e' switch to only obtain their email addresses and use those in the
-poll control form.
+Running a DMB election
+----------------------
 
-Then send an email to ubuntu-devel-announce regarding the fact that a
-poll is underway, this provides a way for developers who do not receive
-a ballot to contact the poll organizer and reminds people there is an
-election underway. Here's an `example
-email <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2017-August/001222.html>`__.
+#. Decide which seats are expiring and who will run the election.
+   Ideally this is a DMB member whose seat is not expiring. Make sure
+   you understand when each seat is expiring as the newly elected
+   candidates will be filling those seats as they expire in order.
+
+#. Choose the relevant dates: the deadline for nominations, when the
+   vote will start, and when the vote will finish.
+   `Consider <https://lists.ubuntu.com/archives/ubuntu-devel/2020-February/040927.html>`__
+   adding a period between the nomination deadline and the start of the
+   vote to allow the nominees to present a platform and/or for the
+   electorate to question nominees. These dates should all appear in the
+   initial call for nominations. See the example below for time periods
+   used in the past.
+
+#. Send out a call for nominations.
+   `Example <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2020-January/001270.html>`__.
+
+#. You may need to chase for enough nominations.
+   `Example <https://lists.ubuntu.com/archives/ubuntu-devel/2020-February/040887.html>`__.
+
+#. If you chose to allow a questioning period, announce the nominees and
+   invite discussion.
+
+#. When the voting is due to begin, generate a list of email addresses
+   of the electorate (the electorate is ~ubuntu-dev). This
+   `script <https://git.launchpad.net/~ubuntu-dev/+git/election-tools/tree/voter-addresses.py>`__
+   is useful to get the email addresses of members of ubuntu-dev. Keep a
+   record of which members have been issued ballots so that you can
+   manage any missing ballot requests should they arrive later.
+
+#. Create a `CIVS poll <http://civs.cs.cornell.edu/>`__ with the
+   nominees and one additional "No further candidates" ordinary choice.
+   The default options are fine. You will then be sent a link to the
+   poll control page. Start the poll from there.
+   `Example <https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_e053e79083d092fc>`__.
+
+#. Announce the poll. `Newer
+   example <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2020-February/001271.html>`__;
+   `older
+   example <https://lists.ubuntu.com/archives/ubuntu-devel-announce/2017-August/001222.html>`__.
+   This ensures that any members of the electorate who do not receive a
+   poll for whatever reason (eg. no email address listed) can still have
+   the opportunity to vote.
+
+#. When the poll is due to finish, go to the poll control page and end
+   the poll.
+
+#. Announce the election results.
+   `Example <https://lists.ubuntu.com/archives/devel-permissions/2020-February/001461.html>`__.
+
+#. Complete the "Checklist after a DMB election" section below.
 
 .. _checklist_after_a_dmb_election:
 
