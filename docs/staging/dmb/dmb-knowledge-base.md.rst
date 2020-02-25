@@ -338,7 +338,8 @@ Checklist after a DMB election
    -  
 
       -  (TB) ~developer-membership-board Launchpad team
-      -  developer-membership-board@lists.ubuntu.com membership
+      -  (TB) developer-membership-board@lists.ubuntu.com membership
+      -  (self-subscribe) devel-permissions@lists.ubuntu.com membership
       -  Private IRC channel access
       -  List of DMB member IRC nicknames in ubottu's !dmb-ping
 
