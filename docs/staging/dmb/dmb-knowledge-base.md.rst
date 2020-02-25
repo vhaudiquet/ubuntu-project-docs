@@ -28,9 +28,30 @@ the page so we know who is chairing next.
 Quorum
 ------
 
-The quorum is 50% + 1. For example, if the DMB has 7 members (as it does
-at the time of writing), quorum is 4. This number is the minimum number
-of **+1** votes that we need for any resolution to pass. Members are
+`Quorum was last publicly discussed on the community
+forum <https://discourse.ubuntu.com/t/open-discussion-meetings-quorum/5966>`__.
+
+We require a absolute majority to pass a motion, so we can pass motions
+with >50% of members present if we are unanimously in favour. If we
+aren’t unanimously in favour, then we fall back to having to get enough
++1 votes such that the absent members would not be able to swing the
+vote below a simple majority even if they were to all vote -1.
+
+In other words, quorum doesn’t really exist as a formal concept for us.
+We simply need an absolute majority to pass a motion, and quorum is our
+informal way of describing what we need to achieve that in a single
+meeting with some members absent.
+
+For the avoidance of doubt: absolute majority means that the requirement
+is that >50% of all DMB members are in favour, whether present or not.
+
+As an aside, we have agreed (by absolute majority) that some types of
+decision can be made by only one member agreeing. These specific cases
+should be documented on this page.
+
+Informally, our "quorum" is 50% rounded up. The DMB has seven members,
+so our informal quorum is 4. This number is the minimum number of **+1**
+votes that we need for any resolution to pass immediately. Members are
 allowed to submit their votes in advance of a meeting, which will count
 as if they are present when considering quorum.
 
