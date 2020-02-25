@@ -17,6 +17,20 @@ and 1900 UTC. In the case of vacation such as over New Year, cancel or
 move individual meetings as appropriate, but please try not to push all
 future meetings around, as this can cause some confusion.
 
+The meeting schedule can be changed by the DMB by majority vote, and it
+is expected for the schedule to be confirmed or changed as necessary at
+the first meeting after new DMB members are elected. Please also
+consider the needs of pending and future applicants if changing the
+schedule, as doing so may affect their plans.
+
+Agenda
+------
+
+We maintain `an agenda
+page <https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda>`__ with
+the dates of upcoming meetings, the agendas for them and outstanding
+meeting actions.
+
 Chair
 -----
 
