@@ -176,9 +176,9 @@ Automatically managed packagesets
 
 Flavour packagesets are automatically managed from seeds. There is a
 script to control this, which contains a list of overrides too. See
-\`lp:~developer-membership-board/+junk/packageset\`. We should look at
-automating runs of this script, but currently we need to remember to
-manually run it from time to time.
+`lp:~developer-membership-board/+git/packageset <https://code.launchpad.net/~developer-membership-board/+git/packageset>`__.
+We should look at automating runs of this script, but currently we need
+to remember to manually run it from time to time.
 
 The script encodes the logic about which packagesets packages should go
 to, based on how sources are shared between flavours. Broadly,
