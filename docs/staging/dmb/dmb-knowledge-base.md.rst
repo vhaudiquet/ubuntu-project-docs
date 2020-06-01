@@ -179,10 +179,15 @@ developer upload rights. The differences are
       -  Owned by the DMB (but without having the DMB as a member)
       -  Self renewal
       -  720 day expiry period
-      -  \`~ubuntu-core-dev\` as a member
-      -  Member of \`~ubuntu-uploaders\` (in rare cases the DMB may
-         require membership of packageset uploaders: in this case make
-         the team a member of \`~ubuntu-dev\` instead.)
+
+``   * Note, for 'Ubuntu Flavor' packageset teams, the TB ``\ ```requested`` <http://ubottu.com/meetingology/logs/ubuntu-meeting-2/2019/ubuntu-meeting-2.2019-06-04-19.04.moin.txt>`__\ `` a 180 day expiry period``
+
+-  
+
+   -  \`~ubuntu-core-dev\` as a member
+   -  Member of \`~ubuntu-uploaders\` (in rare cases the DMB may require
+      membership of packageset uploaders: in this case make the team a
+      member of \`~ubuntu-dev\` instead.)
 
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
