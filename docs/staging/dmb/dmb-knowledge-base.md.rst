@@ -107,19 +107,39 @@ Actions after a successful application
 #. Assign two meeting actions: one to make ACL changes, and one to
    announce the successful applicant. This is to make sure that the
    announcement does not get forgotten.
+#. Adjust ACLs.
 
-| ``2. Adjust ACLs. PPU changes or the creation of a new packageset must be done by the TB. Addition to an existing DMB-managed Launchpad group is the common case, however, and DMB members can do this directly. For requests to the TB, ``\ ```file a bug`` <https://bugs.launchpad.net/ubuntu-community/+filebug>`__\ `` against the ``\ ```ubuntu-community project`` <https://launchpad.net/ubuntu-community>`__\ `` and email technical-board@lists.ubuntu.com. Ideally provide the TB with the exact "edit-acl" command to run.``
-| ``2. If not already a member, add the applicant to either ``\ ```~ubuntu-dev`` <https://launchpad.net/~ubuntu-dev/+addmember>`__\ `` or ``\ ```~ubuntu-uploaders`` <https://launchpad.net/~ubuntu-uploaders/+addmember>`__\ ``. See ``\ ```#Teams_to_add_uploaders_to`` <#Teams_to_add_uploaders_to>`__\ ``.``
-| ``3. Announce successful applicants (this can be done in a single email or multiple emails as appropriate), as ``\ ```the community council would like to see these announced`` <https://irclogs.ubuntu.com/2016/07/21/%23ubuntu-meeting.html#t17:17>`__\ `` and ``\ ```we agreed in a subsequent meeting`` <https://irclogs.ubuntu.com/2016/08/01/%23ubuntu-meeting.html#t16:02>`__\ ``. Send emails to:``
+-  
 
-#. 
+   -  Modification of the membership list for an existing packageset
+      team can be done directly by the DMB.
+   -  If the action requires creation of a new packageset, or changes to
+      the package list for a packageset or PPU, it must be done by the
+      TB, so the DMB member must:
 
-   #. A reply to the original devel-permissions@ thread (useful for
-      future reference).
+| ``  1. Open a bug against the ``\ ```ubuntu-community project`` <https://launchpad.net/ubuntu-community>`__\ ``, and the bug description should include the exact "``\ ```edit-acl`` <https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl>`__\ ``" command to run.``
+| ``   * For PPU changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20PPU%20addition%20for%20%7Cfile>`__\ ``] and include the PPU member name``
+| ``   * For packageset changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20Packageset%20modification%20for%20%7Cfile>`__\ ``] and include the packageset name``
+| ``  1. Email technical-board@lists.ubuntu.com to inform them of the opened bug (include a link to the bug).``
 
-| `` 2. An email to ubuntu-devel@.``
-| `` 3. An email to ubuntu-news-team@lists.ubuntu.com.``
-| ``4. Remove the applicant's agenda item if it is still present.``
+#. If not already a member, add the applicant to either
+   `~ubuntu-dev <https://launchpad.net/~ubuntu-dev/+members>`__ or
+   `~ubuntu-uploaders <https://launchpad.net/~ubuntu-uploaders/+members>`__.
+   See `#Teams_to_add_uploaders_to <#Teams_to_add_uploaders_to>`__.
+#. Announce successful applicants (this can be done in a single email or
+   multiple emails as appropriate), as `the community council would like
+   to see these
+   announced <https://irclogs.ubuntu.com/2016/07/21/%23ubuntu-meeting.html#t17:17>`__
+   and `we agreed in a subsequent
+   meeting <https://irclogs.ubuntu.com/2016/08/01/%23ubuntu-meeting.html#t16:02>`__.
+   Send emails to:
+
+   #. A reply to the original devel-permissions@lists.ubuntu.com thread
+      (useful for future reference).
+   #. An email to ubuntu-devel@lists.ubuntu.com
+   #. An email to ubuntu-news-team@lists.ubuntu.com
+
+#. Remove the applicant's agenda item if it is still present.
 
 .. _actions_after_an_unsuccessful_application:
 
@@ -128,9 +148,10 @@ Actions after an unsuccessful application
 
 #. Assign a meeting action to close the application. Closing an
    application involves:
-
-| ``2. Reply with regrets to the devel-permissions@ thread only (useful for future reference when the applicant reapplies, and to make it clear that voting is complete).``
-| ``3. Remove the applicant's agenda item if it is still present.``
+#. Reply with regrets to the devel-permissions@lists.ubuntu.com thread
+   only (useful for future reference when the applicant reapplies, and
+   to make it clear that voting is complete).
+#. Remove the applicant's agenda item if it is still present.
 
 Packagesets
 ===========
