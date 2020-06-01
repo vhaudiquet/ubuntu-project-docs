@@ -192,6 +192,32 @@ developer upload rights. The differences are
 If necessary, we can modify the description later on following a full
 vote, either by email or in a meeting.
 
+Quick set of steps for creating packageset team:
+
+#. Start at `new team registration
+   page <https://launchpad.net/people/+newteam>`__
+#. Make sure *Membership Policy* is **Restricted Team**
+#. Set both the *Subscription Period* and *Self Renewal Period* to 720
+   (or 180 for 'flavor' teams)
+#. Change renewal option to *invite them to renew their own membership*
+#. Create the team
+#. On the new team page:
+
+   #. Click *Change Details* and then *Change Owner*
+   #. Change the team owner to **developer-membership-board**
+
+#. On the new team member page:
+
+   #. Add **ubuntu-core-dev**
+   #. Remove (deactivate) yourself
+   #. Remove (deactivate) **developer-membership-board**
+
+#. Go to `~ubuntu-uploaders member
+   page <https://launchpad.net/~ubuntu-uploaders/+members>`__ (or, if
+   appropriate, `~ubuntu-dev member
+   page <https://launchpad.net/~ubuntu-dev/+members>`__) and add the new
+   team as a member
+
 .. _special_packagesets:
 
 Special packagesets
