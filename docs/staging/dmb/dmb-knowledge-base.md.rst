@@ -270,7 +270,7 @@ but extending over June, July, August and September for details.
 Canonical OEM enablement packageset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The \`canonical-oem-enablement\` packageset is glob based. The exact
+The \`canonical-oem-metapackages\` packageset is glob based. The exact
 glob is defined in the packageset description and is expanded according
 to the list of source packages in the Ubuntu archive for a given series.
 Any DMB member may update the packageset according to the glob expansion
