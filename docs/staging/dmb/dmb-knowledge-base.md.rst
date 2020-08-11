@@ -265,10 +265,10 @@ See the thread starting at
 https://lists.ubuntu.com/archives/devel-permissions/2016-May/000924.html,
 but extending over June, July, August and September for details.
 
-.. _canonical_oem_enablement_packageset:
+.. _canonical_oem_metapackage_packageset:
 
-Canonical OEM enablement packageset
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Canonical OEM metapackage packageset
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The \`canonical-oem-metapackages\` packageset is glob based. The exact
 glob is defined in the packageset description and is expanded according
