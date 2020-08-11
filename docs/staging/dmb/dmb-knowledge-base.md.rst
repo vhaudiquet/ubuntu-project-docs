@@ -265,6 +265,26 @@ See the thread starting at
 https://lists.ubuntu.com/archives/devel-permissions/2016-May/000924.html,
 but extending over June, July, August and September for details.
 
+.. _canonical_oem_enablement_packageset:
+
+Canonical OEM enablement packageset
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The \`canonical-oem-enablement\` packageset is glob based. The exact
+glob is defined in the packageset description and is expanded according
+to the list of source packages in the Ubuntu archive for a given series.
+Any DMB member may update the packageset according to the glob expansion
+at any time without needing further consultation.
+
+The expected nature of the packageset, to which the DMB will grant
+upload access, relies on the MIR team's requirements for these packages,
+defined at https://wiki.ubuntu.com/MIRTeam/Exceptions/OEM.
+
+-  Background thread:
+   https://lists.ubuntu.com/archives/devel-permissions/2020-July/001542.html
+-  Decided at the `DMB meeting of
+   2020-08-11 <https://irclogs.ubuntu.com/2020/08/10/%23ubuntu-meeting.html#t19:01>`__
+
 .. _delegating_packageset_uploader_permissions:
 
 Delegating packageset uploader permissions
