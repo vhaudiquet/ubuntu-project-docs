@@ -209,6 +209,8 @@ Quick set of steps for creating packageset team:
 #. On the new team member page:
 
    #. Add **ubuntu-core-dev**
+   #. Edit **ubuntu-core-dev** membership expiration to *Subscription
+      Expires: Never*
    #. Remove (deactivate) yourself
    #. Remove (deactivate) **developer-membership-board**
 
