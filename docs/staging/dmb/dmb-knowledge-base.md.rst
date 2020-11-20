@@ -123,6 +123,7 @@ Actions after a successful application
 | ``   * For PPU changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20PPU%20addition%20for%20%7Cfile>`__\ ``] and include the PPU member name``
 | ``   * For packageset changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20Packageset%20modification%20for%20%7Cfile>`__\ ``] and include the packageset name``
 | ``  1. Email technical-board@lists.ubuntu.com to inform them of the opened bug (include a link to the bug).``
+| ``  1. Add the new TB bug to the ``\ ```DMB Agenda`` <https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda>`__\ `` in the ``\ *``Open TB bugs``*\ `` section``
 
 #. If not already a member, add the applicant to either
    `~ubuntu-dev <https://launchpad.net/~ubuntu-dev/+members>`__ or
