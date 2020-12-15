@@ -114,14 +114,63 @@ Actions after a successful application
 -  
 
    -  Modification of the membership list for an existing packageset
-      team can be done directly by the DMB.
-   -  If the action requires creation of a new packageset, or changes to
-      the package list for a packageset or PPU, it must be done by the
-      TB, so the DMB member must:
+      team can be done directly by the DMB. A DMB member should go to
+      the packageset's uploader team page, and add the applicant to the
+      team.
+   -  Modification of the package list for an existing packageset can
+      also be done directly by the DMB. This requires using the
+      "`edit-acl <https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl>`__"
+      tool
+
+      -  example (replace *add* with *delete* to remove a package
+         instead of adding):
+
+``   * ``
+
+::
+
+    edit-acl -S $RELEASE -P $PACKAGESET -s $PACKAGE add 
+
+-  
+
+   -  usually the command should be repeated for all supported releases:
+
+``   * ``
+
+::
+
+    for RELEASE in $(distro-info --supported); do edit-acl ...; done 
+
+-  
+
+   -  If the action requires creation of a new packageset or PPU, or
+      (rarely) changes to the uploader for a packageset or PPU, it must
+      be done by the TB, so the DMB member must:
 
 | ``  1. Open a bug against the ``\ ```ubuntu-community project`` <https://launchpad.net/ubuntu-community>`__\ ``, and the bug description should include the exact "``\ ```edit-acl`` <https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl>`__\ ``" command to run.``
-| ``   * For PPU changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20PPU%20addition%20for%20%7Cfile>`__\ ``] and include the PPU member name``
-| ``   * For packageset changes, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20Packageset%20modification%20for%20%7Cfile>`__\ ``] and include the packageset name``
+| ``   * For PPU creation, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20PPU%20for%20%7Cfile>`__\ ``] and include the PPU member name``
+| ``   * For packageset creation (or uploader team change), [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20Packageset%20%20for%20%7Cfile>`__\ ``] and include the packageset name``
+| ``   * In the bug, if creating a new packageset, request the TB create the packageset, setting the DMB as owner:``
+| ``    * ``
+
+::
+
+    edit-acl -S $RELEASE -p developer-membership-board -P $PACKAGESET -t admin create 
+
+| ``   * Also request the TB set or change the uploader:``
+| ``    * ``
+
+::
+
+    edit-acl -S $RELEASE -p $UPLOADER -P $PACKAGESET -t upload modify 
+
+| ``   * usually the commands should be repeated for all supported releases:``
+| ``    * ``
+
+::
+
+    for RELEASE in $(distro-info --supported); do edit-acl ...; done 
+
 | ``  1. Email technical-board@lists.ubuntu.com to inform them of the opened bug (include a link to the bug).``
 | ``  1. Add the new TB bug to the ``\ ```DMB Agenda`` <https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda>`__\ `` in the ``\ *``Open TB bugs``*\ `` section``
 
