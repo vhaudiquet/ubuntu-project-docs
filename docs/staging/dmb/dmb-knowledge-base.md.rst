@@ -173,6 +173,7 @@ Actions after a successful application
 
 | ``  1. Email technical-board@lists.ubuntu.com to inform them of the opened bug (include a link to the bug).``
 | ``  1. Add the new TB bug to the ``\ ```DMB Agenda`` <https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda>`__\ `` in the ``\ *``Open TB bugs``*\ `` section``
+| ``  1. After the new packageset is created by the TB, a DMB member will need to add the appropriate packages``
 
 #. If not already a member, add the applicant to either
    `~ubuntu-dev <https://launchpad.net/~ubuntu-dev/+members>`__ or
