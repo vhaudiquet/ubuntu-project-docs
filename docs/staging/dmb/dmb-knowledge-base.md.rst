@@ -520,7 +520,7 @@ Accidental Expiry
 =================
 
 Since we usually require uploaders to self-renew after some period,
-sometimes this is missed by an uploader, and they request us to
+sometimes this is missed by an uploader, and they request that we
 reinstate them shortly after expiry.
 
 The DMB have long established that if it's relatively soon after expiry
