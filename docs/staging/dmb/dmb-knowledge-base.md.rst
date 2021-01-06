@@ -525,8 +525,15 @@ reinstate them shortly after expiry.
 
 The DMB have long established that if it's relatively soon after expiry
 in the judgement of an individual DMB member, then the uploader can have
-their membership reinstated without any further consideration. The DMB
-member should use the following process:
+their membership reinstated without any further consideration.
+
+If it has been some considerable time since the uploader's team
+membership expired, then a full DMB vote is required as usual, but the
+DMB has in the past opted not to require a full application (just an
+agenda item and a quick discussion at the next meeting).
+
+For the "relatively soon" case, the DMB member should use the following
+process:
 
 #. Make sure the request is available in the archives of
    devel-permissions@
