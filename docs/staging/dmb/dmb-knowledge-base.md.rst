@@ -540,6 +540,6 @@ process:
 
 | ``2. Go to the "Members" page on Launchpad for the team in question (eg. ``\ ```https://launchpad.net/~ubuntu-core-dev/+members`` <https://launchpad.net/~ubuntu-core-dev/+members>`__\ ``)``
 | ``3. Page to the end to locate the "Former members" section and locate the uploader.``
-| ``4. Check the "Expired on" date in the "Status" column is relatively recent.``
+| ``4. Check the "Expired on" date in the "Status" column is relatively recent. If it is not, then stop this process here and ask that the applicant attends a DMB meeting to request reinstatement as discussed above.``
 | ``5. Using the edit button on the right of the former team member entry, change "Expiration" to "On" using the default date provided, write a suitable comment, and click the "Renew" button.``
 | ``6. Reply to the devel-permissions@ thread confirming renewal so there is a record in the archive.``
