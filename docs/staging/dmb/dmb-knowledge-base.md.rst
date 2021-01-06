@@ -513,3 +513,26 @@ Checklist after a DMB election
 -  
 
    -  Calendar meeting event invitation list
+
+.. _accidental_expiry:
+
+Accidental Expiry
+=================
+
+Since we usually require uploaders to self-renew after some period,
+sometimes this is missed by an uploader, and they request us to
+reinstate them shortly after expiry.
+
+The DMB have long established that if it's relatively soon after expiry
+in the judgement of an individual DMB member, then the uploader can have
+their membership reinstated without any further consideration. The DMB
+member should use the following process:
+
+#. Make sure the request is available in the archives of
+   devel-permissions@
+
+| ``2. Go to the "Members" page on Launchpad for the team in question (eg. ``\ ```https://launchpad.net/~ubuntu-core-dev/+members`` <https://launchpad.net/~ubuntu-core-dev/+members>`__\ ``)``
+| ``3. Page to the end to locate the "Former members" section and locate the uploader.``
+| ``4. Check the "Expired on" date in the "Status" column is relatively recent.``
+| ``5. Using the edit button on the right of the former team member entry, change "Expiration" to "On" using the default date provided, write a suitable comment, and click the "Renew" button.``
+| ``6. Reply to the devel-permissions@ thread confirming renewal so there is a record in the archive.``
