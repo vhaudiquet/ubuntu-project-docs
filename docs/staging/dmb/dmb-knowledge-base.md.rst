@@ -305,16 +305,17 @@ Personal packagesets and glob expansions
 Where an individual has a special reason for upload rights to a large
 number of packages that the DMB expects to need to manage frequently, we
 can create a "personal packageset" for this person, named "personal-".
-Currently there is only one: personal-gunnarhj. This is defined as the
-set that the DMB has agreed that Gunnar may upload, which includes
+There was once one: personal-gunnarhj, that existed until Gunnar was
+granted core dev and was therefore no longer needed. This was defined as
+the set that the DMB has agreed that Gunnar may upload, which included
 individual packages to which he has PPU, as well as glob expansions. The
-globs are defined in the packageset description. This way, any DMB
-member may update the glob expansions for Gunnar (by relying on their
+globs were defined in the packageset description. This way, any DMB
+member could update the glob expansions for Gunnar (by relying on their
 existing definition) without needing to refer to the full DMB for
 agreement or the TB to make the change.
 
-Currently this is managed manually, but it may be advisable to script
-updates if they are frequent.
+This was managed manually, but it may be advisable to script updates if
+needed in the future.
 
 See the thread starting at
 https://lists.ubuntu.com/archives/devel-permissions/2016-May/000924.html,
