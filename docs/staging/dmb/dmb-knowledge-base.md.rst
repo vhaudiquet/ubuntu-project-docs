@@ -544,3 +544,36 @@ process:
 | ``4. Check the "Expired on" date in the "Status" column is relatively recent. If it is not, then stop this process here and ask that the applicant attends a DMB meeting to request reinstatement as discussed above.``
 | ``5. Using the edit button on the right of the former team member entry, change "Expiration" to "On" using the default date provided, write a suitable comment, and click the "Renew" button.``
 | ``6. Reply to the devel-permissions@ thread confirming renewal so there is a record in the archive.``
+
+.. _rules_and_regulations:
+
+Rules and Regulations
+=====================
+
+This section contains rules for the DMB to use when conducting its
+business. Changes to these rules should be proposed by a board member
+and voted on by the board.
+
+.. _board_member_attendance:
+
+Board Member Attendance
+-----------------------
+
+This rule was proposed and approved in a `mailing list
+thread <https://lists.ubuntu.com/archives/devel-permissions/2021-August/001726.html>`__.
+The final formal wording is from `this
+post <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001750.html>`__
+and is reproduced here:
+
+Any DMB member who fails to attend 6 consecutive scheduled DMB meetings
+(during a period no shorter than 12 weeks) shall be considered inactive
+and removed from membership in the DMB. Since the number of members
+required for quorum is 1/2 the number of active DMB members, rounded up,
+the change in the number of active members will affect quorum. At such
+time as any DMB member is found to be inactive due to this rule, the
+current DMB chair will add an action item to schedule a public vote for
+a new DMB member. Previous DMB members, including those changed to
+inactive due to this rule, are eligible to run in the new election and
+any later elections. This proposal is not retroactive, and the
+attendance requirement shall start the first meeting after this proposal
+is adopted.
