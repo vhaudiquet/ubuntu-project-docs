@@ -44,32 +44,11 @@ the page so we know who is chairing next.
 Quorum
 ------
 
-`Quorum was last publicly discussed on the community
+`Quorum was originally publicly discussed on the community
 forum <https://discourse.ubuntu.com/t/open-discussion-meetings-quorum/5966>`__.
-
-We require a absolute majority to pass a motion, so we can pass motions
-with >50% of members present if we are unanimously in favour. If we
-aren’t unanimously in favour, then we fall back to having to get enough
-+1 votes such that the absent members would not be able to swing the
-vote below a simple majority even if they were to all vote -1.
-
-In other words, quorum doesn’t really exist as a formal concept for us.
-We simply need an absolute majority to pass a motion, and quorum is our
-informal way of describing what we need to achieve that in a single
-meeting with some members absent.
-
-For the avoidance of doubt: absolute majority means that the requirement
-is that >50% of all DMB members are in favour, whether present or not.
-
-As an aside, we have agreed (by absolute majority) that some types of
-decision can be made by only one member agreeing. These specific cases
-should be documented on this page.
-
-Informally, our "quorum" is 50% rounded up. The DMB has seven members,
-so our informal quorum is 4. This number is the minimum number of **+1**
-votes that we need for any resolution to pass immediately. Members are
-allowed to submit their votes in advance of a meeting, which will count
-as if they are present when considering quorum.
+The specific meaning of **quorum** for voting was later
+`clarified <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001763.html>`__
+and is explained in the `section below <#Voting_and_Quorum>`__.
 
 .. _handling_applications:
 
@@ -577,3 +556,56 @@ inactive due to this rule, are eligible to run in the new election and
 any later elections. This proposal is not retroactive, and the
 attendance requirement shall start the first meeting after this proposal
 is adopted.
+
+.. _voting_and_quorum:
+
+Voting and Quorum
+-----------------
+
+The details for this rule, and **quorum** voting in particular, are not
+always clear, so the TL;DR for this rule is, any proposal or application
+that is voted on at a regular meeting must use the process shown in the
+python function below; if the function does not result in pass or fail,
+then at the next scheduled meeting, the vote will pass with only a
+majority of present members (meaning the sum of votes from present
+members must be greater than 0).
+
+This rule was proposed and approved in a `mailing list
+thread <https://lists.ubuntu.com/archives/devel-permissions/2021-August/001728.html>`__,
+that was discussed and then extended to a
+`poll <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001756.html>`__
+for which the
+`results <https://lists.ubuntu.com/archives/devel-permissions/2021-November/001782.html>`__
+are explained below.
+
+"Quorum votes are required, however if quorum is not reached at first
+meeting, at the next meeting majority present votes are required"
+
+As *quorum* can be difficult to parse under all circumstances, an
+explaination from a `ML
+post <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001763.html>`__
+(and `follow up
+post <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001764.html>`__
+for a tie vote) is summarized in this python function, where
+*total_members* is the total number of **active** board members (which
+is typically 7):
+
+::
+
+   def do_vote(*votes, total_members=7):
+     absent = total_members - len(votes)
+     net_vote = sum(votes)
+     min = net_vote - absent
+     max = net_vote + absent
+     if min > 0:
+       print(f'Vote minimum {min} > 0, vote passes')
+     elif max < 0:
+       print(f'Vote maximum {max} < 0, vote fails')
+     elif min == max == net_vote == 0:
+       print(f'Vote is tied, vote fails')
+     else:
+       print(f'Vote is between {min} and {max}, outcome unknown as quorum was not reached')
+
+This function represents the meaning of **quorum** votes. Note that if
+**total_members** is 7, if the number of voters is less than 4, it is
+impossible to pass or fail.
