@@ -538,9 +538,11 @@ and voted on by the board.
 Board Member Attendance
 -----------------------
 
-This rule was proposed and approved in a `mailing list
-thread <https://lists.ubuntu.com/archives/devel-permissions/2021-August/001726.html>`__.
-The final formal wording is from `this
+This rule was
+`proposed <https://lists.ubuntu.com/archives/devel-permissions/2021-August/001726.html>`__
+on the mailing list, and
+`approved <https://lists.ubuntu.com/archives/devel-permissions/2021-November/001780.html>`__
+on 2021-11-05. The final formal wording is from `this
 post <https://lists.ubuntu.com/archives/devel-permissions/2021-October/001750.html>`__
 and is reproduced here:
 
