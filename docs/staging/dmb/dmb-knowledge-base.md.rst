@@ -309,7 +309,13 @@ The \`canonical-oem-metapackages\` packageset is glob based. The exact
 glob is defined in the packageset description and is expanded according
 to the list of source packages in the Ubuntu archive for a given series.
 Any DMB member may update the packageset according to the glob expansion
-at any time without needing further consultation.
+at any time without needing further consultation. However, this is now
+done automatically with `this
+script <https://git.launchpad.net/~developer-membership-board/+git/oem-meta-packageset-sync/tree/oem-meta-packageset-sync>`__.
+The script is "owned" by the DMB, who is the gatekeeper for changes to
+the script, but run and managed on behalf of the DMB by the `archive
+admin team <https://launchpad.net/~ubuntu-archive/+members>`__. To make
+this work, the packageset is owned by the archive admin team.
 
 The expected nature of the packageset, to which the DMB will grant
 upload access, relies on the MIR team's requirements for these packages,
