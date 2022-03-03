@@ -317,8 +317,8 @@ the script, but run and managed on behalf of the DMB by the `archive
 admin team <https://launchpad.net/~ubuntu-archive/+members>`__. To make
 this work, the packageset is owned by the archive admin team.
 
-The expected nature of the packageset, to which the DMB will grant
-upload access, relies on the MIR team's requirements for these packages,
+The expected nature of the packageset, to which the DMB grants upload
+access, relies on the MIR team's requirements for these packages,
 defined at https://wiki.ubuntu.com/MIRTeam/Exceptions/OEM.
 
 -  Background thread:
