@@ -160,6 +160,15 @@ Actions after a successful application
    `~ubuntu-dev <https://launchpad.net/~ubuntu-dev/+members>`__ or
    `~ubuntu-uploaders <https://launchpad.net/~ubuntu-uploaders/+members>`__.
    See `#Teams_to_add_uploaders_to <#Teams_to_add_uploaders_to>`__.
+
+-  
+
+   -  If applying for `Ubuntu Contributing
+      Developers <https://wiki.ubuntu.com/UbuntuDevelopers#ContribDev>`__
+      membership, the applicant should only be added to the
+      `~ubuntu-developer-members <https://launchpad.net/~ubuntu-developer-members>`__
+      team and nothing more.
+
 #. Announce successful applicants (this can be done in a single email or
    multiple emails as appropriate), as `the community council would like
    to see these
@@ -404,6 +413,14 @@ You can identify these because the uploading teams are a member of
 \`~ubuntu-dev\` instead of \`~ubuntu-uploaders\`. In these cases
 applicants must satisfy the membership critera: granting upload rights
 without membership is not possible.
+
+This is, of course, only the case when adding **uploaders**. Memberships
+such as for `Ubuntu Contributing
+Developers <https://wiki.ubuntu.com/UbuntuDevelopers#ContribDev>`__,
+which do not grant any upload rights to the Ubuntu archive, do not
+require adding the new members to any of the above teams. Those should
+only be added to
+`~ubuntu-developer-members <https://launchpad.net/~ubuntu-developer-members>`__.
 
 .. _applications_from_dds:
 
