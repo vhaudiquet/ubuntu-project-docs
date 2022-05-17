@@ -6,6 +6,25 @@ This page is authoritative. If you think you've found a mistake, please
 
 <<TableOfContents()>>
 
+Communication
+=============
+
+Most non-realtime conversation happens on the `devel-permissions public
+list <https://lists.ubuntu.com/mailman/listinfo/devel-permissions>`__.
+Realtime meetings happen on IRC on Libera in #ubuntu-meeting according
+to our regular meeting schedule.
+
+Since part of the nature of our work is to deal with assessing personal
+conduct and abilities, depending on the topic it sometimes isn't
+appropriate for us to deliberate in public, or for others to contact us
+in public. For these matters, we use the `private
+developer-membership-board
+list <https://lists.ubuntu.com/mailman/listinfo/developer-membership-board>`__
+and the private IRC channel (#ubuntu-dmb on Libera) as appropriate. Use
+of the private IRC channel is discouraged except around the time of our
+public meetings, or when a private chat is specifically arranged, to
+avoid DMB members not online from missing out.
+
 .. _conducting_meetings:
 
 Conducting meetings
