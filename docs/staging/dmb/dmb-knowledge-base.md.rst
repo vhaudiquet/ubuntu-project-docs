@@ -88,6 +88,10 @@ Handling applications
       -  Ask questions one at a time. Let the meeting know when you are
          done questioning so that others can take over.
 
+-  Make sure that the applicant has signed the `Code of
+   Conduct <https://launchpad.net/codeofconduct/2.0%7CUbuntu>`__. It is
+   required to be signed by every Ubuntu developer.
+
 Voting
 ------
 
