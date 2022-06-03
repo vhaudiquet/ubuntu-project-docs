@@ -226,9 +226,14 @@ Packagesets exist per-release and are defined in the Launchpad database
 accessible by API (using the edit-acl command). For easy viewing, see
 https://people.canonical.com/~ubuntu-archive/packagesets/
 
-Consider making packagesets if someone applies and the grouping makes
-logical sense. The application process is more or less the same as for
-developer upload rights. The differences are
+Consider creating a packageset once we have:
+
+-  Two or more PPU uploaders
+-  Two or more related packages
+-  The grouping of those packages needs to make logical sense
+
+The application process is more or less the same as for developer upload
+rights. The differences are:
 
 -  Each packageset needs a *description*. This is so that developers can
    mail \`devel-permissions\` after the set is created in order to have
