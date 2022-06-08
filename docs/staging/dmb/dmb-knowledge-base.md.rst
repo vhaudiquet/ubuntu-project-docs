@@ -502,8 +502,10 @@ Running a DMB election
 
 #. Create a `CIVS poll <http://civs.cs.cornell.edu/>`__ with the
    nominees and one additional "No further candidates" ordinary choice.
-   The default options are fine. You will then be sent a link to the
-   poll control page. Start the poll from there.
+   Adjust the text and the "number of winning choices" to match the
+   number of candidates and vacant seats as appropriate. For the other
+   settings, the default options are fine. You will then be sent a link
+   to the poll control page. Start the poll from there.
    `Example <https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_e053e79083d092fc>`__.
 
 #. Announce the poll. `Newer
