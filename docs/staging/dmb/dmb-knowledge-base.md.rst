@@ -542,7 +542,7 @@ Checklist after a DMB election
       -  Private IRC channel access
       -  List of DMB member IRC nicknames in ubottu's !dmb-ping
 
-``    * Can be requested by typing: !dmb-ping is ``\ \ ``: DMB ping.``
+``    * Can be requested by typing: !no dmb-ping is ``\ \ ``: DMB ping.``
 
 -  
 
