@@ -536,9 +536,11 @@ Checklist after a DMB election
    -  
 
       -  (TB) ~developer-membership-board Launchpad team
-      -  (TB) developer-membership-board@lists.ubuntu.com membership and
-         then send welcome email
-      -  (self-subscribe) devel-permissions@lists.ubuntu.com membership
+      -  (TB)
+         `developer-membership-board@lists.ubuntu.com <https://lists.ubuntu.com/mailman/listinfo/developer-membership-board>`__
+         membership and then send welcome email
+      -  (self-subscribe) `devel-permissions@lists.ubuntu.com
+         membership <https://lists.ubuntu.com/mailman/listinfo/devel-permissions>`__
       -  Private IRC channel access
       -  List of DMB member IRC nicknames in ubottu's !dmb-ping
 
