@@ -529,8 +529,6 @@ Running a DMB election
 Checklist after a DMB election
 ------------------------------
 
--  Point new members to this page
-   (https://wiki.ubuntu.com/DeveloperMembershipBoard/KnowledgeBase).
 -  Update:
 
    -  
@@ -549,6 +547,8 @@ Checklist after a DMB election
 -  
 
    -  Calendar meeting event invitation list
+
+-  Send welcome email to new DMB members (see the previous one)
 
 .. _accidental_expiry:
 
