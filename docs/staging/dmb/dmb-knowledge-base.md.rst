@@ -149,7 +149,7 @@ Actions after a successful application
       (rarely) changes to the uploader for a packageset or PPU, it must
       be done by the TB, so the DMB member must:
 
-| ``  1. For a new packageset, create a new uploader team (see ``\ ```Packageset`` <#Packageset>`__\ `` section below)``
+| ``  1. For a new packageset, create a new uploader team (see ``\ ```Packageset`` <#Packagesets>`__\ `` section below)``
 | ``   * For a new PPU, the uploader is the applicant``
 | ``  1. Open a bug against the ``\ ```ubuntu-community project`` <https://launchpad.net/ubuntu-community>`__\ ``, and the bug description should include the exact "``\ ```edit-acl`` <https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl>`__\ ``" command to run.``
 | ``   * For PPU creation, [``\ ```a bug with this subject`` <https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=%5BTB/DMB%5D%20PPU%20for%20%7Cfile>`__\ ``] and include the PPU member name``
