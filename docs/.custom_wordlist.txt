@@ -4,8 +4,10 @@ ACLs
 allowlist
 allowlists
 apport
+AskUbuntu
 backend
 backends
+CAE
 Charmcraft
 chroots
 cjk
@@ -15,6 +17,7 @@ dvipng
 empathic
 equalizing
 Flavor
+flavors
 fonts
 freefont
 genotype
@@ -22,8 +25,10 @@ GitHub
 GPG
 Gtk
 gyre
+hpc
 https
 Intersphinx
+Jitsi
 KDE
 kustom
 Kylin
@@ -36,6 +41,7 @@ LXQt
 Multipass
 neurotype
 organized
+organizing
 otf
 Papercuts
 plantuml
@@ -44,6 +50,7 @@ QEMU
 Rockcraft
 rulebook
 rst
+supercomputing
 tex
 texlive
 TOC
