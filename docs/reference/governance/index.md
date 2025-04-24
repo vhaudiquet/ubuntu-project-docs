@@ -8,6 +8,6 @@ diversity-policy
 membership-perks
 Code of Conduct <code-of-conduct>
 teams
-mission
+Mission <mission>
 conflict-resolution
 ```
