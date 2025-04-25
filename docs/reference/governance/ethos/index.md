@@ -5,7 +5,7 @@
 :maxdepth: 1
 :hidden:
 
-Code of Conduct <code-of-conduct>
+Ubuntu Code of Conduct <code-of-conduct>
 diversity-policy
 mission
 ```
