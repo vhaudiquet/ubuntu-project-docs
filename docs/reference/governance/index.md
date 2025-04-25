@@ -2,12 +2,15 @@
 # Governance
 
 ```{toctree}
+:maxdepth: 2
+
+ethos/index
+```
+
+```{toctree}
 :maxdepth: 1
 
-diversity-policy
 membership-perks
-Code of Conduct <code-of-conduct>
 teams
-Mission <mission>
 conflict-resolution
 ```

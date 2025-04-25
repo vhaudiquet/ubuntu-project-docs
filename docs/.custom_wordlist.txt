@@ -13,6 +13,7 @@ cryptographically
 dev
 dvipng
 empathic
+equalizing
 fonts
 freefont
 genotype
