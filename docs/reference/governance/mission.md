@@ -59,4 +59,4 @@ There are 10 core principles of open-source software:
 1. The licence must not restrict other software.
 1. The licence must be technology-neutral.
 
-[Take a look at the Open Source Initiative’s definition of open-source software for a more detailed explanation](https://opensource.org/docs/definition.php).
+[Take a look at the Open Source Initiative’s definition of open-source software for a more detailed explanation](https://opensource.org/osd).
