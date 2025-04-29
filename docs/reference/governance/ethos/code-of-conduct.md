@@ -6,9 +6,9 @@ Ubuntu is about showing humanity to one another: the word itself captures the sp
 
 We want a productive, happy and agile community that can welcome new ideas in a complex field, improve every process every year, and foster collaboration between groups with very different needs, interests and skills.
 
-We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardise the participation of any person in the project.
+We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardize the participation of any person in the project.
 
-The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.
+The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honored by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.
 
 ## We strive to
 
@@ -38,7 +38,7 @@ Nobody is expected to be perfect in this community. Asking questions early avoid
 
 ### Step down considerately
 
-When somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.
+When somebody leaves or disengages from the project, we ask that they do so in a way that minimizes disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.
 
 (leadership-code-of-conduct)=
 ## Leadership, authority and responsibility
@@ -63,7 +63,7 @@ We gather opinions, data and commitments from concerned parties before taking a 
 
 The poorest decision of all is no decision: clarity of direction has value in itself. Sometimes all the data are not available, or consensus is elusive. A decision must still be made. There is no guarantee of a perfect decision every time - we prefer to err, learn, and err less in future than to postpone action indefinitely.
 
-We recognise that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.
+We recognize that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.
 
 ### Open meritocracy
 
@@ -87,9 +87,9 @@ Leadership occasionally requires bold decisions that will not be widely understo
 
 We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.
 
-When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.
+When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favorable to the interests of one group over another.
 
-This Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.
+This Code is not exhaustive or complete. It is not a rulebook; it serves to distill our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.
 
 ## Taking Conflict to the Community Council
 
