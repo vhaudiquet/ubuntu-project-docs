@@ -144,7 +144,7 @@ html_context = {
 # - https://git.launchpad.net/example
 
 html_theme_options = {
-    "source_edit_link": "https://github.com/ubuntu/ubuntu-project-docs",
+    "source_edit_link": html_context["github_url"],
 }
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
@@ -190,7 +190,11 @@ linkcheck_ignore = [
 
 # A regex list of URLs where anchors are ignored by 'make linkcheck'
 
-linkcheck_anchors_ignore_for_url = [r"https://github\.com/.*"]
+linkcheck_anchors_ignore_for_url = [
+    r"https://github\.com/.*",
+    r"https://matrix\.to/.*",
+    r"https://www.gnu\.org/.*",
+]
 
 # give linkcheck multiple tries on failure
 # linkcheck_timeout = 30
@@ -206,7 +210,7 @@ linkcheck_retries = 3
 # NOTE: By default, the following MyST extensions are enabled:
 #       substitution, deflist, linkify
 
-# myst_enable_extensions = set()
+myst_enable_extensions = {"colon_fence"}
 
 
 # Custom Sphinx extensions; see

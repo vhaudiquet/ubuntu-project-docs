@@ -8,6 +8,8 @@ tutorial/index
 how-to/index
 reference/index
 explanation/index
+
+Contribute documentation <how-to/contribute-docs.md>
 ```
 
 Ubuntu is the world's most widely deployed Linux operating system, but it's also

@@ -13,7 +13,7 @@ We believe that every computer user:
 - Should be able to use all software regardless of disability.
 - Our philosophy is reflected in the software we produce, the way we distribute it and our licensing terms, too - [Intellectual property rights policy](https://ubuntu.com/legal/intellectual-property-policy).
 
-We aim to be the platform which leads in achieving these ideals. We work to the goal that every piece of software you could possibly need is available under a licence that gives you those freedoms.
+We aim to be the platform which leads in achieving these ideals. We work to the goal that every piece of software you could possibly need is available under a license that gives you those freedoms.
 
 ## To accelerate innovation and underpin operations
 
@@ -21,7 +21,7 @@ We make the world better by enabling anyone, anywhere, to pursue their ambitions
 
 ## Free software
 
-Our preferred software licenses are ‘free software’ and always will be. Free software gives everyone the freedom to use it however they want and share with whoever they like. This freedom has huge benefits. At one end of the spectrum it enables the Ubuntu community to grow and share its collective experience and expertise to continually improve all things Ubuntu. At the other, we are able to give access to essential software for those who couldn’t otherwise afford it – an advantage that’s keenly felt by individuals and organisations all over the world.
+Our preferred software licenses are ‘free software’ and always will be. Free software gives everyone the freedom to use it however they want and share with whoever they like. This freedom has huge benefits. At one end of the spectrum it enables the Ubuntu community to grow and share its collective experience and expertise to continually improve all things Ubuntu. At the other, we are able to give access to essential software for those who couldn’t otherwise afford it – an advantage that’s keenly felt by individuals and organizations all over the world.
 
 Quoting the [Free Software Foundation’s](https://www.fsf.org/), [‘What is Free Software’](https://www.gnu.org/philosophy/free-sw.html), the freedoms at the core of free software are defined as:
 
@@ -50,13 +50,13 @@ There are 10 core principles of open-source software:
 
 1. Software must be free to redistribute.
 1. The program must include source code.
-1. The licence must allow people to experiment with and redistribute modifications.
+1. The license must allow people to experiment with and redistribute modifications.
 1. Users have a right to know who is responsible for the software they are using.
 1. There should be no discrimination against any person or group.
-1. The licence must not restrict anyone from making use of the program in a specific field.
-1. No-one should need to acquire an additional licence to use or redistribute the program.
-1. The licence must not be specific to a product.
-1. The licence must not restrict other software.
-1. The licence must be technology-neutral.
+1. The license must not restrict anyone from making use of the program in a specific field.
+1. No-one should need to acquire an additional license to use or redistribute the program.
+1. The license must not be specific to a product.
+1. The license must not restrict other software.
+1. The license must be technology-neutral.
 
 [Take a look at the Open Source Initiative’s definition of open-source software for a more detailed explanation](https://opensource.org/osd).
