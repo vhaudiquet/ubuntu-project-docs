@@ -18,6 +18,7 @@ matrix:
             - alt
           ignores:
             - code
+            - math
             - pre
             - spellexception
             - link
