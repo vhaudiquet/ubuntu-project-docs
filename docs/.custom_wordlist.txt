@@ -18,6 +18,7 @@ fonts
 Fosstodon
 freefont
 genotype
+geq
 GitHub
 GPG
 gyre
@@ -45,6 +46,7 @@ texlive
 TOC
 toctree
 txt
+ubuntu
 Ubuntu
 utils
 VMs

@@ -210,7 +210,7 @@ linkcheck_retries = 3
 # NOTE: By default, the following MyST extensions are enabled:
 #       substitution, deflist, linkify
 
-myst_enable_extensions = {"colon_fence"}
+myst_enable_extensions = {"colon_fence", "dollarmath"}
 
 
 # Custom Sphinx extensions; see
@@ -236,6 +236,7 @@ extensions = [
     "sphinxcontrib.cairosvgconverter",
     "sphinx_last_updated_by_git",
     "sphinx.ext.intersphinx",
+    "sphinx.ext.mathjax",
 ]
 
 # Excludes files or directories from processing

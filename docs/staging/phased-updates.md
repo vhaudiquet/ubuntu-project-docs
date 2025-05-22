@@ -76,10 +76,9 @@ update before a large number of users encounter it.
 the current **testing set** for that update.
 
 A computer is in the testing set if `Phased-Update-Percentage`
-{math}`\times 2^{128} \ge`
-`md5` (*machine id* + *package name* + *package version*).
+$\times 2^{128} \geq$ `md5` (*machine id* + *package name* + *package version*).
 
-({math}`2^{128}` is the maximum number produceable by the `md5` function.)
+($2^{128}$ is the maximum number producible by the `md5` function.)
 
 This algorithm requires only the package record and the machine ID to execute
 and is fairly fast so shouldn't slow down the time to calculate the list of
@@ -179,11 +178,12 @@ Checklist:
 ## See Also
 
 * [Error Tracker/Phased Updates](https://wiki.ubuntu.com/ErrorTracker/PhasedUpdates)
-* [https://people.canonical.com/~ubuntu-archive/phased-updates.html](https://people.canonical.com/~ubuntu-archive/phased-updates.html)
+* [Ubuntu Archive team - phased updates](https://ubuntu-archive-team.ubuntu.com/phased-updates.html)
 
 ----
 
 * **Launchpad entry**: [Phased updates of software packages](https://blueprints.launchpad.net/ubuntu/+spec/foundations-r-phased-updates)
 * **Originally created**: 2012-05-14
-* **Contributors**: [Evan Dandrea](https://wiki.ubuntu.com/EvanDandrea), [James Westby](https://wiki.ubuntu.com/JamesWestby), [Colin Watson](https://wiki.ubuntu.com/ColinWatson), [Steve Langasek](https://wiki.ubuntu.com/SteveLangasek), [Michael Vogt](https://wiki.ubuntu.com/MichaelVogt), [Matthew Paul Thomas](https://wiki.ubuntu.com/MatthewPaulThomas) and others
+* **Last updated**: 2023-06-09
+* **Contributors**: `Evan Dandrea`, `James Westby`, `Colin Watson`, `Steve Langasek`, `Michael Vogt`, `Matthew Paul Thomas`, and others
 
