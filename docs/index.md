@@ -12,6 +12,13 @@ explanation/index
 Contribute documentation <how-to/contribute-docs.md>
 ```
 
+```{toctree}
+:maxdepth: 2
+:hidden: true
+
+Staging/preview area <staging.md>
+```
+
 Ubuntu is the world's most widely deployed Linux operating system, but it's also
 a long-standing software project, a community, and a mesh of distributed
 processes and governance that enable its contributors to deliver the world-class
