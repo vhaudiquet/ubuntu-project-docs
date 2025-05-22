@@ -2,10 +2,10 @@
 
 # Phased updates
 
-Push out stable release updates to expanding subsets of the userbase so that
+Push out stable release updates to expanding subsets of the user base so that
 serious regressions can be detected before updates are pushed to everyone, and
 the process stopped. The aim is for regressions to affect a smaller proportion
-of our userbase.
+of our user base.
 
 ## Current status
 
@@ -19,11 +19,11 @@ The Phased-Update-Percentage is initially set to 10%, and a job is run (every 6
 hours) that checks for regressions and if none are found the phased update
 percentage will be incremented by 10%. So an update will become fully phased
 after 54 hours or about 2 days. In the event that a regression is detected the
-Phased-Update-Precentage will be set to 0% thereby causing supported package
+Phased-Update-Percentage will be set to 0% thereby causing supported package
 managers not to install the update.
 
 The progress of phased updates is visible
-[in a report](https://people.canonical.com/~ubuntu-archive/phased-updates.html)
+[in a report](https://ubuntu-archive-team.ubuntu.com/phased-updates.html)
 which is updated by the same job that does the phasing.
 
 Up to Ubuntu 20.04 LTS (Focal), Update Manager is the only package manager that
@@ -34,7 +34,7 @@ Phased-Update-Percentage.
 
 ## Release note
 
-[StableReleaseUpdates](https://wiki.ubuntu.com/StableReleaseUpdates) will no
+[Stable Release Updates](https://wiki.ubuntu.com/StableReleaseUpdates) will no
 longer appear in Update Manager at the same time for all machines. Instead a
 subset of machines will be selected at random to receive the update first. The
 update will only be made available to everyone if there are no serious
@@ -79,7 +79,7 @@ A computer is in the testing set if `Phased-Update-Percentage`
 {math}`\times 2^{128} \ge`
 `md5` (*machine id* + *package name* + *package version*).
 
-({math}`2^{128}` is the maximum number producable by the `md5` function.)
+({math}`2^{128}` is the maximum number produceable by the `md5` function.)
 
 This algorithm requires only the package record and the machine ID to execute
 and is fairly fast so shouldn't slow down the time to calculate the list of
@@ -96,9 +96,9 @@ find the regressions.
 * What do we want to call the new field?
 * What should update manager do if there is another version of the package available and the algorithm answers no for the latest? e.g. security update and newer package in -updates. If it won't install the -updates version, should it install the -security? Probably.
 * If update manager pops up once a week does it make the phased updates rather useless?
-  * Assuming that the default is one week, and there is a fairly uniform distribution on which day of the week that is, we will find that the actual percentage of people with the update installed lags the set number fairly significantly. How much depends on how promptly people install the updates. If everyone installs as soon as the popup happens the update will take about a week longer than the ideal curve to fully propogate, but a majority of people will have the update installed by the time it reaches 100% on the server side.
+  * Assuming that the default is one week, and there is a fairly uniform distribution on which day of the week that is, we will find that the actual percentage of people with the update installed lags the set number fairly significantly. How much depends on how promptly people install the updates. If everyone installs as soon as the popup happens the update will take about a week longer than the ideal curve to fully propagate, but a majority of people will have the update installed by the time it reaches 100% on the server side.
   * We can't know exactly what the current percentage is, only guess based on the phase of the update.
-  * When pausing an update the phase should be bought down to 0 to prevent others installing it, and then ramped back up, or jumped to the previous value.
+  * When pausing an update the phase should be bought down to 0 to prevent others installing it, and then increased back up, or jumped to the previous value.
   * Given that the phase doesn't control the percentage of machines with the update installed very strongly, and the "open weekly" default for non-security updates provides some sort of phasing, the main thing this scheme provides is the ability to pause an update without deleting it from -updates. Is that worth the effort?
   * Combining phased updates with an option in update-manager to still only show non-security updates (combined with a change to calculate that based on whether the updates will be shown for the particular machine) makes sense to balance our control in pushing out updates, with the users desire to not be bothered by update prompts every day.
 * Given that it is machine based someone with multiple machines will see the updates at different times. Is that too confusing? Should there be a way to turn it off (opt in to testing)?
@@ -112,19 +112,19 @@ Launchpad will insert this into the package record. It therefore needs to know
 what value to insert. Where should it be stored in Launchpad?
 
 An API will be added to Launchpad to set the value, and it will be controlled
-by ubuntu-sru (ubuntu-archive?).
+by `ubuntu-sru` (ubuntu-archive?).
 
-  I think that this should be akin to component/section/priority overrides: that is, it should be a column on `BinaryPackagePublishingHistory` and it could most easily be set by adding another optional parameter to `BinaryPackagePublishingHistory.changeOverride`.  This will have the effect of creating a new publication for the package, so it will be beneficial not to change the value too often (perhaps once a day or so); but in order to get the LP archive publisher to generate a new Packages stanza a new publication is necessary anyway, so this is true regardless.  `BinaryPackagePublishingHistory.changeOverride` is restricted to ubuntu-archive. --cjwatson
+  I think that this should be akin to component/section/priority overrides: that is, it should be a column on `BinaryPackagePublishingHistory` and it could most easily be set by adding another optional parameter to `BinaryPackagePublishingHistory.changeOverride`.  This will have the effect of creating a new publication for the package, so it will be beneficial not to change the value too often (perhaps once a day or so); but in order to get the LP archive publisher to generate a new Packages stanza a new publication is necessary anyway, so this is true regardless.  `BinaryPackagePublishingHistory.changeOverride` is restricted to ubuntu-archive. --`cjwatson`
 
 A script will then be run to set these values. When a package is pushed into -updates
 the script will start to increase the percentage over time, using some
 to-be-defined function of the age of the package, and possibly the urgency.
 
-There will be an override to that aging that will allow ubuntu-sru to pause the
+There will be an override to that aging that will allow `ubuntu-sru` to pause the
 script for a particular package that can be used when there are suspected
 regressions. Once it has been decided what to do the package can either be
 superseded in updates, in which case the process will start again for the new
-version, or the rollout will be continued.
+version, or the roll-out will be continued.
 
 ## Opting out
 
@@ -139,11 +139,11 @@ updates pre-release (to test the phasing mechanism itself).
 * Where should the information be stored in Launchpad?
 * Who should be allowed to change the value?
 * How should the process be paused for a particular package?
-* What should the rollout curve look like?
+* What should the roll-out curve look like?
 
 ## Further development
 
-* An automatic link could be added from the error tracker to the rollout script
+* An automatic link could be added from the error tracker to the roll-out script
 so that it pauses propagation if there is a spike in crashes with the new
 version.
 
@@ -156,7 +156,7 @@ Checklist:
   well-designed change.)
 
 1. If any user interface is involved, is it fully described? Include any
-  wireframes or mockups.
+  wire frames or mock-ups.
 
 1. Have you had any new user interface, or new visible text, reviewed by a
   designer? (Or if you are a designer, have you had it peer-reviewed?)
@@ -170,7 +170,7 @@ Checklist:
 1. Is any migration of data or settings required?
 
 1. How will the feature be tested? Please add an entry to
-  http://testcases.qa.ubuntu.com/Coverage/NewFeatures for tracking test coverage.
+  [New features](http://testcases.qa.ubuntu.com/Coverage/NewFeatures) for tracking test coverage.
 
 ## Unresolved issues
 
@@ -178,12 +178,12 @@ Checklist:
 
 ## See Also
 
-* [ErrorTracker/PhasedUpdates](https://wiki.ubuntu.com/ErrorTracker/PhasedUpdates)
+* [Error Tracker/Phased Updates](https://wiki.ubuntu.com/ErrorTracker/PhasedUpdates)
 * [https://people.canonical.com/~ubuntu-archive/phased-updates.html](https://people.canonical.com/~ubuntu-archive/phased-updates.html)
 
 ----
 
 * **Launchpad entry**: [Phased updates of software packages](https://blueprints.launchpad.net/ubuntu/+spec/foundations-r-phased-updates)
 * **Originally created**: 2012-05-14
-* **Contributors**: [EvanDandrea](https://wiki.ubuntu.com/EvanDandrea), [JamesWestby](https://wiki.ubuntu.com/JamesWestby), [ColinWatson](https://wiki.ubuntu.com/ColinWatson), [SteveLangasek](https://wiki.ubuntu.com/SteveLangasek), [MichaelVogt](https://wiki.ubuntu.com/MichaelVogt), [MatthewPaulThomas](https://wiki.ubuntu.com/MatthewPaulThomas) and others
+* **Contributors**: [Evan Dandrea](https://wiki.ubuntu.com/EvanDandrea), [James Westby](https://wiki.ubuntu.com/JamesWestby), [Colin Watson](https://wiki.ubuntu.com/ColinWatson), [Steve Langasek](https://wiki.ubuntu.com/SteveLangasek), [Michael Vogt](https://wiki.ubuntu.com/MichaelVogt), [Matthew Paul Thomas](https://wiki.ubuntu.com/MatthewPaulThomas) and others
 
