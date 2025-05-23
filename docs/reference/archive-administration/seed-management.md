@@ -1,4 +1,0 @@
-(seed-management)=
-
-# Seed management
-
