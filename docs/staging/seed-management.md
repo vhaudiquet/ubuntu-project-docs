@@ -275,7 +275,8 @@ supported themselves, are automatically added to a special "extra" list.
 
 ### Germinate
 
-The seeds are read by a program called [Germinate](https://wiki.ubuntu.com/Germinate), which resolves the dependencies of packages in the seed lists. By
+The seeds are read by a program called {ref}`Germinate <germinate>`, which
+resolves the dependencies of packages in the seed lists. By
 adding additional packages to satisfy these dependencies, the final package
 lists are produced.
 
