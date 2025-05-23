@@ -10,7 +10,7 @@ package-set-membership
 suite-package-model
 build-process
 change-process
-seed-management
+../../staging/seed-management
 nbs-packages
 package-sets
 seeds
