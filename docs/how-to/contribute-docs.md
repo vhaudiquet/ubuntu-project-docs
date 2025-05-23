@@ -1,24 +1,21 @@
 # How to contribute documentation
 
-This guide provides information necessary to contribute to the Ubuntu for Developers documentation, especially if you're contributing for the first time.
+This guide provides information necessary to contribute to this documentation. If you're contributing for the first time, you might find the Canonical Open Documentation Academy has helpful resources to [get you started](https://documentationacademy.org/docs/howto/get-started/).
 
+## Report an issue
 
-## Reporting an issue
+To report a mistake on any page, or highlight some missing documentation, [file an issue](https://github.com/ubuntu/ubuntu-project-docs/issues) in our issues list on GitHub.
+You can do this using the "Give feedback" button on any page, which will open a new issue.
 
-To report a mistake in or make request for the documentation, [file an issue](https://github.com/ubuntu/ubuntu-project-docs/issues) about it in our bug tracker on GitHub.
-to it.
+## Edit documentation online
 
-
-## Modifying documentation online
-
-Each documentation page rendered on the web contains an **Contribute to this page** link in the top-right corner. Clicking this button leads you to the GitHub web editor where you can propose changes to the corresponding page.
+Each documentation page has a **Contribute to this page** link in the top-right corner (the pencil icon). Clicking this button opens the GitHub web editor where you can propose changes to that page. The first time you click this button, you will be prompted to create a **fork** of the documentation before you can start editing.
 
 Remember to first check the [latest version](https://canonical-ubuntu-project.readthedocs-hosted.com/) of our documentation and make your proposal based on that revision.
 
+## Contribute on GitHub
 
-## Contributing on GitHub
-
-To follow a Git development workflow, `checkout` the [Ubuntu project docs repository](https://github.com/ubuntu/ubuntu-project-docs) and contribute your changes as [pull requests](https://github.com/ubuntu/ubuntu-project-docs/pulls).
+To follow a Git development workflow, `checkout` the [Ubuntu Project docs repository](https://github.com/ubuntu/ubuntu-project-docs) and contribute your change as a [pull request](https://github.com/ubuntu/ubuntu-project-docs/pulls).
 
 
 ## Directory structure
@@ -50,7 +47,7 @@ Follow these steps to build the documentation on your local machine.
 
 ### Procedure
 
-1. Fork the [Ubuntu project docs repository](https://github.com/ubuntu/ubuntu-project-docs). Visit [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for instructions.
+1. Fork the [Ubuntu Project docs repository](https://github.com/ubuntu/ubuntu-project-docs). Visit [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) for instructions.
 
 2. Clone the repository to your machine:
     ```none
@@ -82,7 +79,7 @@ Follow these steps to build the documentation on your local machine.
 
 ## Documentation format
 
-The Ubuntu for Developers documentation is built with Sphinx using the MyST flavor of the Markdown mark-up language. If you're new to Markdown or MyST, read our [MyST style guide](https://canonical-starter-pack.readthedocs-hosted.com/latest/reference/style-guide-myst/).
+The Ubuntu Project documentation is built with Sphinx using the MyST flavor of the Markdown mark-up language. If you're new to Markdown or MyST, read our [MyST style guide](https://canonical-starter-pack.readthedocs-hosted.com/latest/reference/style-guide-myst/).
 
 
 ## Testing the documentation
@@ -107,7 +104,7 @@ If you've never contributed to an open source project before, the [Open Document
 
 The Open Documentation Academy (ODA) is an initiative led by the documentation team at Canonical to encourage open source contributions from the community, and to provide help, advice and mentorship within a friendly and welcoming environment.
 
-A key aim of the initiative is to lower the barrier to successful open-source software contributions by making documentation into the gateway, and it’s a great way to make your first open source contributions to projects like ours. Contributors gain real experience, structured support and recognition, while we benefit from improvements to our documentation and community feedback.
+A key aim is to lower the barrier of entry to successful open-source software contributions by making documentation into the gateway, and it’s a great way to make your first open source contributions to projects like ours. Contributors gain real experience, structured support and recognition, while we benefit from improvements to our documentation and community feedback.
 
 The best way to get started is to take a look at our [project-related documentation tasks](https://github.com/canonical/open-documentation-academy/issues) and read our [Getting started](https://discourse.ubuntu.com/t/getting-started/42769) guide. Tasks typically include testing and fixing tutorials, updating outdated pages, restructuring large documents and anything else you may want to suggest. We'll help you see those tasks through to completion.
 
