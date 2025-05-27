@@ -1,36 +1,64 @@
-# How to contribute documentation
+(contribute)=
 
-This guide provides information necessary to contribute to this documentation. If you're contributing for the first time, you might find the Canonical Open Documentation Academy has helpful resources to [get you started](https://documentationacademy.org/docs/howto/get-started/).
+# How to contribute
+
+This guide provides information necessary to contribute to this documentation.
+If you're contributing for the first time, you might find the Canonical Open
+Documentation Academy has helpful resources to
+[get you started](https://documentationacademy.org/docs/howto/get-started/).
 
 ## Report an issue
 
-To report a mistake on any page, or highlight some missing documentation, [file an issue](https://github.com/ubuntu/ubuntu-project-docs/issues) in our issues list on GitHub.
-You can do this using the "Give feedback" button on any page, which will open a new issue.
+To report a mistake on any page, or highlight some missing documentation,
+[file an issue](https://github.com/ubuntu/ubuntu-project-docs/issues) in our
+issues list on GitHub.
+
+You can do this using the "Give feedback" button on any page, which will open a
+new issue.
+
+Make sure to provide enough information in the issue for us to understand what
+is needed.
 
 ## Edit documentation online
 
-Each documentation page has a **Contribute to this page** link in the top-right corner (the pencil icon). Clicking this button opens the GitHub web editor where you can propose changes to that page. The first time you click this button, you will be prompted to create a **fork** of the documentation before you can start editing.
+Each documentation page has a **Contribute to this page** link in the top-right
+corner (the pencil icon). Clicking this button opens the GitHub web editor
+where you can propose changes to that page. The first time you click this
+button, you will be prompted to create a **fork** of the documentation before
+you can start editing.
 
-Remember to first check the [latest version](https://canonical-ubuntu-project.readthedocs-hosted.com/) of our documentation and make your proposal based on that revision.
+Remember to first check the
+[latest version](https://canonical-ubuntu-project.readthedocs-hosted.com/) of
+our documentation and make your proposal based on that revision.
 
 ## Contribute on GitHub
 
-To follow a Git development workflow, `checkout` the [Ubuntu Project docs repository](https://github.com/ubuntu/ubuntu-project-docs) and contribute your change as a [pull request](https://github.com/ubuntu/ubuntu-project-docs/pulls).
+If you are familiar with a Git development workflow, `checkout` the
+[Ubuntu Project docs repository](https://github.com/ubuntu/ubuntu-project-docs)
+and contribute your change as a
+[pull request](https://github.com/ubuntu/ubuntu-project-docs/pulls).
 
+While this project is under construction, there will be a lot of movement in
+many different areas. To ensure that your efforts don't get wasted due to
+overlaps, please either **claim an open issue** or, if there is no issue for
+what you want to work on, create a new issue first **before** working on your
+pull request.
 
-## Directory structure
+### Directory structure
 
-All the documentation files are located in the `docs/` directory. The `docs/` directory contains sub-directories corresponding to different [Diátaxis](https://diataxis.fr/) sections:
+All the documentation files are located in the `docs/` directory. The `docs/`
+directory contains sub-directories corresponding to different
+[Diátaxis](https://diataxis.fr/) sections:
 
 * `explanation/`
 * `howto/`
 * `reference/`
 * `tutorial/`
 
-Add new articles in the appropriate directory. You can read about [how Ubuntu implements Diátaxis for documentation](https://ubuntu.com/blog/diataxis-a-new-foundation-for-canonical-documentation).
+Add new articles in the appropriate directory. You can read about
+[how Ubuntu implements Diátaxis for documentation](https://ubuntu.com/blog/diataxis-a-new-foundation-for-canonical-documentation).
 
-
-## Building the documentation
+## Build the documentation locally
 
 Follow these steps to build the documentation on your local machine.
 
@@ -41,7 +69,8 @@ Follow these steps to build the documentation on your local machine.
 * The `make` tool
 
     :::{note}
-    The `make` command is compatible with Unix systems. On Windows, [install Ubuntu with WSL](https://documentationacademy.org/docs/howto/get-started/using_wsl/).
+    The `make` command is compatible with Unix systems. On Windows,
+    [install Ubuntu with WSL](https://documentationacademy.org/docs/howto/get-started/using_wsl/).
     :::
 
 
@@ -84,7 +113,7 @@ The Ubuntu Project documentation is built with Sphinx using the MyST flavor of t
 
 ## Testing the documentation
 
-Test the documentation before submitting a pull request. Run the following commands from within the `docs/` directory to test the documentation locally:
+Test your changes before submitting a pull request. Run the following commands from within the `docs/` directory to test the documentation locally:
 
 | command  | use |
 |---------|-----|

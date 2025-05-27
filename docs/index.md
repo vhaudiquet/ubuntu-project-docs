@@ -19,6 +19,22 @@ Contribute documentation <how-to/contribute-docs.md>
 Staging/preview area <staging.md>
 ```
 
+```{admonition} **Work in progress**
+:class: important
+
+Welcome to the Ubuntu Project documentation!
+[Read more about this project](https://discourse.ubuntu.com/t/revitalising-ubuntu-project-documentation/58694).
+
+This documentation is currently **under construction**. We have added
+placeholders to help guide the structure. This means many pages will be
+initially empty. Pages may also move around or become split (or combined) as we
+work with the source material.
+
+Contributions are very welcome! See our
+[issues list](https://github.com/ubuntu/ubuntu-project-docs/issues) for ideas,
+and our {ref}`contributing guide <contribute>` for details on how to contribute.
+```
+
 Ubuntu is the world's most widely deployed Linux operating system, but it's also
 a long-standing software project, a community, and a mesh of distributed
 processes and governance that enable its contributors to deliver the world-class
