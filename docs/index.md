@@ -30,6 +30,9 @@ placeholders to help guide the structure. This means many pages will be
 initially empty. Pages may also move around or become split (or combined) as we
 work with the source material.
 
+You can keep track of the progress via our fortnightly Discourse updates
+[in this thread](https://discourse.ubuntu.com/t/bringing-together-20-years-of-documentation/61780).
+
 Contributions are very welcome! See our
 [issues list](https://github.com/ubuntu/ubuntu-project-docs/issues) for ideas,
 and our {ref}`contributing guide <contribute>` for details on how to contribute.
