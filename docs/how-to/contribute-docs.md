@@ -1,3 +1,5 @@
+(contribute)=
+
 # How to contribute documentation
 
 This guide provides information necessary to contribute to this documentation. If you're contributing for the first time, you might find the Canonical Open Documentation Academy has helpful resources to [get you started](https://documentationacademy.org/docs/howto/get-started/).
