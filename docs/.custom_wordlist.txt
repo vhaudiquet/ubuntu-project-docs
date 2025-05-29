@@ -54,6 +54,7 @@ html
 https
 IEEE
 Intersphinx
+kubuntu
 Kubuntu
 kustom
 Kylin
