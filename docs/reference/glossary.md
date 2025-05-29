@@ -79,7 +79,7 @@ APT
     manager used in Ubuntu.
     
     See also:
-    * [Advanced Packaging Tool (Ubuntu Server documentation)](https://ubuntu.com/server/docs/package-management#advanced-packaging-tool)
+    * [Advanced Packaging Tool (Ubuntu Server documentation)](https://documentation.ubuntu.com/server/how-to/software/package-management/)
 
 Architecture
     Within the context of {term}`Ubuntu`, this refers to the system architecture
@@ -261,7 +261,7 @@ Canonical
 
 Canonical Discourse
     A {term}`Discourse` instance for internal/Canonical-wide discussions. 
-    The discussions here are only accessible to Canonical employes.
+    The discussions here are only accessible to Canonical employees.
 
     See also:
     * [Canonical Discourse](https://discourse.canonical.com)
@@ -270,8 +270,7 @@ CD
     Abbreviation for {term}`Continuous Delivery`.
 
 CD Mirror
-    A {term}`Mirror` of the {term}`Ubuntu` {term}`Image` archive
-    [cdimage.ubuntu.com](https://cdimage.ubuntu.com/).
+    A {term}`Mirror` of the {term}`Ubuntu` [Image archive](https://cdimage.ubuntu.com/).
 
     See the [complete list of officially recognized Ubuntu image archive mirrors](https://launchpad.net/ubuntu/+cdmirrors).
 
@@ -291,7 +290,7 @@ Changelog
     The `debian/changelog` file in a {term}`Source Package`.
 
     See also:
-    * [Basic overview of the debian/ directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
+    * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.4 Debian changelog (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#debian-changelog-debian-changelog)
 
 CI
@@ -465,7 +464,7 @@ Debian
     for servers and desktops.
 
     See also:
-    * [www.debian.org](https://www.debian.org/)
+    * [Official Debian website](https://www.debian.org/)
 
 Debian Enhancement Proposal
     A Debian Enhancement Proposal ({term}`DEP`) is a formal document that outlines
@@ -475,7 +474,7 @@ Debian Enhancement Proposal
     or workflows.
 
     See also:
-    * [dep-team.pages.debian.net](https://dep-team.pages.debian.net/)
+    * [Official DEP team page](https://dep-team.pages.debian.net/)
 
 Debian System Administration
     *Work in Progress*
@@ -579,10 +578,10 @@ End of Line
 
     The most common examples for control character(s) that indicate a *end of line* are:
 
-    | {term}`Operating System`                   | Abbreviation* | hex value(s)* | dec value(s)* | Escape sequence* |
-    |--------------------------------------------|---------------|---------------|---------------|------------------|
-    | {term}`Unix` and {term}`Unix`-like systems | `LF`          | `0A`          | `10`          | `\n`             |
-    | Windows systems                            | `CR` `LF`     | `0D` `0A`     | `13` `10`     | `\r` `\n`        |
+    | {term}`Operating System`                   | Abbreviation* | `hex` value(s)* | `dec` value(s)* | Escape sequence* |
+    |--------------------------------------------|---------------|-----------------|-----------------|------------------|
+    | {term}`Unix` and {term}`Unix`-like systems | `LF`          | `0A`            | `10`            | `\n`             |
+    | Windows systems                            | `CR` `LF`     | `0D` `0A`       | `13` `10`       | `\r` `\n`        |
 
 
     \* for the character encoding `ASCII`
@@ -620,7 +619,7 @@ Expanded Security Maintenance
     *Work in Progress*
     
     See also:
-    * [Expanded Security Maintenance (homepage)](https://ubuntu.com/esm)
+    * [Expanded Security Maintenance (homepage)](https://ubuntu.com/security/esm)
 
 Failed to build from Source
     *Work in Progress*
@@ -629,7 +628,10 @@ Failed to install
     *Work in Progress*
 
 Feature Freeze Exception
-    *Work in Progress* (see https://wiki.ubuntu.com/FreezeExceptionProcess)
+    *Work in Progress*
+    
+    See also:
+    * [Freeze Exception Process](https://wiki.ubuntu.com/FreezeExceptionProcess)
 
 Feature Request
     *Work in Progress*
@@ -707,7 +709,7 @@ General Public License
     The {term}`GNU` General Public Licenses (GPL) are a set of {term}`Free Software`
     licenses. They grant users the ability to use, study, modify, and distribute
     the software and source code. Additionally, the GPLs are {term}`Copyleft`, so
-    any derivative works must be distributed with the same or requivalent freedoms.
+    any derivative works must be distributed with the same or equivalent freedoms.
 
     Prominent projects which use a version of the GPL include {term}`git` and
     {term}`Linux`.
@@ -733,7 +735,7 @@ GNU
 
     See also:
     * [GNU (Wikipedia)](https://en.wikipedia.org/wiki/GNU)
-    * [www.gnu.org](https://www.gnu.org)
+    * [Official GNU website](https://www.gnu.org)
 
 GPL
     Abbreviation for {term}`GNU` {term}`General Public License`.
@@ -773,14 +775,17 @@ Image
     burned to a CD to make installation disks.
 
     See also:
-    * [www.releases.ubuntu.com](https://www.releases.ubuntu.com/)
+    * [releases.ubuntu.com](https://www.releases.ubuntu.com/)
     * [Optical disc image (Wikipedia)](https://en.wikipedia.org/wiki/Optical_disc_image)
 
 Individual Contributor
     *Work in Progress*
 
 Institute of Electrical and Electronics Engineers
-    *Work in Progress* (see https://www.ieee.org/)
+    *Work in Progress*
+    
+    See also:
+    * [IEEE website](https://www.ieee.org/)
 
 Intel 64
     See {term}`arm64`
@@ -863,7 +868,7 @@ LXD
     LXD is system container manager.
     
     See also:
-    * [Official LXD documentation](https://documentation.ubuntu.com/lxd/en/latest/)
+    * [Official LXD documentation](https://documentation.ubuntu.com/lxd/latest/)
 
 Main
     A {term}`Component` of every {term}`Ubuntu` [Series](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/archive/#archiveseries) in the
@@ -899,7 +904,8 @@ Merge Proposal
     *Work in Progress*
 
 Micro Release Exception
-    See https://wiki.ubuntu.com/StableReleaseUpdates/MicroReleaseExceptions
+    See also:
+    * [Micro Release Exception](https://wiki.ubuntu.com/StableReleaseUpdates/MicroReleaseExceptions)
 
 MIR
     Abbreviation for {term}`Main Inclusion Review`.
@@ -1342,7 +1348,7 @@ TUI
 
 Ubuntu
     The word "**ubuntu**" is derived from the pronunciation of an an ancient
-    African word **"oǒ’boǒntoō"** meaning **"humanity to others"**. It is often
+    African word **`oǒ’boǒntoō`** meaning **"humanity to others"**. It is often
     described as reminding us that **"I am what I am because of who we all are"**.
 
     The Ubuntu {term}`Operating System` tries to bring that spirit to the world of
@@ -1357,7 +1363,7 @@ Ubuntu
 
 Ubuntu Archive
     The **Ubuntu Package Archive** is an {term}`APT` {term}`Repository` that is
-    preconfigured by default on Ubuntu installations. It hosts {term}`Debian`
+    pre-configured by default on Ubuntu installations. It hosts {term}`Debian`
     {term}`Binary Packages <Binary Package>` (`.deb` files) and
     {term}`Source Packages <Source Package>` (`.dsc` files).
 
@@ -1438,15 +1444,15 @@ Ubuntu ESM Team
     See also:
     * [Ubuntu ESM Team](https://launchpad.net/~ubuntu-esm-team)
 
-Ubuntu flavours
-    **Ubuntu flavours** are {term}`Distributions <Distribution>` of the default Ubuntu
-    releases, which choose their own default applications and settings. Ubuntu flavours are
+Ubuntu flavors
+    **Ubuntu flavors** are {term}`Distributions <Distribution>` of the default Ubuntu
+    releases, which choose their own default applications and settings. Ubuntu flavors are
     owned and developed by members of the Ubuntu community and backed by the full
     {term}`Ubuntu Archive` for {term}`Packages <Package>` and updates.
 
-    Officially recognised flavours are:
+    Officially recognized flavors are:
 
-    - [Edubuntu](https://edubuntu.org/)
+    - [Edubuntu](https://www.edubuntu.org/)
     - [Kubuntu](https://kubuntu.org/)
     - [Lubuntu](https://lubuntu.me/)
     - [Ubuntu Budgie](https://ubuntubudgie.org/)
@@ -1516,7 +1522,7 @@ Ubuntu Summit
 
     Also, check out the [Ubuntu Summit mailing list](https://lists.ubuntu.com/mailman/listinfo/summit-news).
 
-    You can find more information at [summit.ubuntu.com](https://summit.ubuntu.com/).
+    You can find more information at the [Ubuntu Summit page](https://ubuntu.com/summit).
 
 UCA
     Abbreviation for {term}`Ubuntu Cloud Archive`.
@@ -1561,7 +1567,7 @@ Unix
     multi-tasking capabilities, hierarchical file system, and a suite of
     {term}`Command Line <Command Line Interface>` utilities.
     Unix has been influential in shaping modern Operating Systems and remains
-    the basis for various Unix-like systems, including {term}`Linux` and MacOS.
+    the basis for various Unix-like systems, including {term}`Linux` and macOS.
 
     See also:
     * [Unix (Wikipedia)](https://en.wikipedia.org/wiki/Unix)
