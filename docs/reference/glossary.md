@@ -2,6 +2,10 @@
 
 # Glossary
 
+We are currently compiling and defining terms for this glossary. If you would
+like to help, please visit our {ref}`contributions page <contribute>` for
+details on how to get involved.
+
 ```{glossary}
 
 80x86
