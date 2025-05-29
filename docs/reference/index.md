@@ -7,4 +7,5 @@
 governance/index
 development/index
 archive-administration/index
+glossary
 ```

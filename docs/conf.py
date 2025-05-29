@@ -185,7 +185,8 @@ redirects = {}
 
 linkcheck_ignore = [
     "http://127.0.0.1:8000",
-    "https://www.gnu.org/philosophy/free-sw.html",
+    "https://www.gnu.org/*",
+    "https://discourse.canonical.com/",
 ]
 
 
@@ -238,6 +239,7 @@ extensions = [
     "sphinx_last_updated_by_git",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
+    "sphinxcontrib.mermaid",
 ]
 
 # Excludes files or directories from processing
