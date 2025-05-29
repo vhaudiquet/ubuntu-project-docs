@@ -1,17 +1,16 @@
-(review-mir-bug)=
+(mir-review-a-bug)=
 # How to review an MIR bug
 
-This section is a guideline for the review by the [MIR
-Team](https://launchpad.net/~ubuntu-mir).
+This section is a guideline for the review by the
+[MIR team](https://launchpad.net/~ubuntu-mir).
 
-Usage follows {ref}`templates-and-rules`.
+Usage follows {ref}`mir-templates-and-rules`.
 
-The Intent is to answer the primary decision *Will this package be
-well maintained in main?*
+The intent is to answer the primary decision:
+*Will this package be well maintained in main?*
 
-By default statements are in the *OK* section, but issues that need to
-be addressed should go to the *Problem:* sections (and briefly the
-summary at the top).
+By default, statements are in the *OK* section. Issues that need to be addressed
+should go to the *Problem:* sections (and briefly the summary at the top).
 
 ```
 RULE: Since we sometimes have many such posts on one bug, in case multiple

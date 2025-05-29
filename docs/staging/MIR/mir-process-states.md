@@ -52,36 +52,42 @@ flowchart TD
     Incomplete -->|"no response by the bug<br>reporter/driver within 60 days"| Invalid
 ```
 
-| State                                                    | Explanation |
-|----------------------------------------------------------|-------------|
-| *1.* New / Confirmed¹ (unassigned)                       | bug is queued for assignment to a MIR team member |
-| *2.* New / Confirmed¹ (assigned to MIR team member)      | on the TODO list of the assigned MIR team member |
-| *3.* New / Confirmed¹ (assigned to Security team member) | on the TODO list of the Security team member |
-| *4.* In Progress                                         | MIR team ACK (and if needed, Security team ACK) done, but now needs the Dependency/Seed change to happen to pull package(s) into `main`/`restricted` |
-| *5.* Fix Committed                                       | all of the above done; waiting for an Archive Admin to promote the package(s) to `main`/`restricted` |
-| *6.* Fix Released                                        | case resolved by an Archive Admin |
-| *7.* Won\'t Fix                                          | final NACK from MIR team or bug reporter gave up |
-| *8.* Incomplete                                          | Questions/Requests were raised for the bug reporter to resolve/clarify |
-| *9.* Invalid¹                                            | no response within 60 days when in `Incomplete` state |
-| *10.* Invalid¹                                            | not promoted to main by owning-team 2 years after MIR approval |
+| State                                                       | Explanation |
+|-------------------------------------------------------------|-------------|
+| *1.* New / Confirmed[^1] (unassigned)                       | Bug is queued for assignment to an MIR team member |
+| *2.* New / Confirmed[^1] (assigned to MIR team member)      | On the TODO list of the assigned MIR team member |
+| *3.* New / Confirmed[^1] (assigned to Security team member) | On the TODO list of the Security team member |
+| *4.* In Progress                                            | MIR team ACK (and if needed, Security team ACK) done, but now needs the Dependency / Seed change to happen to pull package(s) into `main`/`restricted` |
+| *5.* Fix Committed                                          | All of the above done; waiting for an Archive Admin to promote the package(s) to `main`/`restricted` |
+| *6.* Fix Released                                           | Case resolved by an Archive Admin |
+| *7.* Won\'t Fix                                             | Final NACK from MIR team or bug reporter gave up |
+| *8.* Incomplete                                             | Questions / Requests were raised for the bug reporter to resolve / clarify |
+| *9.* Invalid[^1]                                            | No response within 60 days when in `Incomplete` state |
+| *10.* Invalid[^1]                                           | Not promoted to main by owning-team 2 years after MIR approval |
 
-**Note:** All other states are undefined and should be resolved to
-one of the defined states – otherwise they might be completely missed on the weekly checks.
+[^1]: Since many people set Launchpad bugs to `Confirmed` once they verified 
+     the validity of a problem, MIR bugs often get set to `Confirmed`. Since 
+     `Confirmed` does not have any meaning for our process, we will handle
+     `New` and `Confirmed` as if they are the same.
 
-**Hint:** transitioning from *2.*/*3.* to *4.*/*5.*/*8.*: The successor of 
-assigned `New` states depends *(as seen by multiple arrows in the state 
-diagram)* on the package(s) current state in the archive: 
- * A NACK from the MIR or Security team will result in the `7. Won't Fix` state.
-   A former reviewer will get unassigned. (If there is context to believe that 
-   there might be a follow up by the reporter the reviewer might keep assigned.)
- * In case of an ACK from the MIR team (and, if required the Security team), if 
-   the package(s) is/are already tried to be pulled into `main`/`restricted` 
-   then the next state is `5. (Fix Committed)`, otherwise the next state is 
-   `4. In Progress`. Seen in:
-     * [component mismatches for `main`/`restricted`](https://people.canonical.com/~ubuntu-archive/component-mismatches.svg) 
-     * [component mismatches for `proposed`](https://people.canonical.com/~ubuntu-archive/component-mismatches-proposed.svg)
 
-**¹** Since many people set Launchpad bugs to `Confirmed` once they verified 
-the validity of a problem, MIR bugs often get set to `Confirmed`. Since 
-`Confirmed` does not have any meaning for our process, we will handle `New` and 
-`Confirmed` as if they are the same.
+```{note}
+All other states are undefined and should be resolved to one of the defined
+states -– otherwise they might be completely missed on the weekly checks.
+```
+
+```{hint}
+Transitioning from *2.*/*3.* to *4.*/*5.*/*8.*: The successor of assigned `New`
+states depends *(as seen by multiple arrows in the state diagram)* on the
+package(s) current state in the archive: 
+* A NACK from the MIR or Security team will result in the `7. Won't Fix` state.
+  A former reviewer will get unassigned. (If there is context to believe that 
+  there might be a follow up by the reporter the reviewer might remain assigned.)
+* In case of an ACK from the MIR team (and, if required the Security team), if 
+  the package(s) is/are already tried to be pulled into `main`/`restricted` 
+  then the next state is `5. (Fix Committed)`, otherwise the next state is 
+  `4. In Progress`. Seen in:
+  * [component mismatches for `main`/`restricted`](https://people.canonical.com/~ubuntu-archive/component-mismatches.svg) 
+  * [component mismatches for `proposed`](https://people.canonical.com/~ubuntu-archive/component-mismatches-proposed.svg)
+```
+

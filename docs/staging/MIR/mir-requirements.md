@@ -1,9 +1,9 @@
-(main-inclusion-requirements)=
+(mir-requirements)=
 # Main Inclusion requirements
 
 Use this template for the MIR bug report that you will file.
 
-Usage follows {ref}`templates-and-rules`.
+Usage follows {ref}`mir-templates-and-rules`.
 
 The package must fulfill the following requirements.
 

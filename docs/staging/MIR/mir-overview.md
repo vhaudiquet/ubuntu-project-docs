@@ -1,17 +1,38 @@
-# The Main Inclusion Review (MIR) process
+# Main Inclusion Review (MIR) process
 
-Packages in Ubuntu main (and restricted) are officially maintained,
-supported and recommended by the Ubuntu project. Security updates are
-provided for them as necessary by Canonical, and Canonical's standard
-support services apply to these packages.
+Packages in Ubuntu {term}`main` (and {term}`restricted`) are officially
+maintained, supported and recommended by the Ubuntu project.
+{term}`Canonical` provides security updates, standard support services, and
+certain {term}`SLA` guarantees for these packages.
 
 Therefore, special consideration is necessary before adding new packages
-to these components. The [Ubuntu MIR Team](https://launchpad.net/~ubuntu-mir)
-reviews packages for promotion from universe to main.
+to `main` or `restricted`. The [Ubuntu MIR team](https://launchpad.net/~ubuntu-mir)
+reviews packages for promotion:
 
-That is the **Main Inclusion Review (MIR)**.
+* from {term}`universe` to `main`.
+* from {term}`multiverse` to `restricted`.
 
-* MIR state machine {ref}`mir-process-states`
+The process of reviewing packages before they can be promoted is the
+**Main Inclusion Review (MIR)** process.
+
+## The MIR documentation
+
+The guidelines and review process is constantly evolving. Even if you have
+submitted a package for Main Inclusion Review in the past, you should still
+re-read the MIR documentation.
+
+The MIR documentation is also a living document. External contributions,
+suggestions, discussions or questions about the process are always welcome. We
+would love to hear from you!
+
+To contribute, simply submit a pull request with your changes or create an
+issue as described in our {ref}`Contributing guide<contribute>`. Please
+also attend the weekly {ref}`MIR Team meeting <mir-team-meeting>` if you want
+to discuss your issue with the MIR Team.
+
+## MIR process overview
+
+* {ref}`mir-process-states`
 
 ```{admonition} To do
 :class: note
@@ -19,34 +40,57 @@ That is the **Main Inclusion Review (MIR)**.
 Add the simplified overview of the MIR state machine diagram here
 ```
 
-* MIR exceptions {ref}`mir-exceptions`
-* How to file an MIR bug {ref}`file-mir-bug`
-  * {ref}`mir-template`
-* {ref}`review-mir-bug`
+## MIR documentation
+
+```{note}
+This section just collects all the documentation pages together for ease of
+reference-- this is not the final format.
+```
+
+* {ref}`mir-requirements`
+* {ref}`mir-templates-and-rules`
+* {ref}`mir-file-a-bug`
+* {ref}`mir-review-a-bug`
 * {ref}`mir-slo`
+
 * {ref}`mir-helpers`
 
-## MIR Team weekly status meeting
+* {ref}`mir-exceptions`
+  * {ref}`mir-exceptions-oem`
 
+* {ref}`mir-rust`
+
+
+(mir-team-meeting)=
+## MIR team weekly status meeting
 
 The MIR Team holds weekly meetings every Tuesday at
-<time datetime="T16:30+01:00">16:30 CET</time> on the IRC Server
-`irc.libera.chat` in the `#ubuntu-meeting` channel. You can follow these
-[instructions](https://libera.chat/guides/connect) on how to connect to
+<time datetime="T16:30+01:00">16:30 CET</time> on the {term}`IRC` server
+`irc.libera.chat` in the `#ubuntu-meeting` channel. You can follow
+[these instructions](https://libera.chat/guides/connect) on how to connect to
 `irc.libera.chat`.
 
-The meeting is meant to help to facilitate
+The purpose of the meeting is:
 
-* a fair share of work for each of us
-* a timely response to reporters of MIR requests
-* detection and discussion of any current or complex cases
+* to allocate a fair share of work between each member of the MIR team
+* to provide a timely response to reporters of MIR requests
+* to detect and discuss any current or complex cases
 
-Due to the nature of this process there are times when this is very busy
-and the meeting is strongly needed. But there are other times (e.g. at
-the beginning of a new release) where not a lot is happening. In such
-*idle* phases the leader of the meeting can pre-check the links we
-usually check together and skip steps of the agenda quoting that a
-pre-check has not shown anything worth to discuss.
+You should attend these meetings if you submit an MIR request, until it is
+approved or rejected.
+
+Due to the nature of the
+[Ubuntu Development Process](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/2.0-preview/explanation/development-process/),
+there are times (e.g. close to Feature Freeze) when this meeting is busy and
+others (e.g. right after a new release) when it is quieter. Consequently,
+response times to MIR requests are (on average) usually faster in those quieter
+periods after the release of a new Ubuntu version.
+
+### Meeting structure
+
+In such quiet phases the leader of the meeting can pre-check the links we
+usually check together, and skip steps of the agenda quoting that a
+pre-check has not shown anything worth discussing.
 
 From there we can then go rather directly to *Any other business?*
 which serves as a catch all for all attendees. By that we can make the
@@ -105,11 +149,5 @@ Mission: catch-all chance for anything missed or not covered by the usual agenda
 ```
 
 
-
-### Contributing
-
-We welcome everyone who wants to improve the Ubuntu MIR documentation! Whether you've found a typo, have a suggestion for improving existing content, or want to add new content, we'd love to hear from you.
-
-To contribute, simply submit a pull request with your changes or create an issue. Please also attend the weekly MIR Team meeting (every Tuesday at <time datetime="T16:30+01:00">16:30 CET</time> on the IRC `irc.libera.chat` in the `#ubuntu-meeting` channel) to discuss your issue with the MIR Team. You can follow these [instructions](https://libera.chat/guides/connect) on how to connect to `irc.libera.chat`.
 
 
