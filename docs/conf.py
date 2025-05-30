@@ -1,6 +1,7 @@
 import datetime
 import ast
 import os
+import sys
 import yaml
 
 # Configuration for the Sphinx documentation builder.
@@ -282,6 +283,13 @@ rst_epilog = """
 # manpages_url = 'https://manpages.ubuntu.com/manpages/{codename}/en/' + \
 #     'man{section}/{page}.{section}.html'
 
+import distro_info
+
+sys.path.append('/usr/lib/python3/dist-packages')
+
+manpages_url = ("https://manpages.ubuntu.com/manpages/"
+                f"{distro_info.UbuntuDistroInfo().stable()}/en/"
+                "man{section}/{page}.{section}.html")
 
 # Specifies a reST snippet to be prepended to each .rst file
 # This defines a :center: role that centers table cell content.

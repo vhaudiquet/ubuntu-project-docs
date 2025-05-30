@@ -152,7 +152,7 @@ ARMv8
     See {term}`arm64`
 
 autopkgtest
-    :manpage:`autopkgtest(1)` is a software that interprets and executes tests
+    {manpage}`autopkgtest(1)` is a software that interprets and executes tests
     found in {term}`source packages <Source Package>` that follow the {term}`DEP-8`
     specification.
 
@@ -192,8 +192,8 @@ Big-Endian
 
 Binary Package
     A {term}`Debian` **binary package** is a standardized format with the file
-    extension `.deb` that the {term}`Package Manager` (:manpage:`dpkg(1)` or
-    :manpage:`apt(8)`) can understand to install and uninstall software on a
+    extension `.deb` that the {term}`Package Manager` ({manpage}`dpkg(1)` or
+    {manpage}`apt(8)`) can understand to install and uninstall software on a
     target machine to simplify distributing software to a target machine and
     managing software on a target machine.
 
@@ -520,8 +520,8 @@ diff
     format (e.g. `.bin`, `.png`, `.jpg`).
 
     See also:
-    * :manpage:`diff(1)`
-    * :manpage:`git-diff(1)`
+    * {manpage}`diff(1)`
+    * {manpage}`git-diff(1)`
 
 Discourse
     An {term}`open-source <Open Source Software>` forum software that is used 
@@ -1023,12 +1023,12 @@ orig tarball
     Also known as "original tarball". The `.orig.tar.ext` and
     `.orig-component.tar.ext` (where `ext` can be `gz`, `bz2`, `lzma` and `xz`
     and `component` can contain alphanumeric characters (`a-zA-Z0-9`) and
-    hyphens `-`) :manpage:`tar(5)` archive files of a {term}`Debian`
+    hyphens `-`) {manpage}`tar(5)` archive files of a {term}`Debian`
     {term}`Source Package` that contains the original {term}`Source`
     of the {term}`Upstream` project.
 
     See also:
-    * :manpage:`dpkg-source(1)`
+    * {manpage}`dpkg-source(1)`
     * {term}`tarball`
 
 OS
@@ -1248,7 +1248,7 @@ Signature
     packages verify that the {term}`Source Code` is from the developers of the
     upstream project.
 
-    The tool :manpage:`gpg(1)` is commonly used to create and modify digital
+    The tool {manpage}`gpg(1)` is commonly used to create and modify digital
     signatures. Further information can be found in the
     [GNU Privacy Handbook](https://www.gnupg.org/gph/en/manual.html#AEN136).
 
@@ -1316,7 +1316,7 @@ Standard Output
     *Work in Progress*
 
 tarball
-    A file in the :manpage:`tar(5)` archive format, which collects any number of
+    A file in the {manpage}`tar(5)` archive format, which collects any number of
     files, directories, and other file system objects (symbolic links, device nodes, etc.)
     into a single stream of bytes. The format was originally designed to be used with
     tape drives, but nowadays it is widely used as a general packaging mechanism.
@@ -1634,7 +1634,7 @@ Watch File
 
     See also:
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
-    * :manpage:`uscan(1)`
+    * {manpage}`uscan(1)`
     * [Section 4.11. Upstream source location (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#upstream-source-location-debian-watch)
 
 WoU
