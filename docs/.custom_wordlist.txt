@@ -34,6 +34,7 @@ dvipng
 edubuntu
 el
 empathic
+EoSS
 equalizing
 executables
 filesystem
@@ -78,6 +79,7 @@ plantuml
 ppc64el
 Pygments
 QEMU
+Repo
 Rockcraft
 rst
 rulebook

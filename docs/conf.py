@@ -241,6 +241,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "sphinxcontrib.mermaid",
+    "hoverxref.extension",
 ]
 
 # Excludes files or directories from processing
@@ -290,6 +291,12 @@ sys.path.append('/usr/lib/python3/dist-packages')
 manpages_url = ("https://manpages.ubuntu.com/manpages/"
                 f"{distro_info.UbuntuDistroInfo().stable()}/en/"
                 "man{section}/{page}.{section}.html")
+
+# Configure hoverxref options
+hoverxref_role_types = {
+    'term': 'tooltip',
+}
+hoverxref_roles = ['term',]
 
 # Specifies a reST snippet to be prepended to each .rst file
 # This defines a :center: role that centers table cell content.
