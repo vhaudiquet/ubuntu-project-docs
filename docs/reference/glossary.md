@@ -6,26 +6,17 @@ We are currently compiling and defining terms for this glossary. If you would
 like to help, please visit our {ref}`contributions page <contribute>` for
 details on how to get involved.
 
+
 ```{glossary}
 
 80x86
     See {term}`i386`
-
-AA
-    Abbreviation for {term}`Archive Admin`
 
 AArch32
     See {term}`armhf`
 
 AArch64
     See {term}`arm64`
-
-ABI
-    Abbreviation for {term}`Application Binary Interface`
-
-    ```{warning}
-    Do not confuse with {term}`Application Programming Interface` ({term}`API`)!
-    ```
 
 amd64
     {term}`CPU` {term}`Architecture` identifier for the `AMD64` (also known
@@ -35,15 +26,10 @@ amd64
     See also: [X86-64 (Wikipedia)](https://en.wikipedia.org/wiki/X86-64)
 
 ANAIS
-    Abbreviation for {term}`Architecture Not Allowed In Source`
+Architecture Not Allowed In Source
+    *Work in Progress*
 
-API
-    Abbreviation for {term}`Application Programming Interface`
-
-    ```{warning}
-    Do not confuse with {term}`Application Binary Interface` ({term}`ABI`)!
-    ```
-
+ABI
 Application Binary Interface
     Defines how two binary applications interface each other, like calling
     conventions, data type sizes, and system call interfaces, ensuring
@@ -61,6 +47,7 @@ Application Binary Interface
     Do not confuse with {term}`Application Programming Interface` ({term}`API`)!
     ```
 
+API
 Application Programming Interface
     An **Application Programming Interface** (API), is a set of rules that
     allows different software applications to communicate with each other. It
@@ -79,11 +66,11 @@ Application Programming Interface
     ```
 
 APT
-    Abbreviation for **Advanced Packaging Tool**. This is a common package
-    manager used in Ubuntu.
+Advanced Packaging Tool
+    This is a common package manager used in Ubuntu.
     
     See also:
-    * [Advanced Packaging Tool (Ubuntu Server documentation)](https://documentation.ubuntu.com/server/how-to/software/package-management/)
+    * [Package management (Ubuntu Server documentation)](https://documentation.ubuntu.com/server/how-to/software/package-management/)
 
 Architecture
     Within the context of {term}`Ubuntu`, this refers to the system architecture
@@ -94,12 +81,7 @@ Architecture
     * [Supported architectures](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/architectures/)
     * [Computer Architecture (Wikipedia)](https://en.wikipedia.org/wiki/Computer_architecture)
 
-Architecture Not Allowed In Source
-    *Work in Progress*
-
-Archive
-    See {term}`Ubuntu Archive`
-
+AA
 Archive Admin
     An administrator that is responsible for maintenance tasks of the
     {term}`Ubuntu Package Archive <Ubuntu Archive>`, including processing of new
@@ -126,10 +108,8 @@ ARM
     See also:
     * [ARM architecture family (Wikipedia)](https://en.wikipedia.org/wiki/ARM_architecture_family)
 
-ARM Hard Float
-    See {term}`armhf`
-
 arm64
+ARMv8
     {term}`CPU` {term}`Architecture` identifier (also known as ARM64,
     {term}`ARMv8`, and {term}`AArch64`) for a 64-bit {term}`ARM` {term}`Architecture`
     variant.
@@ -138,18 +118,14 @@ arm64
     * [AArch64 (Wikipedia)](https://en.wikipedia.org/wiki/AArch64)
 
 armhf
+ARM Hard Float
+ARMv7
     {term}`CPU` {term}`Architecture` identifier (also known as ARM32,
     {term}`ARMv7`, {term}`AArch32`, and {term}`ARM Hard Float`) for a 32-bit
     {term}`ARM` {term}`Architecture` variant.
 
     See also:
     * [AArch64 (Wikipedia)](https://en.wikipedia.org/wiki/AArch64)
-
-ARMv7
-    See {term}`armhf`
-
-ARMv8
-    See {term}`arm64`
 
 autopkgtest
     {manpage}`autopkgtest(1)` is a software that interprets and executes tests
@@ -165,6 +141,7 @@ autopkgtest Cloud
     It is an implementation of the {term}`DEP-8` specification, enabling large-scale
     testing across a variety of architectures and environments.
 
+BZR
 Bazaar
     A distributed {term}`Version Control System` to collaborate on software
     development, developed by {term}`Canonical` and part of the {term}`GNU`
@@ -215,9 +192,6 @@ Breezy
     See also:
     * [Breezy (Launchpad)](https://launchpad.net/brz)
 
-BTS
-    Abbreviation for {term}`Bug Tracking System`
-
 Bug
     In software development a **bug** refers to unintended or unexpected
     behavior of a computer program or system that produce incorrect results, or
@@ -233,6 +207,7 @@ Bug
     See also:
     * [Software bug (Wikipedia)](https://en.wikipedia.org/wiki/Software_bug)
 
+BTS
 Bug Tracking System
     A platform used by software development teams to manage and monitor the
     progress of reported issues or {term}`Bugs <Bug>` within a software project.
@@ -248,9 +223,6 @@ Bug Tracking System
 
     See also:
     * [Bug tracking system (Wikipedia)](https://en.wikipedia.org/wiki/Bug_tracking_system)
-
-BZR
-    Abbreviation for {term}`Bazaar`
 
 Canonical
     **Canonical Ltd.** is a UK-based private company that is devoted to the
@@ -270,19 +242,19 @@ Canonical Discourse
     See also:
     * [Canonical Discourse](https://discourse.canonical.com)
 
-CD
-    Abbreviation for {term}`Continuous Delivery`.
-
 CD Mirror
     A {term}`Mirror` of the {term}`Ubuntu` [Image archive](https://cdimage.ubuntu.com/).
 
-    See the [complete list of officially recognized Ubuntu image archive mirrors](https://launchpad.net/ubuntu/+cdmirrors).
+    See also:
+    * [The complete list of officially recognized Ubuntu image archive mirrors](https://launchpad.net/ubuntu/+cdmirrors).
 
+CPU
 Central Processing Unit
     The main component of a computer, which is responsible for executing the
     instructions of a computer program, such as arithmetic, logic, and
     input/output (I/O) operations.
 
+CUE
 Certified Ubuntu Engineer
     Develop and certify your skills on the world's most popular {term}`Linux`
     {term}`OS`.
@@ -297,9 +269,7 @@ Changelog
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.4 Debian changelog (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#debian-changelog-debian-changelog)
 
-CI
-    Abbreviation for {term}`Continuous Integration`.
-
+CoF
 Circle of Friends
     The {term}`Ubuntu` logo is called **Circle of Friends**, because it is
     derived from a picture that shows three friends extending their arms,
@@ -318,24 +288,13 @@ Circle of Friends
     :alt: Old Ubuntu-Login background showing three people in a circle holding hands.
     ```
 
-CISC
-    Abbreviation for {term}`Complex Instruction Set Computer`.
-
-CLA
-    Abbreviation for {term}`Contributor Licence Agreement`.
-
-CLI
-    Abbreviation for {term}`Command Line Interface`.
-
 Closed Source Software
     *Work in Progress*
-
-CoC
-    Abbreviation for {term}`Code of Conduct`.
 
 Code name
     *Work in Progress*
 
+CoC
 Code of Conduct
     *Work in Progress*
 
@@ -344,15 +303,15 @@ Code of Conduct
 Code Review
     *Work in Progress*
 
-CoF
-    Abbreviation for {term}`Circle of Friends`.
-
+CLI
 Command Line Interface
     *Work in Progress*
 
+CVE
 Common Vulnerabilities and Exposures
     *Work in Progress*
 
+CISC
 Complex Instruction Set Computer
     A {term}`CPU` {term}`Architecture` featuring a rich and diverse set of
     instructions, often capable of performing complex operations in a single
@@ -384,16 +343,21 @@ Component
 
     See also: [Components (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/archive/#archivecomponents)
 
+CD
 Continuous Delivery
     *Work in Progress*
 
-    See also: [Continuous delivery (Wikipedia)](https://en.wikipedia.org/wiki/Continuous_delivery)
+    See also:
+    * [Continuous delivery (Wikipedia)](https://en.wikipedia.org/wiki/Continuous_delivery)
 
+CI
 Continuous Integration
     *Work in Progress*
 
-    See also: [Continuous integration (Wikipedia)](https://en.wikipedia.org/wiki/Continuous_integration)
+    See also:
+    * [Continuous integration (Wikipedia)](https://en.wikipedia.org/wiki/Continuous_integration)
 
+CLA
 Contributor Licence Agreement
     *Work in Progress*
 
@@ -409,6 +373,8 @@ Control File
 
 Coordinated Release Date
     The date at which the details of a {term}`CVE` are to be publicly disclosed.
+    
+    Disambiguation: The acronym CRD could also refer to {term}`Current Release in Development`
 
 Copyleft
     Licenses which implement copyleft grant certain freedoms to their works, under
@@ -428,17 +394,8 @@ Copyright File
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.5. Copyright (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#copyright-debian-copyright)
 
-CPU
-    Abbreviation for {term}`Central Processing Unit`.
-
-CRD
-    Abbreviation for {term}`Coordinated Release Date`.
-
 Cryptographic Signature
     *Work in Progress*
-
-CUE
-    Abbreviation for {term}`Certified Ubuntu Engineer`.
 
 Current Release in Development
     {term}`Ubuntu` follows a strict time-based release cycle. Every six months a
@@ -448,11 +405,9 @@ Current Release in Development
     for the next release at any given time. It is also often referred
     to as "devel".
 
+    Disambiguation: The acronym CRD could also refer to {term}`Coordinated Release Date`
     See also:
     * [Ubuntu Releases (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/releases/)
-
-CVE
-    Abbreviation for {term}`Common Vulnerabilities and Exposures`.
 
 Debian
     **Debian** is a widely-used community-driven
@@ -470,6 +425,7 @@ Debian
     See also:
     * [Official Debian website](https://www.debian.org/)
 
+DEP
 Debian Enhancement Proposal
     A Debian Enhancement Proposal ({term}`DEP`) is a formal document that outlines
     proposed changes, enhancements, or new processes within the
@@ -480,15 +436,13 @@ Debian Enhancement Proposal
     See also:
     * [Official DEP team page](https://dep-team.pages.debian.net/)
 
+DSA
 Debian System Administration
     *Work in Progress*
 
 debs
     `.deb` is the file extension of a {term}`Debian` {term}`Binary Package`.
     Such files are commonly referred to as "debs".
-
-DEP
-    Abbreviation for {term}`Debian Enhancement Proposal`.
 
 DEP-8
     {term}`DEP-8` is a specification from the {term}`Debian project <Debian>`
@@ -507,6 +461,7 @@ Detached Signature
 Devel
     Shorthand term for the {term}`Current Release in Development`.
 
+DMB
 Developer Membership Board
     *Work in Progress*
 
@@ -533,6 +488,7 @@ Discourse
     * [Discourse Project Homepage](https://www.discourse.org/)
 
 Distribution
+distro
     In general, a software **distribution** (also called a **distro**) is a set of
     software components that is distributed as a whole to users.
 
@@ -547,12 +503,7 @@ Distribution
     See also:
     * [Linux distribution (Wikipedia)](https://en.wikipedia.org/wiki/Linux_distribution)
 
-DMB
-    Abbreviation for {term}`Developer Membership Board`
-
 DNS
-    Abbreviation for {term}`Domain Name System`
-
 Domain Name System
     *Work in Progress*
 
@@ -562,9 +513,6 @@ Downstream
 
     See also:
     * [Downstream (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/upstream-and-downstream/#downstream)
-
-DSA
-    Abbreviation for {term}`Debian System Administration`.
 
 dsc
     `.dsc` is the file extension of a {term}`Debian` source control file.
@@ -590,9 +538,15 @@ End of Line
 
     \* for the character encoding `ASCII`
 
+EoSS
+End of Standard Support
+    *Work in Progress*
+
+EoS
 End of Support
     *Work in Progress*
 
+EULA
 End-user license agreement
     *Work in Progress*
 
@@ -607,39 +561,33 @@ Endianness
     * {term}`Big-Endian`
     * [Endianness (Wikipedia)](https://en.wikipedia.org/wiki/Endianness)
 
-EoL
-    Abbreviation for either {term}`End of Life` or {term}`End of Line`
-
-EoS
-    Abbreviation for {term}`End of Support`.
-
 ESM
-    Abbreviation for {term}`Expanded Security Maintenance`.
-
-EULA
-    Abbreviation for {term}`End-user license agreement`.
-
 Expanded Security Maintenance
     *Work in Progress*
     
     See also:
     * [Expanded Security Maintenance (homepage)](https://ubuntu.com/security/esm)
 
+FTBFS
 Failed to build from Source
     *Work in Progress*
 
+FTI
 Failed to install
     *Work in Progress*
 
+FFE
 Feature Freeze Exception
     *Work in Progress*
     
     See also:
     * [Freeze Exception Process](https://wiki.ubuntu.com/FreezeExceptionProcess)
 
+FR
 Feature Request
     *Work in Progress*
 
+FIPS
 Federal Information Processing Standards
     A set of standards and guidelines of the United States federal government
     developed by {term}`National Institute of Standards and Technology` ({term}`NIST`)
@@ -649,12 +597,6 @@ Federal Information Processing Standards
     See also:
     * [Federal Information Processing Standards (Wikipedia)](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards)
 
-FFE
-    Abbreviation for {term}`Feature Freeze Exception`.
-
-FIPS
-    Abbreviation for {term}`Federal Information Processing Standards`.
-
 Fork
     In the context of {term}`Open Source Software` development, a **fork** refers
     to the process of creating a new, independent version of a software project by
@@ -662,11 +604,6 @@ Fork
     goals, features, or contributors.
 
 FOSS
-    Abbreviation for {term}`Free and Open Source Software`.
-
-FR
-    Abbreviation for {term}`Feature Request`.
-
 Free and Open Source Software
     The term "Free and Open Source Software" encompasses both {term}`Free Software`
     and {term}`Open Source Software`. In short, free and open-source software not
@@ -697,18 +634,11 @@ Free Software
     * [Free software (Wikipedia)](https://en.wikipedia.org/wiki/Free_software)
     * [FSF Four Freedoms](https://static.fsf.org/nosvn/posters/handout-four-freedoms.pdf)
 
-FTBFS
-    Abbreviation for {term}`Failed to build from Source`.
-
-FTI
-    Abbreviation for {term}`Failed to install`.
-
 GA
-    Abbreviation for {term}`General Availability`.
-
 General Availability
     *Work in Progress*
 
+GPL
 General Public License
     The {term}`GNU` General Public Licenses (GPL) are a set of {term}`Free Software`
     licenses. They grant users the ability to use, study, modify, and distribute
@@ -741,9 +671,6 @@ GNU
     * [GNU (Wikipedia)](https://en.wikipedia.org/wiki/GNU)
     * [Official GNU website](https://www.gnu.org)
 
-GPL
-    Abbreviation for {term}`GNU` {term}`General Public License`.
-
 GUI
     Abbreviation for Graphical {term}`User Interface`.
 
@@ -761,18 +688,6 @@ IBM
     See also:
     * [IBM website](https://www.ibm.com/).
 
-IBM zSystems
-    *Work in Progress*
-
-IC
-    Abbreviation for {term}`Individual Contributor`.
-
-ICE
-    Abbreviation for {term}`Internal Compiler Error`.
-
-IEEE
-    Abbreviation for {term}`Institute of Electrical and Electronics Engineers`.
-
 Image
     Within the context of {term}`Ubuntu` development, an **Image** refers to an
     `.iso` file that contains a bootable Ubuntu installer that can be
@@ -782,9 +697,11 @@ Image
     * [releases.ubuntu.com](https://www.releases.ubuntu.com/)
     * [Optical disc image (Wikipedia)](https://en.wikipedia.org/wiki/Optical_disc_image)
 
+IC
 Individual Contributor
     *Work in Progress*
 
+IEEE
 Institute of Electrical and Electronics Engineers
     *Work in Progress*
     
@@ -797,26 +714,20 @@ Intel 64
 Intel x86
     See {term}`i386`
 
+ITP
 Intent to Package
     *Work in Progress* (see https://wiki.debian.org/ITP)
 
+ICE
 Internal Compiler Error
     *Work in Progress*
 
+IRC
 Internet Relay Chat
     Internet Relay Chat ({term}`IRC`)
 
-IRC
-    Abbreviation for {term}`Internet Relay Chat`
-
-IRCC
-    Abbreviation for {term}`Ubuntu IRC Council`
-
 ISO
     *Work in Progress*
-
-ITP
-    Abbreviation for {term}`Intent to Package`.
 
 Kernel
     *Work in Progress*
@@ -824,6 +735,7 @@ Kernel
 Keyring
     *Work in Progress*
 
+LP
 Launchpad
     The general development platform where {term}`Ubuntu` itself and most of
     Ubuntu related software projects live.
@@ -844,8 +756,12 @@ Linux
 LinuxONE
     *Work in Progress*
 
+LXC
 Linux Containers
-    See {term}`LXC`
+    *Work in Progress*
+
+    See also:
+    * [Official LXC documentation](https://linuxcontainers.org/lxc/introduction/)
 
 Little-Endian
     *Work in Progress*
@@ -853,20 +769,9 @@ Little-Endian
     See also:
     * {term}`Endianness`
 
+LTS
 Long Term Support
     *Work in Progress*
-
-LP
-    Abbreviation for {term}`Launchpad`.
-
-LTS
-    Abbreviation for {term}`Long Term Support`.
-
-LXC
-    {term}`Linux` Containers.
-    
-    See also:
-    * [Official LXC documentation](https://linuxcontainers.org/lxc/introduction/)
 
 LXD
     LXD is system container manager.
@@ -882,6 +787,7 @@ Main
     See also:
     * [Components](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/archive/#archivecomponents)
 
+MIR
 Main Inclusion Review
     The review process when a {term}`Package` in {term}`Universe` or {term}`Multiverse`
     gets requested to be promoted to {term}`Main` or {term}`Restricted`.
@@ -895,6 +801,7 @@ Mailing List
 Maintainer
     *Work in Progress*
 
+MOTU
 Masters of the Universe
     *Work in Progress*
 
@@ -904,15 +811,14 @@ Merge
 Merge Conflict
     *Work in Progress*
 
+MP
 Merge Proposal
     *Work in Progress*
 
+MRE
 Micro Release Exception
     See also:
     * [Micro Release Exception](https://wiki.ubuntu.com/StableReleaseUpdates/MicroReleaseExceptions)
-
-MIR
-    Abbreviation for {term}`Main Inclusion Review`.
 
 MIR Team
     The {term}`Ubuntu` team that reviews requests to promote {term}`Packages <Package>`
@@ -929,15 +835,6 @@ Mirror
     See also:
     * {term}`Archive Mirror`
     * {term}`CD Mirror`
-
-MOTU
-    Abbreviation for {term}`Masters of the Universe`.
-
-MP
-    Abbreviation for {term}`Merge Proposal`.
-
-MRE
-    Abbreviation for {term}`Micro Release Exception`.
 
 Multiverse
     A {term}`Component` of every {term}`Ubuntu`
@@ -965,6 +862,7 @@ Namespace
     numerous components and libraries need to coexist without clashing with
     each other's names.
 
+NIST
 National Institute of Standards and Technology
     *Work in Progress*
 
@@ -976,27 +874,19 @@ Native Package
     See also:
     * [Native Source Packages (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/package-model/#nativesourcepackages)
 
+NBS
 Not built from Source
     *Work in Progress*
 
-NBS
-    Abbreviation for {term}`Not built from Source`.
-
+NPOASR
 Never Part Of A Stable Release
     *Work in Progress*
 
-NIST
-    Abbreviation for {term}`National Institute of Standards and Technology`.
-
-NPOASR
-    Abbreviation for {term}`Never Part Of A Stable Release`.
-
 NVIU
-    Abbreviation for {term}`Newer Version in Unstable`.
-
 Newer Version in Unstable
     *Work in Progress*
 
+OSS
 Open Source Software
     Open source software is any software with a license that guarantees a certain
     set of rights to users of the software: the rights to use, study, modify, and
@@ -1009,6 +899,7 @@ Open Source Software
     See also:
     * [The Open Source Initiative's standard definition of Open Source](https://opensource.org/osd)
 
+OS
 Operating System
     An **operating system** (OS) is essential system software that manages computer
     hardware and software resources. It provides crucial services for computer
@@ -1031,12 +922,6 @@ orig tarball
     * {manpage}`dpkg-source(1)`
     * {term}`tarball`
 
-OS
-    Abbreviation for {term}`Operating System`.
-
-OSS
-    Abbreviation for {term}`Open Source Software`.
-
 Package
     *Work in Progress*
 
@@ -1055,18 +940,14 @@ Patch
     * [Patch (Wikipedia)](https://en.wikipedia.org/wiki/Patch_(computing))
 
 PCRE
-    Abbreviation for {term}`Perl Compatible Regular Expressions`
-
 Perl Compatible Regular Expressions
     *Work in Progress*
     
     See also: [PCRE (Reference Implementation)](https://www.pcre.org/)
 
+PPA
 Personal Package Archive
     *Work in Progress*
-
-PKCS
-    Abbreviation for {term}`Public Key Cryptography Standards`
 
 Pocket
     A **pocket** is a {term}`Package` sub-{term}`repository <Repository>` within
@@ -1091,15 +972,10 @@ POSIX
 PowerPC
     *Work in Progress*
 
-PPA
-    Abbreviation for {term}`Personal Package Archive`.
-
 ppc64el
     *Work in Progress* (PowerPC64 Little-Endian)
 
-PR
-    Abbreviation for {term}`Pull Request`.
-
+PKCS
 Public Key Cryptography Standards
     *Work in Progress*
 
@@ -1109,18 +985,21 @@ Public Key Cryptography Standards
 Pull
     *Work in Progress*
 
+PR
 Pull Request
     *Work in Progress*
 
 Push
     *Work in Progress*
 
+RTOS
 Real Time Operating System
     *Work in Progress*
 
 Rebase
     *Work in Progress*
 
+RISC
 Reduced Instruction Set Computer
     a {term}`CPU`  characterized by a simplified and streamlined
     set of instructions, optimized for efficient and fast execution of basic operations.
@@ -1133,8 +1012,6 @@ Reduced Instruction Set Computer
     * [Reduced instruction set computer (Wikipedia)](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
 
 RegEx
-    Abbreviation for {term}`Regular Expression`.
-
 Regular Expression
     A sequence of characters that specifies a text-matching pattern. String-search
     algorithms usually use these patterns for input validation or find (and replace)
@@ -1144,26 +1021,33 @@ Regular Expression
     theory, people usually think of {term}`Perl Compatible Regular Expressions` ({term}`PCRE`).
 
 Repository
+Repo
     *Work in Progress*
 
+RFC
 Request for Comments
     *Work in Progress*
 
     See also:
     * [Request for Comments (Wikipedia)](https://en.wikipedia.org/wiki/Request_for_Comments)
 
+RoM
 Request of Maintainer
     *Work in Progress*
 
+RoP
 Request of Porter
     *Work in Progress*
 
+RoQA
 Requested by the QA team
     *Work in Progress*
 
+RoST
 Request of Security Team
     *Work in Progress*
 
+RoSRM
 Request of Stable Release Manager
     *Work in Progress*
 
@@ -1175,38 +1059,14 @@ Restricted
     See also:
     * [Components](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/archive/#archivecomponents)
 
-RFC
-    Abbreviation for {term}`Request for Comments`.
-
-RISC
-    Abbreviation for {term}`Reduced Instruction Set Computer`.
-
 RISC-V
     *Work in Progress*
 
 riscv64
     *Work in Progress*
 
-RoM
-    Abbreviation for {term}`Request of Maintainer`.
-
 Root
     *Work in Progress*
-
-RoP
-    Abbreviation for {term}`Request of Porter`.
-
-RoQA
-    Abbreviation for {term}`Requested by the QA team`.
-
-RoSRM
-    Abbreviation for {term}`Request of Stable Release Manager`.
-
-RoST
-    Abbreviation for {term}`Request of Security Team`.
-
-RTOS
-    Abbreviation for {term}`Real Time Operating System`.
 
 Rules File
     The `debian/rules` file in a {term}`Source Package`.
@@ -1231,6 +1091,7 @@ Series
     See also:
     * [Series (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/archive/#archiveseries)
 
+SLA
 Service-level Agreement
     *Work in Progress*
 
@@ -1255,9 +1116,6 @@ Signature
 Signing Key
     *Work in Progress*
 
-SLA
-    Abbreviation for {term}`Service-level Agreement`.
-
 Source
     *Work in Progress*
 
@@ -1280,15 +1138,13 @@ Source Tree
 Sponsor
     *Work in Progress*
 
-SRU
-    Abbreviation for {term}`Stable Release Update`.
-
 SRU Verification Team
     *Work in Progress*
 
 Stable Release Managers
     *Work in Progress*
 
+SRU
 Stable Release Update
     *Work in Progress*
 
@@ -1336,14 +1192,10 @@ Text Encoding
     characters.
 
 TLS
-    Abbreviation for {term}`Transport Layer Security`.
-
-TPM
-    Abbreviation for {term}`Trusted Platform Module`.
-
 Transport Layer Security
     *Work in Progress*
 
+TPM
 Trusted Platform Module
     *Work in Progress*
 
@@ -1366,6 +1218,7 @@ Ubuntu
     * [Ubuntu Project Governance](https://ubuntu.com/community/governance)
 
 Ubuntu Archive
+Archive
     The **Ubuntu Package Archive** is an {term}`APT` {term}`Repository` that is
     pre-configured by default on Ubuntu installations. It hosts {term}`Debian`
     {term}`Binary Packages <Binary Package>` (`.deb` files) and
@@ -1387,6 +1240,7 @@ Ubuntu Base Packages
 
     See also: {term}`Main Inclusion Review`
 
+UCA
 Ubuntu Cloud Archive
     *Work in Progress* 
     
@@ -1399,6 +1253,7 @@ Ubuntu Code of Conduct
     See also: 
     * [Ubuntu Code of Conduct](https://ubuntu.com/community/ethos/code-of-conduct)
 
+UCT
 Ubuntu CVE Tracker
     *Work in Progress*
     
@@ -1416,6 +1271,7 @@ Ubuntu Delta
 Ubuntu Desktop
     *Work in Progress*
 
+UDS
 Ubuntu Developer Summit
     Between 2004 and 2012, Ubuntu releases were planned during regularly scheduled
     summits, where the wider Ubuntu community would come together for planning
@@ -1467,6 +1323,7 @@ Ubuntu flavors
     - [Ubuntu Unity](https://ubuntuunity.org/)
     - [Xubuntu](https://xubuntu.org/)
 
+IRCC
 Ubuntu IRC Council
     *Work in Progress*
 
@@ -1507,6 +1364,7 @@ Ubuntu Stable Release
     Ubuntu stable releases are officially-published versions of Ubuntu
     and their {term}`packages <Package>`.
 
+US
 Ubuntu Summit
     The *Ubuntu Summit* (US) is a continuation of the {term}`Ubuntu Developer Summit`
     since November 2022. The change in name aims to broaden the scope, which
@@ -1528,27 +1386,14 @@ Ubuntu Summit
 
     You can find more information at the [Ubuntu Summit page](https://ubuntu.com/summit).
 
-UCA
-    Abbreviation for {term}`Ubuntu Cloud Archive`.
-
-UCT
-    Abbreviation for {term}`Ubuntu CVE Tracker`.
-
-UDS
-    Abbreviation for {term}`Ubuntu Developer Summit`.
-
-UI
-    Abbreviation for {term}`User Interface`.
-
-UIFe
-    Abbreviation for {term}`User Interface Freeze Exception`.
-
+URI
 Uniform Resource Identifier
     *Work in Progress*
 
     See also:
     * [Uniform Resource Identifier (Wikipedia)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
 
+URL
 Uniform Resource Locator
     *Work in Progress*
 
@@ -1582,39 +1427,28 @@ Upstream
 
     See [Upstream (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/upstream-and-downstream/#upstream)
 
-URI
-    Abbreviation for {term}`Uniform Resource Identifier`.
-
-URL
-    Abbreviation for {term}`Uniform Resource Locator`.
-
-US
-    Abbreviation for {term}`Ubuntu Summit`.
-
+UX
 User Experience
     The overall experience and satisfaction a user has while interacting with
     a product or system. It considers usability, accessibility, user flow, and
     the emotional response of users to ensure a positive and efficient interaction
     with the {term}`User Interface` and the product as a whole.
 
+UI
 User Interface
     Refers to the visual elements and design of a digital product or application
     that users interact with. It includes components like buttons, menus, icons,
     and layout, focusing on how information is presented and how users navigate
     through the interface.
 
+UIFe
 User Interface Freeze Exception
     *Work in Progress*
 
     See also:
     * [Ubuntu development process](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/development-process/)
 
-UX
-    Abbreviation for {term}`User Experience`.
-
 VCS
-    Abbreviation for {term}`Version Control System`.
-
 Version Control System
     A software tool or system that enables developers to track and manage changes
     to their {term}`Source Code` and collaborate with others effectively. It maintains
@@ -1624,6 +1458,7 @@ Version Control System
     for Source Code management and collaboration in {term}`Open Source Software`
     development projects.
 
+WoU
 Waiting on Upstream
     *Work in Progress*
 
@@ -1636,9 +1471,6 @@ Watch File
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * {manpage}`uscan(1)`
     * [Section 4.11. Upstream source location (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#upstream-source-location-debian-watch)
-
-WoU
-    Abbreviation for {term}`Waiting on Upstream`.
 
 x64
     See {term}`amd64`
