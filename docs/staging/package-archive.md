@@ -71,7 +71,8 @@ Notifications of uploads are sent to a mailing list.  A different list is used f
  * [[http://lists.ubuntu.com/mailman/listinfo/precise-changes|12.04 (precise)]]
  * [[http://lists.ubuntu.com/mailman/listinfo/quantal-changes|12.10 (quantal)]]
 
-```note{admonition} Question
+```{admonition} Question
+:class: important
 Do we, in principle, want to keep this list? If so, we should consider trying
 to create it in a way that makes it better maintainable (otherwise it will get
 this out of date again).
@@ -363,13 +364,13 @@ The ports system [was announced here](https://lists.ubuntu.com/archives/ubuntu-a
 Installation media (for CDs, DVDs, USB drives, etc.) are built from the package
 archive, and published on different hosts as follows.
 
-### releases.ubuntu.com
+### `releases.ubuntu.com`
 
 [releases.ubuntu.com](http://releases.ubuntu.com/) hosts the most frequently
 downloaded images. It is [widely mirrored](https://launchpad.net/ubuntu/+cdmirrors).
 All images here are officially supported by the Ubuntu project.
 
-### cdimage.ubuntu.com
+### `cdimage.ubuntu.com`
 
 [cdimage.ubuntu.com](http://cdimage.ubuntu.com/) hosts less frequently
 downloaded images. It is not widely mirrored due to its very large size. Some
