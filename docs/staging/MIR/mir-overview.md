@@ -21,20 +21,10 @@ The process of reviewing packages before they can be promoted is the
 Add tocs on this page
 ```
 
-## The MIR documentation
+## Communication
 
-The guidelines and review process is constantly evolving. Even if you have
-submitted a package for Main Inclusion Review in the past, you should still
-re-read the MIR documentation.
-
-The MIR documentation is also a living document. External contributions,
-suggestions, discussions or questions about the process are always welcome. We
-would love to hear from you!
-
-To contribute, simply submit a pull request with your changes or create an
-issue as described in our {ref}`Contributing guide<contribute>`. Please
-also attend the weekly {ref}`MIR Team meeting <mir-team-meeting>` if you want
-to discuss your issue with the MIR Team.
+The MIR team holds a {ref}`mir-team-meeting` if you want to raise any issues or
+discuss your issue with the MIR Team.
 
 ## MIR process overview
 

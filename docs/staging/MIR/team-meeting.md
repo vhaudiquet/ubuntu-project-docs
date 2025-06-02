@@ -1,11 +1,10 @@
 (mir-team-meeting)=
 # MIR team weekly status meeting
 
-The MIR Team holds weekly meetings every Tuesday at
-<time datetime="T16:30+01:00">16:30 CET</time> on the {term}`IRC` server
-`irc.libera.chat` in the `#ubuntu-meeting` channel. You can follow
-[these instructions](https://libera.chat/guides/connect) on how to connect to
-`irc.libera.chat`.
+The MIR Team holds weekly meetings for 30 minutes every Tuesday at
+<time datetime="T16:30+01:00">16:30 CET</time> on the
+[Ubuntu Matrix Server](https://ubuntu.com/community/communications/matrix)
+in the [Ubuntu Meeting channel](https://matrix.to/#/#meeting:ubuntu.com).
 
 The purpose of the meeting is:
 
@@ -39,51 +38,49 @@ every week.
 If you're chairing the meeting, you can use the following template:
 
 ```
-#startmeeting Weekly Main Inclusion Requests status
+# Start of the Main inclusion request team meeting
+Welcome to the MIR Team's weekly meeting
+General rules and the process description can be found at https://github.com/canonical/ubuntu-mir
+Ping for MIR meeting members - @didrocks:matrix.org @joalif:matrix.org @seth-arnold:ubuntu.com @paelzer:ubuntu.com @mylesjp:matrix.org @pushkarnk:matrix.org ( @dviererbe:ubuntu.com @slyon:ubuntu.com )
 
-Ping for MIR meeting - didrocks joalif slyon sarnold cpaelzer mylesjp pushkarnk ( dviererbe )
+## Topic 1/7: Awareness of external agenda items
+### Mission: To be aware and potentially allocate the required time, poll if anyone attending has discussions that should be added to the agenda today.
+Please speak up if you have a topic to add
 
-# Awareness of external agenda items
-Mission: To be aware and potentially allocate the required time, poll if anyone attending has discussions that should be added to the agenda today.
+## Topic 2/7: Current component mismatches
+### Mission: Identify required actions and spread the load among the teams
+Check these generated reports:
+* [component-mismatches-proposed](https://people.canonical.com/~ubuntu-archive/component-mismatches-proposed.svg)
+* [component-mismatches](https://people.canonical.com/~ubuntu-archive/component-mismatches.svg)
 
-#topic current component mismatches
-Mission: Identify required actions and spread the load among the teams
+## Topic 3/7: New MIRs
+### Mission: ensure to assign all incoming reviews for fast processing
+Check this launchpad bug list:
+* [New MIRs](https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&assignee_option=none&field.assignee=&field.subscriber=ubuntu-mir)
 
-#link https://people.canonical.com/~ubuntu-archive/component-mismatches-proposed.svg
-#link https://people.canonical.com/~ubuntu-archive/component-mismatches.svg
+## Topic 4/7: Incomplete bugs / questions
+### Mission: Identify required actions and spread the load among the teams
+Check this launchpad bug list:
+* [Incomplete bugs](https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.subscriber=ubuntu-mir)
 
-#topic New MIRs
-Mission: ensure to assign all incoming reviews for fast processing
+## Topic 5/7: Process/Documentation improvements
+### Mission: Review pending process/documentation pull-requests or issues
+Check these GH based lists:
+* [PRs](https://github.com/canonical/ubuntu-mir/pulls)
+* [Issues](link https://github.com/canonical/ubuntu-mir/issues)
 
-#link https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=NEW&field.status%3Alist=CONFIRMED&assignee_option=none&field.assignee=&field.subscriber=ubuntu-mir
-
-#topic Incomplete bugs / questions
-Mission: Identify required actions and spread the load among the teams
-
-#link https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=INCOMPLETE_WITH_RESPONSE&field.status%3Alist=INCOMPLETE_WITHOUT_RESPONSE&field.subscriber=ubuntu-mir
-
-#topic Process/Documentation improvements
-Mission: Review pending process/documentation pull-requests or issues
-
-#link https://github.com/canonical/ubuntu-mir/pulls
-#link https://github.com/canonical/ubuntu-mir/issues
-
-#topic MIR related Security Review Queue
-Mission: Check on progress, do deadlines seem doable?
-
+## Topic 6/7: MIR related Security Review Queue
+### Mission: Check on progress, do deadlines seem doable?
+* ensure your teams items are prioritized among each other as you'd expect
+* ensure community requests do not get stomped by teams calling for favors too much
 Some clients can only work with one, some with the other escaping - the URLs point to the same place.
-#link https://bugs.launchpad.net/~ubuntu-security/+bugs?field.searchtext=%5BMIR%5D&assignee_option=choose&field.assignee=ubuntu-security&field.bug_reporter=&field.bug_commenter=&field.subscriber=ubuntu-mir&orderby=-date_last_updated&start=0
-#link https://bugs.launchpad.net/~ubuntu-security/+bugs?field.searchtext=[MIR]&assignee_option=choose&field.assignee=ubuntu-security&field.bug_reporter=&field.bug_commenter=&field.subscriber=ubuntu-mir&orderby=-date_last_updated&start=0
+* [Security assigned MIR in launchpad](https://bugs.launchpad.net/~ubuntu-security/+bugs?field.searchtext=%5BMIR%5D&assignee_option=choose&field.assignee=ubuntu-security&field.bug_reporter=&field.bug_commenter=&field.subscriber=ubuntu-mir)
+* [(internal) kanban board](https://warthogs.atlassian.net/jira/software/c/projects/SEC/boards/594)
 
-Internal link
-- ensure your teams items are prioritized among each other as you'd expect
-- ensure community requests do not get stomped by teams calling for favors too much
-#link https://warthogs.atlassian.net/jira/software/c/projects/SEC/boards/594
+## Topic 7/7: Any other business?
+### Mission: catch-all chance for anything missed or not covered by the usual agenda items.
+Please also report if you have nothing, so we know that no one has fallen asleep :-P
 
-#topic Any other business?
-Mission: catch-all chance for anything missed or not covered by the usual agenda items.
-
-#endmeeting
+# End of the Main inclusion request team meeting
 ```
-
 
