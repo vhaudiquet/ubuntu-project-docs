@@ -1,8 +1,7 @@
-(mir-review-a-bug)=
-# How to review an MIR bug
+(mir-reviewers-template)=
+# MIR reviewer's template
 
-This section is a guideline for the review by the
-[MIR team](https://launchpad.net/~ubuntu-mir).
+This section is a guideline for the review by the **reviewer**.
 
 Usage follows {ref}`mir-templates-and-rules`.
 

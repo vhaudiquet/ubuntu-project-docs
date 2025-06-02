@@ -48,11 +48,10 @@ This section just collects all the documentation pages together for ease of
 reference-- this is not the final format.
 ```
 
-* {ref}`mir-requirements`
+* {ref}`mir-bug-filing-process`
 * {ref}`mir-templates-and-rules`
-* {ref}`mir-file-a-bug`
-* {ref}`mir-review-a-bug`
-
+* {ref}`mir-reporters-template`
+* {ref}`mir-reviewers-template`
 
 
 ## MIR special cases
