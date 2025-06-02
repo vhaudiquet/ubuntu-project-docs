@@ -53,8 +53,6 @@ reference-- this is not the final format.
 * {ref}`mir-review-a-bug`
 * {ref}`mir-slo`
 
-* {ref}`mir-helpers`
-
 * {ref}`mir-exceptions`
   * {ref}`mir-exceptions-oem`
 
