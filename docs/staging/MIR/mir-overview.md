@@ -15,6 +15,12 @@ reviews packages for promotion:
 The process of reviewing packages before they can be promoted is the
 **Main Inclusion Review (MIR)** process.
 
+```{admonition} TODO
+:class: important
+
+Add tocs on this page
+```
+
 ## The MIR documentation
 
 The guidelines and review process is constantly evolving. Even if you have
@@ -53,9 +59,12 @@ reference-- this is not the final format.
 * {ref}`mir-review-a-bug`
 * {ref}`mir-slo`
 
-* {ref}`mir-exceptions`
-  * {ref}`mir-exceptions-oem`
 
+## MIR exceptions and special cases
+
+* {ref}`mir-exceptions-fonts`
+* {ref}`mir-exceptions-oem`
+* {ref}`mir-exceptions-rereview`
 * {ref}`mir-rust`
 
 
