@@ -21,11 +21,6 @@ The process of reviewing packages before they can be promoted is the
 Add tocs on this page
 ```
 
-## Communication
-
-The MIR team holds a {ref}`mir-team-meeting` if you want to raise any issues or
-discuss your issue with the MIR Team.
-
 ## MIR process overview
 
 * {ref}`mir-process-states`
@@ -35,6 +30,14 @@ discuss your issue with the MIR Team.
 
 Add the simplified overview of the MIR state machine diagram here
 ```
+
+## Communication
+
+The MIR team holds a {ref}`mir-team-meeting` where you can raise issues or
+discuss your case with the team.
+
+The {ref}`Service Level Objectives <mir-slo>` page details what you can and
+should expect from the reviewers.
 
 ## MIR documentation
 
@@ -47,7 +50,7 @@ reference-- this is not the final format.
 * {ref}`mir-templates-and-rules`
 * {ref}`mir-file-a-bug`
 * {ref}`mir-review-a-bug`
-* {ref}`mir-slo`
+
 
 
 ## MIR exceptions and special cases
