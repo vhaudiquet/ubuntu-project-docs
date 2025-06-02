@@ -20,10 +20,10 @@ packages, please see the
 
 To make use of Ubuntu merge proposals, follow these steps:
 
-* [[http://packaging.ubuntu.com/html/getting-set-up.html|set up the tools]]
-* [[http://packaging.ubuntu.com/html/udd-intro.html|get the source]]
-* [[http://packaging.ubuntu.com/html/fixing-a-bug.html#work-on-a-fix|work on the package]]
-* [[DistributedDevelopment/Documentation/SeekingSponsorship|seek sponsorship]]
+* [set up the tools](http://packaging.ubuntu.com/html/getting-set-up.html)
+* [get the source](http://packaging.ubuntu.com/html/udd-intro.html)
+* [work on the package](http://packaging.ubuntu.com/html/fixing-a-bug.html#work-on-a-fix)
+* [seek sponsorship](https://wiki.ubuntu.com/DistributedDevelopment/Documentation/SeekingSponsorship)
 
 ```{admonition} Incorrect redirects
 :class: important

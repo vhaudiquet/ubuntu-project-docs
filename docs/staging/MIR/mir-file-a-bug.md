@@ -8,7 +8,7 @@ team member (for an extra review).
 The MIR bug **reporter** is expected to:
 
 1. Thoroughly go through TODO/RULE entries in
-   {ref}`Ubuntu Main Inclusion RULEs and TODOs <main-inclusion-requirements>`,
+   {ref}`Ubuntu Main Inclusion RULEs and TODOs <mir-requirements>`,
    check that the package meets all the points there.
    If the package has non-trivial problems, it is not eligible for main
    inclusion, and needs to be fixed first.
@@ -20,7 +20,7 @@ The MIR bug **reporter** is expected to:
 1. File a bug report about the package, titled "`[MIR] sourcepackagename`".
 
    1. Use the template from
-      {ref}`Ubuntu Main Inclusion RULEs and TODOs <main-inclusion-requirements>`.
+      {ref}`Ubuntu Main Inclusion RULEs and TODOs <mir-requirements>`.
 
    1. For each rule include a positive or negative statement as confirmation
       that you checked each requirement carefully.

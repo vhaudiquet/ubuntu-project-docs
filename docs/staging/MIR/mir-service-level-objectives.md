@@ -17,7 +17,7 @@ quality, warnings and the many other things we check for, you can help increase
 efficiency. So please take all the statements we ask for seriously and try to
 fulfill them.
 
-### MIR review SLO
+## MIR review SLO
 
 While we aim for more when possible, our goal is to assign (in the weekly meeting)
 one review per active MIR member per week, to come back with the result before
@@ -39,7 +39,7 @@ requester to look for alternative solutions.
 
 Please consider this in your estimations when you plan a contribution.
 
-### Security review SLO
+## Security review SLO
 
 Security team MIRs are laborious and require lead time. Make MIR requests as
 early in a release cycle as possible, ideally well before Feature Freeze. For

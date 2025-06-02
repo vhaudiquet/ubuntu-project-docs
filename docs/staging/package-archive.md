@@ -64,12 +64,12 @@ archive.
 
 Notifications of uploads are sent to a mailing list.  A different list is used for each Ubuntu release:
 
- * [[http://lists.ubuntu.com/mailman/listinfo/hardy-changes/|8.04 (hardy)]]
- * [[http://lists.ubuntu.com/mailman/listinfo/lucid-changes|10.04 (lucid)]] 
- * [[http://lists.ubuntu.com/mailman/listinfo/natty-changes|11.04 (natty)]] 
- * [[http://lists.ubuntu.com/mailman/listinfo/oneiric-changes|11.10 (oneiric)]]
- * [[http://lists.ubuntu.com/mailman/listinfo/precise-changes|12.04 (precise)]]
- * [[http://lists.ubuntu.com/mailman/listinfo/quantal-changes|12.10 (quantal)]]
+* [8.04 (hardy)](http://lists.ubuntu.com/mailman/listinfo/hardy-changes/)
+* [10.04 (lucid)](http://lists.ubuntu.com/mailman/listinfo/lucid-changes)
+* [11.04 (natty)](http://lists.ubuntu.com/mailman/listinfo/natty-changes)
+* [11.10 (oneiric)](http://lists.ubuntu.com/mailman/listinfo/oneiric-changes)
+* [12.04 (precise)](http://lists.ubuntu.com/mailman/listinfo/precise-changes)
+* [12.10 (quantal)](http://lists.ubuntu.com/mailman/listinfo/quantal-changes)
 
 ```{admonition} Question
 :class: important
@@ -78,7 +78,7 @@ to create it in a way that makes it better maintainable (otherwise it will get
 this out of date again).
 ```
 
-Changelogs for all packages are available at
+You can find changelogs for all packages at
 http://changelogs.ubuntu.com/changelogs/ (this is the source used by
 `update-manager` and Synaptic).
 
@@ -122,8 +122,8 @@ To request a backport, follow the
 The archive is periodically checked for various inconsistencies, such as
 incorrect dependency relationships between packages.
 
-* https://ubuntu-archive-team.ubuntu.com/proposed-migration/questing_uninst.txt
-  -- packages which are uninstallable due to unsatisfiable dependencies.
+* [Packages that are uninstallable](https://ubuntu-archive-team.ubuntu.com/proposed-migration/questing_uninst.txt)
+  -- due to dependencies that cannot be satisfied.
 * [Ubuntu Development/NBS](https://wiki.ubuntu.com/UbuntuDevelopment/NBS) -
   binary packages that are no longer built by any source package.
   These packages are not automatically removed from the archive, since
@@ -294,10 +294,10 @@ issue new releases or updates out of sync with official Ubuntu releases.
 
 * `armel` (official from Ubuntu 9.10 to Ubuntu 11.10; [discontinued as of Ubuntu 13.04](https://lists.ubuntu.com/archives/ubuntu-devel/2012-November/036106.html))
 
-* `hppa` ([HPPAPortStatus](https://wiki.ubuntu.com/HPPAPortStatus), https://launchpad.net/~ubuntu-hppa)
+* `hppa` ([HPPA Port Status](https://wiki.ubuntu.com/HPPAPortStatus), https://launchpad.net/~ubuntu-hppa)
   ([discontinued as of Ubuntu 9.10](https://lists.ubuntu.com/archives/ubuntu-devel-announce/2009-May/000571.html))
 
-* `ia64` ([IA64PortStatus](https://wiki.ubuntu.com/IA64PortStatus), https://launchpad.net/~ubuntu-ia64)
+* `ia64` ([IA64 Port Status](https://wiki.ubuntu.com/IA64PortStatus), https://launchpad.net/~ubuntu-ia64)
   ([discontinued as of Ubuntu 10.10](https://lists.ubuntu.com/archives/technical-board/2010-August/000441.html))
 
 * `lpia` ([discontinued as of Ubuntu 10.04](https://lists.ubuntu.com/archives/ubuntu-devel-announce/2009-November/000643.html))
@@ -331,11 +331,11 @@ designate as primary those architectures which have very high download rates.
 
 * `armhf` (from Ubuntu 12.04)
 
-* `hppa` ([HPPAPortStatus](https://wiki.ubuntu.com/HPPAPortStatus),
+* `hppa` ([HPPA Port Status](https://wiki.ubuntu.com/HPPAPortStatus),
   https://launchpad.net/~ubuntu-hppa)
   ([discontinued as of Ubuntu 9.10](https://lists.ubuntu.com/archives/ubuntu-devel-announce/2009-May/000571.html))
 
-* `ia64` ([IA64PortStatus](https://wiki.ubuntu.com/IA64PortStatus),
+* `ia64` ([IA64 Port Status](https://wiki.ubuntu.com/IA64PortStatus),
   https://launchpad.net/~ubuntu-ia64)
   ([discontinued as of Ubuntu 10.10](https://lists.ubuntu.com/archives/technical-board/2010-August/000441.html))
 
@@ -372,7 +372,7 @@ All images here are officially supported by the Ubuntu project.
 
 ### `cdimage.ubuntu.com`
 
-[cdimage.ubuntu.com](http://cdimage.ubuntu.com/) hosts less frequently
+[`cdimage.ubuntu.com`](http://cdimage.ubuntu.com/) hosts less frequently
 downloaded images. It is not widely mirrored due to its very large size. Some
 images here are officially supported by the Ubuntu project and some are not; if
 an image is on `cdimage.ubuntu.com`, it simply means that it won't fit on
