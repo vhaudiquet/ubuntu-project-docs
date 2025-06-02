@@ -1,5 +1,5 @@
-(mir-requirements)=
-# Main Inclusion requirements
+(mir-reporters-template)=
+# MIR reporter's template
 
 Use this template for the MIR bug report that you will file.
 
