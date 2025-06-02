@@ -21,6 +21,7 @@ This is the subject of a
 [discussion with the Technical Board](https://lists.ubuntu.com/archives/technical-board/2020-January/002478.html).
 See [OEM Archive](https://wiki.ubuntu.com/OEMArchive) for further details.
 
+
 ## Process
 
 If packages meet the subscriber, naming and content requirements defined below,
@@ -45,6 +46,7 @@ debdiff against a reference package in the Ubuntu archive. If any of the
 differences are not covered in this document or trivially understandable, go
 back to the uploader.
 
+
 ## Subscriber
 
 As the packages are going to be in main, they need to have an "owning" team
@@ -52,9 +54,11 @@ that is subscribed to the bugs for the package in Launchpad. The team
 [~canonical-mainstream](https://launchpad.net/~canonical-mainstream) must be
 subscribed to the package before it is promoted.
 
+
 ## Naming
 
 The source and binary packages must follow the form `oem-<product name>-meta`.
+
 
 ## Content
 
@@ -125,6 +129,7 @@ so that the package is auditable. It must use `dh-modalias` to fill in the
 end up in `XB-Modaliases` and represents the hardware set that this metapackage
 is designed to work with.
 
+
 ## Known modaliases matching patterns
 
 More information about modaliases in OEM meta packages.
@@ -163,6 +168,7 @@ Matching types:
   - OEM platform using this matching type
     - Lenovo
 ```
+
 
 ## Known issue
 
