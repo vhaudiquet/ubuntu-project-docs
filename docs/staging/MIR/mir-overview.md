@@ -53,7 +53,7 @@ reference-- this is not the final format.
 
 
 
-## MIR exceptions and special cases
+## MIR special cases
 
 * {ref}`mir-exceptions-fonts`
 * {ref}`mir-exceptions-oem`
