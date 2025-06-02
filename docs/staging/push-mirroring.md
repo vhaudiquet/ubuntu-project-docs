@@ -63,7 +63,7 @@ Canonical will be originating from the IP address: `91.189.88.154` and
 releases - so please ensure that your firewalls allow this.
 
 For authenticity; these keys are signed by
-[Haw Loeung](https://launchpad.net/~hloeung) with the key ID `0xD10ACEB3227B53FC`.
+[`Haw Loeung`](https://launchpad.net/~hloeung) with the key ID `0xD10ACEB3227B53FC`.
 
 If you are not being pushed by Canonical, please contact the mirror
 administrator of the mirror you're being pushed from for their keys and be sure

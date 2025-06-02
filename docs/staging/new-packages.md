@@ -38,7 +38,7 @@ that meet the requirements of the
 to be requested within Debian's
 [Work-Needing and Prospective Packages](http://www.debian.org/devel/wnpp/)
 (WNPP) process by filing a Request for Package (RFP) bug on the WNPP package in
-Debian's bugtracker.
+Debian's bug tracker.
 
 If you file a `needs-packaging` bug, please link it to the Debian WNPP bug as
 well.
