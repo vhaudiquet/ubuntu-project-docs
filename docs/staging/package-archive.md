@@ -335,7 +335,7 @@ designate as primary those architectures which have very high download rates.
   https://launchpad.net/~ubuntu-hppa)
   ([discontinued as of Ubuntu 9.10](https://lists.ubuntu.com/archives/ubuntu-devel-announce/2009-May/000571.html))
 
-* `ia64` ([IA64PortStatus](https://wiki.ubuntu.com/IA64PortStatus),
+* `ia64` ([IA64 Port Status](https://wiki.ubuntu.com/IA64PortStatus),
   https://launchpad.net/~ubuntu-ia64)
   ([discontinued as of Ubuntu 10.10](https://lists.ubuntu.com/archives/technical-board/2010-August/000441.html))
 
