@@ -17,7 +17,7 @@ manage-chroots
 
 ## Main Inclusion Review
 
-The {ref}`Main Inclusion Review (MIR) <mir-overview>` process uses templates to
+The {ref}`Main Inclusion Review (MIR) <main-inclusion-review>` process uses templates to
 ensure that both **reporters** and **reviewers** can successfully handle `main`
 inclusion requests. This page provides instructions on how to use the templates.
 
