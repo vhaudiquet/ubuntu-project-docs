@@ -26,8 +26,8 @@ Add `toctrees` on this page
 
 * {ref}`mir-process-states`
 
-```{admonition} To do
-:class: note
+```{admonition} TODO
+:class: important
 
 Add the simplified overview of the MIR state machine diagram here
 ```
