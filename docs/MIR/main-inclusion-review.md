@@ -1,3 +1,4 @@
+(main-inclusion-review)=
 # Main Inclusion Review (MIR) process
 
 Packages in Ubuntu `main` (and `restricted`) are officially
@@ -26,8 +27,8 @@ Add `toctrees` on this page
 
 * {ref}`mir-process-states`
 
-```{admonition} To do
-:class: note
+```{admonition} TODO
+:class: important
 
 Add the simplified overview of the MIR state machine diagram here
 ```
@@ -55,6 +56,16 @@ reference-- this is not the final format.
 
 
 ## MIR special cases
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+../../MIR/mir-exceptions-fonts
+../../MIR/mir-exceptions-oem
+../../MIR/mir-exceptions-rereview
+../../MIR/mir-rust
+```
 
 * {ref}`mir-exceptions-fonts`
 * {ref}`mir-exceptions-oem`
