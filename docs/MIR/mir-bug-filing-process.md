@@ -7,6 +7,9 @@ team member (for an extra review).
 
 The MIR bug **reporter** is expected to:
 
+(mir-step-1)=
+## We make you think
+
 1. Thoroughly go through TODO/RULE entries in
    {ref}`Ubuntu Main Inclusion RULEs and TODOs <mir-reporters-template>`,
    check that the package meets all the points there.
@@ -30,6 +33,9 @@ The MIR bug **reporter** is expected to:
 1. Subscribe `ubuntu-mir` to the bug report (keep it in state "NEW" and do not
    assign it to anyone!), so that it appears in the
    [MIR bug list](https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=NEW&assignee_option=none&field.assignee=&field.subscriber=ubuntu-mir).
+
+(mir-step-2)=
+## Review(s)
 
 1. The [MIR team](https://launchpad.net/~ubuntu-mir) reviews the reports, and
    sets acceptable ones to *In Progress* or *Fix Committed*. They might also
@@ -57,6 +63,9 @@ The MIR bug **reporter** is expected to:
       
       Common examples are "please add an automated test" or "this needs the new
       version".
+
+(mir-step-3)=
+## Resolve issues
 
 1. The **submitter** should then take responsibility for adding the package to
    the seeds as per {ref}`seed-management` or adding a dependency to it from

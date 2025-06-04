@@ -1,13 +1,14 @@
 (main-inclusion-review)=
-# Main Inclusion Review (MIR) process
+# Main Inclusion Review (MIR)
 
 Packages in Ubuntu `main` (and `restricted`) are officially
 maintained, supported and recommended by the Ubuntu project.
 {term}`Canonical` provides security updates, standard support services, and
-certain SLA guarantees for these packages.
+certain Service Level Agreement (SLA) guarantees for these packages.
 
 Therefore, special consideration is necessary before adding new packages
-to `main` or `restricted`. The [Ubuntu MIR team](https://launchpad.net/~ubuntu-mir)
+to `main` or `restricted`. The
+[Ubuntu MIR team](https://launchpad.net/~ubuntu-mir)
 reviews packages for promotion:
 
 * from {term}`universe` to {term}`main`.
@@ -16,22 +17,35 @@ reviews packages for promotion:
 The process of reviewing packages before they can be promoted is the
 **Main Inclusion Review (MIR)** process.
 
-```{admonition} TODO
-:class: important
-
-Add `toctrees` on this page
-```
-
 
 ## MIR process overview
 
+
+
+
+::::{card-carousel} 3
+
+:::{card}
+:img-background: images/mir-step-1-think.png
+:link: mir-step-1
+:link-type: ref
+:::
+
+:::{card}
+:img-background: images/mir-step-2-review.png
+:link: mir-step-2
+:link-type: ref
+:::
+
+:::{card}
+:img-background: images/mir-step-3-resolve.png
+:link: mir-step-3
+:link-type: ref
+:::
+::::
+
 * {ref}`mir-process-states`
 
-```{admonition} TODO
-:class: important
-
-Add the simplified overview of the MIR state machine diagram here
-```
 
 ## Communication
 
