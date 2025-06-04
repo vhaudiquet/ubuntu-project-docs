@@ -1,15 +1,15 @@
 (mir-reviewers-template)=
 # MIR reviewer's template
 
-This section is a guideline for the review by the **reviewer**.
+This section is a guideline the **reviewer**. The intent is to answer the
+primary question:
 
-Usage follows {ref}`mir-templates-and-rules`.
-
-The intent is to answer the primary decision:
 *Will this package be well maintained in main?*
 
-By default, statements are in the *OK* section. Issues that need to be addressed
-should go to the *Problem:* sections (and briefly the summary at the top).
+Usage follows {ref}`mir-templates-and-rules`.
+* By default, statements are in the **OK** section.
+* Issues to be addressed should go to the **Problem:** sections (and briefly
+  the **[Summary]** at the top of the template).
 
 ```
 RULE: Since we sometimes have many such posts on one bug, in case multiple
