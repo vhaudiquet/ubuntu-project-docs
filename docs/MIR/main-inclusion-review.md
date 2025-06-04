@@ -15,14 +15,14 @@ reviews packages for promotion:
 * from {term}`multiverse` to {term}`restricted`.
 
 Reviewing packages before they can be promoted is the **Main Inclusion Review
-(MIR)** process.
+(MIR)** process. The purpose of the MIR process is to avoid mistakes that have
+caused issues in the past. 
 
 
 ## MIR process overview
 
-The purpose of the MIR process is to avoid mistakes that have caused issues in
-the past. If we reduce the process to its simplest components, it can be
-described in only three steps.
+If we reduce the process to its simplest components, it can be described in
+only three steps.
 
 First, the process makes the **reporter** think about the package or packages
 they want to own. Then, the **reviewer** checks what is submitted and either
