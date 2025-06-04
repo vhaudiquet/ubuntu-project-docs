@@ -84,8 +84,8 @@ filling out the template as straightforward as possible.
 
 ## MIR special cases
 
-There are some special cases where an MIR review is either not needed or there
-are particular requirements.
+Some packages have reasons not to follow the standard MIR process. This section
+provides details on these special cases and exceptions.
 
 * {ref}`mir-exceptions-fonts`
 * {ref}`mir-exceptions-oem`
