@@ -18,7 +18,7 @@ plus-one-maintenance
 :maxdepth: 1
 
 ../../MIR/main-inclusion-review
-../../MIR/mir-bug-filing-process.md
+../../MIR/mir-request-process.md
 ../../MIR/mir-service-level-objectives.md
 MIR font package exception <../../MIR/mir-exceptions-fonts>
 MIR OEM exception <../../MIR/mir-exceptions-oem>
