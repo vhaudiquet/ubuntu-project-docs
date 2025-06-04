@@ -84,15 +84,8 @@ filling out the template as straightforward as possible.
 
 ## MIR special cases
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-
-../../MIR/mir-exceptions-fonts
-../../MIR/mir-exceptions-oem
-../../MIR/mir-exceptions-rereview
-../../MIR/mir-rust
-```
+There are some special cases where an MIR review is either not needed or there
+are particular requirements.
 
 * {ref}`mir-exceptions-fonts`
 * {ref}`mir-exceptions-oem`
