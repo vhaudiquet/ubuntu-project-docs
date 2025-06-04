@@ -64,17 +64,22 @@ The {ref}`Service Level Objectives <mir-slo>` page details what you can and
 should expect from the reviewers.
 
 
-## MIR documentation
+## File an MIR bug
 
-```{note}
-This section just collects all the documentation pages together for ease of
-reference-- this is not the final format.
-```
+The MIR process uses templates for both those submitting a request (reporters)
+and those reviewing requests (reviewers). To make the process as smooth as
+possible, which benefits everyone, we ask that you
+{ref}`familiarise yourself with the process <mir-bug-filing-process>` before
+filing a request.
 
-* {ref}`mir-bug-filing-process`
-* {ref}`mir-templates-and-rules`
-* {ref}`mir-reporters-template`
-* {ref}`mir-reviewers-template`
+* **Reporters**: to file a request, use the {ref}`mir-reporters-template`.
+
+* **Reviewers**: to review a request, use the {ref}`mir-reviewers-template`.
+
+Whether you are a reporter or a reviewer, new to the MIR process or a seasoned
+veteran, we have also prepared additional guidance on
+{ref}`how to use the templates <mir-templates-and-rules>` to make the task of
+filling out the template as straightforward as possible.
 
 
 ## MIR special cases

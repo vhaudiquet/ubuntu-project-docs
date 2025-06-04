@@ -1,5 +1,5 @@
 (mir-bug-filing-process)=
-# How to file an MIR bug
+# The MIR bug filing process
 
 The steps of the MIR process require a **reporter** (the one who wants a package
 promoted) an MIR team member (who does the review) and potentially a Security
