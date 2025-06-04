@@ -14,14 +14,20 @@ reviews packages for promotion:
 * from {term}`universe` to {term}`main`.
 * from {term}`multiverse` to {term}`restricted`.
 
-The process of reviewing packages before they can be promoted is the
-**Main Inclusion Review (MIR)** process.
+Reviewing packages before they can be promoted is the **Main Inclusion Review
+(MIR)** process.
 
 
 ## MIR process overview
 
+The purpose of the MIR process is to avoid mistakes that have caused issues in
+the past. If we reduce the process to its simplest components, it can be
+described in only three steps.
 
-
+First, the process makes the **reporter** think about the package or packages
+they want to own. Then, the **reviewer** checks what is submitted and either
+approves or raises issues. Finally, any such issues are resolved, and then the
+process is complete. 
 
 ::::{card-carousel} 3
 
@@ -44,7 +50,9 @@ The process of reviewing packages before they can be promoted is the
 :::
 ::::
 
-* {ref}`mir-process-states`
+In reality, things are often more complex than that! We use Launchpad (and the
+states of bugs in Launchpad) to track the progress of any main inclusion request
+as shown in our more detailed {ref}`mir-process-states` breakdown.
 
 
 ## Communication
