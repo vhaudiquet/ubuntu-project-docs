@@ -123,7 +123,7 @@ list, or if the dependency is only in proposed, the
 [`component-mismatches-proposed`](https://ubuntu-archive-team.ubuntu.com/component-mismatches-proposed.txt)
 list.
 
-## Finalise
+## Finalize
 
 At this point, **Archive Admins** will review the `component-mismatches`
 output, and for each package waiting to move into main, look for a

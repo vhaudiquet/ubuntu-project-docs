@@ -69,7 +69,7 @@ should expect from the reviewers.
 The MIR process uses templates for both those submitting a request (reporters)
 and those reviewing requests (reviewers). To make the process as smooth as
 possible, which benefits everyone, we ask that you
-{ref}`familiarise yourself with the process <mir-request-process>` before
+{ref}`familiarize yourself with the process <mir-request-process>` before
 filing a request.
 
 * **Reporters**: to file a request, use the {ref}`mir-reporters-template`.
