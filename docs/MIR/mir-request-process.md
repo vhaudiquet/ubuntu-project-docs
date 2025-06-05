@@ -116,17 +116,20 @@ version".
 ## Resolve issues
 
 If the bug is set to `Incomplete`, the **reporter** needs to resolve the issues
-and complete any tasks that are still outstanding. The reviewer then checks that
-the issues are indeed fully resolved, and set the bug state to `Fix Committed`.
+and complete any tasks that are still outstanding. The MIR team checks updates
+on any `Incomplete` bugs and thereby receives the **reporter**'s statement on
+which issues have been handled. The **reviewer** checks and confirms -- once
+the issues are indeed fully resolved, sets the bug state accordingly to move on
+with the process.
 
 Now, the **reporter** takes responsibility for adding the package to the seeds
 as per {ref}`seed-management`, or adding a dependency to it from another
 package that already is in main.
 
 The package will not be moved to main automatically, but will show up in the
-[`component-mismatches`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.txt)
+[`component-mismatches`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.svg)
 list, or if the dependency is only in proposed, the
-[`component-mismatches-proposed`](https://ubuntu-archive-team.ubuntu.com/component-mismatches-proposed.txt)
+[`component-mismatches-proposed`](https://ubuntu-archive-team.ubuntu.com/component-mismatches-proposed.svg)
 list.
 
 ## Finalize
@@ -137,7 +140,7 @@ output, and for each package waiting to move into main, look for a
 
 The **Archive Admins** will promote approved packages to main if some other
 package or the seeds want it (see
-[`component-mismatches` output](https://ubuntu-archive-team.ubuntu.com/component-mismatches.txt))
+[`component-mismatches` output](https://ubuntu-archive-team.ubuntu.com/component-mismatches.svg))
 **and** the package in question has an owning team subscribed to it.
 
 ## Additional notes
