@@ -27,8 +27,8 @@ only three steps.
 
 First, the process makes the **reporter** think about the package or packages
 they want to own. Then, the **reviewer** checks what is submitted and either
-approves or raises issues. Finally, any such issues are resolved, and then the
-process is complete. 
+approves or raises issues. Finally, any such issues are resolved by the
+**reporter**, and then the process is complete and the package can be promoted. 
 
 ::::{card-carousel} 3
 
