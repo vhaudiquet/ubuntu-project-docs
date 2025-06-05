@@ -1,8 +1,9 @@
 (mir-templates-and-rules)=
 # How to use MIR templates
 
-Whether reporting or reviewing, the templates are used in the same way. Only
-the templates themselves are different.
+As part of {term}`the MIR process <main-inclusion-review>`, the templates are
+used in the same way whether you are reporting or reviewing. Only the templates
+themselves are different.
 
 * The **reporter** uses the {ref}`mir-reporters-template`.
 * The **reviewer** uses the {ref}`mir-reviewers-template`.
