@@ -1,5 +1,5 @@
 (mir-request-process)=
-# The MIR request process
+# MIR roles and steps
 
 Getting a package promoted to `main` or `restricted` through the MIR process
 generally follows this set of steps, where the progress of the bug is
@@ -19,8 +19,8 @@ participation follows the same order as the steps of the MIR process itself.
 1. **Security reviewer** (`mir-security-reviewer`) for packages where an
    additional security review is needed.
 
-1. **Archive Admin** (`archive-admin`) who promotes the package between
-   components after the reviews are completed.
+1. **Archive Admin** (`archive-admin`) who promotes the package after the
+   reviews are completed.
 
 
 (mir-step-1)=
@@ -48,33 +48,35 @@ be fixed first. In that case, the reporter should:
 
 File a bug report about the package, titled "`[MIR] sourcepackagename`".
 
-* **Each rule** should include a positive or negative statement as confirmation
-  that each requirement was checked carefully.
+* **Answering each TODO** should include a positive or negative statement as
+  confirmation that each requirement was checked carefully.
 
 * **Rule violations** should have an explanation to justify why it should be OK
   for this case.
 
-Subscribe `ubuntu-mir` to the bug report. Keep it in state "NEW" and do not
-assign it to anyone: this ensures that it appears in the
+Subscribe [`ubuntu-mir`]((https://launchpad.net/~ubuntu-mir)) to the bug report.
+Keep it in state "NEW" and do not assign it to anyone: this ensures that it
+appears in the
 [MIR bug list](https://bugs.launchpad.net/ubuntu/?field.searchtext=&orderby=-date_last_updated&field.status%3Alist=NEW&assignee_option=none&field.assignee=&field.subscriber=ubuntu-mir).
 
 
 (mir-step-2)=
 ## Reviewers review the bug
 
-The MIR bug report is reviewed *first* by the
-[MIR team](https://launchpad.net/~ubuntu-mir) **reviewer**, and then if
-necessary, also by the **security reviewer**. Reviewers use the
+The MIR bug report is reviewed *first* by the MIR team **reviewer**, and then
+if necessary, also by the **security reviewer**. Reviewers use the
 {ref}`mir-reviewers-template`.
 
 
 ### MIR team review
 
-The MIR team **reviewer** reviews the bug report and, if it's acceptable, sets
-the bug status to either `In Progress` or `Fix Committed`.
+The MIR team **reviewer** reviews the bug report.
 
 They might delegate portions of the review to other teams, (e.g. the security
 team) by assigning it to them.
+
+The outcome of the review is either an acknowledgement, or a set of tasks that
+still need to be completed.
 
 
 ### Security review
@@ -113,9 +115,13 @@ version".
 (mir-step-3)=
 ## Resolve issues
 
-Once all necessary tasks are complete, the **reporter** takes responsibility
-for adding the package to the seeds as per {ref}`seed-management`, or adding a
-dependency to it from another package that already is in main.
+If the bug is set to `Incomplete`, the **reporter** needs to resolve the issues
+and complete any tasks that are still outstanding. The reviewer then checks that
+the issues are indeed fully resolved, and set the bug state to `Fix Committed`.
+
+Now, the **reporter** takes responsibility for adding the package to the seeds
+as per {ref}`seed-management`, or adding a dependency to it from another
+package that already is in main.
 
 The package will not be moved to main automatically, but will show up in the
 [`component-mismatches`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.txt)
