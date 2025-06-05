@@ -1,5 +1,5 @@
 (mir-templates-and-rules)=
-# How to use the templates
+# How to use MIR templates
 
 Whether reporting or reviewing, the templates are used in the same way. Only
 the templates themselves are different.
