@@ -1,11 +1,15 @@
 (mir-reporters-template)=
 # MIR reporter's template
 
-Use this template for the MIR bug report that you will file.
+This section is a guideline for the **reporter** as they are
+{ref}`filing an MIR bug <mir-step-1>`. The intent is to:
 
-Usage follows {ref}`mir-templates-and-rules`.
+* Make the future owning team think about common issues
 
-The package must fulfill the following requirements.
+* Provide the detail needed by the **reviewer** to decide:
+  *Can this package be well maintained in `main`?* 
+
+Usage follows {ref}`mir-how-to-use-templates`.
 
 ```
 [Availability]
@@ -424,7 +428,7 @@ RULE:     that over time more common libs shall become stable and then archive
 RULE:     packages will be used to build).
 RULE:   - The tooling to get a Cargo.lock that will include internal vendored
 RULE:     dependencies is described at:
-RULE:     https://github.com/canonical/ubuntu-mir/blob/main/vendoring/Rust.md
+RULE:     https://github.com/ubuntu/ubuntu-project-docs/blob/main/docs/MIR/mir-rust.md
 RULE:   - An example of how Rust dependency vendoring can be automated is
 RULE:     "s390-tools", isolating crates in a .orig-vendor.tar.xz tarball:
 RULE:     * https://git.launchpad.net/ubuntu/+source/s390-tools/tree/debian/rules

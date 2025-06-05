@@ -1,5 +1,4 @@
 (mir-slo)=
-
 # MIR Service Level Objectives
 
 Reviews take time, scaling up with the complexity of the case. Sadly it is

@@ -1,5 +1,5 @@
 (mir-rust)=
-# Rust code in main
+# MIR - Rust code in main
 
 Due to the current state of the Rust ecosystem, the MIR rules state that
 packages in main that contain Rust code should vendor their Rust dependencies
