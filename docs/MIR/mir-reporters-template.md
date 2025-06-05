@@ -9,7 +9,7 @@ This section is a guideline for the **reporter** as they are
 * Provide the detail needed by the **reviewer** to decide:
   *Can this package be well maintained in `main`?* 
 
-Usage follows {ref}`mir-templates-and-rules`.
+Usage follows {ref}`mir-how-to-use-templates`.
 
 ```
 [Availability]

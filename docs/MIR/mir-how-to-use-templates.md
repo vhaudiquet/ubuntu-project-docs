@@ -1,4 +1,4 @@
-(mir-templates-and-rules)=
+(mir-how-to-use-templates)=
 # How to use MIR templates
 
 As part of {ref}`the MIR process <main-inclusion-review>`, the templates are

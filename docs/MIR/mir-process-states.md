@@ -1,5 +1,4 @@
 (mir-process-states)=
-
 # Process states
 
 This overview aims to clarify the meaning of MIR bug states, address previous 

@@ -23,6 +23,6 @@ in `main`.
 :maxdepth: 1
 :hidden:
 
-How to use MIR templates <../../MIR/mir-templates-and-rules.md>
+How to use MIR templates <../../MIR/mir-how-to-use-templates>
 ```
 

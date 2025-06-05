@@ -70,7 +70,7 @@ should expect from the reviewers.
 The MIR process uses templates for both those submitting a request (reporters)
 and those reviewing requests (reviewers). To make the process as smooth as
 possible, which benefits everyone, we ask that you
-{ref}`familiarize yourself with the process <mir-request-process>` before
+{ref}`familiarize yourself with the process <mir-roles-and-steps>` before
 filing a request.
 
 * **Reporters**: to file a request, use the {ref}`mir-reporters-template`.
@@ -79,7 +79,7 @@ filing a request.
 
 Whether you are a reporter or a reviewer, new to the MIR process or a seasoned
 veteran, we have also prepared additional guidance on
-{ref}`how to use the templates <mir-templates-and-rules>` to make the task of
+{ref}`how to use the templates <mir-how-to-use-templates>` to make the task of
 filling out the template as straightforward as possible.
 
 
@@ -98,7 +98,7 @@ provides details on these and exceptions.
 Sometimes cases are special and do not follow the normal procedures, those are
 outlined here.
 
-* {ref}`mir-exceptions-rereview`
+* {ref}`mir-rereview`
 * {ref}`mir-rust`
 
 

@@ -1,4 +1,4 @@
-(mir-request-process)=
+(mir-roles-and-steps)=
 # MIR roles and steps
 
 Getting a package promoted to `main` or `restricted` through the MIR process
@@ -33,7 +33,7 @@ the {ref}`mir-reporters-template`. The reporter is initially expected to:
 ### Process the template
 
 Process the template and check that the package meets all the criteria there.
-The {ref}`mir-templates-and-rules` page can provide guidance.
+The {ref}`mir-how-to-use-templates` page can provide guidance.
 
 While processing the template, if it turns out that the package has non-trivial
 problems, it is not yet eligible for main inclusion, and those problems need to

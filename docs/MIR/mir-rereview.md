@@ -1,4 +1,4 @@
-(mir-exceptions-rereview)=
+(mir-rereview)=
 # MIR - re-reviews
 
 Historically, if something was in main once, there was no re-evaluation done
