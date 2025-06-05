@@ -12,3 +12,16 @@ debug-an-apport-bug
 use-deb-patches
 dual-maintain-with-salsa-and-git-ubuntu
 ```
+
+## Main Inclusion Review
+
+The {ref}`Main Inclusion Review (MIR) <main-inclusion-review>` process ensures
+that both **reporters** and **reviewers** can successfully handle `main`
+inclusion requests.
+
+```{toctree}
+:maxdepth: 1
+
+How to use MIR templates <../../MIR/mir-templates-and-rules.md>
+```
+
