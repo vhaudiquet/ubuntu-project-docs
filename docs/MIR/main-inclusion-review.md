@@ -16,7 +16,8 @@ reviews packages for promotion:
 
 Reviewing packages before they can be promoted is the **Main Inclusion Review
 (MIR)** process. The purpose of the MIR process is to avoid mistakes that have
-caused issues in the past. 
+caused issues in the past and ensure the long-term maintainability of the
+packages in the Package Archive. 
 
 
 ## MIR process overview
