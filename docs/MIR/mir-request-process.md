@@ -132,23 +132,14 @@ list, or if the dependency is only in proposed, the
 [`component-mismatches-proposed`](https://ubuntu-archive-team.ubuntu.com/component-mismatches-proposed.svg)
 list.
 
-## Finalize
-
-At this point, **Archive Admins** will review the `component-mismatches`
-output, and for each package waiting to move into main, look for a
-[corresponding bug](https://bugs.launchpad.net/~ubuntu-mir/+subscribedbugs).
-
-The **Archive Admins** will promote approved packages to main if some other
-package or the seeds want it (see
-[`component-mismatches` output](https://ubuntu-archive-team.ubuntu.com/component-mismatches.svg))
-**and** the package in question has an owning team subscribed to it.
+At this point, **Archive Admins** will promote approved packages to `main`.
 
 ## Additional notes
 
 * MIR bugs should always be named for SOURCE packages, not binary packages.
 
 * New binary packages from existing source packages, where the source package
-  is already in main, do not require MIR bugs.
+  is already in main, do not require **new** MIR bugs.
 
 * If a new source package contains *only* code which is already in main (e.g.
   a source package split or rename, or source packages with a version in the
