@@ -86,10 +86,18 @@ filling out the template as straightforward as possible.
 ## MIR special cases
 
 Some packages have reasons not to follow the standard MIR process. This section
-provides details on these special cases and exceptions.
+provides details on these and exceptions.
+
+### Exceptions
 
 * {ref}`mir-exceptions-fonts`
 * {ref}`mir-exceptions-oem`
+
+### Deviations from the norm
+
+Sometimes cases are special and do not follow the normal procedures, those are
+outlined here.
+
 * {ref}`mir-exceptions-rereview`
 * {ref}`mir-rust`
 

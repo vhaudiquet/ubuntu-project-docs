@@ -1,5 +1,5 @@
 (mir-exceptions-rereview)=
-# Re-review exceptions
+# MIR - re-reviews
 
 Historically, if something was in main once, there was no re-evaluation done
 later unless teams asked for it based on huge changes. Doing regular

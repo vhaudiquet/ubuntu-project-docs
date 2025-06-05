@@ -1,5 +1,5 @@
 (mir-exceptions-fonts)=
-# Font package exceptions
+# MIR exception - font packages
 
 Given that fonts are just data, there's no way for them to trip any of the
 problems that would cause us to not want to support them. Therefore not all of
