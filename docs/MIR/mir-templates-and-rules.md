@@ -36,30 +36,22 @@ complete content for each report/review.
 
 ### For reporter and reviewer
 
-1. For each line marked with `TODO`, adapt the line to provide the correct
-   answer matching the package(s) that you request:
+1. For each line marked with `TODO`:
 
-   * **Remove a line**
+   * **Fill**: In some lines you can replace placeholders '`TBD`' and '`TBDSRC`' with
+     whatever matches your request.
 
-     This can be done if it does not apply to your case, e.g. if you do not have
-     "additional reasons" to state
+   * **Choose**: In some lines you need to select from mutually exclusive options. For
+     example, "link to CVE" or "no security issues in the past". Leave only
+     those statements that apply to your case, and remove any others.
 
-   * **Replace placeholders**
+     For clarity, such options are marked like *`TODO-A`:, `TODO-B`:, ...*.
+     Of those, *usually* only one option remains in the final content.
 
-     * In some lines you can replace placeholders '`TBD`' and '`TBDSRC`' with
-       whatever matches your request.
+   * **Remove** the `TODO` prefix when you are sure you have answered a statement.
 
-     * In some lines you need to select from mutually exclusive options. For
-       example, "link to CVE" or "no security issues in the past". Leave only
-       those statements that apply to your case, and remove any others.
-
-       For clarity, such options are marked like *`TODO-A`:, `TODO-B`:, ...*.
-       Of those, *usually* only one option remains in the final content.
-
-1. **Remove** the `TODO` prefix when you are sure you have answered a statement.
-
-1. **Remove** the lines starting with RULE after you have fully processed that
-   section.
+1. Lines starting with RULE can be removed entirely after you have fully
+   processed that section.
 
 
 ### For reviewers only
@@ -70,7 +62,7 @@ an `OK:` section.
 Any time a violation is found, the statement is moved to the `Problems:` area
 and flagged with what is missing/expected.
       
-If there are `Problems:`, just leave the alternative `Problems: None`
+If there are no `Problems:`, just leave the alternative `Problems: None`
 for posting the review.
 
 
