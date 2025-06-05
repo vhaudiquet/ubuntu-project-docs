@@ -1,7 +1,7 @@
 (mir-templates-and-rules)=
 # How to use MIR templates
 
-As part of {term}`the MIR process <main-inclusion-review>`, the templates are
+As part of {ref}`the MIR process <main-inclusion-review>`, the templates are
 used in the same way whether you are reporting or reviewing. Only the templates
 themselves are different.
 
