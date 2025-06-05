@@ -22,16 +22,6 @@ others (e.g. right after a new release) when it is quieter. Consequently,
 response times to MIR requests are (on average) usually faster in those quieter
 periods after the release of a new Ubuntu version.
 
-## Meeting structure
-
-In such quiet phases the leader of the meeting can pre-check the links we
-usually check together, and skip steps of the agenda quoting that a
-pre-check has not shown anything worth discussing.
-
-From there we can then go rather directly to *Any other business?*
-which serves as a catch all for all attendees. By that we can make the
-meeting more efficient in those times, instead of filing a monologue-log
-every week.
 
 ## Meeting template
 
