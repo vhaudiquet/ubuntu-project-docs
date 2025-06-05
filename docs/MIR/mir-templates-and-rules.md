@@ -66,20 +66,15 @@ If there are no `Problems:`, just leave the alternative `Problems: None`
 for posting the review.
 
 
-## Update the MIR Bug
-
-Eventually all you will have left are the categories `Availability`,
-`Rationale`, etc. These will be populated with your answers in the format
-that the MIR process expects.
-
-You can, and are encouraged to, always add more details/background that make
-the case clearer and more comprehensible.
-
+## Open/update the MIR Bug
 
 ### The reporter
 
 As a **reporter**, you can now file the MIR bug, with your processed template
 as the bug description.
+
+You can, and are encouraged to, always add more details/background that make
+the case clearer and more comprehensible.
 
 In case of a single context/reasoning, but multiple packages to promote, please
 make a Launchpad bug for each package. One central package may be chosen to
