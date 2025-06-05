@@ -87,5 +87,4 @@ as an example.
 
 ### The reviewer
 
-As a **reviewer**, you should review and add a comment to the bug that contains
-the review.
+As a **reviewer**, you shall add your review as a comment on the MIR bug.
