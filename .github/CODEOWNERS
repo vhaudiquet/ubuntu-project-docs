@@ -4,8 +4,11 @@
 # pull request, unless a later match takes precedence.
 * @s-makin @rkratky
 
-# MIR team PR approvals required their docs:
-# - The team owns everything under any MIR/ directory anywhere in the repo
-# - Team's ack is required for changes to the CODEOWNERS file
+# MIR team PR approvals
+# - TAs not required for MIR content approvals
+MIR/
+# - MIR team owns all MIR docs anywhere in the repo
 MIR/ @slyon @setharnold @joalif @didrocks @cpaelzer
-/.github/CODEOWNERS @slyon @setharnold @joalif @didrocks @cpaelzer
+
+# TAs' & special teams' ack required for changes to the CODEOWNERS file
+/.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer
