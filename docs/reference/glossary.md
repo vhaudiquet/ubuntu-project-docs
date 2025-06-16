@@ -7,7 +7,7 @@ like to help, please visit our {ref}`contributions page <contribute>` for
 details on how to get involved.
 
 
-```{glossary}
+:::{glossary}
 
 80x86
     See {term}`i386`
@@ -807,6 +807,15 @@ Micro-Release Exception
 
     See: TODO: New upstream microreleases (SRU Documentation)
 
+Makefile
+    A Makefile declares a set of tasks to be automatically executed. Makefiles are
+    most commonly used to describe how a program is compiled, installed, cleaned,
+    and uninstalled. The actions the Makefile performs in order to achieve these
+    tasks consist of {term}`Shell` commands.
+
+    See also:
+    * [GNU Make Documentation](https://www.gnu.org/software/make/manual/make.html#Introduction)
+
 MIR
 Main Inclusion Review
     The review process when a {term}`Package` in {term}`Universe` or {term}`Multiverse`
@@ -1504,4 +1513,4 @@ x86-64
 x86_64
     See {term}`amd64`
 
-```
+:::
