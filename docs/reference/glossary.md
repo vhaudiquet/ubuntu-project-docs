@@ -800,7 +800,7 @@ Main
 
 Micro-Release Exception
     In some cases, when {term}`upstream` fixes {term}`bugs <Bug>`, they do a new
-    "micro-release" instead of sending {term}`patches <Patch>`. If all
+    "microrelease" instead of sending {term}`patches <Patch>`. If all
     of the changes are appropriate for an {term}`SRU`, then it is acceptable
     (and usually easier) to upload the complete new upstream microrelease
     instead of backporting the individual patches.
