@@ -182,7 +182,7 @@ getting approval may take some time.
 ## Further reading
 
 * Always check if there is an {term}`Intent to Package (ITP) <ITP>`
-  [bug filed against the WNPP package](http://bugs.debian.org/wnpp) in Debian.
+  [bug filed against the WNPP package](https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=wnpp;dist=unstable) in Debian.
   That means, somebody is already working on packaging the software for Debian.
   Join forces with them rather than reinventing the wheel.
 
