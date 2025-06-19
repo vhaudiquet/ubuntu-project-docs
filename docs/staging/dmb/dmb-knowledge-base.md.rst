@@ -20,10 +20,7 @@ appropriate for us to deliberate in public, or for others to contact us
 in public. For these matters, we use the `private
 developer-membership-board
 list <https://lists.ubuntu.com/mailman/listinfo/developer-membership-board>`__
-and the private IRC channel (#ubuntu-dmb on Libera) as appropriate. Use
-of the private IRC channel is discouraged except around the time of our
-public meetings, or when a private chat is specifically arranged, to
-avoid DMB members not online from missing out.
+and the private Matrix room (by invite only) as appropriate.
 
 .. _conducting_meetings:
 
@@ -517,7 +514,7 @@ Checklist after a DMB election
          membership and then send welcome email
       -  (self-subscribe) `devel-permissions@lists.ubuntu.com
          membership <https://lists.ubuntu.com/mailman/listinfo/devel-permissions>`__
-      -  Private IRC channel access
+      -  Private Matrix room access
       -  List of DMB member IRC nicknames in ubottu's !dmb-ping
 
 ``    * Can be requested by typing: !no dmb-ping is ``\ \ ``: DMB ping.``
