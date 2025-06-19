@@ -85,14 +85,14 @@ ogp_site_name = project
 
 # Preview image URL
 #
-# TODO: To customise the preview image, update as needed.
+# TODO: To customize the preview image, update as needed.
 
 ogp_image = "https://assets.ubuntu.com/v1/253da317-image-document-ubuntudocs.svg"
 
 
 # Product favicon; shown in bookmarks, browser tabs, etc.
 
-# TODO: To customise the favicon, uncomment and update as needed.
+# TODO: To customize the favicon, uncomment and update as needed.
 
 # html_favicon = '.sphinx/_static/favicon.png'
 
@@ -266,7 +266,6 @@ exclude_patterns = []
 
 rst_epilog = """
 .. include:: /reuse/links.txt
-.. include:: /reuse/substitutions.txt
 """
 
 # Feedback button at the top; enabled by default
@@ -343,6 +342,7 @@ intersphinx_mapping = {
         "https://canonical-starter-pack.readthedocs-hosted.com/latest/",
         None,
     ),
+    "sru": ("https://canonical-sru-docs.readthedocs-hosted.com/en/latest", None),
 }
 
 

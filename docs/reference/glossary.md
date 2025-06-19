@@ -503,13 +503,6 @@ distro
     See also:
     * [Linux distribution (Wikipedia)](https://en.wikipedia.org/wiki/Linux_distribution)
 
-DMB
-Developer Membership Board
-    *Work in Progress*
-
-    See also:
-    * [Developer Membership Board (Ubuntu Wiki)](https://wiki.ubuntu.com/DeveloperMembershipBoard)
-
 DNS
 Domain Name System
     *Work in Progress*
