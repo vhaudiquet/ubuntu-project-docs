@@ -13,7 +13,6 @@ Usage follows {ref}`mir-how-to-use-templates`.
 
 ```{code-block} text
 :linenos:
-:lineanchors: reporttemplate
 
 [Availability]
 TODO: The package TBDSRC is already in Ubuntu universe.

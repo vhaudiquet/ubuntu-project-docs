@@ -16,7 +16,6 @@ Usage follows {ref}`mir-how-to-use-templates`.
 
 ```{code-block} text
 :linenos:
-:lineanchors: reporttemplate
 
 RULE: Since we sometimes have many such posts on one bug, in case multiple
 RULE: packages are associated, clearly state which one this is for.
