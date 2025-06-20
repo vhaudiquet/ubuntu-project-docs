@@ -4,12 +4,10 @@
 :maxdepth: 2
 :hidden: true
 
-tutorial/index
-how-to/index
-reference/index
-explanation/index
-
-Contribute documentation <how-to/contribute-docs.md>
+How Ubuntu is made <how-ubuntu-is-made/index>
+Contributors <contributors/index>
+Maintainers <maintainers/index>
+Who makes Ubuntu <who-makes-ubuntu/index>
 ```
 
 ```{toctree}
@@ -18,6 +16,7 @@ Contribute documentation <how-to/contribute-docs.md>
 
 Staging/preview area <staging.md>
 ```
+
 
 ```{admonition} **Work in progress**
 :class: important
@@ -57,64 +56,67 @@ that govern them.
 
 ## In this documentation
 
-````{grid} 1 1 2 2
+::::{grid} 1 1 2 2
 
-```{grid-item-card} [Tutorial](tutorial/index)
-:link: tutorial/index
+:::{grid-item-card} [How Ubuntu is made](how-ubuntu-is-made/index)
+:link: how-ubuntu-is-made/index
 :link-type: doc
 
-**Get started** contributing to Ubuntu
+Everything you need to understand what Ubuntu is and how it's made
 
-* Build and upload:
-  * a deb package
-  * a Snap
-  * a container image
-* Work on documentation
-```
+* Project Governance
+* Mission, CoC, diversity policy
+* Peers (Debian and Canonical)
+* Key concepts
+* Process overviews
+:::
 
-```{grid-item-card} [How-to guides](how-to/index)
-:link: how-to/index
+:::{grid-item-card} [Contributors](contributors/index)
+:link: contributors/index
 :link-type: doc
 
-**Step-by-step guides** for key tasks, use-cases and problems
+Guides to help you build and contribute to Ubuntu
 
-These guides assume basic familiarity with Ubuntu and its processes
-```
+* Fix bugs
+* Find a sponsor for your upload
+* Update a package version
+* Templates and checklists
+* Contribute documentation
+:::
+::::
 
-````
 
-````{grid} 1 1 2 2
+::::{grid} 1 1 2 2
 :reverse:
 
-```{grid-item-card} [Reference](reference/index)
-:link: reference/index
+:::{grid-item-card} [Maintainers](maintainers/index)
+:link: maintainers/index
 :link-type: doc
 
-**Technical information** about:
-* APIs
-* Commands
-* Internals and architecture
-* Specifications
-```
+Guides for tasks that require elevated permissions
 
-```{grid-item-card} [Explanation](explanation/index)
-:link: explanation/index
+* Review an MIR or SRU
+* Sponsor an upload
+* Archive management
+* Manage a release
+* Process checklists
+:::
+
+:::{grid-item-card} [Who makes Ubuntu](who-makes-ubuntu/index)
+:link: who-makes-ubuntu/index
 :link-type: doc
 
-**Explanation** of key topics and concepts
+About the people of Ubuntu, their roles, and their responsibilities
 
-These discussions provide clarification, background information and context
-```
+* Councils and Boards
+* Delegation
+* Roles (uploader, core-dev etc)
+* Joining a role (contributor pathways)
+* Community
+:::
+::::
 
-````
-
-- Governance: Community Council | Technical Board | Delegation and Teams |
-  Canonical | Debian
-- Community: Communication | Membership | Code of Conduct | Diversity | Mission
-- Process: Main Inclusion Review | Stable Release Updates | Sponsorship |
-  Releases
-- Development: Packaging Guide | Developer Guide | Archive Administration |
-  git-ubuntu
+---------
 
 ## Project and community
 
@@ -126,7 +128,7 @@ suggestions, fixes, and constructive feedback.
 * [Discuss on the Ubuntu Discourse forum](https://discourse.ubuntu.com/)
 * Get support in our Matrix channel
 
-## Related documentation
+## Using Ubuntu
 
 - Ubuntu Server documentation
 - Ubuntu Desktop documentation
