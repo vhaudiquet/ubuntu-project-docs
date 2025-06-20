@@ -11,7 +11,10 @@ This section is a guideline for the **reporter** as they are
 
 Usage follows {ref}`mir-how-to-use-templates`.
 
-```
+```{code-block} text
+:linenos:
+:lineanchors: reporttemplate
+
 [Availability]
 TODO: The package TBDSRC is already in Ubuntu universe.
 TODO: The package TBDSRC build for the architectures it is designed to work on.
