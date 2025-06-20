@@ -488,21 +488,18 @@ to pass.
 DMB Restaffing
 ==============
 
-.. _running_a_dmb_election:
+.. _how_dmb_members_are_appointed:
 
-Running a DMB election
-----------------------
+How DMB members are appointed
+-----------------------------
 
-Election documentation, including DMB specifics, has moved to a
-dedicated repository
-`here <https://code.launchpad.net/~ubuntu-dev/+git/election-tools>`__.
 See
-`README.DMB <https://git.launchpad.net/~ubuntu-dev/+git/election-tools/tree/README.DMB>`__.
+https://canonical-ubuntu-governance-docs.readthedocs-hosted.com/en/latest/policy/dmb-selection-process/
 
-.. _checklist_after_a_dmb_election:
+.. _checklist_after_new_dmb_appointments:
 
-Checklist after a DMB election
-------------------------------
+Checklist after new DMB appointments
+------------------------------------
 
 -  Update:
 
