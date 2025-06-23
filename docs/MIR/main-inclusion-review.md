@@ -90,16 +90,24 @@ provides details on these and exceptions.
 
 ### Exceptions
 
-* {ref}`mir-exceptions-fonts`
-* {ref}`mir-exceptions-oem`
+```{toctree}
+:maxdepth: 1
+
+mir-exceptions-fonts
+mir-exceptions-oem
+```
 
 ### Deviations from the norm
 
 Sometimes cases are special and do not follow the normal procedures, those are
 outlined here.
 
-* {ref}`mir-rereview`
-* {ref}`mir-rust`
+```{toctree}
+:maxdepth: 1
+
+mir-rereview
+mir-rust
+```
 
 
 
