@@ -17,5 +17,4 @@ processes/*
 :maxdepth: 1
 
 ../MIR/main-inclusion-review
-../MIR/mir-roles-and-steps
 ```
