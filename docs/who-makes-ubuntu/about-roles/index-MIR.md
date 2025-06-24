@@ -13,8 +13,13 @@ To find out more about the Main Inclusion Review process, see the
 
 ## Communication
 
-The MIR team holds a {ref}`mir-team-meeting` where you can raise issues or
-discuss your case with the team.
+Preferably join and participate in the weekly {ref}`mir-team-meeting`
+where you can raise issues or discuss your case with the team.
+
+At other times, but with no guarantee that a majority of the team will
+be available, you might join and ask in the
+[Ubuntu Main inclusion requests](https://matrix.to/#/#ubuntu-mir:ubuntu.com)
+channel.
 
 ## Service Level Objectives
 
