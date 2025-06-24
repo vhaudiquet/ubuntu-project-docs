@@ -4,7 +4,7 @@
 The MIR Team holds weekly meetings for 30 minutes every Tuesday at
 <time datetime="T16:30+01:00">16:30 CET</time> on the
 [Ubuntu Matrix Server](https://ubuntu.com/community/communications/matrix)
-in the [Ubuntu Meeting channel](https://matrix.to/#/#meeting:ubuntu.com).
+in the [Ubuntu Main inclusion requests](https://matrix.to/#/#ubuntu-mir:ubuntu.com) channel.
 
 The purpose of the meeting is:
 
