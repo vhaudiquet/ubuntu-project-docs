@@ -16,5 +16,5 @@ processes/*
 ```{toctree}
 :maxdepth: 1
 
-../MIR/main-inclusion-review
+/MIR/main-inclusion-review
 ```

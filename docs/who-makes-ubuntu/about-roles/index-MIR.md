@@ -26,6 +26,6 @@ should expect from the reviewers.
 :hidden:
 
 ../../MIR/mir-team-meeting
-../../MIR/mir-service-level-objectives
+/MIR/mir-service-level-objectives
 ```
 
