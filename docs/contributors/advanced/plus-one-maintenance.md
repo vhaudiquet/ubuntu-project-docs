@@ -13,9 +13,15 @@ specific set of packages, during their shift they should instead be looking
 after the archive as a whole. This *can* include their regular package set,
 e.g. if it involved in a massive transition.
 
-## Participation
+## Contact
 
-### Who?
+Most of the day-to-day communication around +1 should take place on the public
+[Ubuntu Development](https://matrix.to/#/#devel:ubuntu.com) channel on Matrix.
+
+The [Debcrafters](https://launchpad.net/~debcrafters-packages) team, and [Simon Chopin ](https://launchpad.net/~schopin) in particular, is responsible for
+coordinating the effort.
+
+## Who can participate?
 
 We expect participants to be proficient in "distro work". Core Developers and
 MOTUs would of course qualify, but people working on their application for such
@@ -39,14 +45,6 @@ Furthermore many of the cases eventually need a build, or a combined proposed
 migration which you'd want to track and follow up on for a few days.
 
 However, it is perfectly fine to pick up shifts for shorter durations.
-
-## Contact
-
-Most of the day-to-day communication around +1 should take place on the public
-[Ubuntu Development](https://matrix.to/#/#devel:ubuntu.com) channel on Matrix.
-
-The [Debcrafters](https://launchpad.net/~debcrafters-packages) team, and [Simon Chopin ](https://launchpad.net/~schopin) in particular, is responsible for
-coordinating the effort.
 
 ## The work
 
@@ -78,13 +76,14 @@ communication is crucial.
 
 When working on a package, contributors should first check Launchpad for a
 relevant open bug, and if it has been assigned to someone. If not, they should
-open the bug if needed, and assign it to themselves. It is advised to be
-liberal in documenting one's progress on the bug itself.
+open the bug if needed, and assign it to themselves. You should liberally
+document your progress on the bug itself.
 
-To give the bug some visibility, and since it is expected that
-most issues being worked on affect a package in -proposed, you should apply the `update-excuse` tag for the bug to show up on the
-excuses page. The tool `pm-helper` (provided by `ubuntu-dev-tools`) can be used
-for the creation of such bugs.
+To give the bug some visibility, and since it is expected that most issues
+being worked on affect a package in -proposed, you should apply the
+`update-excuse` tag for the bug to show up on the excuses page. The tool
+`pm-helper` (provided by `ubuntu-dev-tools`) can be used for the creation of
+such bugs.
 
 ### Finding work
 
