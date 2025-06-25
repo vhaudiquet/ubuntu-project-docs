@@ -147,6 +147,7 @@ Lubuntu
 macOS
 Maintainer's
 manpage
+Masters
 matic
 Matic
 meetingology
@@ -244,6 +245,7 @@ VMs
 vorlon
 WCAG
 webops
+whitelist
 WNPP
 wordlist
 workspaces
