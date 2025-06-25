@@ -17,15 +17,15 @@ Note that if the binary package was built for an earlier release, e.g. Oracular
 for the current Plucky, you'll need to adjust the `copy-package` invocation to:
 
 ```none
-./copy-package -b --from-suite=oracular --to-suite=plucky -e $version $pkg`.
+./copy-package -b --from-suite=oracular --to-suite=plucky -e $version $pkg
 ```
 
 The copy should trigger a build on i386, once it's published:
 
-* Remove the entry from the `update-i386-whitelist script`
+* Remove the entry from the `update-i386-whitelist` script
 
-* If the new item isn't pulled in as a build-/dependencies, manually add it to:
-  [`https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/i386/`](https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/i386/)
+* If the new item isn't pulled in as a build-/dependencies, manually add it to
+  the [ubuntu-seeds repository](https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/i386/)
 
   * If a source package builds multiple binary packages, and a binary package
     other than the one pulled into the seed has dependencies that are not

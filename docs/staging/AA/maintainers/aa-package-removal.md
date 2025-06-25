@@ -24,8 +24,8 @@ The tool tells you what it's going to do, and asks for confirmation before
 doing it, so it's reasonably safe to get the wrong options and say `N`.
 
 Binary package removals generally do not require a bug report; for source
-packages you should require either a Launchpad or Debian bug # to reference in
-the removal, because from time to time users will find the publishing
+packages you should require either a Launchpad or Debian bug number to reference
+in the removal, because from time to time users will find the publishing
 history and complain to the Archive Admin who did the removal, so it's useful
 to be able to redirect them.
 
@@ -259,9 +259,9 @@ copy-and-paste-able command to clean up the "safe" ones.
 
 The rest needs to be taken care of by developers, by doing transition uploads
 for library SONAME changes, updating build dependencies, etc. The remaining
-files will list all the packages which still need the package in question.
+files will list all the packages that still need the package in question.
 
-Please refrain from removing NBS kernel packages for old {term}`ABIs <ABI>`
+Don't remove NBS kernel packages for old {term}`ABIs <ABI>`
 until `debian-installer` and the seeds have been updated, otherwise daily
 builds of alternate and server CDs will be made uninstallable.
 ```

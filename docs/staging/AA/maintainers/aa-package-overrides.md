@@ -8,7 +8,7 @@ zero out the discrepancies before the end of the release cycle:
 Sadly, packages just don't stay where they're put. {ref}`seed-management`
 details how packages get chosen for the `main` component, the various meta
 packages and presence on the CD. What it doesn't point out is that packages
-which fall out of the seeding process are destined for the `universe` component.
+that fall out of the seeding process are destined for the `universe` component.
  
 Every 30 minutes or so, the difference between what the seeds expect to be true
 and what the archive actually believes is evaluated by the
@@ -27,17 +27,17 @@ build has become a dependency or build-dependency of a package in `main`.
 
 New sources need to be processed through the
 [Ubuntu Main Inclusion Queue](https://wiki.ubuntu.com/UbuntuMainInclusionQueue),
-and have been approved before they should be promoted. Also ensure that all of
+and have been approved before they should be promoted. Ensure that all of
 their dependencies (which will be in this list) are approved as well.
 
 **Binary only promotions to `main`**
 
 These are binary packages currently in `universe` that appear to need promoting
 to `main`, as above; except that their source package is already in `main`. An
-inclusion report isn't generally needed, though the package should be
-sanity-checked.
+inclusion report isn't generally needed, though the package should be checked
+for correctness.
 
-Especially check that all of the package's dependencies are already in `main`,
+Especially check that all of the package's dependencies are already in `main`
 or have been approved.
 
 **Source and binary demotions to `universe`**

@@ -23,8 +23,9 @@ details are correct and permissible for us to redistribute, etc. See:
 To work with the upload queue, you may either use the
 [web interface](https://launchpad.net/ubuntu/questing/+queue) or the `queue` API
 client in `ubuntu-archive-tools`. The API client should generally be faster and
-more flexible; in particular, it is not currently possible to
-[override individual binaries using the web interface](https://bugs.launchpad.net/launchpad/+bug/828649).
+more flexible; in particular, it is not currently possible to override
+individual binaries using the web interface. See
+[bug #828649](https://bugs.launchpad.net/launchpad/+bug/828649).
 
 Both source packages and new binaries which have not yet been approved are not
 automatically accepted into the archive, but are instead held for checking and
@@ -48,7 +49,7 @@ Packages are placed in the `UNAPPROVED` queue if they're uploaded to a closed
 distribution, and are usually security updates or similar; this should be
 checked with the uploader.
 
-You can give a string argument after `info` which is interpreted as a sub-string
+You can give a string argument after `info`, which is interpreted as a sub-string
 match filter.
 
 To obtain a report of the size of all the different queues for a particular
@@ -81,7 +82,7 @@ $ ./queue info
 The number at the start can be used with other commands instead of referring to
 a package by name. The next field shows you what is actually in the queue,
 "`S-`" means it's a new source and "`-B`" means it's a new binary. You then have
-the package name, the version and how long it's been in the queue.
+the package name, the version, and how long it's been in the queue.
 
 
 ## Fetch a package for processing
@@ -92,7 +93,7 @@ You can fetch a package from the queue for manual checking:
 $ ./queue fetch 25324
 ```
 
-Or, if you just want to print the URLs so that you can fetch them on a system
+Or, if you just want to print the URLs, so that you can fetch them on a system
 with a faster network connection:
 
 ```none
@@ -444,9 +445,8 @@ only source or only binary packages, use the `--source` or `--binary` options
 respectively.
 
 Often, a binary will be in the `NEW` queue because it is a shared library that
-has changed `SONAME`. In this case you'll probably want to check the existing
-overrides to make sure anything new matches. These can be found in
-`/ubuntu/indices` on Ubuntu mirrors.
+has changed `SONAME`. In this case, check the existing overrides to make sure
+anything new matches. These can be found in `/ubuntu/indices` on Ubuntu mirrors.
 
 Currently, a special case of this are the kernel packages, which change package
 names with each ABI update and build many distinct binary packages in different
@@ -468,7 +468,7 @@ If you're happy with a package, and the overrides are correct, accept it with:
 $ ./queue accept 23712
 ```
 
-You can also use `./queue accept binary-name` which will accept it for all
+You can also use `./queue accept binary-name`, which will accept it for all
 architectures.
 
 
@@ -493,7 +493,8 @@ Listing ubuntu/hardy (New) 2
 Notice `'Component: partner'`. Use `-A ubuntu/partner` to remove a package:
 
 ```none
-$ ./remove-package -m "request from First Last name" -A ubuntu/partner -s precise adobe-flashplugin
+$ ./remove-package -m "request from First Last name" \
+  -A ubuntu/partner -s precise adobe-flashplugin
 ```
 
 The rules governing package inclusion in partner are not the same as those for
