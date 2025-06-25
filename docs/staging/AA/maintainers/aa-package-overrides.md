@@ -17,7 +17,7 @@ and what the archive actually believes is evaluated by the
 * [`component-mismatches.txt`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.txt)
 
 * [`component-mismatches.svg`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.svg)
-  ([dot source](http://people.canonical.com/~ubuntu-archive/component-mismatches.dot))
+  ([dot source](https://ubuntu-archive-team.ubuntu.com/component-mismatches.dot))
 
 **Source and binary promotions to `main`**
 

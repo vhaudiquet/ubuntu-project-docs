@@ -18,7 +18,7 @@ This content is used by DMB-members
 ### Adjusting Launchpad ACLs
 
 ```{note}
-Due to [bug #562451](https://bugs.launchpad.net/soyuz/+bug/562451), Archive
+Due to [bug #562451](https://bugs.launchpad.net/launchpad/+bug/562451), Archive
 Administrators cannot currently adjust Launchpad ACLs.
 ```
 
@@ -108,7 +108,7 @@ center.
 
 SRU packages in `-proposed` must be approved by `~ubuntu-sru` before accepting.
 
-Please see: [SRU / Reviewing procedure and tools](https://canonical-sru-docs.readthedocs-hosted.com/en/latest/internal/#reviewing-procedure-and-tools)
+Please see: [SRU / Reviewing procedure and tools](https://documentation.ubuntu.com/sru/en/latest/internal/#reviewing-procedure-and-tools)
 
 
 #### Langpack SRUs

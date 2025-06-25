@@ -188,7 +188,7 @@ $ unembargo --ppa=ubuntu-security-proposed -r xenial --pocket=proposed gnupg
 With the new
 [Stable Release Cadence](https://wiki.ubuntu.com/Kernel/StableReleaseCadence),
 kernels are built in the
-[Kernel Team PPA](https://launchpad.net/~canonical-kernel-team/+archive/ppa)
+[Kernel Team PPA](https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/ppa)
 and then pocket copied to the proposed pocket in the main archive once they are
 ACK-ed.
 

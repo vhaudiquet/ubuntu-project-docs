@@ -24,7 +24,7 @@ To work with the upload queue, you may either use the
 [web interface](https://launchpad.net/ubuntu/questing/+queue) or the `queue` API
 client in `ubuntu-archive-tools`. The API client should generally be faster and
 more flexible; in particular, it is not currently possible to
-[override individual binaries using the web interface](https://bugs.launchpad.net/bugs/828649).
+[override individual binaries using the web interface](https://bugs.launchpad.net/launchpad/+bug/828649).
 
 Both source packages and new binaries which have not yet been approved are not
 automatically accepted into the archive, but are instead held for checking and
