@@ -17,6 +17,9 @@ advanced/*
 
 ## +1 Maintenance
 
+The {ref}`+1 Maintenance program <plus-one-maintenance>` coordinates work
+towards ensuring the health of the overall archive for the next release of
+Ubuntu.
 
 ## Request package removal
 
