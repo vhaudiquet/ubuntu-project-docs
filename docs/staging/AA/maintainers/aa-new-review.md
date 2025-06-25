@@ -298,9 +298,11 @@ were manually synced (most often because there is a conflict with existing
 Ubuntu binary packages that prevent an auto-sync, or when a sync needs to be
 done on a package in `experimental` rather than `unstable`; sometimes, simply
 because an Ubuntu developer has gotten impatient waiting for an auto-sync).
-
-It is sufficient to verify that the package in question is a sync from Debian
-based on the Launchpad queue page; no further NEW review is required.
+Before Feature Freeze, it is sufficient to verify that the package in question
+is a sync from Debian based on the Launchpad queue page; no further NEW review
+is required. During Feature Freeze, it's a good idea to check whether the new
+package would trigger a transition, in which case this should have been
+discussed with the release team.
 
 
 ## New packages targeted at stable releases
