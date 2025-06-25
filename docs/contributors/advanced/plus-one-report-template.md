@@ -13,7 +13,7 @@ work on specific things, what you focused on, what event shaped your shift.
 
 ## Work-needed items
 
-You don't need to be too specific about the problems themselves (do that , but do mention the kind of work remaining. For instance:
+You don't need to be too specific about the problems themselves (do that, but do mention the kind of work remaining). For instance:
 
 * [Some package](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): some more investigation needed.
 * [Some other package](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): Tentative fix uploaded, still building.
