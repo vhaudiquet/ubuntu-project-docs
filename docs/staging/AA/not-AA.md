@@ -38,7 +38,7 @@ from `ubuntu-archive-tools`.
 
 To list the packages currently in the package set `mozilla`:
 
-```bash
+```none
 $ ./edit-acl query -P mozilla -S zesty
 
 adblock-plus
@@ -54,13 +54,13 @@ This section refers to zesty, but also says "currently"
 
 To add a package to the `mozilla` package set:
 
-```bash
+```none
 $ ./edit-acl -P mozilla -S zesty -s foo -s bar -s baz add
 ```
 
 To remove a package from the `mozilla` package set:
 
-```bash
+```none
 $ ./edit-acl -P mozilla -S zesty -s foo delete
 ```
 
@@ -82,7 +82,7 @@ This can be done with the `queuediff` tool in `ubuntu-archive-tools`, which
 generates a debdiff between the current version in the archive, and the
 package sitting in the unapproved queue:
 
-```bash
+```none
 $ ./queuediff -s hardy-updates hal
 $ ./queuediff -b human-icon-theme | view -
 ```

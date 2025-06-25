@@ -32,7 +32,7 @@ manual acceptance. Once accepted they'll be automatically approved from then on.
 
 The current queue can be obtained with:
 
-```bash
+```none
 $ ./queue info
 ```
 
@@ -40,7 +40,7 @@ This is the `NEW` queue for the development series of Ubuntu by default; you
 can change the queue with `-Q`, the distro with `-D` and the release using `-s`.
 To list the `UNAPPROVED` queue for `ubuntu/xenial`, for example:
 
-```bash
+```none
 $ ./queue -s xenial -Q unapproved info
 ```
 
@@ -54,7 +54,7 @@ match filter.
 To obtain a report of the size of all the different queues for a particular
 release:
 
-```bash
+```none
 $ ./queue report
 ```
 
@@ -88,14 +88,14 @@ the package name, the version and how long it's been in the queue.
 
 You can fetch a package from the queue for manual checking:
 
-```bash
+```none
 $ ./queue fetch 25324
 ```
 
 Or, if you just want to print the URLs so that you can fetch them on a system
 with a faster network connection:
 
-```bash
+```none
 $ ./queue show-urls 25324
 ```
 
@@ -103,7 +103,7 @@ The source is now in the current directory and ready for checking. Any problems
 should result in the rejection of the package (also send a mail to the uploader
 explaining the reason and cc ubuntu-archive@lists.ubuntu.com):
 
-```bash
+```none
 $ ./queue reject 25324
 ```
 
@@ -434,7 +434,7 @@ overrides.
 
 To alter the overrides for a package, use:
 
-```bash
+```none
 $ ./queue override -c universe ubuntustudio-menu
 ```
 
@@ -453,7 +453,7 @@ names with each ABI update and build many distinct binary packages in different
 sections. A helper tool has been written to apply overrides to the queue based
 on the packages that are currently published:
 
-```bash
+```none
 $ ./kernel-overrides [-s <sourcepackage>] <newabi>
 ```
 
@@ -464,7 +464,7 @@ it and file bugs when things are broken. The binaries also need to be put into
 
 If you're happy with a package, and the overrides are correct, accept it with:
 
-```bash
+```none
 $ ./queue accept 23712
 ```
 
@@ -492,7 +492,7 @@ Listing ubuntu/hardy (New) 2
 
 Notice `'Component: partner'`. Use `-A ubuntu/partner` to remove a package:
 
-```bash
+```none
 $ ./remove-package -m "request from First Last name" -A ubuntu/partner -s precise adobe-flashplugin
 ```
 

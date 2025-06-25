@@ -60,7 +60,7 @@ usually use `--source-and-binary`.
 For example, to hold the phasing of `containerd-app` in `noble-updates` and set
 it back to zero (to no longer provide this update), you'd run:
 
-```bash
+```none
 ./change-override --percentage 0 --suite noble-updates --source-and-binary containerd-app
 ```
 

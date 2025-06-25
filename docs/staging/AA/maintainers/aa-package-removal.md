@@ -56,7 +56,7 @@ referred to the maintainers of the relevant flavor before removal.
 > `ubuntu-archive-tools`) will interactively go through the removals and ask for
 > confirmation:
 
-> ```bash
+> ```none
 > $ ./process-removals
 > ```
 
@@ -152,7 +152,7 @@ When can it be run? Only when everything has been published, i.e., avoid the
 
 Example:
 
-```bash
+```none
 remove-package -y -m "moved to -updates" -s noble-proposed -e \
  4.18.4-1ubuntu0.1 xfce4-panel
 ```
@@ -177,7 +177,7 @@ days" period.
 
 Example:
 
-```bash
+```none
 sru-remove --reason=failed -s oracular -p samba 2092308
 ```
 
@@ -186,7 +186,7 @@ sru-remove --reason=failed -s oracular -p samba 2092308
 > from `ubuntu-archive-tools`) to remove source and binaries, e.g. for the
 > `libreoffice` package in `xenial-proposed`:
 
-> ```bash
+> ```none
 > $ ./remove-package -m "SRU abandoned (verification-failed)" -s xenial-proposed libreoffice
 > ```
 
@@ -200,7 +200,7 @@ appropriate explanation to the bug behind the SRU.
 
 Example:
 
-```bash
+```none
 sru-remove -s focal -p libxmlb 1988440
 ```
 
@@ -278,7 +278,7 @@ revert a new upload that accidentally entangles the transition. To do this, we
 need to remove the existing package with `remove-package`, then copy the
 previous package forwards with:
 
-```bash
+```none
 copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTORE --include-binaries --from-suite=$SUITE --to-suite=$SUITE $PKG
 ```
 
@@ -326,7 +326,7 @@ We recommend at least:
 
 Example:
 
-```bash
+```none
 ./checkrdepends --no-ports --include-provides --suite plucky --archive-base 'http://archive.ubuntu.com/ubuntu' debian-pan debian-astro
 ```
 

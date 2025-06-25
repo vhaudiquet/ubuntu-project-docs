@@ -16,7 +16,7 @@ To add packages to the whitelist:
 Note that if the binary package was built for an earlier release, e.g. Oracular
 for the current Plucky, you'll need to adjust the `copy-package` invocation to:
 
-```bash
+```none
 ./copy-package -b --from-suite=oracular --to-suite=plucky -e $version $pkg`.
 ```
 

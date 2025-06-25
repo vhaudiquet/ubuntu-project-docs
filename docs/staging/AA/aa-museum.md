@@ -116,7 +116,7 @@ Soyuz stores one chroot per (suite, architecture).
 
 `manage-chroot` allows the following actions upon a specified chroot:
 
-```bash
+```none
 $ ./manage-chroot
 Usage: manage-chroot -a ARCHITECTURE [options] <get|info|remove|set>
 
@@ -125,7 +125,7 @@ manage-chroot: error: You must specify an architecture.
 
 Downloading (`get`) an existing chroot:
 
-```bash
+```none
 $ ./manage-chroot [-s SUITE] <-a ARCH> get
 ```
 
@@ -134,7 +134,7 @@ The chroot will be downloaded and stored in the local disk name as
 
 Uploading (`add`/`update`) a new chroot:
 
-```bash
+```none
 $ ./manage-chroot [-s SUITE] <-a ARCH> set -f <CHROOT_FILE>
 ```
 
@@ -178,7 +178,7 @@ in the usual way.
 This works the same as the `ubuntu-mozilla-security` PPA, above. E.g., using
 `lp:ubuntu-qa-tools/security-tools/unembargo`:
 
-```bash
+```none
 $ unembargo --ppa=ubuntu-security-proposed -r xenial --pocket=proposed gnupg
 ```
 
@@ -248,7 +248,7 @@ following:
   `-updates`/`-security`. `find-bin-overrides` from `lp:ubuntu-qa-tools` can
   help with this. You use it like so:
   
-  ```bash
+  ```none
   find-bin-overrides <pocket to compare to> <target pocket> <ubuntu release> <source package>=<version in pocket to compare to>,<old abi>,<new abi>
   ```.
   
@@ -258,7 +258,7 @@ following:
   `-release` pocket of Hardy. For the
   `linux-restricted-modules-2.6.24 source package`, you might use:
   
-  ```bash
+  ```none
   $ find-bin-overrides release proposed hardy \
   linux-restricted-modules-2.6.24=2.6.24.12-16.34,2.6.24-16,2.6.24-30
   ## hardy/linux-restricted-modules-2.6.24
@@ -268,7 +268,7 @@ following:
 
   For the `linux` source package, you might use:
 
-  ```bash
+  ```none
   $ find-bin-overrides release proposed hardy linux=2.6.24-16.30,2.6.24-16,2.6.24-30
   ## hardy/linux
   ...
@@ -311,7 +311,7 @@ case, it will report that the package needs to be merged by hand.
 
 The output of the tool looks like this:
 
-```bash
+```none
 $ ./copy-report
 The following packages can be copied safely:
 --------------------------------------------
@@ -345,25 +345,25 @@ built and then cleaned up from the `-proposed` pocket. The process is as follows
 1. When the package builds on all architectures, copy it to the partner release
    pocket (this makes it available to users). E.g.:
 
-  ```bash
+  ```none
   $ ./copy-package -b --auto-approve --from=ubuntu/partner -s xenial-proposed --to-suite xenial adobe-flashplugin
   ```
 
   or to do all at once:
 
-  ```bash
+  ```none
   $ for i in xenial bionic focal groovy; do ./copy-package -b --auto-approve --from=ubuntu/partner -s $i-proposed --to-suite $i adobe-flashplugin ; done
   ```
 
 1. Remove the package from proposed in the partner archive. E.g.:
 
-  ```bash
+  ```none
   $ ./remove-package -A ubuntu/partner -m "copied to release" -s xenial-proposed adobe-flashplugin
   ```
 
   or to do all at once:
 
-  ```bash
+  ```none
   $ for i in xenial bionic focal groovy; do ./remove-package -A ubuntu/partner -m "copied to release" -s $i-proposed adobe-flashplugin ; done
   ```
 
@@ -385,7 +385,7 @@ Most updates available in Debian are automatically synced before
 that were previously in Ubuntu will not be automatically reintroduced. To
 process these interactively:
 
-```bash
+```none
 $ ./auto-sync --new-only
 ```
 
@@ -407,7 +407,7 @@ There are other useful tools in your `PATH` which are invaluable.
 `rmadison` (in the `devscripts` package, run on your client system) examines
 the current state of the archive for a given binary/source package:
 
-```bash
+```none
 $ rmadison dpkg
       dpkg | 1.10.22ubuntu2 |         warty | source, amd64, i386, powerpc
       dpkg | 1.10.22ubuntu2.1 | warty-security | source, amd64, i386, powerpc
@@ -418,7 +418,7 @@ $ rmadison dpkg
       dpkg | 1.13.11ubuntu5 |        dapper | source, amd64, hppa, i386, ia64, powerpc, sparc
 ```
 
-```bash
+```none
 $ rmadison dselect
    dselect | 1.10.22ubuntu2 |         warty | amd64, i386, powerpc
    dselect | 1.10.22ubuntu2.1 | warty-security | amd64, i386, powerpc
@@ -432,7 +432,7 @@ $ rmadison dselect
 Or when used with `-S` and a source package, the source and every binary built
 by it:
 
-```bash
+```none
 $ rmadison -S dpkg
       dpkg | 1.10.22ubuntu2 |         warty | source, amd64, i386, powerpc
       dpkg | 1.10.22ubuntu2.1 | warty-security | source, amd64, i386, powerpc
@@ -464,13 +464,13 @@ $ rmadison -S dpkg
 
 `checkrdepends` lists the reverse dependencies of a given binary:
 
-```bash
+```none
 $ checkrdepends -s zesty -b nm-applet
 ```
 
 or source package:
 
-```bash
+```none
 $ checkrdepends -s zesty network-manager
 ```
 
@@ -525,7 +525,7 @@ Packages in `-proposed` can be moved to `-updates` once they are approved by
 someone from `sru-verification`, and have passed the minimum aging period of
 **7 days**. Use the `sru-release` script from `ubuntu-archive-tools` for this:
 
-```bash
+```none
 $ ./sru-release xenial kdebase
 ```
 
@@ -558,13 +558,13 @@ To publish `firefox` version `22.0+build2-0ubuntu0.12.04.2` from the
 `ubuntu-mozilla-security` PPA to the `-security` pocket of Ubuntu's `precise`
 release, you would do the following:
 
-```bash
+```none
 $ ./copy-package -b --from=~ubuntu-mozilla-security/ubuntu/ppa -s precise --to=ubuntu --to-suite precise-security -e 22.0+build2-0ubuntu0.12.04.2 firefox
 ```
 
 Alternatively, can use `lp:ubuntu-qa-tools/security-tools/unembargo` like so:
 
-```bash
+```none
 $ unembargo --ppa=ubuntu-mozilla-security -r xenial --pocket=proposed chromium-browser
 ```
 

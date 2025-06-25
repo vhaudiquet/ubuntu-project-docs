@@ -59,7 +59,7 @@ Doesn't belong here (should go to maintainers -> index):
 > ## Client-side tools
 > Archive Administration is done client side using the LP API through various
 > tools. To [get hold of these tools](https://code.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk):
-> ```bash
+> ```none
 > $ git clone lp:ubuntu-archive-tools
 > ```
 

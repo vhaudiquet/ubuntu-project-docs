@@ -116,7 +116,7 @@ Once you've determined what overrides need to be changed, use the
 
 To promote a binary package to `main`:
 
-```bash
+```none
 $ ./change-override -c main git-email
 ```
 
@@ -129,14 +129,14 @@ To demote a binary package to `universe` to solve a component-mismatch issue
 (note the `-proposed` target rather than the release pocket), typically unseeded
 because the new version introduced an unwanted dependency:
 
-```bash
+```none
 $ ./change-override -c universe -s plucky-proposed erlang-doc
 ```
 
 Less frequently used are the options to just move a source, and leave its
 binaries where it is (usually just to repair a mistaken forgotten `-S`):
 
-```bash
+```none
 $ ./change-override -c universe tspc
 ...oops, forgot the source...
 $ ./change-override -c universe -t tspc
@@ -145,7 +145,7 @@ $ ./change-override -c universe -t tspc
 and the option to move a binary and its source, but leave any other binaries
 where they are:
 
-```bash
+```none
 $ ./change-override -c universe -B flite
 ```
 :::
@@ -157,14 +157,14 @@ A special case are promotions in stable Ubuntu releases. Most of the time
 promotions there work just as normal for packages in `-updates` and `-security`,
 like:
 
-```bash
+```none
 ./change-override --component main --suite focal-updates [...] pkg-with-update
 ```
 
 But if there was no update and it is only in the `-release` pocket like `focal`
 it is immutable. Then we would get:
 
-```bash
+```none
 ./change-override --component main --suite focal [...] pkg-without-update
 triggering:
 lazr.restfulclient.errors.BadRequest: HTTP Error 400: Bad Request
@@ -191,7 +191,7 @@ using the following arguments to `copy-package`:
 Afterwards it can then be promoted in `-updates`. So in the linked example it
 was:
 
-```bash
+```none
 ./copy-package --version 6.9.4-1 --from-suite focal --to-suite focal-updates --include-binaries --auto-approve libonig
 # wait until it is there
 ./change-override --component main --suite focal-updates --source-and-binary libonig
