@@ -15,9 +15,9 @@ work on specific things, what you focused on, what event shaped your shift.
 
 You don't need to be too specific about the problems themselves (do that , but do mention the kind of work remaining. For instance:
 
-* [https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567](Some package): some more investigation needed.
-* [https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567](Some other package): Tentative fix uploaded, still building.
-* [https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567](Package removal): Paperwork filled, waiting on AA.
+* [Some package](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): some more investigation needed.
+* [Some other package](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): Tentative fix uploaded, still building.
+* [Package removal](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): Paperwork filled, waiting on AA.
 * The libfoo1->libfoo2 transition just started in Debian.
 
 ### Sponsorship needed
@@ -33,6 +33,6 @@ work-needed items, along with a description of what you actually did. How much
 you get into details is up to you.
 
 For instance:
-[https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567](PM: hello): src:hello is stuck in -proposed, its new autopkgtests are failing due to the proxy. I uploaded a fix, and also forwarded it to Debian.
+[PM: hello](https://bugs.launchpad.net/ubuntu/+source/hello/+bug/1234567): src:hello is stuck in -proposed, its new autopkgtests are failing due to the proxy. I uploaded a fix, and also forwarded it to Debian.
 
 ```

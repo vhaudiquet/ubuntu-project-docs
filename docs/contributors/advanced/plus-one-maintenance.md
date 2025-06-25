@@ -24,13 +24,13 @@ more exposure to some specific situations such as transitions, proposed
 migration, or merges, although participants are expected to already understand
 those notions and have at least *some* experience with them.
 
-While some teams are committed to have people on +1 on a regular basis, others can
+While some Canonical teams are committed to having people on +1 duty on a regular basis, others can
 pick up the occasional shift, in accordance with their managers.
 
 It is possible, and encouraged, to shadow someone experienced on their shift before signing
 up for one.
 
-### Shift duration
+## Shift duration
 
 Most regular contributors pick up shifts for an entire work week. This allows
 them to take the time to dig deeply into thorny issues that would be difficult
@@ -81,9 +81,8 @@ relevant open bug, and if it has been assigned to someone. If not, they should
 open the bug if needed, and assign it to themselves. It is advised to be
 liberal in documenting one's progress on the bug itself.
 
-In order for the bug to have some visibility, and since it is expected that
-most of the issues being worked on affect a package in -proposed, it is
-strongly advised to apply the `update-excuse` tag for the bug to show up on the
+To give the bug some visibility, and since it is expected that
+most issues being worked on affect a package in -proposed, you should apply the `update-excuse` tag for the bug to show up on the
 excuses page. The tool `pm-helper` (provided by `ubuntu-dev-tools`) can be used
 for the creation of such bugs.
 
