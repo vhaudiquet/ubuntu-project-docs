@@ -8,7 +8,7 @@ This page will be moved to:
 
 ```{note}
 Content from: The Package Archive -> package-removals
-https://wiki.ubuntu.com/UbuntuDevelopment/PackageArchive#Removing_Packages
+`https://wiki.ubuntu.com/UbuntuDevelopment/PackageArchive#Removing_Packages`
 ```
 
 Packages that are removed from Debian are semi-automatically removed from
