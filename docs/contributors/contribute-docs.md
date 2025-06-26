@@ -50,7 +50,7 @@ All the documentation files are located in the `docs/` directory. The `docs/`
 directory contains sub-directories according to the type of content.
 
 All content is written and split according to the principles of
-[Diátaxis](https://diataxis.fr/). It is then organised for our readers
+[Diátaxis](https://diataxis.fr/). It is then organized for our readers
 according to who is using it, and how. Every task, every process, has at least
 two people involved: someone who is *contributing* something, and a maintainer
 who is responsible for reviewing it.
