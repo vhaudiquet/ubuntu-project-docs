@@ -47,16 +47,31 @@ pull request.
 ### Directory structure
 
 All the documentation files are located in the `docs/` directory. The `docs/`
-directory contains sub-directories corresponding to different
-[Diátaxis](https://diataxis.fr/) sections:
+directory contains sub-directories according to the type of content.
 
-* `explanation/`
-* `howto/`
-* `reference/`
-* `tutorial/`
+All content is written and split according to the principles of
+[Diátaxis](https://diataxis.fr/). It is then organised for our readers
+according to who is using it, and how. Every task, every process, has at least
+two people involved: someone who is *contributing* something, and a maintainer
+who is responsible for reviewing it.
 
-Add new articles in the appropriate directory. You can read about
-[how Ubuntu implements Diátaxis for documentation](https://ubuntu.com/blog/diataxis-a-new-foundation-for-canonical-documentation).
+For contributors, we have:
+
+* **How Ubuntu is made**: Information about Ubuntu and how it's made,
+  the processes involved, and concepts contributors need to understand
+
+* **Contributors**: Guides and instructions for submitting or requesting
+  changes, fixes and new packages
+
+For maintainers, we have:
+
+* **Maintainers**: Guides for those with elevated permissions who review and
+  approve changes, new packages, and maintaining the health of the
+  Package Archive. 
+
+* **Who makes Ubuntu**: Information about all the people, roles and groups
+  involved in making Ubuntu, as well as their collective responsibilities and
+  how to join each of the roles.
 
 ## Build the documentation locally
 
