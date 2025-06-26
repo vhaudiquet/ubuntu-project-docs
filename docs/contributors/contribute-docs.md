@@ -61,16 +61,16 @@ For contributors, we have:
   the processes involved, and concepts contributors need to understand
 
 * **Contributors**: Guides and instructions for submitting or requesting
-  changes, fixes and new packages
+  changes, fixes, and new packages
 
 For maintainers, we have:
 
 * **Maintainers**: Guides for those with elevated permissions who review and
-  approve changes, new packages, and maintaining the health of the
+  approve changes, new packages, and maintain the health of the
   Package Archive. 
 
-* **Who makes Ubuntu**: Information about all the people, roles and groups
-  involved in making Ubuntu, as well as their collective responsibilities and
+* **Who makes Ubuntu**: Information about all the people, roles, and groups
+  involved in making Ubuntu, as well as their collective responsibilities, and
   how to join each of the roles.
 
 ## Build the documentation locally
