@@ -269,7 +269,7 @@ Changelog
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.4 Debian changelog (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#debian-changelog-debian-changelog)
 
-Chroot
+chroot
 Change root
     Sets the root directory to the path provided as its first argument.
 
