@@ -309,7 +309,7 @@ Code Review
 
 CLI
 Command Line Interface
-    *Work in Progress*
+    An interface for interacting with an {term}`OS` and its installed applications via text based commands, usually through a terminal or console.
 
 CVE
 Common Vulnerabilities and Exposures
