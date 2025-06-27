@@ -271,7 +271,12 @@ Changelog
 
 chroot
 Change root
-    Sets the root directory to the path provided as its first argument.
+    changes the root directory of the calling process to the path provided as the first argument
+    ```usage
+    chroot ~/newroot /bin/bash
+    
+    opens a bash shell with the 'newroot' folder as the root
+    ```
 
 CoF
 Circle of Friends
