@@ -30,6 +30,7 @@ details are correct and permissible for us to redistribute, etc. See:
 * and [Debian's Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
 ```
 
+(aa-work-with-new-queue)=
 ## The NEW queue
 
 To work with the upload queue, you may either use the
@@ -42,6 +43,8 @@ individual binaries using the web interface. See
 Both source packages and new binaries which have not yet been approved are not
 automatically accepted into the archive, but are instead held for checking and
 manual acceptance. Once accepted they'll be automatically approved from then on.
+
+### Access the NEW queue
 
 The current queue can be obtained with:
 
@@ -107,7 +110,7 @@ a package by name. The next field shows you what is actually in the queue,
 the package name, the version, and how long it's been in the queue.
 
 
-## Fetch a package for processing
+### Fetch a package for processing
 
 If you need to make any detailed analysis of a package, you can fetch it from
 the queue manually. Remember that until the package is accepted, the usual tools
@@ -127,7 +130,7 @@ $ ./queue show-urls 25324
 The source is now in the current directory and ready for checking.
 
 
-## Process a package in the NEW queue
+## Process a package in NEW
 
 
 ### Checking for basic package correctness
@@ -276,10 +279,13 @@ future decisions to:
 
   * => `restricted`
 
-## Special cases of NEW processing
+### Special cases
+
+The above details work well for general packages, however there are some valid
+special cases that need to be handled differently.
 
 (new-packages-from-debian)=
-### New packages from Debian
+#### New packages from Debian
 
 From time to time, packages will end up in the Ubuntu NEW queue that were
 synced from Debian. Source packages that were auto-synced will be also be
@@ -298,7 +304,7 @@ package would trigger a transition, in which case this should have been
 discussed with the release team.
 
 
-### New packages targeted at stable releases
+#### New packages targeted at stable releases
 
 The SRU policy does not forbid uploading a new source or binary to stable
 releases. But, if that happens it needs double approval; one from an {term}`AA`
@@ -342,14 +348,14 @@ The same approach was suggested for the SRU documentation
 [in this PR](https://code.launchpad.net/~paelzer/sru-docs/+git/sru-docs/+merge/473706).
 
 
-### Backports
+#### Backports
 
 Backports of packages already present in the devel series; these should not
 require any real NEW review from {term}`AAs <AA>`, just a debdiff to make sure
 they match the devel series as expected.
 
 
-### Source renames
+#### Source renames
 
 Renames of newer versions of toolchain packages to allow them to be used as
 build-dependencies in support of particular packages; e.g. `gcc-mozilla`,
@@ -363,14 +369,14 @@ Sometimes bigger transitions require adding one to `main` and reminding the
 person/team driving the case accountable to make the old fully able to be
 demoted.
 
-### Kernel metapackages
+#### Kernel metapackages
 
 There is also the special case of OEM kernel metapackages, which are completely
 different and in special ways. Any AA+SRU team member can process one of these;
 they are processed using the `oem-metapackage-mir-check` tool in
 `lp:ubuntu-archive-tools`.
 
-### Binaries
+#### Binaries
 
 The consensus on "bin NEW" reviews is that it's usually lighter than
 "source NEW", especially for the case where the sources have *just* been through
@@ -407,7 +413,10 @@ for a package will override *all* binaries for that package into the same
 component as its source.
 ```
 
-## Post-review
+## Post-processing actions
+
+Remember that you can use either the web interface or the API as outlined in
+the {ref}`aa-work-with-new-queue` section.
 
 ### Accepting a package
 
