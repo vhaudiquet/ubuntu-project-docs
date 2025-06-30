@@ -17,11 +17,6 @@ You may need to remove a package completely, or remove only
 {ref}`a source <aa-remove-only-source>` or
 {ref}`a binary <aa-remove-only-binary>`.
 
-## How to remove a package completely
-
-To remove a package entirely from the Archive, use the remove-package
-client-side tool.
-
 Source removals shall always have a bug associated. Binary package removals do
 not strictly require a bug report, but they are the way to contact the Archive
 Administrators therefore likely one exists.
@@ -29,6 +24,11 @@ Administrators therefore likely one exists.
 Either way, if a bug exists it shall be referenced in the removal comment,
 which helps a lot for users {ref}`tracking it down in the publishing history <checking-removal-reasons-in-pulication-history>` which
 will point them to the related discussion and action.
+
+## How to remove a package completely
+
+To remove a package entirely from the Archive, use the `remove-package`
+client-side tool.
 
 ### Remove a source package
 
@@ -311,9 +311,17 @@ builds of alternate and server CDs will be made uninstallable.
 
 
 
+:::{note}
+> move to contributor -> advanced
+
+> add links from every mention of rdepends to this (occurences 1, 4, 8)
+
+
 
 (aa-check-dependencies-before-removal)=
-## Checking dependencies before removal
+## Checking reverse dependencies
+
+
 
 You usually want to check to avoid causing:
 
@@ -359,9 +367,19 @@ Example:
 ```none
 ./checkrdepends --no-ports --include-provides --suite plucky --archive-base 'http://archive.ubuntu.com/ubuntu' debian-pan debian-astro
 ```
+:::
+
+
+:::{note}
+
+> move to contributor -> advanced
+> New page called "checking publication history"
+
+> Add this content as a sub-section on that page, others can be filled in later. 
+
 
 (checking-removal-reasons-in-pulication-history)=
-## Checking removal reasons in publication history 
+## Checking removal reasons 
 
 Sometimes one might want to double check if something was removed and
 asynchronous tools like `rmadison` will not immediately update as they need a
@@ -380,5 +398,5 @@ example [in this case](https://bugs.launchpad.net/ubuntu/+source/pdfsandwich/+bu
 which can be seen in effect on
 [`https://launchpad.net/ubuntu/plucky/armhf/pdfsandwich`](https://launchpad.net/ubuntu/plucky/armhf/pdfsandwich).
 
-
+:::
 
