@@ -20,9 +20,10 @@ have the following elements:
 
 * What source and binary packages you expect to be removed
 
-* A rationale for {ref}`why they should be removed <other-source-removals-from-debian>`. Examples:
+* A rationale for {ref}`why they should be removed <justification-for-removal>`. Examples:
 
-  * E.g: In Noble please remove bin:foo-oldcrap from src:foo as it blocks migration of the new version which is no more building it
+  * E.g: In Noble please remove bin:foo-old-stuff from src:foo as it blocks
+    migration of the new version which is no more building it
 
   * E.g: In questing please remove src:bar and all of its binaries, they are dysfunctional in that release XX, because …
 
@@ -31,7 +32,7 @@ have the following elements:
   * E.g. please remove src:arrr form noble, because all binaries it used to build have been taken over by src:pirate now
 
 * Confirmation that the binary packages have no `reverse-depends` (no other package
-  depends on them). To do so, check the instructions in {ref}`aa-check-dependencies-before-removal`.
+  depends on them). To do so, check the instructions in {ref}`check-reverse-dependencies`.
   Copy and paste the output from whichever tool you use into the bug.
 
 * Mention if the request is limited to a particular architecture

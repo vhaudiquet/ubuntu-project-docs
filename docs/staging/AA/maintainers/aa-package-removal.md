@@ -13,9 +13,8 @@ requests to remove a package are submitted in the form of bugs on Launchpad.
 
 * [List of source package removal requests](https://bugs.launchpad.net/ubuntu/+bugs?field.subscriber=ubuntu-archive&field.status=NEW&field.status=Confirmed&field.status=Triaged&field.status=INPROGRESS&field.status=FIXCOMMITTED&field.status=INCOMPLETE_WITH_RESPONSE&orderby=-id&start=0)
 
-You may need to remove a package completely, or remove only
-{ref}`a source <aa-remove-only-source>` or
-{ref}`a binary <aa-remove-only-binary>`.
+You may need to remove a package completely, or only remove either a source or
+a binary.
 
 Source removals shall always have a bug associated. Binary package removals do
 not strictly require a bug report, but they are the way to contact the Archive
@@ -27,7 +26,7 @@ will point them to the related discussion and action.
 
 ## Why to remove packages
 
-(other-source-removals-from-debian)=
+(justification-for-removal)=
 ### Justification for removal
 
 If we are removing a package from Ubuntu that is still in Debian `unstable`,
@@ -52,28 +51,6 @@ of sufficient justifications:
   have asked the Security Team to also raise bugs on these packages in Debian
   as well before removing.
 
-### Source removals of Ubuntu-specific packages
-
-During the heyday of {term}`MOTU`, Ubuntu acquired many Ubuntu-specific
-packages that were uploaded by an Ubuntu developer who is no longer active. Over
-time, many of these packages have bit-rotted; in particular, by not having their
-packaging updated to make sure they continue to be buildable, or not being
-ported to newer versions of library dependencies. We are generally content to
-let these packages drift until they become blockers, either by Failing to Build
-from Source and blocking transitions, or depending on packages that have been
-removed from Debian.
-
-Before removing an Ubuntu-specific package, even if it is "obviously" abandoned,
-please file a bug report against the package with the rationale, and where
-there is an obvious historic "owner" of the package subscribe them to
-the bug if they don't already have a bug subscription to the package (they
-usually don't) and give them time to remedy the situation if they still care
-about the package.
-
-Such bugs should be given a deadline of the end of the current release cycle,
-to ensure {term}`NBS` gets cleaned up before a stable release.
-
-
 ### Removals of binary packages
 
 When a binary package ceases to be built by its source package, it must be
@@ -85,7 +62,7 @@ several places.
   they show up on the [NBS removal](https://ubuntu-archive-team.ubuntu.com/nbs.html)
   list. This is the easiest case, as the top of the page gives a command that
   can be used to remove all binaries that are safe to remove (no remaining
-  reverse-dependencies).
+  {ref}`reverse-dependencies <check-reverse-dependencies>`).
 
 * If the NBS package is in the `-proposed` pocket, it will be reported on
   [`update_excuses`](https://ubuntu-archive-team.ubuntu.com/proposed-migration/update_excuses.html)
@@ -116,8 +93,9 @@ to be removed from the archive from time to time, and right before a release,
 to ensure that the entire archive can be rebuilt by current sources.
 
 Such packages are detected by `archive-cruft-check`. This tool does not check
-for reverse dependencies, though, so you should use `checkrdepends -b` for
-checking if it is safe to actually remove NBS packages from the archive.
+for {ref}`reverse dependencies <check-reverse-dependencies>`, though, so you
+should use `checkrdepends -b` for checking if it is safe to actually remove NBS
+packages from the archive.
 
 Look at the
 [half-hourly generated NBS report](https://ubuntu-archive-team.ubuntu.com/nbs.html)
@@ -132,9 +110,57 @@ Don't remove NBS kernel packages for old {term}`ABIs <ABI>`
 until `debian-installer` and the seeds have been updated, otherwise daily
 builds of alternate and server CDs will be made uninstallable.
 
+### Source package removals via Debian
+
+Source packages that have been removed from Debian do not need a removal request
+bug. They can be periodically removed using the `process-removals` tool from
+`ubuntu-archive-tools`:
+
+```none
+$ ./process-removals
+```
+
+This tool interactively processes the entire pending queue, and asks for
+confirmation for each removal. You can run this tool whenever you receive a
+request to remove a package from the devel series due to it being removed from
+`unstable`.
+
+It is important, when removing packages, not to break consistency of the Archive
+when they still have `reverse-depends`. However, it is also important to not let
+these packages linger forever. Therefore, when there are reverse-dependencies
+(particularly Ubuntu-specific ones), **file a bug report** to give Ubuntu
+developers time to respond.
+
+*Recommends* should not block removals of packages.
+Seed references should be referred to the maintainers of the relevant flavor before removal.
+
+Some packages removed from Debian do need to be kept, e.g. `firefox`, since we
+did not do the `firefox` -> `iceweasel` renaming.
 
 
-## How to remove a package completely
+### Source removals of Ubuntu-specific packages
+
+During the heyday of {term}`MOTU`, Ubuntu acquired many Ubuntu-specific
+packages that were uploaded by an Ubuntu developer who is no longer active. Over
+time, many of these packages have bit-rotted; in particular, by not having their
+packaging updated to make sure they continue to be buildable, or not being
+ported to newer versions of library dependencies. We are generally content to
+let these packages drift until they become blockers, either by Failing to Build
+from Source and blocking transitions, or depending on packages that have been
+removed from Debian.
+
+Before removing an Ubuntu-specific package, even if it is "obviously" abandoned,
+please file a bug report against the package with the rationale, and where
+there is an obvious historic "owner" of the package subscribe them to
+the bug if they don't already have a bug subscription to the package (they
+usually don't) and give them time to remedy the situation if they still care
+about the package.
+
+Such bugs should be given a deadline of the end of the current release cycle,
+to ensure {term}`NBS` gets cleaned up before a stable release.
+
+(aa-remove-a-package)=
+## How to remove a package
 
 To remove a package entirely from the Archive, use the `remove-package`
 client-side tool.
@@ -174,66 +200,14 @@ the other hand we have plenty of ways nowadays to get access to the former
 delta again.
 
 
-
-
-
-## Source package removals via Debian
-
-Source packages that have been removed from Debian do not need a removal request
-bug. They can be periodically removed using the `process-removals` tool from
-`ubuntu-archive-tools`:
-
-```none
-$ ./process-removals
-```
-
-This tool interactively processes the entire pending queue, and asks for
-confirmation for each removal. You can run this tool whenever you receive a
-request to remove a package from the devel series due to it being removed from
-`unstable`.
-
-
-It is important, when removing packages, not to break consistency of the Archive
-when they still have `reverse-depends`. However, it is also important to not let
-these packages linger forever. Therefore, when there are reverse-dependencies
-(particularly Ubuntu-specific ones), **file a bug report** to give Ubuntu
-developers time to respond.
-
-*Recommends* should not block removals of packages.
-Seed references should be referred to the maintainers of the relevant flavor before removal.
-
-Some packages removed from Debian do need to be kept, e.g. `firefox`, since we
-did not do the `firefox` -> `iceweasel` renaming.
-
-
-
-
-## Tracking dependency removals
-
-In some cases, a package must be removed not because it is buggy but because it
-depends on another package which is buggy. These removals should be tracked in
-the `extra-removals.txt` file within the
-[`sync-blocklist` repository](https://code.launchpad.net/~ubuntu-archive/+git/sync-blocklist).
-
-## Blocking a package from returning
-
-If you remove source packages which are in Debian, and they are not meant to
-ever come back, add it to the blocklist in
-`lp:~ubuntu-archive/+git/sync-blocklist`, document the reason, and
-`git commit` it with an appropriate changelog. This will avoid getting the
-package back to source NEW in the next round of auto-syncs from Debian.
-
-
-
-
-## Source removals of SRU upload from `-proposed`
+### Source removals of SRU upload from `-proposed`
 
 The [SRU Pending Report](https://ubuntu-archive-team.ubuntu.com/pending-sru.html)
 has a section at the bottom suggesting removals from `-proposed` for several
 different reasons.
 
 
-### `-updates` is equal or higher than `-proposed`
+#### `-updates` is equal or higher than `-proposed`
 
 This is the normal sequence of events that lead to this situation: An SRU is
 verified, released, and the package has to also be removed from `-proposed`.
@@ -250,13 +224,13 @@ remove-package -y -m "moved to -updates" -s noble-proposed -e \
 ```
 
 
-### `-release` is equal or higher than `-proposed`
+#### `-release` is equal or higher than `-proposed`
 
 Haven't seen this case before. I suspect it can happen at release opening. To
 be determined.
 
 
-### Failed verification for more than 10 days
+#### Failed verification for more than 10 days
 
 If an SRU has the `verification-failed` tag, it is expected to be corrected
 within 10 days, either by a new upload, or something else that fixes the
@@ -274,7 +248,7 @@ sru-remove --reason=failed -s oracular -p samba 2092308
 ```
 
 
-### No test plan verification done in more then 105 days
+#### No test plan verification done in more then 105 days
 
 If an upload has been sitting in `-proposed` and not verified for 105 days or
 more, it's also eligible for removal. That is the '`--reason=ancient`' parameter
@@ -288,9 +262,8 @@ sru-remove --reason=ancient -s focal -p libxmlb 1988440
 ```
 
 
-
 (revert-a-package-to-a-previous-version)=
-## Revert a package to a previous version
+### Revert a package to a previous version
 
 A special case of package removals is where we want to remove a package and
 replace it with a previous version. This most commonly occurs in the development
@@ -306,99 +279,24 @@ copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTO
 ```
 
 
+## Related actions
 
 
+### Tracking dependency removals
+
+In some cases, a package must be removed not because it is buggy but because it
+depends on another package which is buggy. These removals should be tracked in
+the `extra-removals.txt` file within the
+[`sync-blocklist` repository](https://code.launchpad.net/~ubuntu-archive/+git/sync-blocklist).
 
 
+### Blocking a package from returning
+
+If you remove source packages which are in Debian, and they are not meant to
+ever come back, add it to the blocklist in
+`lp:~ubuntu-archive/+git/sync-blocklist`, document the reason, and
+`git commit` it with an appropriate changelog. This will avoid getting the
+package back to source NEW in the next round of auto-syncs from Debian.
 
 
-
-:::{note}
-> move to contributor -> advanced
-
-> add links from every mention of rdepends to this (occurences 1, 4, 8)
-
-
-
-(aa-check-dependencies-before-removal)=
-## Checking reverse dependencies
-
-
-
-You usually want to check to avoid causing:
-
-* Installation issues by something having a dependency on the produced
-  binaries.
-
-* Fail to build due to missing dependencies, for a package that builds depends
-  on a produced binary.
-
-There are many ways to check for reverse dependencies, with different pros and
-cons. The following list gets gradually more complete, but also takes longer
-and is sometimes harder to set up.
-
-
-### **`reverse-depends`**
-
-The most common and most widely used tool, even fine for normal cases is
-`reverse-depends` from the package `ubuntu-dev-tools`. Quick and helpful, but
-not always fully complete.
-
-
-### **`apt-cache rdepends`**
-
-The other two tools check the current state of a release. To instead inspect a
-particular system configuration one would tend to use `apt-cache rdepends`
-instead.
-
-
-### **`checkrdepends`**
-
-We've had cases where the other tools struggled to follow virtual dependencies
-or the rust ecosystem's use of `provides` in build dependencies. So far
-`checkrdepends` from `ubuntu-archive-tools` seems to cover this the best.
-
-We recommend at least:
-
-* Using `archive-base` to not require a local mirror.
-
-* Using `--include-provides` to also check if we might make things un-buildable.
-
-Example:
-
-```none
-./checkrdepends --no-ports --include-provides --suite plucky --archive-base 'http://archive.ubuntu.com/ubuntu' debian-pan debian-astro
-```
-:::
-
-
-:::{note}
-
-> move to contributor -> advanced
-> New page called "checking publication history"
-
-> Add this content as a sub-section on that page, others can be filled in later. 
-
-
-(checking-removal-reasons-in-pulication-history)=
-## Checking removal reasons 
-
-Sometimes one might want to double check if something was removed and
-asynchronous tools like `rmadison` will not immediately update as they need a
-publishing run and then some processing. Instead one could check such via
-launchpad API or the web.
-
-Commonly known is the source publishing history, which is also linked from the
-package. For example in
-[publishing history](https://launchpad.net/ubuntu/+source/libsdl2/+publishinghistory)
-you can see automatic and manual removals, but also the effects of a package
-going through `-proposed` migration.
-
-Less known is that there also is a binary package publishing history, which you
-might want to check if e.g. removing a binary for a single architecture. For
-example [in this case](https://bugs.launchpad.net/ubuntu/+source/pdfsandwich/+bug/2092549/comments/5)
-which can be seen in effect on
-[`https://launchpad.net/ubuntu/plucky/armhf/pdfsandwich`](https://launchpad.net/ubuntu/plucky/armhf/pdfsandwich).
-
-:::
 

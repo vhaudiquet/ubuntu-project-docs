@@ -69,6 +69,8 @@ Contributors -> index-advanced
 :titlesonly:
 
 contributors/request-package-removal
+contributors/check-publication-history
+contributors/check-reverse-dependencies
 ```
 
 
@@ -102,4 +104,5 @@ Page still needs to be split ->
 :titlesonly:
 
 new-packages
+partner-archive
 ```
