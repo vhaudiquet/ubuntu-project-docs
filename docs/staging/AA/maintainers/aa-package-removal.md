@@ -1,5 +1,5 @@
 (aa-package-removal)=
-# How to remove a package
+# Remove a package
 
 ```{note}
 This page will be moved to:
@@ -17,41 +17,45 @@ You may need to remove a package completely, or remove only
 {ref}`a source <aa-remove-only-source>` or
 {ref}`a binary <aa-remove-only-binary>`.
 
-## Remove a package completely
+## How to remove a package completely
 
-To remove a package entirely from the Archive, use the `remove-package`
-client-side tool. By default, this removes **both** the named source and any
-binaries.
+To remove a package entirely from the Archive, use the remove-package
+client-side tool.
 
-```text
-$ ./remove-package -m "reason for removal" konserve
+Source removals shall always have a bug associated. Binary package removals do
+not strictly require a bug report, but they are the way to contact the Archive
+Administrators therefore likely one exists.
+
+Either way, if a bug exists it shall be referenced in the removal comment,
+which helps a lot for users {ref}`tracking it down in the publishing history <checking-removal-reasons-in-pulication-history>` which
+will point them to the related discussion and action.
+
+### Remove a source package
+
+By default, this removes both the named source and any binaries:
+
+```none
+$ ./remove-package -m "LP: #12345 - reason for removal" konserve
 ```
 
-The tool tells you what it's going to do, and asks for confirmation before
-doing it, so it's reasonably safe to get the wrong options and say `N`.
+The tool tells you what it’s going to do, and asks for confirmation before
+doing it, so it’s reasonably safe to get the wrong options and say N.
 
-(aa-remove-only-source)=
-## Remove only a source
+### Remove only a binary package
 
-To remove only a source, use the `-S` flag with the `remove-package` tool:
+To remove only a binary, use the `-b` flag with the `remove-package` tool. For
+example:
 
-```text
-$ ./remove-package -m "reason for removal" -S konserve
+```none
+$ ./remove-package -m "LP: #12345 - reason for removal" -b konserve -a riscv64
 ```
 
-For source package removals you should require either a Launchpad or Debian bug
-number to reference in the removal. From time to time users will find the
-publishing history and complain to the Archive Admin who did the removal, so
-it's useful to be able to redirect them.
 
 
 
 
 
-
-
-
-### Source package removals via Debian
+## Source package removals via Debian
 
 Source packages that have been removed from Debian do not need a removal request
 bug. They can be periodically removed using the `process-removals` tool from
@@ -80,7 +84,125 @@ Some packages removed from Debian do need to be kept, e.g. `firefox`, since we
 did not do the `firefox` -> `iceweasel` renaming.
 
 
-### Other source removals of packages from Debian
+
+## Alternative demote-to-proposed
+
+There is a `demote-to-proposed` command which can be used to move a package to
+`devel-proposed` instead of removing it entirely. We rarely use this command,
+except if the package has an Ubuntu delta that is important to preserve in the
+event that a fix becomes available in Debian. Otherwise, if a package is buggy
+enough to be removed from the `-release` pocket, it is better to remove it
+entirely and wait for Debian to fix it rather than land it in `-proposed` where
+it takes attention of our {ref}`+1 maintenance <plus-one-maintenance>` folks
+and the Release Team.
+Not removing it would continue to potentially contaminate `-proposed` and on
+the other hand we have plenty of ways nowadays to get access to the former
+delta again.
+
+## Tracking dependency removals
+
+In some cases, a package must be removed not because it is buggy but because it
+depends on another package which is buggy. These removals should be tracked in
+the `extra-removals.txt` file within the
+[`sync-blocklist` repository](https://code.launchpad.net/~ubuntu-archive/+git/sync-blocklist).
+
+## Blocking a package from returning
+
+If you remove source packages which are in Debian, and they are not meant to
+ever come back, add it to the blocklist in
+`lp:~ubuntu-archive/+git/sync-blocklist`, document the reason, and
+`git commit` it with an appropriate changelog. This will avoid getting the
+package back to source NEW in the next round of auto-syncs from Debian.
+
+
+
+
+## Source removals of SRU upload from `-proposed`
+
+The [SRU Pending Report](https://ubuntu-archive-team.ubuntu.com/pending-sru.html)
+has a section at the bottom suggesting removals from `-proposed` for several
+different reasons.
+
+
+### `-updates` is equal or higher than `-proposed`
+
+This is the normal sequence of events that lead to this situation: An SRU is
+verified, released, and the package has to also be removed from `-proposed`.
+The suggested command-line in the report is correct, and can be run.
+
+When can it be run? Only when everything has been published, i.e., avoid the
+Launchpad publishing lag. Rule of thumb: give it a few days.
+
+Example:
+
+```none
+remove-package -y -m "moved to -updates" -s noble-proposed -e \
+ 4.18.4-1ubuntu0.1 xfce4-panel
+```
+
+
+### `-release` is equal or higher than `-proposed`
+
+Haven't seen this case before. I suspect it can happen at release opening. To
+be determined.
+
+
+### Failed verification for more than 10 days
+
+If an SRU has the `verification-failed` tag, it is expected to be corrected
+within 10 days, either by a new upload, or something else that fixes the
+problem.
+
+If that does not happen, the package is eligible for removal from `-proposed`.
+The `sru-remove` package, when given the "failed" reason, will automatically
+add a comment to the LP bug with the reason for removal, and mention this "10
+days" period.
+
+Example:
+
+```none
+sru-remove --reason=failed -s oracular -p samba 2092308
+```
+
+
+### No test plan verification done in more then 105 days
+
+If an upload has been sitting in `-proposed` and not verified for 105 days or
+more, it's also eligible for removal. That is the '`--reason=ancient`' parameter
+(which is the assumed default if not given), and it will also add the
+appropriate explanation to the bug behind the SRU.
+
+Example:
+
+```none
+sru-remove --reason=ancient -s focal -p libxmlb 1988440
+```
+
+
+
+(revert-a-package-to-a-previous-version)=
+## Revert a package to a previous version
+
+A special case of package removals is where we want to remove a package and
+replace it with a previous version. This most commonly occurs in the development
+series.
+
+For example, if a transition is almost complete we may receive a request to
+revert a new upload that accidentally entangles the transition. To do this, we
+need to remove the existing package with `remove-package`, then copy the
+previous package forwards with:
+
+```none
+copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTORE --include-binaries --from-suite=$SUITE --to-suite=$SUITE $PKG
+```
+
+
+
+
+## Why to remove packages
+
+(other-source-removals-from-debian)=
+## Justification for removal
 
 If we are removing a package from Ubuntu that is still in Debian `unstable`,
 some sort of justification for the removal is needed. A non-comprehensive list
@@ -104,31 +226,7 @@ of sufficient justifications:
   have asked the Security Team to also raise bugs on these packages in Debian
   as well before removing.
 
-There is a `demote-to-proposed` command which can be used to move a package to
-`devel-proposed` instead of removing it entirely. I **NEVER** use this command,
-except if the package has an Ubuntu delta that is important to preserve in the
-event that a fix becomes available in Debian. Otherwise, if a package is buggy
-enough to be removed from the `-release` pocket, it is better to remove it
-entirely and wait for Debian to fix it rather than land it in `-proposed` where
-it takes attention of our {ref}`+1 maintenance <plus-one-maintenance>` folks
-and the Release Team.
-Not removing it would continue to potentially contaminate `-proposed` and on
-the other hand we have plenty of ways nowadays to get access to the former
-delta again.
-
-In some cases, a package must be removed not because it is buggy but because it
-depends on another package which is buggy. These removals should be tracked in
-the `extra-removals.txt` file within the
-[`sync-blocklist` repository](https://code.launchpad.net/~ubuntu-archive/+git/sync-blocklist).
-
-> If you remove source packages which are in Debian, and they are not meant to
-> ever come back, add it to the blocklist in
-> `lp:~ubuntu-archive/+git/sync-blocklist`, document the reason, and
-> `git commit` it with an appropriate changelog. This will avoid getting the
-> package back to source NEW in the next round of auto-syncs from Debian.
-
-
-### Source removals of Ubuntu-specific packages
+## Source removals of Ubuntu-specific packages
 
 During the heyday of {term}`MOTU`, Ubuntu acquired many Ubuntu-specific
 packages that were uploaded by an Ubuntu developer who is no longer active. Over
@@ -140,8 +238,8 @@ from Source and blocking transitions, or depending on packages that have been
 removed from Debian.
 
 Before removing an Ubuntu-specific package, even if it is "obviously" abandoned,
-I always file a bug report against the package with the rationale, and where
-there is an obvious historic "owner" of the package I will subscribe them to
+please file a bug report against the package with the rationale, and where
+there is an obvious historic "owner" of the package subscribe them to
 the bug if they don't already have a bug subscription to the package (they
 usually don't) and give them time to remedy the situation if they still care
 about the package.
@@ -150,93 +248,7 @@ Such bugs should be given a deadline of the end of the current release cycle,
 to ensure {term}`NBS` gets cleaned up before a stable release.
 
 
-### Source removals of SRU upload from `-proposed`
-
-The [SRU Pending Report](https://ubuntu-archive-team.ubuntu.com/pending-sru.html)
-has a section at the bottom suggesting removals from `-proposed` for several
-different reasons.
-
-
-#### **`-updates` is equal or higher than `-proposed`**
-
-This is the normal sequence of events. An SRU is verified, released, and the
-package has to also be removed from `-proposed`. The suggested command-line in
-the report is correct, and can be run.
-
-When can it be run? Only when everything has been published, i.e., avoid the
-{term}`LP` publishing lag. Rule of thumb: give it a few days.
-
-Example:
-
-```none
-remove-package -y -m "moved to -updates" -s noble-proposed -e \
- 4.18.4-1ubuntu0.1 xfce4-panel
-```
-
-
-#### **`-release` is equal or higher than `-proposed`**
-
-Haven't seen this case before. I suspect it can happen at release opening. To
-be determined.
-
-
-#### **Failed verification for more than 10 days**
-
-If an SRU has the `verification-failed` tag, it is expected to be corrected
-within 10 days, either by a new upload, or something else that fixes the
-problem.
-
-If that does not happen, the package is eligible for removal from `-proposed`.
-The `sru-remove` package, when given the "failed" reason, will automatically
-add a comment to the LP bug with the reason for removal, and mention this "10
-days" period.
-
-Example:
-
-```none
-sru-remove --reason=failed -s oracular -p samba 2092308
-```
-
-> ## Failed SRUs
-> If a package should be removed from `-proposed`, use the `remove-package` tool
-> from `ubuntu-archive-tools`) to remove source and binaries, e.g. for the
-> `libreoffice` package in `xenial-proposed`:
-
-> ```none
-> $ ./remove-package -m "SRU abandoned (verification-failed)" -s xenial-proposed libreoffice
-> ```
-
-
-#### **No test plan verification done in more then 105 days**
-
-If an upload has been sitting in `-proposed` and not verified for 105 days or
-more, it's also eligible for removal. That is the '`--reason=ancient`' parameter
-(which is the assumed default if not given), and it will also add the
-appropriate explanation to the bug behind the SRU.
-
-Example:
-
-```none
-sru-remove -s focal -p libxmlb 1988440
-```
-
-
-(aa-remove-only-binary)=
-## Remove only a binary
-
-To remove only a binary, use the `-b` flag with the `remove-package` tool:
-
-For example:
-
-```text
-$ ./remove-package -m "reason for removal" -b konserve
-```
-
-Binary package removals generally do not require a bug report.
-
-
-
-### Removals of binary packages
+## Removals of binary packages
 
 When a binary package ceases to be built by its source package, it must be
 manually removed by an Archive Admin. These to-be-removed packages show up in
@@ -269,10 +281,8 @@ several places.
   and [out-of-date package report](https://ubuntu-archive-team.ubuntu.com/proposed-migration/noble_outdate.txt)
   for the corresponding series. 
 
-```
-From the wiki
 (aa-nbs)=
-## NBS
+## NBS-related removals
 
 Sometimes binary packages are Not Built by any Source (NBS) any more. This
 usually happens with library SONAME changes, package renames, etc. Those need
@@ -295,28 +305,12 @@ files will list all the packages that still need the package in question.
 Don't remove NBS kernel packages for old {term}`ABIs <ABI>`
 until `debian-installer` and the seeds have been updated, otherwise daily
 builds of alternate and server CDs will be made uninstallable.
-```
 
 
 
 
 
 
-(revert-a-package-to-a-previous-version)=
-## Revert a package to a previous version
-
-A special case of package removals is where we want to remove a package and
-replace it with a previous version. This most commonly occurs in the development
-series.
-
-For example, if a transition is almost complete we may receive a request to
-revert a new upload that accidentally entangles the transition. To do this, we
-need to remove the existing package with `remove-package`, then copy the
-previous package forwards with:
-
-```none
-copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTORE --include-binaries --from-suite=$SUITE --to-suite=$SUITE $PKG
-```
 
 (aa-check-dependencies-before-removal)=
 ## Checking dependencies before removal
@@ -366,7 +360,7 @@ Example:
 ./checkrdepends --no-ports --include-provides --suite plucky --archive-base 'http://archive.ubuntu.com/ubuntu' debian-pan debian-astro
 ```
 
-
+(checking-removal-reasons-in-pulication-history)=
 ## Checking removal reasons in publication history 
 
 Sometimes one might want to double check if something was removed and

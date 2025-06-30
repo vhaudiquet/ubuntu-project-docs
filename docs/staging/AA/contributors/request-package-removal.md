@@ -1,4 +1,4 @@
-(request-package-removal)
+(request-package-removal)=
 # How to request a package removal
 
 ```{note}
@@ -20,7 +20,7 @@ have the following elements:
 
 * What source and binary packages you expect to be removed
 
-* A rationale for why they should be removed. Examples:
+* A rationale for {ref}`why they should be removed <other-source-removals-from-debian>`. Examples:
 
   * E.g: In Noble please remove bin:foo-oldcrap from src:foo as it blocks migration of the new version which is no more building it
 
@@ -28,9 +28,13 @@ have the following elements:
 
   * E.g: In plucky please remove src:foobar and all of its binaries, they block the transition of snafu and foobar upstream is orphaned and won’t be updated to work with the new versions of the overall stack
 
+  * E.g. please remove src:arrr form noble, because all binaries it used to build have been taken over by src:pirate now
+
 * Confirmation that the binary packages have no `reverse-depends` (no other package
   depends on them). To do so, check the instructions in {ref}`aa-check-dependencies-before-removal`.
   Copy and paste the output from whichever tool you use into the bug.
+
+* Mention if the request is limited to a particular architecture
 
 Once the bug is ready, as per the above list, subscribe the `ubuntu-archive`
 team to the bugs.
