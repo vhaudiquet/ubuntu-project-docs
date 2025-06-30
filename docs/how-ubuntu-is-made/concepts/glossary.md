@@ -271,12 +271,11 @@ Changelog
 
 chroot
 Change root
-    changes the root directory of the calling process to the path provided as the first argument
-    ```usage
+    Changes the root directory of the calling process to the path provided as the first argument. For example:
+    ```none
     chroot ~/newroot /bin/bash
-    
-    opens a bash shell with the 'newroot' folder as the root
     ```
+    Opens a bash shell with the `/newroot` folder as the root.
 
 CoF
 Circle of Friends
