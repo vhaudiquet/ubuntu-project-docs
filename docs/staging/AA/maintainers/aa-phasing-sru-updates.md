@@ -1,9 +1,12 @@
 (aa-phasing-sru-updates)=
-# Phasing on delivering SRU updates
+# Change phasing on delivering SRU updates
 
 ```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
+This page more rightly belongs in "Override Phasing" in the SRU documentation
+Just before the "adding members to the team section"
+
+will be moved to:
+* Maintainers -> SRU tasks
 ```
 
 The delivery of an SRU is phased to allow detecting and holding back the

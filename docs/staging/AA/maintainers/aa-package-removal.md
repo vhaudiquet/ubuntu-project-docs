@@ -116,6 +116,7 @@ until `debian-installer` and the seeds have been updated, otherwise daily
 builds of alternate and server CDs will be made uninstallable.
 
 
+(source-package-removals-via-debian)=
 ### Source package removals via Debian
 
 Source packages that have been removed from Debian do not need a removal request
@@ -291,6 +292,9 @@ copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTO
 
 ## Related actions
 
+```{note}
+Add contextual text
+```
 
 ### Tracking dependency removals
 

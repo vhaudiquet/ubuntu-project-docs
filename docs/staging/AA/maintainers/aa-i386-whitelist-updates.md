@@ -1,14 +1,6 @@
 (aa-i386-whitelist-updates)=
 # i386 whitelist updates
 
-```{admonition} Question
-:class: important
-
-Can we change whitelist to allowlist?
-
-Also, do we need more intro than this?
-```
-
 The i386 [is a partial archive now](https://wiki.ubuntu.com/i386).
 
 ## Add packages to the whitelist
@@ -26,12 +18,12 @@ Trigger the i386 build either by:
   
   `copy-package -b --force-same-destination -e $version $pkg`
 
-Note that if the binary package was built for an earlier release, e.g. Oracular
-for the current Plucky, you'll need to adjust the `copy-package` invocation to:
+  Note that if the binary package was built for an earlier release, e.g. Oracular
+  for the current Plucky, you'll need to adjust the `copy-package` invocation to:
 
-```none
-./copy-package -b --from-suite=oracular --to-suite=plucky -e $version $pkg
-```
+  ```none
+  ./copy-package -b --from-suite=oracular --to-suite=plucky -e $version $pkg
+  ```
 
 The copy should trigger a build on i386
 
@@ -47,9 +39,3 @@ other than the one pulled into the seed has dependencies that are not
 otherwise included, then this binary package will also need to be seeded in
 order to ensure dependency availability.
 
-```{admonition} Question
-:class: important
-
-Do we need to provide a link to the instructions for seeding? Is this is also an
-AA task?
-```

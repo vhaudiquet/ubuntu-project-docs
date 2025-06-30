@@ -11,15 +11,8 @@ Archive Admins as a team. The keys being on the `main` Archive caused problems,
 so the current production keys are all now attached to PPAs instead.
 
 So, signing is still done with the authority of the Archive Admins, but in
-practice it's currently `apw`, `tjaalton`, and `vorlon` doing that via a
+practice it's currently `apw` and `tjaalton` doing that via a
 **separate restricted Launchpad team**.
-
-```{admonition} Question
-:class: important
-
-Do we have a link to this Launchpad team that we can put here ^^ to avoid having
-to maintain a list of names that might change in this doc?
-```
 
 
 ## s390x bootloaders
@@ -48,13 +41,7 @@ auto-reject those for us so that we don't have to worry about them in practice.
 
 Launchpad supports auto-signing of EFI binaries using the Secure Boot signature
 format. This is implemented using a "raw UEFI" format upload within a binary
-package build (see the `efilinux` package in Quantal or later for an example).
-
-```{admonition} Question
-:class: important
-
-Do we have a more up to date example, with a link?
-```
+package build.
 
 To provide additional assurance that only trusted EFI bootloaders are signed
 using this method, packages that include raw UEFI binary uploads land in the

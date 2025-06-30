@@ -9,10 +9,9 @@ charmed hosted services.
 
 ```{admonition} This page will be moved to:
 maintainers -> AA
+ONLY after the content has been added
 ```
 ## List of services on `ubuntu-archive-toolbox`
-
-### SRU
 
 
 ### Seeds/germinate
@@ -48,16 +47,10 @@ maintainers -> AA
 ### Auto-accept
 
 
-### Bileto "CI train" (Jenkins) - DEPRECATED
-
-
 ### Transition tracker (`ben`)
 
 
 ## Debugging broken jobs on `ubuntu-archive-toolbox`
-
-
-## Proposed migration report 
 
 
 

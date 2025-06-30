@@ -68,7 +68,7 @@ Contributors -> index-advanced
 ```{toctree}
 :titlesonly:
 
-contributors/request-package-removal
+contributors/aa-request-package-removal
 contributors/check-publication-history
 contributors/check-reverse-dependencies
 ```
