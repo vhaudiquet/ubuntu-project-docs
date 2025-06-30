@@ -8,14 +8,15 @@ This page will be moved to:
 
 There are two main kinds of overrides that we need to keep tabs on, in order to
 zero out the discrepancies before the end of the release cycle:
-**component mismatches**, and **priority mismatches**.
+{ref}`aa-component-mismatches`, and {ref}`aa-priority-mismatches`.
 
 Packages just don't stay where they're put. {ref}`seed-management` details how
 packages get chosen for the `main` component, the various meta packages and
 presence on the CD. What it doesn't point out is that packages
 that fall out of the seeding process are destined for the `universe` component.
 
-## Component mismatches
+(aa-component-mismatches)=
+## What are component mismatches
  
 Every 30 minutes or so, the difference between what the seeds expect to be true
 and what the Archive actually states is evaluated by the `component-mismatches`
@@ -34,8 +35,8 @@ Source and binary
   to `main`. The usual reasons are that they are seeded, or that a package they
   build has become a dependency or build-dependency of a package in `main`.
 
-  New sources need to be processed through the
-  [Ubuntu Main Inclusion Queue](https://wiki.ubuntu.com/UbuntuMainInclusionQueue),
+  New sources need to be processed through the Ubuntu
+  {ref}`Main Inclusion Review <main-inclusion-review>`,
   and have been approved before they should be promoted. Ensure that all of
   their dependencies (which will be in this list) are approved as well.
 
@@ -63,23 +64,10 @@ Binary-only
 
 
 
-## Target pocket for the override 
+## Resolving component mismatches
 
-Once you've determined what overrides need to be changed (as outlined in the
-following sections), use the `change-override` client-side tool to do it.
-
-When overriding the component of a package, that component will "stick" to the
-package when migrating from one pocket to the other. That means that if you
-demote a package in the `-release` pocket but it has a version in `-proposed`,
-you'll need to also demote that version or have to come back later on. Or you
-can use that to your advantage so it takes this attribute with it just when it
-migrates by only setting the component in `-proposed`.
-
-
-## Demote to `universe` 
-
-Start at
-[`component-mismatches`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.html)
+For both directions, (universe -> main or main -> universe), start with
+[`component-mismatches`](https://ubuntu-archive-team.ubuntu.com/component-mismatches.html).
 Or for more churn at: [`component-mismatches-proposed`](https://ubuntu-archive-team.ubuntu.com/component-mismatches-proposed.html).
 
 * We will need to understand each individual case, so it is hard/not feasible
@@ -96,72 +84,56 @@ Or for more churn at: [`component-mismatches-proposed`](https://ubuntu-archive-t
 
   * We do not know, let us ping the owning team.
 
-* We'd need to not repeat that so we'd want to keep state/info of what we found:
+* We'd want to keep state/info of the case:
 
-  * **Now**: try to leave comments on an MIR bug.
-
+  * **Any promotion needs an approve {ref}`Main Inclusion Request <main-inclusion-review>`**
+  * Any demotion should leave a trail on the related MIR
     * Helper to find them:
       [`get-mir-bug`](https://git.launchpad.net/~ubuntu-server/+git/ubuntu-helpers/tree/cpaelzer/get-mir-bug)
 
     * Not yet covering source renames or such, but be creative with your queries
 
-    * If None exists due to the dark past, consider filing them a stub according
+    * If no bug exists due to the dark past, consider filing them a stub according
       to {ref}`mir-rereview`.
 
-  * **Future**: We'd like to have a linked bug as with MIRs and in MoM would be
-    a desire for the evolution of this page.
 
-:::{code-block}
-# Note, this content is from the wiki page
 
-**Binary only demotions to `universe`**
 
-Binary packages in `main` that are no longer seeded or depended on, but the
-source is still to remain in `main` -- usually because another binary saves it.
-Often these tend to be `-dev` or `-dbg` packages and need to be seeded, rather
-than demoted; but not always.
+### change-override
 
-Once you've determined what overrides need to be changed, use the
-`change-override` client-side tool to do it.
-
+Once you’ve determined what overrides need to be changed use the change-override client-side tool to do it.
 To promote a binary package to `main`:
 
-```none
-$ ./change-override -c main git-email
+```
+$ ./change-override --component main git-email
 ```
 
 To demote a source package and all of its binaries to `universe`:
+
 ```
-$ ./change-override -c universe -S tspc
+# in -release
+$ ./change-override --component universe --suite questing tspc
+# in -proposed
+$ ./change-override --component universe --suite questing-proposed tspc
 ```
+Less common options to change-override
 
-To demote a binary package to `universe` to solve a component-mismatch issue
-(note the `-proposed` target rather than the release pocket), typically unseeded
-because the new version introduced an unwanted dependency:
+Less frequently used are the options to just move a source, and leave its binaries where they are (usually just to repair a mistaken forgotten `-S`) or binary and source of the same name (but not its other binaries):
 
-```none
-$ ./change-override -c universe -s plucky-proposed erlang-doc
 ```
-
-Less frequently used are the options to just move a source, and leave its
-binaries where it is (usually just to repair a mistaken forgotten `-S`):
-
-```none
-$ ./change-override -c universe tspc
-...oops, forgot the source...
-$ ./change-override -c universe -t tspc
+# only this src and same named binary
+$ ./change-override --component universe ---binary-and-source tspc
+# ...oops, forgot the source...
+$ ./change-override --component universe --source-only tspc
 ```
 
-and the option to move a binary and its source, but leave any other binaries
-where they are:
+#### Component attributes are sticky
 
-```none
-$ ./change-override -c universe -B flite
-```
-:::
+When overriding the component of a package, that component will “stick” to the package when migrating from one pocket to the other. That means that if you demote a package in the -release pocket but it has a version in -proposed, you’ll need to also demote that version or have to come back later on. Or you can use that to your advantage so it takes this attribute with it just when it migrates by only setting the component in -proposed.
 
 
-## Special case -- promoting in stable releases
+
+### Special case -- promoting in stable releases
 
 A special case are promotions in stable Ubuntu releases. Most of the time
 promotions there work just as normal for packages in `-updates` and `-security`,
@@ -213,7 +185,7 @@ SRU process overhead because of the additional binaries and it is recommended
 not to do this.
 
 
-## Watch out -- sometimes changes are not instant all the way through
+### Watch out -- sometimes changes are not instant all the way through
 
 [See MM discussion here](https://chat.canonical.com/canonical/pl/47hr8y3xp3bu9fno5a87x7w1ma).
 
