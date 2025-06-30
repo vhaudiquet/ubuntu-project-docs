@@ -14,6 +14,12 @@ There are three main functions of a manual NEW process:
 
 * Ensuring the package is shipped in the correct component based on its license
 
+Debian does the same, so have a read of the
+[Debian Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
+
+```{note}
+Move this section to other "new" page
+
 New sources need to be checked to make sure they're well packaged, the licence
 details are correct and permissible for us to redistribute, etc. See:
 
@@ -22,6 +28,7 @@ details are correct and permissible for us to redistribute, etc. See:
 * {ref}`debian/copyright file <the-copyright-file>`
 
 * and [Debian's Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
+```
 
 ## The NEW queue
 
@@ -44,10 +51,10 @@ $ ./queue info
 
 This is the `NEW` queue for the development series of Ubuntu by default; you
 can change the queue with `-Q`, the distro with `-D` and the release using `-s`.
-To list the `UNAPPROVED` queue for `ubuntu/xenial`, for example:
+To list the `UNAPPROVED` queue for `ubuntu/noble`, for example:
 
 ```none
-$ ./queue -s xenial -Q unapproved info
+$ ./queue -s noble -Q unapproved info
 ```
 
 Packages are placed in the `UNAPPROVED` queue if they're uploaded to a closed
@@ -67,21 +74,31 @@ $ ./queue report
 Back to the `NEW` queue for now, however. You'll see output that looks somewhat
 like this:
 
-```text
-$ ./queue info
- Listing ubuntu/dapper (New) 4
+```none
+./queue info
+Listing ubuntu/questing-proposed (New) 5
 ---------|----|----------------------|----------------------|---------------
-   25324 | S- | diveintopython-zh    | 5.4-0ubuntu1         | 3 minutes
-         | * diveintopython-zh/5.4-0ubuntu1 Component: main Section: doc
-   25276 | -B | language-pack-kde-co | 1:6.06+20060427      | 2 hours 20 minutes
-         | * language-pack-kde-co-base/1:6.06+20060427/i386 Component: main Section: translations Priority: OPTIONAL
-   23635 | -B | upbackup (i386)      | 0.0.1                | 2 days
-         | * upbackup/0.0.1/i386 Component: main Section: admin Priority: OPTIONAL
-         | * upbackup_0.0.1_i386_translations.tar.gz Format: raw-translations
-   23712 | S- | gausssum             | 1.0.3-2ubuntu1       | 45 hours
-         | * gausssum/1.0.3-2ubuntu1 Component: main Section: science
+36216149 | S- | pidng                | 4.0.9-0ubuntu1       | 11 days
+	 | * pidng/4.0.9-0ubuntu1 Component: universe Section: graphics
+36193838 | -B | opensnitch           | 1.6.9-2ubuntu1       | 3 weeks
+	 | N opensnitch/1.6.9-2ubuntu1/riscv64 Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-dbgsym/1.6.9-2ubuntu1/riscv64 Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-ebpf-modules/1.6.9-2ubuntu1/riscv64 Component: universe Section: net Priority: OPTIONAL
+36193694 | -B | opensnitch           | 1.6.9-2ubuntu1       | 3 weeks
+	 | * opensnitch/1.6.9-2ubuntu1/arm64 Component: universe Section: net Priority: OPTIONAL
+	 | * opensnitch-dbgsym/1.6.9-2ubuntu1/arm64 Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-ebpf-modules/1.6.9-2ubuntu1/arm64 Component: universe Section: net Priority: OPTIONAL
+36193690 | -B | opensnitch           | 1.6.9-2ubuntu1       | 3 weeks
+	 | N opensnitch/1.6.9-2ubuntu1/s390x Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-dbgsym/1.6.9-2ubuntu1/s390x Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-ebpf-modules/1.6.9-2ubuntu1/s390x Component: universe Section: net Priority: OPTIONAL
+36193686 | -B | opensnitch           | 1.6.9-2ubuntu1       | 3 weeks
+	 | * opensnitch/1.6.9-2ubuntu1/amd64 Component: universe Section: net Priority: OPTIONAL
+	 | * opensnitch-dbgsym/1.6.9-2ubuntu1/amd64 Component: universe Section: net Priority: OPTIONAL
+	 | N opensnitch-ebpf-modules/1.6.9-2ubuntu1/amd64 Component: universe Section: net Priority: OPTIONAL
+	 | * python3-opensnitch-ui/1.6.9-2ubuntu1/amd64 Component: universe Section: net Priority: OPTIONAL
 ---------|----|----------------------|----------------------|---------------
-                                                               4
+                                                               5
 ```
 
 The number at the start can be used with other commands instead of referring to
@@ -92,7 +109,9 @@ the package name, the version, and how long it's been in the queue.
 
 ## Fetch a package for processing
 
-You can fetch a package from the queue for manual checking:
+If you need to make any detailed analysis of a package, you can fetch it from
+the queue manually. Remember that until the package is accepted, the usual tools
+(such as {manpage}`pull-lp-source(1)`) cannot fetch it.
 
 ```none
 $ ./queue fetch 25324
@@ -105,16 +124,13 @@ with a faster network connection:
 $ ./queue show-urls 25324
 ```
 
-The source is now in the current directory and ready for checking. Any problems
-should result in the rejection of the package (also send a mail to the uploader
-explaining the reason and cc ubuntu-archive@lists.ubuntu.com):
-
-```none
-$ ./queue reject 25324
-```
+The source is now in the current directory and ready for checking.
 
 
-## Process the package
+## Process a package in the NEW queue
+
+
+### Checking for basic package correctness
 
 In addition to the following checks, run `lintian -I` on the source package
 (or the binaries) to check that they aren't obviously very buggy in ways that
@@ -236,14 +252,16 @@ codec support.
 
 Sometimes software that would otherwise go to `restricted` goes to `main`, for
 dependency reasons. That is OK, but should be the exception and then has to
-pass a full MIR.
+pass a full MIR before being allowed to do so.
 
 Non-free software not in these categories should be shipped in `multiverse`;
 
 * we should not promote other packages to `restricted` based on a Canonical
   position of "support".
 
-Examples that confused, but therefore provide great examples we can align
+#### Example component choices
+
+Examples that have been discussed and therefore provide great examples we can align
 future decisions to:
 
 * `Linux-firmware-nvidia-tegra`
@@ -258,40 +276,10 @@ future decisions to:
 
   * => `restricted`
 
-* `nvidia-firmware-$version`
-
-  * We have mixed states in the Archive right now.
-
-  * ```
-    $ rmadison nvidia-firmware-550-550.78
-    nvidia-firmware-550-550.78 | 550.78-0ubuntu0.20.04.1 | focal-proposed/**multiverse** | amd64, arm64
-    nvidia-firmware-550-550.78 | 550.78-0ubuntu0.22.04.1 | jammy-proposed/restricted | amd64, arm64
-    nvidia-firmware-550-550.78 | 550.78-0ubuntu0.24.04.1 | noble-proposed/restricted | amd64, arm64
-    ```
-
-  * ```
-    $ rmadison nvidia-firmware-535-535.183.01
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.20.04.1 | focal-security/restricted | amd64, arm64
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.20.04.1 | focal-updates/restricted  | amd64, arm64
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.22.04.1 | jammy-security/restricted | amd64, arm64
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.22.04.1 | jammy-updates/restricted  | amd64, arm64
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.24.04.1 | noble-security/restricted | amd64, arm64
-    nvidia-firmware-535-535.183.01 | 535.183.01-0ubuntu0.24.04.1 | noble-updates/restricted  | amd64, arm64
-    ```
-
-  * It is hardware enablement
-
-  * It is non-free
-
-  * Firmware counts as drivers
-
-  * => So it should be `restricted`, the one outlier should be fixed right?
-
-  * (vorlon) I think so.
-
+## Special cases of NEW processing
 
 (new-packages-from-debian)=
-## New packages from Debian
+### New packages from Debian
 
 From time to time, packages will end up in the Ubuntu NEW queue that were
 synced from Debian. Source packages that were auto-synced will be also be
@@ -310,7 +298,7 @@ package would trigger a transition, in which case this should have been
 discussed with the release team.
 
 
-## New packages targeted at stable releases
+### New packages targeted at stable releases
 
 The SRU policy does not forbid uploading a new source or binary to stable
 releases. But, if that happens it needs double approval; one from an {term}`AA`
@@ -354,20 +342,14 @@ The same approach was suggested for the SRU documentation
 [in this PR](https://code.launchpad.net/~paelzer/sru-docs/+git/sru-docs/+merge/473706).
 
 
-## Further special cases processing NEW queue
-
-There are a few special cases which can make this less complex than a full NEW
-review in step 2, and gladly they make the most common cases.
-
-
-### **New -- backports**
+### Backports
 
 Backports of packages already present in the devel series; these should not
 require any real NEW review from {term}`AAs <AA>`, just a debdiff to make sure
 they match the devel series as expected.
 
 
-### **New -- source renames**
+### Source renames
 
 Renames of newer versions of toolchain packages to allow them to be used as
 build-dependencies in support of particular packages; e.g. `gcc-mozilla`,
@@ -381,14 +363,14 @@ Sometimes bigger transitions require adding one to `main` and reminding the
 person/team driving the case accountable to make the old fully able to be
 demoted.
 
-### **New -- kernel metapackages**
+### Kernel metapackages
 
 There is also the special case of OEM kernel metapackages, which are completely
 different and in special ways. Any AA+SRU team member can process one of these;
 they are processed using the `oem-metapackage-mir-check` tool in
 `lp:ubuntu-archive-tools`.
 
-### **New -- binaries**
+### Binaries
 
 The consensus on "bin NEW" reviews is that it's usually lighter than
 "source NEW", especially for the case where the sources have *just* been through
@@ -419,19 +401,15 @@ binary, as some sources produce binaries going to different components, see
 Before accepting, one should further ensure that all architectures that are
 meant to be built are built. Let us not create per-arch differences.
 
+```{warning}
 **Beware of the Web UI** for packages outside `universe`: accepting new binaries
 for a package will override *all* binaries for that package into the same
 component as its source.
+```
 
+## Post-review
 
-## Contact the uploader
-
-Sometimes we might need to discuss with the uploader instead of just rejecting.
-In that case have a look at the `.dsc` file with `gpg –verify` to get the
-sponsor and the changelog to get the packager. Use that info to connect to them.
-
-## Accepting a package
-
+### Accepting a package
 
 If the package is fine, you should next check that it's going to end up in the
 right part of the archive. On the next line of the `info` output, you have
@@ -477,6 +455,25 @@ $ ./queue accept 23712
 
 You can also use `./queue accept binary-name`, which will accept it for all
 architectures.
+
+
+### Contact the uploader
+
+Sometimes we might need to discuss with the uploader instead of just rejecting.
+In that case have a look at the `.dsc` file with `gpg –verify` to get the
+sponsor and the changelog to get the packager. Use that info to connect to them.
+
+
+### Rejecting a package
+
+Any problems in any of the above checks should result in the rejection of
+the package. If there is an associated bug, communicate the reasons there. If
+not, send a mail to the uploader explaining the reason and cc
+ubuntu-archive@lists.ubuntu.com:
+
+```none
+$ ./queue reject 25324
+```
 
 
 ## Partner archive
