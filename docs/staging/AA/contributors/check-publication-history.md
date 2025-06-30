@@ -8,7 +8,7 @@ Currently it only contains checking removals, but we can add other sections as
 we find them.
 ```
 
-(checking-removal-reasons-in-pulication-history)=
+(checking-removal-reasons)=
 ## Checking removal reasons 
 
 Sometimes one might want to double check if something was removed and

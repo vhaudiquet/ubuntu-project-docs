@@ -21,10 +21,13 @@ not strictly require a bug report, but they are the way to contact the Archive
 Administrators therefore likely one exists.
 
 Either way, if a bug exists it shall be referenced in the removal comment,
-which helps a lot for users {ref}`tracking it down in the publishing history <checking-removal-reasons-in-pulication-history>` which
+which helps a lot for users
+{ref}`tracking it down in the publishing history <checking-removal-reasons>` which
 will point them to the related discussion and action.
 
+
 ## Why to remove packages
+
 
 (justification-for-removal)=
 ### Justification for removal
@@ -50,6 +53,7 @@ of sufficient justifications:
 * The Security Team has flagged the package as unsupportable. In some cases I
   have asked the Security Team to also raise bugs on these packages in Debian
   as well before removing.
+
 
 ### Removals of binary packages
 
@@ -84,7 +88,8 @@ several places.
   and [out-of-date package report](https://ubuntu-archive-team.ubuntu.com/proposed-migration/noble_outdate.txt)
   for the corresponding series. 
 
-(aa-nbs)=
+
+(aa-nbs-removals)=
 ### NBS-related removals
 
 Sometimes binary packages are Not Built by any Source (NBS) any more. This
@@ -109,6 +114,7 @@ files will list all the packages that still need the package in question.
 Don't remove NBS kernel packages for old {term}`ABIs <ABI>`
 until `debian-installer` and the seeds have been updated, otherwise daily
 builds of alternate and server CDs will be made uninstallable.
+
 
 ### Source package removals via Debian
 
@@ -159,11 +165,13 @@ about the package.
 Such bugs should be given a deadline of the end of the current release cycle,
 to ensure {term}`NBS` gets cleaned up before a stable release.
 
+
 (aa-remove-a-package)=
 ## How to remove a package
 
 To remove a package entirely from the Archive, use the `remove-package`
 client-side tool.
+
 
 ### Remove a source package
 
@@ -176,6 +184,7 @@ $ ./remove-package -m "LP: #12345 - reason for removal" konserve
 The tool tells you what it’s going to do, and asks for confirmation before
 doing it, so it’s reasonably safe to get the wrong options and say N.
 
+
 ### Remove only a binary package
 
 To remove only a binary, use the `-b` flag with the `remove-package` tool. For
@@ -184,6 +193,7 @@ example:
 ```none
 $ ./remove-package -m "LP: #12345 - reason for removal" -b konserve -a riscv64
 ```
+
 
 ### Alternative demote-to-proposed
 

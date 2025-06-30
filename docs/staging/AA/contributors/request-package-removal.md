@@ -11,6 +11,7 @@ Ubuntu `universe` on a regular basis by the Archive Admin team. However, package
 are not removed from Ubuntu `main` without an explicit request, and nor are
 packages which originated elsewhere.
 
+
 ## The removal request
 
 To request removal of a package, file a bug against the package. The bug must
@@ -20,25 +21,32 @@ have the following elements:
 
 * What source and binary packages you expect to be removed
 
-* A rationale for {ref}`why they should be removed <justification-for-removal>`. Examples:
+* A rationale for {ref}`why they should be removed <justification-for-removal>`.
+  Examples:
 
   * E.g: In Noble please remove bin:foo-old-stuff from src:foo as it blocks
     migration of the new version which is no more building it
 
-  * E.g: In questing please remove src:bar and all of its binaries, they are dysfunctional in that release XX, because …
+  * E.g: In questing please remove src:bar and all of its binaries, they are
+    dysfunctional in that release XX, because ...
 
-  * E.g: In plucky please remove src:foobar and all of its binaries, they block the transition of snafu and foobar upstream is orphaned and won’t be updated to work with the new versions of the overall stack
+  * E.g: In plucky please remove src:foobar and all of its binaries, they block
+    the transition of snafu and foobar upstream is orphaned and won’t be
+    updated to work with the new versions of the overall stack
 
-  * E.g. please remove src:arrr form noble, because all binaries it used to build have been taken over by src:pirate now
+  * E.g. please remove src:arrr from noble, because all binaries it used to
+    build have been taken over by src:pirate now
 
-* Confirmation that the binary packages have no `reverse-depends` (no other package
-  depends on them). To do so, check the instructions in {ref}`check-reverse-dependencies`.
+* Confirmation that the binary packages have no `reverse-depends` (no other
+  package depends on them). To do so, check the instructions in
+  {ref}`check-reverse-dependencies`.
   Copy and paste the output from whichever tool you use into the bug.
 
 * Mention if the request is limited to a particular architecture
 
 Once the bug is ready, as per the above list, subscribe the `ubuntu-archive`
 team to the bugs.
+
 
 ## Getting help
 
