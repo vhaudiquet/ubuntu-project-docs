@@ -97,39 +97,47 @@ Or for more churn at: [`component-mismatches-proposed`](https://ubuntu-archive-t
       to {ref}`mir-rereview`.
 
 
-
-
 ### change-override
 
-Once you’ve determined what overrides need to be changed use the change-override client-side tool to do it.
+Once you’ve determined what overrides need to be changed, use the
+`change-override` client-side tool to do it.
+
 To promote a binary package to `main`:
 
-```
+```none
 $ ./change-override --component main git-email
 ```
 
 To demote a source package and all of its binaries to `universe`:
 
-```
+```none
 # in -release
 $ ./change-override --component universe --suite questing tspc
 # in -proposed
 $ ./change-override --component universe --suite questing-proposed tspc
 ```
-Less common options to change-override
 
-Less frequently used are the options to just move a source, and leave its binaries where they are (usually just to repair a mistaken forgotten `-S`) or binary and source of the same name (but not its other binaries):
+### Less common options to change-override
 
-```
+Less frequently used are the options to just move a source, and leave its
+binaries where they are (usually just to repair a mistaken forgotten `-S`) or
+binary and source of the same name (but not its other binaries):
+
+```none
 # only this src and same named binary
 $ ./change-override --component universe ---binary-and-source tspc
 # ...oops, forgot the source...
 $ ./change-override --component universe --source-only tspc
 ```
 
-#### Component attributes are sticky
+### Component attributes are sticky
 
-When overriding the component of a package, that component will “stick” to the package when migrating from one pocket to the other. That means that if you demote a package in the -release pocket but it has a version in -proposed, you’ll need to also demote that version or have to come back later on. Or you can use that to your advantage so it takes this attribute with it just when it migrates by only setting the component in -proposed.
+When overriding the component of a package, that component will “stick” to the
+package when migrating from one pocket to the other. That means that if you
+demote a package in the `-release` pocket but it has a version in `-proposed`,
+you’ll need to also demote that version or have to come back later on. Or you
+can use that to your advantage so it takes this attribute with it just when it
+migrates by only setting the component in `-proposed`.
 
 
 
@@ -155,7 +163,7 @@ b"Cannot change overrides in suite 'focal'"
 
 Instead in this special case it is recommended to handle this as a pocket copy
 of the package from the `-release` pocket to the `-updates` pocket with
-binaries and no rebuild and change the component only in `-updates`, e.g. as
+binaries and no rebuild, and change the component only in `-updates`, e.g. as
 done [in this case](https://bugs.launchpad.net/ubuntu/+source/mdevctl/+bug/1889248)
 using the following arguments to `copy-package`: 
 
@@ -186,8 +194,6 @@ not to do this.
 
 
 ### Watch out -- sometimes changes are not instant all the way through
-
-[See MM discussion here](https://chat.canonical.com/canonical/pl/47hr8y3xp3bu9fno5a87x7w1ma).
 
 Launchpad does well in changing most attributes right away when acting with
 `ubuntu-archive-tools`. But some aspects need a publisher run or similar. Some
