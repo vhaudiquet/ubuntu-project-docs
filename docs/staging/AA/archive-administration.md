@@ -4,6 +4,9 @@
 ```{note}
 This page will be moved to:
 * Who makes Ubuntu -> The Ubuntu Archive team
+
+This page will be properly written *after* the AA team has acked the split and
+reviewed the content.
 ```
 
 Every contributor to Ubuntu is concerned with the good health and long-term

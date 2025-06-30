@@ -198,25 +198,11 @@ well known for acceptance from NEW. But it can also affect promotions/demotions.
 Therefore here is an example of such a case to illustrate, hint at what to
 check if in doubt:
 
-In promoting
+For example, while promoting
 [`tinysparql`](https://bugs.launchpad.net/ubuntu/+source/tinysparql/+bug/2099086/comments/7)
 the interim situation was seen that we could see the tool reporting the same
-content in `main` and in `universe` at once.
-
-That was such a case of a pending change, the
+content in `main` and in `universe` at once. That was such a case of a pending change, the
 [Launchpad view to the package](https://launchpad.net/ubuntu/plucky/amd64/tinysparql)
 stated it as pending at the time and explained what was going on. Once that
 state resolved there, it also was in the right state in all other tools.
 
-```{admonition} Question
-:class: important
-Unsure: should we explain more deeply how this is also true in `rdeps` and
-`-proposed` migration in the same place or refer to it?
-```
-
-```{admonition} Question
-:class: important
-Unsure: was this actually a bug and should we write it at all?
-
-**TODO**: Contact Launchpad about that.
-```
