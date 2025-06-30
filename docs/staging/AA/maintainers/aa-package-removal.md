@@ -318,7 +318,7 @@ previous package forwards with:
 copy-package --force-same-destination --auto-approve --version=$VERSION_TO_RESTORE --include-binaries --from-suite=$SUITE --to-suite=$SUITE $PKG
 ```
 
-
+(aa-check-dependencies-before-removal)=
 ## Checking dependencies before removal
 
 You usually want to check to avoid causing:

@@ -16,44 +16,24 @@ packages which originated elsewhere.
 To request removal of a package, file a bug against the package. The bug must
 have the following elements:
 
-* The release to remove it from (e.g., `noble`)
+* The release to remove it from
 
-* What to remove:
+* What source and binary packages you expect to be removed
 
-  * the source package
-  * all binary packages
-  * both source and binary packages
+* A rationale for why they should be removed. Examples:
 
-* A rationale for why they should be removed
+  * E.g: In Noble please remove bin:foo-oldcrap from src:foo as it blocks migration of the new version which is no more building it
 
-```{admonition} Question
-:class: important
+  * E.g: In questing please remove src:bar and all of its binaries, they are dysfunctional in that release XX, because …
 
-Do we need to include a list of valid reasons for removal?
-```
+  * E.g: In plucky please remove src:foobar and all of its binaries, they block the transition of snafu and foobar upstream is orphaned and won’t be updated to work with the new versions of the overall stack
 
-* Confirmation that the binary packages have no `rdepends` (no other package
-  depends on them)
+* Confirmation that the binary packages have no `reverse-depends` (no other package
+  depends on them). To do so, check the instructions in {ref}`aa-check-dependencies-before-removal`.
+  Copy and paste the output from whichever tool you use into the bug.
 
-  * There is `checkrdepends` in `ubuntu-archive-tools`, but it needs a mirror
-    to work with
-
-  * There is `reverse-depends` and `reverse-depends -b` (build depends) in
-    `ubuntu-dev-tools`, but it can return false positives for alternative
-    dependencies
-
-```{admonition} Question
-:class: important
-
-What's the expected way to confirm this? What constitutes proof that this has
-been checked?
-```
-
-If you are not an [Ubuntu developer](https://wiki.ubuntu.com/UbuntuDevelopers)
-use the {ref}`Sponsorship process <sponsorship>`.
-
-If you *are* an Ubuntu developer then subscribe the `ubuntu-archive` team to
-the bugs.
+Once the bug is ready, as per the above list, subscribe the `ubuntu-archive`
+team to the bugs.
 
 ## Getting help
 
@@ -61,12 +41,4 @@ If you need help deciding whether a package ought to be removed,
 please discuss on the `ubuntu-devel` mailing list rather than asking the
 Archive Administrators.
 
-```{admonition} Question
-:class: important
-
-Is this still the correct way?
-```
-
-Refer to `https://launchpad.net/ubuntu/+source/<source package>` for the reason
-of the removal of a specific package. 
 
