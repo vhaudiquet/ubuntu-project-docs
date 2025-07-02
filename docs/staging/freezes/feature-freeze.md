@@ -6,18 +6,17 @@ This page will be moved to:
 * how-ubuntu-is-made > concepts
 ```
 
-At this point we stop introducing new features, packages, and APIs, and
+During Feature Freeze we stop introducing new features, packages, and APIs, and
 concentrate on fixing bugs in the development release. Note that the upload
 queue is not actually frozen -- uploads will enter the Archive, so be careful.
 
 The #ubuntu-devel and #ubuntu-release channels on Matrix are generally updated
 to indicate the current Freeze status.
 
-
 (user-interface-freeze)=
 ## User Interface Freeze
 
-The {term}`user interface <UI>`must be stabilized at some point, so that
+The {term}`user interface <UI>` must be stabilized at some point, so that
 documentation writers and translators can work on a fixed target that doesn't
 make screenshots or documentation obsolete.
 
@@ -37,23 +36,16 @@ teams:
 * All user-visible strings in the desktop and applications that are installed
   by default
 
-See {ref}`freeze-exception-process` for how to get an exception.
-
 
 ## Freeze exceptions
 
-Exceptions have to be approved by the Release Management team for all packages
-in the Archive (i.e. `main`, `restricted`, `universe` and `multiverse`).
-They should be granted if the upload:
+As with most rules, there are occasional exceptions to the restrictions imposed
+by the various stages of the Ubuntu release process. These exceptions are
+granted by the release team based on information provided by the developer who
+proposes the change.
 
-* Contributes to high-priority feature goals for the release
-
-* Contains *only* bug fixes (which do not usually require explicit exceptions)
-
-* Is warranted due to other exceptional circumstances, as judged by the release managers.
-
-See {ref}`freeze-exception-process` for details.
-
+Find out more {ref}`about exceptions <freeze-exceptions>` or
+{ref}`request-a-freeze-exception`.
 
 ## Additional notes
 
