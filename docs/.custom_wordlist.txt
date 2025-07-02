@@ -90,6 +90,7 @@ empathic
 EoSS
 equalizing
 executables
+FFE
 FHS
 filesystem
 filesystems
