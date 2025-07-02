@@ -269,6 +269,14 @@ Changelog
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.4 Debian changelog (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#debian-changelog-debian-changelog)
 
+chroot
+Change root
+    Changes the root directory of the calling process to the path provided as the first argument. For example:
+    ```none
+    chroot ~/newroot /bin/bash
+    ```
+    Opens a bash shell with the `/newroot` folder as the root.
+
 CoF
 Circle of Friends
     The {term}`Ubuntu` logo is called **Circle of Friends**, because it is
@@ -292,7 +300,8 @@ Closed Source Software
     *Work in Progress*
 
 Code name
-    *Work in Progress*
+    Short identifier used to refer to a specific Ubuntu release (e.g. , Jammy Jellyfish for Ubuntu 22.04).
+    [List of Releases with Code Names](https://wiki.ubuntu.com/Releases)
 
 CoC
 Code of Conduct
@@ -305,7 +314,7 @@ Code Review
 
 CLI
 Command Line Interface
-    *Work in Progress*
+    An interface for interacting with an {term}`OS` and its installed applications via text based commands, usually through a terminal or console.
 
 CVE
 Common Vulnerabilities and Exposures
