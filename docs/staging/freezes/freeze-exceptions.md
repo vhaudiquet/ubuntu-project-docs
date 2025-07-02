@@ -18,7 +18,7 @@ Exceptions should be granted if the upload:
 
 * Is warranted due to other exceptional circumstances, as judged by the release managers.
 
-This page outlines some of the common scenarios where Freature Freeze exceptions
+This page outlines some of the common scenarios where Feature Freeze exceptions
 might be wanted. You should read this page before you
 {ref}`request-a-freeze-exception`.
 
@@ -85,10 +85,10 @@ Refer to the {ref}`request-universe-multiverse-exception` section for additional
 instructions for your request bug.
 
 
-## Packageset FFe delegations
+## Packageset FFE delegations
 
 From time to time the `ubuntu-release` team will delegate the responsibility of
-reviewing Feature Freeze exceptions (FFe) for a packageset to one or more
+reviewing Feature Freeze Exceptions (FFE) for a packageset to one or more
 designated individuals who are not members of the Release Team.
 
 Delegates are expected to be Ubuntu Developers with upload rights to the
@@ -96,6 +96,6 @@ packageset in question, who have a good working relationship with the Release
 Team and have demonstrated a clear understanding of the freeze guidelines.
 
 For the `kubuntu-desktop` packageset in Ubuntu 20.04, the Release Team delegates
-FFe-granting authority to [Rik Mills (`~rikmills`)](https://launchpad.net/~rikmills)
-and [Simon Quigley (`~tsimonq2`)](https://launchpad.net/~tsimonq2)
+FFE-granting authority to [`Rik Mills (~rikmills`)](https://launchpad.net/~rikmills)
+and [`Simon Quigley (~tsimonq2`)](https://launchpad.net/~tsimonq2).
 

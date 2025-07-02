@@ -36,6 +36,7 @@ boolean
 bootable
 bootloader
 bootloaders
+bugfix
 bugpatterns
 Bugpatterns
 buildable
@@ -218,6 +219,8 @@ toctree
 TODOs
 toolchain
 toolchains
+triaged
+TRIAGED
 txt
 ubumirror
 ubuntu
@@ -239,6 +242,7 @@ unshareable
 uploader
 uploaders
 utils
+UVF
 vendored
 vendoring
 Vendoring

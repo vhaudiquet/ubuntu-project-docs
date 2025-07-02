@@ -99,11 +99,11 @@ Your bug contents need to include the following:
 
 
 ```{important}
-We expect requesters to have an updated package already prepared and tested!
-You will need this anyway to provide proper build logs.
+We expect anyone making a request to have an updated package already prepared
+and tested! You will need this anyway to provide proper build logs.
 ```
 
-Once the Feature Freeze Exception has been ACK'd by a member of the
+Once the Feature Freeze Exception has been approved by a member of the
 [Release Team](https://launchpad.net/~ubuntu-release), the status will be
 changed to *TRIAGED*. You can then either upload the package (if you're in
 [`motu`](http://launchpad.net/~motu) or
@@ -140,7 +140,7 @@ Refer to {ref}`ui-freeze-exceptions` for more details.
 Exception requests for Milestone Freeze exceptions must include the following
 additional details:
 
-* It must fix a bug milestoned for that particular milestone
+* It must fix a bug earmarked for that particular milestone
 
 * A complete `debdiff` of the proposed upload must be provided (preferably as
   a bug attachment)
