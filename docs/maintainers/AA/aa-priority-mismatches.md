@@ -1,11 +1,6 @@
 (aa-priority-mismatches)=
 # Priority mismatches
 
-```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
-```
-
 Priority mismatches are handled by the
 {ref}`Archive Admin <archive-administration>` team.
 

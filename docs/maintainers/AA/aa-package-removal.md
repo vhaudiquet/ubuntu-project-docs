@@ -1,11 +1,6 @@
 (aa-package-removal)=
 # Remove a package
 
-```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
-```
-
 The {ref}`Archive Admin <archive-administration>` team handles removals of both
 source and binary packages.
 

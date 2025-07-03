@@ -20,18 +20,18 @@ have the following elements:
 * A rationale for {ref}`why they should be removed <justification-for-removal>`.
   Examples:
 
-  * `In Noble please remove bin:foo-old-stuff from src:foo as it blocks
-    migration of the new version which is no more building it`
+  * In Noble please remove `bin:foo-old-stuff` from `src:foo` as it blocks
+    migration of the new version which is no more building it
 
-  * `In questing please remove src:bar and all of its binaries, they are
-    dysfunctional in that release XX, because ...`
+  * In questing please remove `src:bar` and all of its binaries, they are
+    dysfunctional in that release XX, because ...
 
-  * `In plucky please remove src:foobar and all of its binaries, they block
-    the transition of snafu and foobar upstream is orphaned and won’t be
-    updated to work with the new versions of the overall stack`
+  * In plucky please remove `src:foobar` and all of its binaries, they block
+    the transition of `snafu` and `foobar` upstream is orphaned and won’t be
+    updated to work with the new versions of the overall stack
 
-  * `Please remove src:arrr from noble, because all binaries it used to
-    build have been taken over by src:pirate now`
+  * Please remove `src:arrr` from noble, because all binaries it used to
+    build have been taken over by `src:pirate` now
 
 * Confirmation that the binary packages have no `reverse-depends` (no other
   package depends on them). To do so, check the instructions in

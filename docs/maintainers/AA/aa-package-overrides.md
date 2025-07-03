@@ -1,11 +1,6 @@
 (aa-package-overrides)=
 # Package overrides
 
-```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
-```
-
 There are two main kinds of overrides the {ref}`Archive Admin <archive-administration>`
 team needs to keep tabs on so we can zero out the discrepancies before the end
 of the release cycle:
