@@ -45,6 +45,12 @@ RULE: address the problem you might spend some time explaining what exists and
 RULE: why it isn't a sufficient alternative.
 TODO: - There is no other/better way to solve this that is already in main or
 TODO:   should go universe->main instead of this.
+RULE: If the package previously was in main (use rmadison to check),
+RULE: and the previous MIR content is still applicable and not ancient,
+RULE: just add a new release-task instead of creating a new MIR.
+RULE: Otherwise, continue with this MIR and link to the previous MIR.
+TODO-A: - This is the first time package will be in main
+TODO-B: - Package was in main before (Ubuntu aa.bb->xx.yy) (MIR-Bug LP: #...)
 RULE: You truly need to understand the difference between main and universe
 RULE: in general and in the context of changed rules (build-depends) and
 RULE: constraints (Ubuntu Pro made it less of a difference in many cases).
