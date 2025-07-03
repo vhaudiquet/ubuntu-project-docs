@@ -35,6 +35,7 @@ Less commonly, they are asked to do the following tasks:
 * {ref}`aa-signing-bootloaders`
 * {ref}`aa-phasing-sru-updates`
 * {ref}`aa-i386-allowlist-updates`
+* {ref}`aa-triage-contributions`
 
 The following list of Archive-related services needs to be updated with details
 of the charmed hosted services as they are migrated.
