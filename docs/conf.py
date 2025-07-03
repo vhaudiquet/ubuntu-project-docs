@@ -253,7 +253,7 @@ extensions = [
     "hoverxref.extension",
     "sphinx_prompt",
     "sphinx.ext.extlinks",
-    "sphinxext-rediraffe",
+    "sphinxext.rediraffe",
 ]
 
 # Excludes files or directories from processing
