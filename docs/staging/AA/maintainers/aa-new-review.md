@@ -20,19 +20,6 @@ There are three main functions of a manual NEW review process:
 Debian does the same, so have a read of the
 [Debian Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
 
-```{note}
-Move this section to other "new" page
-
-New sources need to be checked to make sure they're well packaged, the licence
-details are correct and permissible for us to redistribute, etc. See:
-
-* [Packaging new software](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/1.0/how-to/packaging-new-software.html)
-
-* {ref}`debian/copyright file <the-copyright-file>`
-
-* and [Debian's Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
-```
-
 (aa-work-with-new-queue)=
 ## The NEW queue
 
