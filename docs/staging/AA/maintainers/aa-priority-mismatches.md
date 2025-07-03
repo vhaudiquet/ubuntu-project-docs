@@ -7,7 +7,7 @@ This page will be moved to:
 ```
 
 Priority mismatches are handled by the
-{ref}`Archive Admin <archive-administration` team.
+{ref}`Archive Admin <archive-administration>` team.
 
 Package priorities are defined in the
 [debian policy](https://www.debian.org/doc/debian-policy/ch-archive.html#s-priorities),
