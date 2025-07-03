@@ -344,7 +344,9 @@ TODO-B: - This package violates FHS or Debian Policy, reasons for that are TBD
 RULE: The package must have an acceptable level of maintenance corresponding
 RULE: to its complexity:
 RULE: - All packages must have a designated "owning" team, regardless of
-RULE:   complexity.
+RULE:   complexity. Only a selected set of Launchpad teams can own a package
+RULE:   in main, you can find this list here:
+RULE:   https://git.launchpad.net/ubuntu-archive-tools/tree/lputils.py#n46
 RULE:   This requirement of an owning-team comes in two aspects:
 RULE:   - A case needs to have a team essentially saying "yes we will own that"
 RULE:     to enter the MIR process. Usually that is implied by team members
