@@ -7,6 +7,19 @@ It has not yet been reviewed for currency or accuracy.
 Last updated: 2025
 ```
 
+```{note}
+From the other "new" page - this content needs to be worked in sensibly
+
+New sources need to be checked to make sure they're well packaged, the licence
+details are correct and permissible for us to redistribute, etc. See:
+
+* [Packaging new software](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/1.0/how-to/packaging-new-software.html)
+
+* {ref}`debian/copyright file <the-copyright-file>`
+
+* and [Debian's Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
+```
+
 ## Criteria
 
 In order for a piece of software to be included in Ubuntu, it must meet the

@@ -6,8 +6,9 @@ This page will be moved to:
 * Maintainers -> Archive Admin tasks
 ```
 
-There are two main kinds of overrides that we need to keep tabs on, in order to
-zero out the discrepancies before the end of the release cycle:
+There are two main kinds of overrides the {ref}`Archive Admin <archive-administration>`
+team needs to keep tabs on so we can zero out the discrepancies before the end
+of the release cycle:
 {ref}`aa-component-mismatches`, and {ref}`aa-priority-mismatches`.
 
 Packages just don't stay where they're put. {ref}`seed-management` details how
