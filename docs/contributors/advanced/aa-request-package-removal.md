@@ -1,11 +1,6 @@
 (request-package-removal)=
 # How to request a package removal
 
-```{note}
-This page will be moved to:
-* Contributors -> Advanced
-```
-
 Packages that are removed from Debian are semi-automatically removed from
 Ubuntu `universe` {ref}`on a regular basis <source-package-removals-via-debian>`
 by the {ref}`Archive Admin team <archive-administration>`. However, packages are
