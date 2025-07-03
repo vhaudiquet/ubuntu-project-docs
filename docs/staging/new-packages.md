@@ -2,23 +2,12 @@
 # New packages
 
 ```{note}
-This content comes [from the wiki](https://wiki.ubuntu.com/UbuntuDevelopment/NewPackages)
-It has not yet been reviewed for currency or accuracy.
-Last updated: 2025
+This is for contributors, to be merged with whatever comes from the packaging
+guide
+It stays in staging for now, and is not part of the archive admin content
 ```
 
-```{note}
-From the other "new" page - this content needs to be worked in sensibly
 
-New sources need to be checked to make sure they're well packaged, the licence
-details are correct and permissible for us to redistribute, etc. See:
-
-* [Packaging new software](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/1.0/how-to/packaging-new-software.html)
-
-* {ref}`debian/copyright file <the-copyright-file>`
-
-* and [Debian's Reject FAQ](https://ftp-master.debian.org/REJECT-FAQ.html)
-```
 
 ## Criteria
 
@@ -190,6 +179,12 @@ The MOTU team uses the following workflow:
 [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze) is the latest approval
 date, it is recommended to get things done in a couple of weeks earlier, as
 getting approval may take some time.
+
+
+## Review of new packages
+
+After the new package is uploaded, it will show up and be held in the NEW queue.
+It is then {ref}`checked by the Archive Admin team <aa-new-review>`.
 
 
 ## Further reading
