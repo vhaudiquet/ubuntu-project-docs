@@ -4,6 +4,9 @@
 ```{note}
 This page will be moved to:
 * Who makes Ubuntu -> The Ubuntu Archive team
+
+This page will be properly written *after* the Archive Admin team has agreed the split and
+reviewed the content.
 ```
 
 Every contributor to Ubuntu is concerned with the good health and long-term
@@ -31,7 +34,7 @@ Less commonly, they are asked to do the following tasks:
 * {ref}`aa-priority-mismatches`
 * {ref}`aa-signing-bootloaders`
 * {ref}`aa-phasing-sru-updates`
-* {ref}`aa-i386-whitelist-updates`
+* {ref}`aa-i386-allowlist-updates`
 
 The following list of Archive-related services needs to be updated with details
 of the charmed hosted services as they are migrated.
@@ -68,7 +71,9 @@ Contributors -> index-advanced
 ```{toctree}
 :titlesonly:
 
-contributors/request-package-removal
+contributors/aa-request-package-removal
+contributors/check-publication-history
+contributors/check-reverse-dependencies
 ```
 
 
@@ -83,7 +88,7 @@ maintainers/aa-package-overrides
 maintainers/aa-priority-mismatches
 maintainers/aa-signing-bootloaders
 maintainers/aa-phasing-sru-updates
-maintainers/aa-i386-whitelist-updates
+maintainers/aa-i386
 maintainers/aa-archive-related-services
 ```
 
@@ -102,4 +107,5 @@ Page still needs to be split ->
 :titlesonly:
 
 new-packages
+partner-archive
 ```
