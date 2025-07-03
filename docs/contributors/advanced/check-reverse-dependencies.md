@@ -1,10 +1,6 @@
 (check-reverse-dependencies)=
 # Checking reverse dependencies
 
-```{note}
-This page will move to contributor -> advanced
-```
-
 You usually want to check reverse dependencies to avoid causing:
 
 * Installation issues by something having a dependency on the produced

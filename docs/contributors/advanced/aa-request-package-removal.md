@@ -1,11 +1,6 @@
 (request-package-removal)=
 # How to request a package removal
 
-```{note}
-This page will be moved to:
-* Contributors -> Advanced
-```
-
 Packages that are removed from Debian are semi-automatically removed from
 Ubuntu `universe` {ref}`on a regular basis <source-package-removals-via-debian>`
 by the {ref}`Archive Admin team <archive-administration>`. However, packages are
@@ -25,18 +20,18 @@ have the following elements:
 * A rationale for {ref}`why they should be removed <justification-for-removal>`.
   Examples:
 
-  * E.g: In Noble please remove bin:foo-old-stuff from src:foo as it blocks
+  * In Noble please remove `bin:foo-old-stuff` from `src:foo` as it blocks
     migration of the new version which is no more building it
 
-  * E.g: In questing please remove src:bar and all of its binaries, they are
+  * In questing please remove `src:bar` and all of its binaries, they are
     dysfunctional in that release XX, because ...
 
-  * E.g: In plucky please remove src:foobar and all of its binaries, they block
-    the transition of snafu and foobar upstream is orphaned and won’t be
+  * In plucky please remove `src:foobar` and all of its binaries, they block
+    the transition of `snafu` and `foobar` upstream is orphaned and won’t be
     updated to work with the new versions of the overall stack
 
-  * E.g. please remove src:arrr from noble, because all binaries it used to
-    build have been taken over by src:pirate now
+  * Please remove `src:arrr` from noble, because all binaries it used to
+    build have been taken over by `src:pirate` now
 
 * Confirmation that the binary packages have no `reverse-depends` (no other
   package depends on them). To do so, check the instructions in

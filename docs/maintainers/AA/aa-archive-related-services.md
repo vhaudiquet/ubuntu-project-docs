@@ -7,11 +7,6 @@ work. The previous list is being replaced as services are migrated to become
 charmed hosted services.
 ```
 
-```{admonition} This page will be moved to:
-maintainers -> AA
-ONLY after the content has been added
-```
-
 This page documents the services used by the
 {ref}`Archive Administrators <archive-administration>` and how they work.
 

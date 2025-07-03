@@ -1,11 +1,6 @@
 (aa-signing-bootloaders)=
 # Signing bootloaders
 
-```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
-```
-
 Responsibility for signing bootloaders and kernels no longer sits with the
 {ref}`Archive Admins <archive-administration>` as a team. The keys being on the
 `main` Archive caused problems, so the current production keys are all now

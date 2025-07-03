@@ -1,11 +1,6 @@
 (aa-new-review)=
 # NEW review
 
-```{note}
-This page will be moved to:
-* Maintainers -> Archive Admin tasks
-```
-
 One of the primary responsibilities of the
 {ref}`Archive Admins <archive-administration>` is reviewing NEW packages.
 

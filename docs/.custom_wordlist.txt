@@ -183,6 +183,8 @@ powerpc
 PPA
 PPAs
 ppc64el
+prepend
+prepends
 Pygments
 QEMU
 quantal

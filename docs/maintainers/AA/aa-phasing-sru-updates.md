@@ -3,9 +3,9 @@
 
 ```{note}
 This page more rightly belongs in "Override Phasing" in the SRU documentation
-Just before the "adding members to the team section"
+Just before the "adding members to the team section", but this does not exist here yet.
 
-will be moved to:
+will eventually be moved to:
 * Maintainers -> SRU tasks
 ```
 

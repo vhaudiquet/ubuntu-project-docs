@@ -2,9 +2,7 @@
 # Check publication history
 
 ```{note}
-This page will move to contributor -> advanced
-
-Currently it only contains checking removals, but we can add other sections as
+Currently this page only contains checking removals, but we can add other sections as
 we find them.
 ```
 
