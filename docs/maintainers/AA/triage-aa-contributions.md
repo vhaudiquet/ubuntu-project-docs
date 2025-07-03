@@ -14,4 +14,4 @@ based on which directory content is in.
 To process that influx the Archive Admin team shall semi regularly check
 [issues/discussions](https://github.com/ubuntu/ubuntu-project-docs/issues?q=state%3Aopen%20label%3A%22AA%22)
 and [pull requests](https://github.com/ubuntu/ubuntu-project-docs/pulls?q=is%3Aopen+is%3Apr+label%3AAA)
-labelled for the AA team's consideration.
+labeled for the AA team's consideration.
