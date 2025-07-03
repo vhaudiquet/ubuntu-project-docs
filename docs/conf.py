@@ -182,7 +182,7 @@ redirects = {}
 # ------------------------------
 
 rediraffe_branch = "main"
-rediraffe_rediracts = "redirects.txt"
+rediraffe_redirects = "redirects.txt"
 
 
 ###########################
