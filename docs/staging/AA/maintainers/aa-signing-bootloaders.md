@@ -7,8 +7,9 @@ This page will be moved to:
 ```
 
 Responsibility for signing bootloaders and kernels no longer sits with the
-Archive Admins as a team. The keys being on the `main` Archive caused problems,
-so the current production keys are all now attached to PPAs instead.
+{ref}`Archive Admins <archive-administration>` as a team. The keys being on the
+`main` Archive caused problems, so the current production keys are all now
+attached to PPAs instead.
 
 So, signing is still done with the authority of the Archive Admins, but in
 practice it's currently `apw` and `tjaalton` doing that via a

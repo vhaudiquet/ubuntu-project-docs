@@ -6,7 +6,10 @@ This page will be moved to:
 * Maintainers -> Archive Admin tasks
 ```
 
-There are three main functions of a manual NEW process:
+One of the primary responsibilities of the
+{ref}`Archive Admins <archive-administration>` is reviewing NEW packages.
+
+There are three main functions of a manual NEW review process:
 
 * Managing the package namespace
 

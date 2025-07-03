@@ -6,6 +6,9 @@ This page will be moved to:
 * Maintainers -> Archive Admin tasks
 ```
 
+Priority mismatches are handled by the
+{ref}`Archive Admin <archive-administration` team.
+
 Package priorities are defined in the
 [debian policy](https://www.debian.org/doc/debian-policy/ch-archive.html#s-priorities),
 but Ubuntu does not follow these exactly. We had seeds and germinate from very

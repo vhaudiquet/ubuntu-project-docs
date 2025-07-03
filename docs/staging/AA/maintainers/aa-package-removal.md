@@ -6,7 +6,8 @@ This page will be moved to:
 * Maintainers -> Archive Admin tasks
 ```
 
-The `ubuntu-archive` team handles removals of both source and binary packages.
+The {ref}`Archive Admin <archive-administration>` team handles removals of both
+source and binary packages.
 
 As per the corresponding contributor guide {ref}`request-package-removal`, 
 requests to remove a package are submitted in the form of bugs on Launchpad.

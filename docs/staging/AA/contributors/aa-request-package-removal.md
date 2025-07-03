@@ -8,8 +8,9 @@ This page will be moved to:
 
 Packages that are removed from Debian are semi-automatically removed from
 Ubuntu `universe` {ref}`on a regular basis <source-package-removals-via-debian>`
-by the Archive Admin team. However, packages are not removed from Ubuntu `main`
-without an explicit request, and nor are packages which originated elsewhere.
+by the {ref}`Archive Admin team <archive-administration>`. However, packages are
+not removed from Ubuntu `main` without an explicit request, and nor are packages
+which originated elsewhere.
 
 
 ## The removal request
