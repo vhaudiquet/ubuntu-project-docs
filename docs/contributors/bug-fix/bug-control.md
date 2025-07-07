@@ -7,7 +7,7 @@ lifecycle of the bug by Launchpad users with appropriate privilege. A logged-in 
 a certain number of these control fields; the other fields can only be edited if you are part of the
 Ubuntu Bug Control team.
 
-The Ubuntu Bug Control team ([ubuntu-bugcontrol](https://launchpad.net/~ubuntu-bugcontrol) in Launchpad)
+The Ubuntu Bug Control team ([`ubuntu-bugcontrol`](https://launchpad.net/~ubuntu-bugcontrol) in Launchpad)
 is a subset of the Ubuntu Bug Squad who can change the importance of Ubuntu bug tasks, set the status
 of an Ubuntu bug task to "Triaged" or "Won't Fix" and target a bug for a release of Ubuntu.
 
