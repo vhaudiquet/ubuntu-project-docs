@@ -1288,7 +1288,7 @@ Ubuntu Cloud Archive
 
 Ubuntu Code of Conduct
     A set of guidelines that defines expected behaviors for the Ubuntu community. It aims to foster a productive, 
-    happy and agile environments where new ideas are welcomed and different groups can collaborate effectively. 
+    happy and agile environment where new ideas are welcomed and different groups can collaborate effectively. 
     Emphasizing being considerate, respectful, and collaborative with others.
     Everyone participating in the Ubuntu community must read and agree to abide by it.
 
