@@ -51,6 +51,7 @@ Charmcraft
 checksums
 chroot
 chroots
+CMake
 codebases
 codec
 config
@@ -168,6 +169,7 @@ MOTU
 MOTUs
 Multipass
 NACK
+natively
 neurotype
 ODA
 oem
@@ -183,6 +185,8 @@ powerpc
 PPA
 PPAs
 ppc64el
+prepend
+prepends
 Pygments
 QEMU
 quantal
