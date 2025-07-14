@@ -297,7 +297,9 @@ Circle of Friends
     ```
 
 Closed Source Software
-    *Work in Progress*
+    Software that does not allow public access to its source code. In Ubuntu, closed source software is found in the {term}`multiverse` and {term}`restricted` components which include third party applications and proprietary drivers.
+
+    See also: {term}`Open Source Software`
 
 Code name
     Short identifier used to refer to a specific Ubuntu release (e.g. , Jammy Jellyfish for Ubuntu 22.04).
