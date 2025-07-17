@@ -1,0 +1,35 @@
+svg.railroad-diagram {
+    background-color: transparent;
+}
+
+svg.railroad-diagram path {
+    stroke-width: 2px;
+    stroke: black;
+    fill: none;
+}
+
+svg.railroad-diagram text {
+    font: normal 12pt "Ubuntu Mono", monospace;
+    text-anchor: middle;
+    fill: black;
+}
+
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+
+svg.railroad-diagram text.comment {
+    font: italic 10pt "Ubuntu Mono", monospace;
+}
+
+svg.railroad-diagram rect {
+    stroke-width: 2px;
+    stroke: black;
+    fill: #f7c3b1;
+}
+
+svg.railroad-diagram rect.group-box {
+    stroke: gray;
+    stroke-dasharray: 10 5;
+    fill: none;
+}

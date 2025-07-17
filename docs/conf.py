@@ -263,6 +263,11 @@ myst_enable_extensions = {
 #       - terminal-output
 #       - youtube-links
 
+# Append the path for the custom railroad extension; this is temporary and
+# should be removed if/when the extension is merged into canonical_sphinx
+import sys
+sys.path.append('./_ext')
+
 extensions = [
     "canonical_sphinx",
     "sphinxcontrib.cairosvgconverter",
@@ -277,6 +282,7 @@ extensions = [
     "sphinx_sitemap",
     "sphinx_reredirects",
     "sphinx_togglebutton",
+    "railroad_diagrams",
 ]
 
 # Excludes files or directories from processing
@@ -400,6 +406,11 @@ intersphinx_mapping = {
     ),
     "sru": ("https://canonical-sru-docs.readthedocs-hosted.com/en/latest", None),
 }
+
+# Railroad diagram configuration options
+#railroad_output_tag = 'img'
+railroad_internal_alignment = 'left'
+railroad_style = 'ubuntu'
 
 
 # Redefine the Sphinx 'command' role to behave/render like 'literal'
