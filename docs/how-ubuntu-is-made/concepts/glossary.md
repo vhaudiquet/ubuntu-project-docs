@@ -758,6 +758,9 @@ Launchpad
     See also:
     * [Launchpad (explanation article)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/launchpad/)
 
+Lintian
+    {manpage}`lintian(1)` is a Debian package checker. Use it to check binary and source packages for compliance with the Debian policy and for common packaging errors.
+
 Linux
     **Linux** is an {term}`Open Source <Open Source Software>` {term}`Operating System`
     {term}`Kernel` originally created by Linus Torvalds in 1991. It forms the
@@ -906,13 +909,13 @@ NIST
 National Institute of Standards and Technology
     *Work in Progress*
 
-Native Package
-    **Native source packages** are {term}`Source Packages <Source Package>` that
-    are their own {term}`Upstream`, therefore they do not have an
+Native package
+    **Native source packages** are {term}`source packages <Source Package>` that
+    are their own {term}`upstream`, therefore they do not have an
     {term}`orig tarball`.
 
     See also:
-    * [Native Source Packages (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/package-model/#nativesourcepackages)
+    * {ref}`native-source-packages`
 
 NBS
 No longer Built by the Source
@@ -1031,6 +1034,9 @@ Pull Request
     *Work in Progress*
 
 Push
+    *Work in Progress*
+
+Quilt
     *Work in Progress*
 
 RTOS
@@ -1349,10 +1355,11 @@ Ubuntu ESM Team
     * [Ubuntu ESM Team](https://ubuntu.com/security/esm)
 
 Ubuntu flavors
-    **Ubuntu flavors** are {term}`Distributions <Distribution>` of the default Ubuntu
+Ubuntu flavours
+    **Ubuntu flavors** are {term}`distributions <Distribution>` of the default Ubuntu
     releases, which choose their own default applications and settings. Ubuntu flavors are
     owned and developed by members of the Ubuntu community and backed by the full
-    {term}`Ubuntu Archive` for {term}`Packages <Package>` and updates.
+    {term}`Ubuntu Archive` for {term}`packages <Package>` and updates.
 
     Officially recognized flavors are:
 
