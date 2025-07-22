@@ -8,10 +8,10 @@
 # - TAs not required for MIR content approvals
 MIR/
 # - MIR team owns all MIR docs anywhere in the repo
-MIR/ @slyon @setharnold @joalif @didrocks @cpaelzer
+MIR/ @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk
 
 # TAs' & special teams' ack required for changes to the CODEOWNERS file
-/.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer
+/.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk
 
 # +1 maintenance PR approvals
 plus-one-*.md @schopin-pro @s-makin @rkratky
