@@ -1,11 +1,11 @@
-(contribute)=
-
-# How to contribute
+(how-to-contribute-docs)=
+# How to contribute docs
 
 This guide provides information necessary to contribute to this documentation.
 If you're contributing for the first time, you might find the Canonical Open
 Documentation Academy has helpful resources to
 [get you started](https://documentationacademy.org/docs/howto/get-started/).
+
 
 ## Report an issue
 
@@ -19,6 +19,7 @@ new issue.
 Make sure to provide enough information in the issue for us to understand what
 is needed.
 
+
 ## Edit documentation online
 
 Each documentation page has a **Contribute to this page** link in the top-right
@@ -30,6 +31,7 @@ you can start editing.
 Remember to first check the
 [latest version](https://canonical-ubuntu-project.readthedocs-hosted.com/) of
 our documentation and make your proposal based on that revision.
+
 
 ## Contribute on GitHub
 
@@ -43,6 +45,7 @@ many different areas. To ensure that your efforts don't get wasted due to
 overlaps, please either **claim an open issue** or, if there is no issue for
 what you want to work on, create a new issue first **before** working on your
 pull request.
+
 
 ### Directory structure
 
@@ -72,6 +75,7 @@ For maintainers, we have:
 * **Who makes Ubuntu**: Information about all the people, roles, and groups
   involved in making Ubuntu, as well as their collective responsibilities, and
   how to join each of the roles.
+
 
 ## Build the documentation locally
 
@@ -127,6 +131,38 @@ The Ubuntu Project documentation is built with Sphinx using a combination of the
 
 * [MyST style guide](https://canonical-starter-pack.readthedocs-hosted.com/latest/reference/style-guide-myst/)
 * [reStructuredText style guide](https://canonical-starter-pack.readthedocs-hosted.com/latest/reference/style-guide/)
+
+
+### Organization principles
+
+To make the documentation sources easy to navigate and read, keep the formatting organization of the content consistent.
+
+
+#### File names
+
+Unless required (for example, to avoid duplication), use the following file-naming scheme:
+
+- Lowercase with hyphens between words
+- File names same as article titles (omit `how-to` from file names)
+
+For example, an article called *How to contribute docs* would have a file name `contribute-docs.md`.
+
+
+#### Headings
+
+To simplify cross-referencing articles and sections, make anchors predictable. Use anchors with this format:
+
+- Lowercase with hyphens between words
+- Anchors same as headings
+
+For example:
+
+```md
+(organization-principles)=
+### Organization principles
+```
+
+Include two empty lines before headings to break the flow of the text and make orientation in files easier.
 
 
 ### Semantic mark-up

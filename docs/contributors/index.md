@@ -14,15 +14,6 @@ This section includes all the relevant tooling you'll need to work on Ubuntu.
 index-setup
 ```
 
-## Documentation
-
-This section should also link to Community + CODA content
-```{toctree}
-:maxdepth: 1
-
-Contribute to documentation <contribute-docs>
-```
-
 ## Bug fixing
 
 ```{toctree}
@@ -60,3 +51,14 @@ some working familiarity with Ubuntu development.
 :maxdepth: 1
 
 index-advanced
+```
+
+## Contribute documentation
+
+*Ubuntu Project documentation* is a collaborative effort. We welcome community contributions. For guidance on how to contribute to this documentation set, see:
+
+```{toctree}
+:maxdepth: 1
+
+Contribute docs <contribute-docs>
+```
