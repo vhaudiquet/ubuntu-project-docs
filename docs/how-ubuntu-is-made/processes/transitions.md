@@ -1,2 +1,2 @@
-(transitions-process)=
-# How transitions work
+(transitions)=
+# Transitions
