@@ -174,7 +174,7 @@ The following formats are rarely used, experimental, or historical. You should o
 ``.changes`` file
 ~~~~~~~~~~~~~~~~~
 
-Although technically not part of a source package -- every time a source package is built, a :file:`.changes` file is created alongside it. The :file:`.changes` file contains metadata from the Source Control file and other information (e.g. the latest changelog entry) about the source package. :term:`Archive` tools and the :term:`archive admin` use this data to process changes to source packages and determine the appropriate action to upload the source package to the :term:`Ubuntu Archive`.
+Although technically not part of a source package -- every time a source package is built, a :file:`.changes` file is created alongside it. The :file:`.changes` file contains metadata from the Source Control file and other information (e.g. the latest changelog entry) about the source package. :term:`Archive` tools and the :term:`Archive Admin` use this data to process changes to source packages and determine the appropriate action to upload the source package to the :term:`Ubuntu Archive`.
 
 
 .. _binary-packages:

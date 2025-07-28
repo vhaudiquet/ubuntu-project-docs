@@ -1,7 +1,7 @@
 (key-concepts)=
 # Key concepts
 
-Reference information describing main building blocks of Ubuntu. These include the standards used for system design and package maintenance, as well as supporting tooling and release-publication principles.
+Reference information describing the main building blocks of Ubuntu. These include the standards used for system design and package maintenance, as well as supporting tooling and release-publication principles.
 
 For a comprehensive terminology reference, see the {ref}`glossary`.
 

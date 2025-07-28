@@ -17,11 +17,11 @@ Because Ubuntu is derived from Debian and uses the same package management syste
 Sync
 ~~~~
 
-Sync (synchronization with Debian) is the automatic copying of new packages from Debian unstable (:term:`code name` "Sid") to the Ubuntu archive. This includes packages that have not been in the distribution before and packages with higher version identifiers than the corresponding Ubuntu packages. Corresponding Ubuntu packages that carry :term:`Ubuntu delta` are excluded from the sync.
+Sync (synchronization with Debian) is the automatic copying of new packages from Debian unstable (:term:`code name` "Sid") to the Ubuntu Archive. This includes packages that have not been in the distribution before and packages with higher version identifiers than the corresponding Ubuntu packages. Corresponding Ubuntu packages that carry :term:`Ubuntu delta` are excluded from the sync.
 
-The sync process runs from the opening of the Ubuntu archive for a new :term:`release <Ubuntu release>` until the :ref:`debian-import-freeze`.
+The sync process runs from the opening of the Ubuntu Archive for a new :term:`release <Ubuntu release>` until the :ref:`debian-import-freeze`.
 
-On request (via a :term:`Launchpad` ticket), :term:`archive admins <Archive admin>` can sync a package from Debian even if the Ubuntu package carries Ubuntu delta. In this case, the Ubuntu delta is dropped. A good example is when Ubuntu-specific changes have been merged into the Debian package or the :term:`upstream` project and are no longer needed.
+On request (via a :term:`Launchpad` ticket), :term:`archive admins <Archive admin>` can sync a package from Debian even if the Ubuntu package carries an Ubuntu delta. In this case, the Ubuntu delta is dropped. A good example is when Ubuntu-specific changes have been merged into the Debian package or the :term:`upstream` project and are no longer needed.
 
 .. admonition:: Getting packages from Debian to Ubuntu outside of the sync process
 
@@ -33,7 +33,7 @@ On request (via a :term:`Launchpad` ticket), :term:`archive admins <Archive admi
 Merges
 ~~~~~~
 
-When importing a newer Debian package into Ubuntu, a merge must be performed if the corresponding Ubuntu package carries Ubuntu delta that needs to be partially or fully applied to the Debian package.
+When importing a newer Debian package into Ubuntu, a merge must be performed if the corresponding Ubuntu package carries an Ubuntu delta that needs to be partially or fully applied to the Debian package.
 
 The Ubuntu Merge-o-Matic (MoM) service automatically performs merges and publishes the reports on `merges.ubuntu.com <https://merges.ubuntu.com/>`_. See the lists of outstanding merges for:
 
