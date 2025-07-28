@@ -103,6 +103,7 @@ Flavours
 fonts
 Fosstodon
 freefont
+gatekeeping
 genotype
 geq
 GFDL
