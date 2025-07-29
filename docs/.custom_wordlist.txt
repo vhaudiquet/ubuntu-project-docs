@@ -2,6 +2,9 @@
 allowlist
 apport
 autopkgtests
+backport
+backported
+backporting
 boolean
 bootable
 bootloaders
@@ -13,8 +16,10 @@ downstreamed
 downstreams
 enablement
 Fosstodon
+IPs
 Jira
 Kubuntu
+Libera
 lintian
 Masters
 microreleases
@@ -23,7 +28,9 @@ MIRs
 MOTUs
 PDFs
 powerpc
+PPAs
 quantal
+schroot
 SRUs
 subiquity
 Tegra

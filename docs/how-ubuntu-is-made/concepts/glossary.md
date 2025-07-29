@@ -242,6 +242,9 @@ Canonical Discourse
     See also:
     * [Canonical Discourse](https://discourse.canonical.com)
 
+Canonistack
+    Canonistack is an internal OpenStack-based environment only accessible to Canonical employees. It is useful for testing package builds and running {term}`autopkgtest`. If you are a Canonical employee, see internal IS documentation for guidance on how to set up a Canonistack environment.
+
 CD Mirror
     A {term}`Mirror` of the {term}`Ubuntu` [Image archive](https://cdimage.ubuntu.com/).
 
