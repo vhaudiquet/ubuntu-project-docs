@@ -278,20 +278,19 @@ $ autopkgtest \
 
 #### In Canonistack
 
+```{note}
+Canonistack is an internal environment only accessible to Canonical employees. If you are a Canonical employee, see internal IS documentation for guidance on how to set up a Canonistack environment.
+```
+
 This is by far the closest (in terms of similarity) to the real autopkgtests
 since they also run in such an environment -- but it needs some preparation.
-First of all you must have been *unlocked for* and have set up
-[Canonistack](https://wiki.canonical.com/InformationInfrastructure/IS/CanoniStack-BOS01)
-for yourself.
-
-In going through the setup process for Canonistack, you'll have created an
-OpenStack RC file that sets region, auth and other environment variables. Go
-ahead and source this file, if you haven't already.
 
 Then you can look for the image you want to boot like:
 
 ```{important}
 An entire section seems to be missing, including the code referred to here?
+
+TODO: See: {ref}`4-testing-in-the-cloud-with-canonistack` in this article.
 ```
 
 ```{note}
@@ -351,20 +350,17 @@ $ autopkgtest \
 The `setup-commands` options are as described in the previous section.
 
 
+(4-testing-in-the-cloud-with-canonistack)=
 ## 4) Testing in the cloud with Canonistack
+
+```{note}
+Canonistack is an internal environment only accessible to Canonical employees. If you are a Canonical employee, see internal IS documentation for guidance on how to set up a Canonistack environment.
+```
 
 This is by far the closest in terms of "similarity" to the real `autopkgtests`
 since they also run in such an environment, but it needs some preparation.
 
-First of all, you must have been *unlocked for* and have set up
-[Canonistack](https://wiki.canonical.com/InformationInfrastructure/IS/CanoniStack-BOS01)
-for yourself.
-
-In going through the setup process for Canonistack, you'll have created an
-OpenStack RC file that sets region, auth and other environment variables. Go
-ahead and source this file, if you haven't already.
-
-Then you'll look for the image you want to boot as in the following example:
+Upon setting the environment, look for the image you want to boot:
 
 ```none
 $ source ~/.canonistack/novarc_bos01
@@ -373,11 +369,11 @@ $ openstack image list | grep -i arm64 | grep hirsute
 | 1cfeacff-f04a-4bce-ab92-9d8fec7e5edb | ubuntu/ubuntu-hirsute-daily-arm64-server-20201125-disk1.img    | active |
 ```
 
-Make sure that you have installed `glance`. The `nova` script we will use in
-the following example needs it. You can install it by either using `apt`:
+You need to have `glance` installed. The `nova` script we use in
+the following example needs it. To install it using `apt`:
 
 ```none
-$ sudo apt update && sudo apt install python3-glanceclient
+$ sudo apt install python3-glanceclient
 ```
 
 Or `pip`:

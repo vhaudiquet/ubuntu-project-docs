@@ -7,7 +7,7 @@ to help build your application for upload rights on:
 
 * Package Sets
 * [MOTU](https://wiki.ubuntu.com/MOTU), 
-* [Core Dev](https://wiki.ubuntu.com/UbuntuDevelopers#Ubuntu_Core_Developers) 
+* [Core Developer](https://wiki.ubuntu.com/UbuntuDevelopers#Ubuntu_Core_Developers) 
 
 
 ```{mermaid}

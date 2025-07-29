@@ -51,7 +51,7 @@ to the version you need before getting the tarball.
 
       - [ ] Or using `git diff`
 
-      - [ ] Or using Git Patch on VSCode
+      - [ ] Or using Git Patch in VS Code
 
       - [ ] Or `edit-patch` (for incorporating/changing an existing one)
 
@@ -106,7 +106,7 @@ to the version you need before getting the tarball.
   not, use `update-maintainer` from `ubuntu-dev-tools` -- this is more frequent
   in merges)
 
-- [ ] Optional: Get lintian output
+- [ ] Optional: Get {command}`lintian` output
 
   ```none
     
@@ -127,7 +127,7 @@ to the version you need before getting the tarball.
 
 - [ ]  Change Build types
 
-- [ ]  dput signed changes file
+- [ ]  {command}`dput`-signed {file}`changes` file
 
 
 ## 5. (optional) SRU/MIR/FFe template

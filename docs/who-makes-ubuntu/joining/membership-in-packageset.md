@@ -96,7 +96,7 @@ practice with them.
 You should also work towards understanding some more advanced packaging topics:
 
 * The purpose of the
-  {ref}`different files in debian/ <overview-of-debian-directory>`
+  {ref}`different files in debian/ <debian-directory>`
 
 * [Debian policy](http://www.debian.org/doc/debian-policy/)
 

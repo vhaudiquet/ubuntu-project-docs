@@ -176,11 +176,10 @@ on specific platforms. Common situations are tests or code that relies on
 [endianness](https://en.wikipedia.org/wiki/Endianness) of data types, and so
 breaks on big-endian systems (e.g. s390x), code expecting 64-bit data types that
 breaks on 32-bit (e.g. armhf), and so on.
-[Canonistack provides hardware](https://wiki.canonical.com/InformationInfrastructure/IS/CanoniStack-BOS01)
-for Canonical employees to use to try and reproduce these problems.
+
+{term}`Canonistack` provides hardware for Canonical employees to use to try and reproduce these problems.
 
 ```{note}
-
 i386 in particular fails less due to data type issues, but more because it is
 a partial port and has numerous limitations that require special handling, as
 described on the {ref}`i386 troubleshooting page <aa-i386>`.

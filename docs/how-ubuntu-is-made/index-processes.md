@@ -29,8 +29,9 @@ Getting new versions of packages from Debian, dealing with build dependencies, a
 :maxdepth: 1
 
 processes/merges-and-syncs
+processes/sync-process
 processes/transitions
-processes/proposed-migrations
+processes/proposed-migration
 processes/backports
 ```
 

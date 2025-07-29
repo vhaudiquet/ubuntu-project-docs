@@ -75,7 +75,7 @@ The main difference with MOTU is *breadth*. Make sure you have direct experience
 in these skills across a broader range of packages throughout the Archive,
 including types of software you've never worked on before.
 
-More advanced packaging topics you should master as a MOTU applicant include:
+More advanced packaging topics you should be comfortable with as a MOTU applicant include:
 
 * Package merges from upstream, to go ahead of Debian's version
 

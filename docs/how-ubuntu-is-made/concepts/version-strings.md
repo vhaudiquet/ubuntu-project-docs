@@ -441,17 +441,16 @@ List of this and further related examples:
 | LTS+2 | `2.7-2ubuntu1` | `3.1-1ubuntu2~23.04.1` |
 
 The new version is again independent of the former version that was present in
-the target release, here examples targeting 22.04:
+the target release. Here are examples targeting 22.04:
 
-| Previous         | New Dev        | Upload for LTS         |
-| ---------------- | -------------- | ---------------------- |
-| `2.0-2`          | `3.1-1ubuntu2` | `3.1-1ubuntu2~22.04.1` |
-| `2.0-2ubuntu2`   | `3.1-1ubuntu2` | `3.1-1ubuntu2~22.04.1` |
-| `2.0-2ubuntu2.1` | `3.1-1ubuntu2` | `3.1-1ubuntu2~22.04.1` |
-| `2.0-2build1`    | `3.1-1ubuntu2` | `3.1-1ubuntu2~22.04.1` |
+| Previous         | New development | Upload for LTS         |
+| ---------------- | --------------- | ---------------------- |
+| `2.0-2`          | `3.1-1ubuntu2`  | `3.1-1ubuntu2~22.04.1` |
+| `2.0-2ubuntu2`   | `3.1-1ubuntu2`  | `3.1-1ubuntu2~22.04.1` |
+| `2.0-2ubuntu2.1` | `3.1-1ubuntu2`  | `3.1-1ubuntu2~22.04.1` |
+| `2.0-2build1`    | `3.1-1ubuntu2`  | `3.1-1ubuntu2~22.04.1` |
 
 ```{note}
-
 If in this case the package in the Ubuntu development release is a native
 package one would still use *the same version* as in the development release.
 ```
