@@ -142,7 +142,7 @@ guidelines to help you when creating your changelog entries.
 
 ### Version string format
 
-Selecting the {manpage}`right version <deb-version(7)` for an upload sounds
+Selecting the right version (see {manpage}`deb-version(7)`) for an upload sounds
 trivial and it often is. In most cases it is as easy as
 "_increment the right number_", but there are many of edge cases to be aware of.
 See {ref}`version-strings` for details.
@@ -173,8 +173,8 @@ You'll need to manually fix up anything that `reconstruct-changelog` got wrong:
 
 * Version is wrong (should be `3.3.0-1ubuntu1.1`).
 
-* Name and email may be wrong if you don't have `DEBFULLNAME` and `DEBEMAIL`
-  set in your env.
+* Name and email may be wrong if you don't have the `DEBFULLNAME` and `DEBEMAIL`
+  environment variables set.
 
 * `UNRELEASED`: Change this to the release this change is for (e.g., `bionic`).
 

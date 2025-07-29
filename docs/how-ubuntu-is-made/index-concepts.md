@@ -29,6 +29,7 @@ Detailed description of the workings of the Ubuntu package archive, as well as p
 concepts/package-archive
 concepts/package-format
 concepts/package-lifecycle
+concepts/version-strings
 concepts/patches
 concepts/deb-3-patch-file-headers
 concepts/debian-policy
