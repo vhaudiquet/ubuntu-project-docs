@@ -199,7 +199,7 @@ The following roles are especially useful:
 
 ### Special roles for links
 
-The documentation project defines the following custom roles for simplifying add links to various resources.
+The documentation project defines the following custom roles to simplify adding links to various resources.
 
 `manpage`
 : Use to create links to manual pages hosted at [manpages.ubuntu.com](https://manpages.ubuntu.com/). The links always point to manual pages for the latest Ubuntu release.
