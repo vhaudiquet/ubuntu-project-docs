@@ -172,9 +172,8 @@ sitemap_show_lastmod = True
 
 
 # Template and asset locations
-
-# html_static_path = ["_static"]
-# templates_path = ["_templates"]
+html_static_path = [".sphinx/_static"]
+# templates_path = [".sphinx/_static/_templates"]
 
 
 #############
@@ -236,7 +235,7 @@ linkcheck_retries = 3
 # NOTE: By default, the following MyST extensions are enabled:
 #       substitution, deflist, linkify
 
-myst_enable_extensions = {"colon_fence", "dollarmath", "tasklist"}
+myst_enable_extensions = {"colon_fence", "dollarmath", "tasklist", "fieldlist"}
 
 
 # Custom Sphinx extensions; see
@@ -272,16 +271,14 @@ extensions = [
 ]
 
 # Excludes files or directories from processing
+# exclude_patterns = []
 
-exclude_patterns = []
 
 # Adds custom CSS files, located under 'html_static_path'
-
-# html_css_files = []
+html_css_files = ["custom_styles.css"]
 
 
 # Adds custom JavaScript files, located under 'html_static_path'
-
 # html_js_files = []
 
 
