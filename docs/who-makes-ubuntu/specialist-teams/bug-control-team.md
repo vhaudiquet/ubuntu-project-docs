@@ -183,11 +183,11 @@ Example Application
 : The following are examples of high-quality Bug Control applications,
   containing lots of different types of triaging work.
 
-  * [Application from Yofel](https://lists.launchpad.net/ubuntu-bugcontrol/msg00715.html)
+  * [Application from `Yofel`](https://lists.launchpad.net/ubuntu-bugcontrol/msg00715.html)
 
-  * [Application from Kamal Mostafa](https://lists.launchpad.net/ubuntu-bugcontrol/msg01024.html)
+  * [Application from `Kamal Mostafa`](https://lists.launchpad.net/ubuntu-bugcontrol/msg01024.html)
 
-  * [Application from kermiac](https://lists.launchpad.net/ubuntu-bugcontrol/msg01083.html)
+  * [Application from `kermiac`](https://lists.launchpad.net/ubuntu-bugcontrol/msg01083.html)
 :::
 
 :::{tab-item} **For teams**
