@@ -34,3 +34,4 @@ reference/governance/conflict-resolution/ who-makes-ubuntu/councils/conflict-res
 explanation/governance/ how-ubuntu-is-made/index-governance/
 reference/governance/ethos/ how-ubuntu-is-made/governance/ethos/
 
+contributors/bug-fix/bug-control/ who-makes-ubuntu/specialist-teams/bug-control-team/
