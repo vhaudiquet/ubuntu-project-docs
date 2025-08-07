@@ -23,7 +23,7 @@ staging/AA/maintainers/aa-package-overrides/ maintainers/AA/aa-package-overrides
 staging/AA/maintainers/aa-priority-mismatches/ maintainers/AA/aa-priority-mismatches/
 staging/AA/maintainers/aa-new-review/ maintainers/AA/aa-new-review/
 staging/AA/maintainers/aa-signing-bootloaders/ maintainers/AA/aa-signing-bootloaders/
-
+staging/phased-updates/ how-ubuntu-is-made/concepts/phased-updates/
 
 # Pages moved around
 reference/glossary/ how-ubuntu-is-made/concepts/glossary/
