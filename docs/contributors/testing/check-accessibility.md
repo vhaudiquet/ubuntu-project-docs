@@ -9,10 +9,17 @@ Designing and coding for accessibility helps everyone, not just a specific group
 
 We aim to comply with the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/), level AA. WCAG has been adopted as the standard for accessibility legislation around the world. The guidelines ensure that the interface is:
 
-* **Perceivable**: All users can perceive it
-* **Operable**: All users can interact with it
-* **Understandable**: All users can comprehend it
-* **Robust**: The interface is compatible with accessibility features (also called assistive technologies)
+Perceivable
+: All users can perceive it
+
+Operable
+: All users can interact with it
+
+Understandable
+: All users can comprehend it
+
+Robust
+: The interface is compatible with accessibility features (also called assistive technologies)
 
 ## Enable accessibility features
 
@@ -26,9 +33,14 @@ These checks support people with low vision (cataracts), color vision deficienci
 
 ### Enable the visual features
 
-* **High contrast mode**: go to {menuselection}`Settings --> Accessibility --> Seeing`, enable {guilabel}`High Contrast`. You can also enable {guilabel}`High Contrast` in the Accessibility menu.
-* **Dark theme**: go to {menuselection}`Settings --> Appearance --> Style`, select {guilabel}`Dark`.
-* **Large text**: go to {menuselection}`Settings --> Accessibility --> Seeing`, enable {guilabel}`Large Text`. You can also enable {guilabel}`Large Text` in the Accessibility menu.
+High contrast mode
+: Go to {menuselection}`Settings --> Accessibility --> Seeing`, enable {guilabel}`High Contrast`. You can also enable {guilabel}`High Contrast` in the Accessibility menu.
+
+Dark theme
+: Go to {menuselection}`Settings --> Appearance --> Style`, select {guilabel}`Dark`.
+
+Large text
+: Go to {menuselection}`Settings --> Accessibility --> Seeing`, enable {guilabel}`Large Text`. You can also enable {guilabel}`Large Text` in the Accessibility menu.
 
 ### Visual accessibility checklist
 
@@ -94,16 +106,19 @@ For a more thorough test, you need these shortcuts:
 
 All graphical interfaces in Ubuntu Desktop should be readable with the built-in [Orca screen reader](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/how-to/accessibility/read-screen-aloud/). Screen readers benefit blind and visually impaired users who rely on audio feedback to navigate interfaces. To work properly, screen readers require good markup, labelling, and logical content structure.
 
-### Enable the screen reader
+### Use the screen reader
 
-The Orca screen reader can be enabled in Settings > Accessibility > Seeing, or the Accessibility menu.
+The Orca screen reader can be enabled in {menuselection}`Settings --> Accessibility --> Seeing`. You can also enable {guilabel}`Screen Reader` in the Accessibility menu.
 
 Note that some Orca features don’t work with certain combinations of Ubuntu releases and application toolkits. Read [Improve screen reader usability](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/how-to/accessibility/improve-screen-reader-usability/).
 
 You need to get familiar with keyboard shortcuts to use the screen reader. Modifier keys are used in the shortcuts:
 
-* {kbd}`Super` is generally mapped to the {kbd}`Windows` key on Windows computers, and the {kbd}`Command` key on Macs.
-* By default, the Orca key is {kbd}`CapsLock` for the Laptop layout, and the {kbd}`Insert` key for the Desktop layout. You can [set the layout](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/tutorial/get-started-with-the-screen-reader/#determine-your-keyboard-layout) in the Orca settings, typing `orca -s` in the terminal.
+{kbd}`Super`
+: Generally mapped to the {kbd}`Windows` key on Windows computers, and the {kbd}`Command` key on Macs.
+
+{kbd}`Orca`
+: By default, the Orca key is {kbd}`CapsLock` for the Laptop layout, and the {kbd}`Insert` key for the Desktop layout. You can [set the layout](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/tutorial/get-started-with-the-screen-reader/#determine-your-keyboard-layout) in the Orca settings, typing {command}`orca -s` in the terminal.
     
 | Action | Laptop layout | Desktop layout |
 |--------|-----------------------------------|------------------------------------|
