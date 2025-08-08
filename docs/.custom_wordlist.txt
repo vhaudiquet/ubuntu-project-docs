@@ -34,6 +34,8 @@ schroot
 SRUs
 subiquity
 Tegra
+triaged
+triaging
 unapplied
 unapply
 unpatched
@@ -43,3 +45,4 @@ upstreamed
 upstreaming
 upstreams
 Xenial
+

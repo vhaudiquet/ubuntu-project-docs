@@ -38,3 +38,13 @@ Explanation of the various pathways, expectations, and how to apply for a role.
 index-joining
 ```
 
+## Specialist teams
+
+For specific, specialist teams on Launchpad.
+
+```{toctree}
+:maxdepth: 1
+
+index-specialist-teams
+```
+

@@ -6,7 +6,6 @@
 ```{toctree}
 :maxdepth: 1
 
-bug-fix/bug-control
 bug-fix/report-a-bug
 ```
 
