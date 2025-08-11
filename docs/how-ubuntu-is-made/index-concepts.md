@@ -31,6 +31,7 @@ concepts/package-format
 concepts/package-lifecycle
 concepts/version-strings
 concepts/patches
+concepts/phased-updates
 concepts/deb-3-patch-file-headers
 concepts/debian-policy
 concepts/debian-directory

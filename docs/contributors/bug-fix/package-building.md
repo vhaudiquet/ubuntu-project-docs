@@ -300,7 +300,7 @@ that can be passed to this option during the various build stages.
 ```{note}
 From Ubuntu 23.04 (Lunar Lobster), the `series-proposed` suite is
 [disabled by default](https://wiki.ubuntu.com/Testing/EnableProposed) via
-[APT Preferences](https://wiki.debian.org/AptConfiguration#apt_preferences_.28APT_pinning.29).
+{manpage}`APT Preferences <apt_preferences(5)>`.
 This affects schroots created with `sbuild-launchpad-chroot`, so proposed
 packages [may not be used in the build process](https://bugs.launchpad.net/ubuntu/+source/sbuild-launchpad-chroot/+bug/1996205)
 in this case.
