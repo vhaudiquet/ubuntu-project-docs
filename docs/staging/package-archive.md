@@ -40,7 +40,7 @@ signature cannot be traced to a member of the appropriate team, then the upload
 will be **silently rejected**.
 
 To add a new package to Ubuntu, simply upload it as usual. Any new packages
-uploaded are [put in a queue](https://launchpad.net/ubuntu/questing/+queue) to
+uploaded are [put in a queue](https://launchpad.net/ubuntu/devel/+queue) to
 be checked by the administrators before being included.
 
 [Ubuntu Development/Uploading](https://wiki.ubuntu.com/UbuntuDevelopment/Uploading)
@@ -66,12 +66,14 @@ archive.
 
 Notifications of uploads are sent to a mailing list.  A different list is used for each Ubuntu release:
 
-* [8.04 (hardy)](https://lists.ubuntu.com/mailman/listinfo/hardy-changes/)
-* [10.04 (lucid)](https://lists.ubuntu.com/mailman/listinfo/lucid-changes)
-* [11.04 (natty)](https://lists.ubuntu.com/mailman/listinfo/natty-changes)
-* [11.10 (oneiric)](https://lists.ubuntu.com/mailman/listinfo/oneiric-changes)
-* [12.04 (precise)](https://lists.ubuntu.com/mailman/listinfo/precise-changes)
-* [12.10 (quantal)](https://lists.ubuntu.com/mailman/listinfo/quantal-changes)
+* [14.04 (trusty)](https://lists.ubuntu.com/mailman/listinfo/trusty-changes)
+* [16.04 (xenial)](https://lists.ubuntu.com/mailman/listinfo/xenial-changes)
+* [18.04 (bionic)](https://lists.ubuntu.com/mailman/listinfo/bionic-changes)
+* [20.04 (focal)](https://lists.ubuntu.com/mailman/listinfo/focal-changes)
+* [22.04 (jammy)](https://lists.ubuntu.com/mailman/listinfo/jammy-changes)
+* [24.04 (noble)](https://lists.ubuntu.com/mailman/listinfo/noble-changes)
+* [25.04 (plucky)](https://lists.ubuntu.com/mailman/listinfo/plucky-changes)
+* [25.10 (questing)](https://lists.ubuntu.com/mailman/listinfo/questing-changes)
 
 ```{admonition} Question
 :class: important
@@ -96,14 +98,16 @@ A **sync** copies a source package verbatim from an external repository into
 Ubuntu, overwriting any package of the same name. This is used when a newer
 version of it is available, and should be included in Ubuntu, and happens
 automatically during some phases of the release cycle. To request a sync,
-follow the [Sync Request Process](https://wiki.ubuntu.com/SyncRequestProcess).
+follow the [Sync Request Process](https://wiki.ubuntu.com/SyncRequestProcess)
+and [Ubuntu maintainers handbook - Sync process](https://github.com/canonical/ubuntu-maintainers-handbook/blob/main/Syncs.md).
 
 A **merge** is a three-way merge of a package which originated in an external
 repository. This is used when there is a newer version available from the
 external repository, but the package has also been modified (branched) in
 Ubuntu. [Merge-o-Matic](https://merges.ubuntu.com) assists with this work, and
-[the Merging page](https://wiki.ubuntu.com/UbuntuDevelopment/Merging) explains
-how and when to merge. Packages which are
+[the Merging page](https://wiki.ubuntu.com/UbuntuDevelopment/Merging) and
+[Ubuntu maintainers handbook - Merge process](https://github.com/canonical/ubuntu-maintainers-handbook/blob/main/PackageMerging.md)
+ explains how and when to merge. Packages which are
 [maintained in Bazaar](https://wiki.ubuntu.com/UbuntuDevelopment/#Bazaar) can
 and should be merged using Bazaar itself.
 
@@ -116,7 +120,9 @@ duplicating work.
 
 Backports work similarly to syncs, but have somewhat different requirements.
 To request a backport, follow the
-[Ubuntu Backports](https://wiki.ubuntu.com/UbuntuBackports) process.
+[Ubuntu Backports](https://wiki.ubuntu.com/UbuntuBackports) and
+[Ubuntu maintainers handbook - Package backports](https://github.com/canonical/ubuntu-maintainers-handbook/blob/main/PackageBackports.md)
+ process.
 
 (package-archive-consistency)=
 ## Consistency
@@ -141,7 +147,7 @@ different packages, and have different procedures for uploading during them,
 so understanding them all can be difficult.
 
 You can see which freezes happen and when on the
-[Release Schedule](https://wiki.ubuntu.com/ReleaseSchedule), and each is linked
+[Release Schedule](https://discourse.ubuntu.com/c/project/release/38), and each is linked
 to a page about that particular freeze, so that is a great place to go for the
 information. This page will provide a bit more explanation about the types of
 freezes and how to handle them.
@@ -164,7 +170,7 @@ who needs to be aware of changes that you make for them to be included.
 Soft freezes have no mechanism in the archive software to enforce them, they
 just rely on each developer to ensure that they only upload appropriate changes.
 
-For instance, [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze) is a soft
+For instance, [Feature Freeze](https://canonical-ubuntu-project.readthedocs-hosted.com/staging/freezes/feature-freeze) is a soft
 freeze, as you can still upload as before, you are just required to seek
 exceptions for new features.
 
@@ -204,7 +210,7 @@ Packages sometimes move from one component to another, according to policy or
 licensing changes, as managed by the archive administrators. Special
 consideration is necessary when packages move into `main` or `restricted`, as
 this implies a commitment of ongoing maintenance. Such changes must follow the
-[Main Inclusion Process](https://wiki.ubuntu.com/MainInclusionProcess).
+[Main Inclusion Process](https://canonical-ubuntu-project.readthedocs-hosted.com/MIR/main-inclusion-review).
 
 (package-archive-autobuilders)=
 ## Autobuilders
@@ -246,7 +252,7 @@ The bug must have the following elements:
 
 If you are not an [Ubuntu Developer](https://wiki.ubuntu.com/UbuntuDevelopers)
 use the following {ref}`sponsorship-process`. If you are an Ubuntu Developer,
-then subscribe the `ubuntu-archive` team to the bugs. If you need help deciding
+then subscribe the [`ubuntu-archive`](https://launchpad.net/~ubuntu-archive) team to the bugs. If you need help deciding
 whether a package ought to be removed, please discuss on the `ubuntu-devel`
 mailing list rather than asking the archive administrators.
 
@@ -280,6 +286,12 @@ kernel on these architectures:
 
 * `i386`
 
+* `arm64`
+
+* `ppc64el`
+
+* `s390x`
+
 ### Unofficial architectures
 
 These are maintained on a best-effort basis by interested volunteers in the
@@ -291,8 +303,6 @@ including the kernel, toolchain and build infrastructure.
 
 Build failures are not considered a serious issue by the core team. Ports may
 issue new releases or updates out of sync with official Ubuntu releases.
-
-* `arm64`
 
 * `armel` (official from Ubuntu 9.10 to Ubuntu 11.10; [discontinued as of Ubuntu 13.04](https://lists.ubuntu.com/archives/ubuntu-devel/2012-November/036106.html))
 
@@ -307,7 +317,7 @@ issue new releases or updates out of sync with official Ubuntu releases.
 * `powerpc` (https://launchpad.net/~ubuntu-powerpc)
   ([official up to Ubuntu 6.10](https://lists.ubuntu.com/archives/ubuntu-announce/2007-February/000098.html))
 
-* `ppc64el`
+* `riscv64`
 
 * `sparc` ([official up to Ubuntu 7.10](https://lists.ubuntu.com/archives/ubuntu-devel-announce/2008-March/000400.html);
   [discontinued as of Ubuntu 10.10](https://lists.ubuntu.com/archives/technical-board/2010-August/000441.html))
@@ -347,18 +357,20 @@ designate as primary those architectures which have very high download rates.
 
 * `ppc64el` (from Ubuntu 14.04)
 
+* `riscv64` (from Ubuntu 20.04)
+
 * `s390x` (from Ubuntu 16.04)
 
 * `sparc` ([discontinued as of Ubuntu 10.10](https://lists.ubuntu.com/archives/technical-board/2010-August/000441.html))
 
 The ports system [was announced here](https://lists.ubuntu.com/archives/ubuntu-announce/2005-October/000040.html)
 
-### Summary as of Ubuntu 14.04
+### Summary as of Ubuntu 24.04
 
-|         | Official    | Unofficial              |
-| ------- | --------    | ----------              |
-| Primary | amd64, i386 |                         |
-| Ports   | armhf       | arm64, powerpc, ppc64el |
+|         | Official                       | Unofficial |
+| ------- | ------------------------------ | ---------- |
+| Primary | amd64, i386                    |            |
+| Ports   | armhf, arm64, powerpc, ppc64el | riscv64    |
 
 (package-archive-installation-media)=
 ## Installation media
