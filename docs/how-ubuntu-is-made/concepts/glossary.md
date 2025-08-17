@@ -192,6 +192,13 @@ Breezy
     See also:
     * [Breezy (Launchpad)](https://launchpad.net/brz)
 
+Britney
+    A software service that is responsible for continuously regenerating the {term}`update excuses` page, which lists all unresolved {term}`proposed migration` items.
+
+    See also:
+    * {ref}`proposed-migration`
+    * {ref}`resolve-a-migration-issue`
+
 Bug
     In software development a **bug** refers to unintended or unexpected
     behavior of a computer program or system that produce incorrect results, or
@@ -408,6 +415,9 @@ Copyright File
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * [Section 4.5. Copyright (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#copyright-debian-copyright)
 
+Core Dev
+    *Work in Progress*
+
 Cryptographic Signature
     *Work in Progress*
 
@@ -464,7 +474,7 @@ DEP-8
     {term}`source <Source Package>` and {term}`binary packages <Binary Package>`.
 
     See also:
-    * [Current DEP-8 Specification](https://dep-team.pages.debian.net/deps/dep8/)
+    * [DEP-8 Specification](https://salsa.debian.org/ci-team/autopkgtest/blob/master/doc/README.package-tests.rst)
 
 Detached Signature
     A detached signature is a {term}`Digital Signature <Signature>` that is separated
@@ -587,7 +597,7 @@ Expanded Security Maintenance
     * [Expanded Security Maintenance (homepage)](https://ubuntu.com/security/esm)
 
 FTBFS
-Failed to build from Source
+Failed to build from source
     *Work in Progress*
 
 FTI
@@ -1028,6 +1038,12 @@ Public Key Cryptography Standards
 
     See also:
     * [PKCS (Wikipedia)](https://en.wikipedia.org/wiki/PKCS)
+
+Proposed migration
+    The process of moving uploaded or merged packages from the `-proposed` {term}`pocket` into the `-release` pocket for users to consume.
+
+    See also:
+    * {term}`update excuses`
 
 Pull
     *Work in Progress*
@@ -1477,6 +1493,13 @@ Unix
 
     See also:
     * [Unix (Wikipedia)](https://en.wikipedia.org/wiki/Unix)
+
+Update excuses
+    A page showing all unresolved migration issues for the current development release.
+
+    See also:
+    * [Update excuses page](https://ubuntu-archive-team.ubuntu.com/proposed-migration/update_excuses.html)
+    * {term}`proposed migration`
 
 Upstream
     A software project (and associated entities), another software project
