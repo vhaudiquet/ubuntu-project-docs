@@ -172,7 +172,7 @@ sitemap_show_lastmod = True
 
 
 # Template and asset locations
-#html_static_path = [".sphinx/_static"]
+# html_static_path = [".sphinx/_static"]
 # templates_path = [".sphinx/_static/_templates"]
 
 
@@ -235,7 +235,14 @@ linkcheck_retries = 3
 # NOTE: By default, the following MyST extensions are enabled:
 #       substitution, deflist, linkify
 
-myst_enable_extensions = {"colon_fence", "dollarmath", "tasklist", "fieldlist"}
+myst_enable_extensions = {
+    "colon_fence",
+    "dollarmath",
+    "tasklist",
+    "fieldlist",
+    "substitution",
+    "html_admonition",
+}
 
 
 # Custom Sphinx extensions; see
@@ -268,6 +275,8 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinxext.rediraffe",
     "sphinx_sitemap",
+    "sphinx_reredirects",
+    "sphinx_togglebutton",
 ]
 
 # Excludes files or directories from processing
@@ -315,6 +324,8 @@ manpages_url = (
     + "/en/man{section}/{page}.{section}.html"
 )
 
+myst_substitutions = {"stable_distro": stable_distro}
+
 # Configure hoverxref options
 hoverxref_role_types = {
     "term": "tooltip",
@@ -327,7 +338,17 @@ hoverxref_roles = [
 # This option excludes line numbers and prompts from being selected when
 # users copy commands using the copybutton
 # https://sphinx-copybutton.readthedocs.io/en/latest/use.html#automatic-exclusion-of-prompts-from-the-copies
-copybutton_exclude = ".linenos, .gp"
+
+# Following option only works when the 'console' syntax highlighting
+# is used; better to use a regex.
+# copybutton_exclude = ".linenos, .gp"
+
+# Following regex stupidly using '|' because of a bug in copybutton ext.:
+#         https://github.com/executablebooks/sphinx-copybutton/issues/96
+# Replace with   r"(\S+@\S+)?[\$\#] "  when the bug is fixed.
+copybutton_prompt_text = r"\S+@\S+[\$\#] |[\$\#] "
+copybutton_prompt_is_regexp = True
+copybutton_line_continuation_character = "\\"
 
 # Specifies a reST snippet to be prepended to each .rst file
 # This defines a :center: role that centers table cell content.

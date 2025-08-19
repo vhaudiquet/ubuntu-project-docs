@@ -5,6 +5,23 @@ These guides will help you with the specific tasks and processes that build
 Ubuntu.
 
 
+## QA and testing
+
+```{toctree}
+:maxdepth: 1
+
+index-qa-and-testing
+```
+
+## Bug triage
+
+```{toctree}
+:maxdepth: 1
+
+index-bug-triage
+```
+
+
 ## Getting set up
 
 This section includes all the relevant tooling you'll need to work on Ubuntu.
@@ -75,7 +92,7 @@ index-new-package
 ```{toctree}
 :maxdepth: 1
 
-find-a-sponsor
+Find a sponsor <find-a-sponsor>
 ```
 
 
@@ -88,7 +105,7 @@ some working familiarity with Ubuntu development.
 ```{toctree}
 :maxdepth: 1
 
-index-advanced
+Advanced tasks <index-advanced>
 ```
 
 

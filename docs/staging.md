@@ -15,6 +15,7 @@ This page (and staging area) will be removed as it becomes unnecessary.
 :hidden: true
 :glob:
 
+staging/dmb/index-dmb
 staging/*
 staging/freezes/*
 ```
