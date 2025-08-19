@@ -43,6 +43,15 @@ index-patching
 ```
 
 
+## Accessibility
+
+```{toctree}
+:maxdepth: 1
+
+check-accessibility
+```
+
+
 ## Testing
 
 ```{toctree}
