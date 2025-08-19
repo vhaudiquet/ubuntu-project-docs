@@ -47,7 +47,7 @@ on:
         description: 'GitHub runners'
         required: false
         type: string
-        default: '["ubuntu-22.04"]'
+        default: 'ubuntu-latest'
     outputs:
       spellcheck-result:
         description: "Result of the spelling check"
@@ -63,7 +63,7 @@ concurrency:
 jobs:
   docchecks:
     name: Run documentation checks
-    runs-on: ${{ fromJson(inputs.runs-on) }}
+    runs-on: ${{ inputs.runs-on }}
     outputs:
       result_spelling: ${{ steps.spellcheck-step.outcome }}
       result_woke: ${{ steps.woke-step.outcome }}
