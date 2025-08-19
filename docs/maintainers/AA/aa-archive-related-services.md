@@ -41,7 +41,7 @@ To disable auto-import, the usual procedure is to edit the
 `ubuntu-archive-toolbox` crontab to add a `--dry-run` parameter to the
 appropriate line, e.g.
 
-```cron
+```
 # Before
 0 5,11,17,23 * * *      PYTHONPATH=/home/ubuntu-archive/python auto-sync --log-directory ~/public_html/auto-sync --batch
 # After
