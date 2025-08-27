@@ -112,7 +112,7 @@ The Orca screen reader can be enabled in {menuselection}`Settings --> Accessibil
 
 Note that some Orca features don’t work with certain combinations of Ubuntu releases and application toolkits. Read [Improve screen reader usability](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/how-to/accessibility/improve-screen-reader-usability/).
 
-You need to get familiar with keyboard shortcuts to use the screen reader. Modifier keys are used in the shortcuts:
+You need to become familiar with keyboard shortcuts to use the screen reader. Modifier keys are used in the shortcuts:
 
 {kbd}`Super`
 : Generally mapped to the {kbd}`Windows` key on Windows computers, and the {kbd}`Command` key on Macs.
