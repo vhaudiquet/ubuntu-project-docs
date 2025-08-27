@@ -93,7 +93,7 @@ For a more thorough test, you need these shortcuts:
 
 ### Keyboard navigation checklist
 
-- All interactive elements (buttons, fields, links…) are focusable by using the {kbd}`Tab` key
+- All interactive elements (e.g. buttons, fields, links) can be focused using the {kbd}`Tab` key
 - All interactive elements have a visible focus state (ideally a focus ring)
 - There are no focus traps: it is possible to escape all loops, for instance by hitting the {kbd}`Esc` key
 - Focus moves from one element to the next in a logical order
