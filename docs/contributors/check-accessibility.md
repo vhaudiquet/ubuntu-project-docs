@@ -93,7 +93,7 @@ For a more thorough test, you need these shortcuts:
 
 ### Keyboard navigation checklist
 
-- All interactive elements (e.g. buttons, fields, links) can be focused using the {kbd}`Tab` key
+- All interactive elements (for example, buttons, fields, links) can be focused using the {kbd}`Tab` key
 - All interactive elements have a visible focus state (ideally a focus ring)
 - There are no focus traps: it is possible to escape all loops, for instance by pressing the {kbd}`Esc` key
 - Focus moves from one element to the next in a logical order
@@ -138,12 +138,12 @@ You can find further guidance in the [screen reader documentation](https://canon
 
 - All interactive elements (buttons, fields, links…) have a label and a role that is read out loud by the screen reader
     * Roles explain the function of the component (“button”, “text”, “link”, “combobox”). Check [GTK roles](https://docs.gtk.org/gtk4/enum.AccessibleRole.html).
-- There are no two or more elements with the same label in the same page
-    * For example, if there’s a single share button, it can be labeled “Share”. But if there’s more than one “Show” button, you should specify what it refers to: “Show description”, “Show gallery”.
+- All labels are unique, unless they trigger the exact same action.
+    * For example, if there’s a single share button, it can be labeled “Share”. But if there’s more than one “Show” button, you should specify what it refers to: for example, “Show description”, “Show gallery”.
 - All labels are short, descriptive and meaningful
     * Take context into account: if you are on an app page, the share button should be labeled “Share”, not “Share this app” or “Share [app name]”: it’s generally redundant with the page title/headings.
 - All pages have a meaningful title or main heading
-- All sections within a page have a meaningful heading
+- All section headings are unique and meaningful
 - When changing to a new page, either page title or the main heading is announced (whichever is more meaningful)
 - Errors are either announced or readable with the screen reader
 - For images that are not strictly decorative, provide alternative text that can be read out loud by the screen reader
@@ -159,8 +159,9 @@ Besides the more common checks above, you should also keep in mind these:
 - When there’s an error submitting data or in a flow, a meaningful error message is shown
     * Good error messages explain to the user how to avoid them, or at least explain the cause of the error.
 - Search functionality is provided whenever possible so users have an alternative way to find the page or section they are looking for
-- Leave space between interactive items
-    * This [helps users with tremors](https://axesslab.com/hand-tremors/)
+- All interactive elements have a width and height of at least 24px, or have [sufficient space around them](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html).
+- Large interactive elements have at least 24px of either vertical or horizontal spacing
+    * If interactive elements are too close, users might activate them by accident, for example when [scrolling on touch screens](https://axesslab.com/hand-tremors/).
 - Audio that lasts more than 3 seconds does not play automatically
 - Audio that lasts more than 3 seconds can be paused or muted
 
