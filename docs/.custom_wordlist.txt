@@ -15,6 +15,9 @@ codecs
 debdiff
 dev
 distro
+dialog
+dialogs
+Dialogs
 downstreamed
 downstreams
 Edubuntu
@@ -50,6 +53,8 @@ sosreport
 SRUs
 subiquity
 Tegra
+tooltip
+tooltips
 triaged
 triaging
 unapplied
