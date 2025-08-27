@@ -61,6 +61,7 @@ uploaders
 upstreamed
 upstreaming
 upstreams
+userbase
 wishlist
 Xenial
 Xorg
