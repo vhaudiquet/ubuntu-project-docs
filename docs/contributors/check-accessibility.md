@@ -137,7 +137,7 @@ You can find further guidance in the [screen reader documentation](https://canon
 ### Screen reading checklist
 
 - All interactive elements (buttons, fields, links…) have a label and a role that is read out loud by the screen reader
-    * Roles explain the function of the component (“button”, “text”, “link”, “combobox”). Check [GTK roles](https://docs.gtk.org/gtk4/enum.AccessibleRole.html).
+    * Roles explain the function of the component (“button”, "search box", “link”). Check [GTK roles](https://docs.gtk.org/gtk4/enum.AccessibleRole.html).
 - All labels are unique, unless they trigger the exact same action.
     * For example, if there’s a single share button, it can be labeled “Share”. But if there’s more than one “Show” button, you should specify what it refers to: for example, “Show description”, “Show gallery”.
 - All labels are short, descriptive and meaningful
