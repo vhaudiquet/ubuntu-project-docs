@@ -95,7 +95,7 @@ For a more thorough test, you need these shortcuts:
 
 - All interactive elements (e.g. buttons, fields, links) can be focused using the {kbd}`Tab` key
 - All interactive elements have a visible focus state (ideally a focus ring)
-- There are no focus traps: it is possible to escape all loops, for instance by hitting the {kbd}`Esc` key
+- There are no focus traps: it is possible to escape all loops, for instance by pressing the {kbd}`Esc` key
 - Focus moves from one element to the next in a logical order
     * In most of our apps, that usually means sidebar (if open), then body; and top to bottom, left to right (or right to left for RTL languages such as Arabic or Hebrew).
 - Focus moves to modals/dialogs when opened, and returns to the trigger when closed
