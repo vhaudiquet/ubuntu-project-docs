@@ -118,7 +118,7 @@ You need to become familiar with keyboard shortcuts to use the screen reader. Mo
 : Generally mapped to the {kbd}`Windows` key on Windows computers, and the {kbd}`Command` key on Macs.
 
 {kbd}`Orca`
-: By default, the Orca key is {kbd}`CapsLock` for the Laptop layout, and the {kbd}`Insert` key for the Desktop layout. You can [set the layout](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/tutorial/get-started-with-the-screen-reader/#determine-your-keyboard-layout) in the Orca settings, typing {command}`orca -s` in the terminal.
+: By default, the Orca key is {kbd}`CapsLock` for the Laptop layout, and the {kbd}`Insert` key for the Desktop layout. You can [set the layout](https://canonical-ubuntu-desktop-documentation.readthedocs-hosted.com/en/latest/tutorial/get-started-with-the-screen-reader/#determine-your-keyboard-layout) in the Orca settings by typing {command}`orca -s` in the terminal.
     
 | Action | Laptop layout | Desktop layout |
 |--------|-----------------------------------|------------------------------------|
