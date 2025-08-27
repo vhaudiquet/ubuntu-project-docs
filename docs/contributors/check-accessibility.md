@@ -52,7 +52,7 @@ Large text
 - Meaning is conveyed through text or icons, not by color alone.
     * For example: for errors, an error message is shown in addition to a red border.
 - Animations are disabled for users that have {guilabel}`Animation Effects` disabled in the Settings app ({menuselection}`Settings --> Accessibility --> Seeing`).
-- No flashing (there should be less than 3 flashes per second)
+- No flashing (there should be fewer than 3 flashes per second)
 - All elements have enough contrast with their background
     * Read [Contrast checks](#contrast-checks) for further guidance.
 
