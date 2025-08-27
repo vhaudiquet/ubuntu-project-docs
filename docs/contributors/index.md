@@ -60,6 +60,24 @@ index-patching
 ```
 
 
+## Accessibility
+
+```{toctree}
+:maxdepth: 1
+
+Check accessibility <check-accessibility>
+```
+
+
+## Testing
+
+```{toctree}
+:maxdepth: 1
+
+index-testing
+```
+
+
 ## New packages
 
 ```{toctree}
