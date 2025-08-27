@@ -65,7 +65,7 @@ index-patching
 ```{toctree}
 :maxdepth: 1
 
-check-accessibility
+Check accessibility <check-accessibility>
 ```
 
 
