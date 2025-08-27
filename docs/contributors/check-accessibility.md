@@ -99,7 +99,7 @@ For a more thorough test, you need these shortcuts:
 - Focus moves from one element to the next in a logical order
     * In most of our apps, that usually means sidebar (if open), then body; and top to bottom, left to right (or right to left for RTL languages such as Arabic or Hebrew).
 - Focus moves to dialogs when opened, and returns to the trigger when closed
-- Modals close by hitting the {kbd}`Escape` key
+- Dialogs close by hitting the {kbd}`Escape` key
 - If an element doesn’t have a visible label but does have a tooltip on hover, the tooltip should also be visible on focus
 
 ## Check screen reading
