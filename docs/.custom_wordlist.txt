@@ -22,9 +22,12 @@ downstreamed
 downstreams
 Edubuntu
 enablement
+Eoan
 Fosstodon
 gvfs
+Indri
 IPs
+Jackalope
 Jira
 Kubuntu
 Kylin
@@ -45,6 +48,7 @@ PDFs
 powerpc
 PPAs
 quantal
+Quokka
 radeon
 rasdaemon
 Schooltool
@@ -67,9 +71,12 @@ upstreamed
 upstreaming
 upstreams
 userbase
+Utopic
 wishlist
 Xenial
 Xorg
 Xubuntu
+Yakkety
+Zapus
 Zentyal
 Zope

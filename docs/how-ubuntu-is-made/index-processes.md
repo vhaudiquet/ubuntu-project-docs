@@ -11,8 +11,8 @@ The processes that together make up the bulk of the work on the creation of Ubun
 ```{toctree}
 :maxdepth: 1
 
-processes/release-cycle
-processes/freezes
+/release-team/release-cycle
+/release-team/freezes
 ```
 
 

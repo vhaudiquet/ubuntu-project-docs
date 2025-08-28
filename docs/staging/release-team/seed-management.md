@@ -1,6 +1,10 @@
 (seed-management)=
 # Seed management
 
+```{note}
+Page source: [wiki - Seed Management](https://wiki.ubuntu.com/SeedManagement)
+```
+
 ## Definition
 
 **Seeds** are the lists of packages we want to include in the distribution. We

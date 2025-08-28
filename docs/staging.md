@@ -16,7 +16,11 @@ This page (and staging area) will be removed as it becomes unnecessary.
 :glob:
 
 staging/dmb/index-dmb
-staging/*
-staging/freezes/*
+staging/release-team/release-team
+staging/new-packages
+staging/package-archive
+staging/partner-archive
+staging/aa-museum
+staging/not-AA
 ```
 

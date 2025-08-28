@@ -4,6 +4,11 @@
 ```{note}
 This page will be moved to:
 * how-ubuntu-is-made > concepts
+
+Page source: [Freeze Exception Process](https://wiki.ubuntu.com/FreezeExceptionProcess)
+
+Instructions for requesting a freeze exception have been extracted and moved to
+{ref}`request-a-freeze-exception`
 ```
 
 Exceptions to the {ref}`feature-freeze` process must be approved by the Release
