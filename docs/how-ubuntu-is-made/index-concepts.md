@@ -13,7 +13,7 @@ Release principles and infrastructure, publication cadence, and support consider
 ```{toctree}
 :maxdepth: 1
 
-concepts/ubuntu-releases
+/release-team/ubuntu-releases
 concepts/upstream-and-downstream
 concepts/supported-architectures
 concepts/launchpad
