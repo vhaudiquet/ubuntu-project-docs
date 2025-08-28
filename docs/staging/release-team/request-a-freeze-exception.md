@@ -108,7 +108,8 @@ Once the Feature Freeze Exception has been approved by a member of the
 changed to *TRIAGED*. You can then either upload the package (if you're in
 [`motu`](http://launchpad.net/~motu) or
 [`ubuntu-core-dev`](http://launchpad.net/~ubuntu-core-dev)), or follow the
-{ref}`sponsorship-process`. Please close the bug from the upload, where possible.
+{ref}`sponsorship process <sponsorship>`. Please close the bug from the upload,
+where possible.
 
 
 ```{seealso}

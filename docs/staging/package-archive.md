@@ -19,7 +19,7 @@ It is administered by the [archive administration team](https://launchpad.net/~u
 ## Uploading
 
 If you are not yet an official Ubuntu developer, you can arrange for your
-package to be uploaded via the {ref}`sponsorship-process`.
+package to be uploaded via the {ref}`sponsorship process <sponsorship>`.
 
 Packages are [uploaded via FTP](ftp://upload.ubuntu.com/) using `dput` or `dupload`.
 
@@ -251,7 +251,7 @@ The bug must have the following elements:
     dependencies.
 
 If you are not an [Ubuntu Developer](https://wiki.ubuntu.com/UbuntuDevelopers)
-use the following {ref}`sponsorship-process`. If you are an Ubuntu Developer,
+use the following {ref}`sponsorship process <sponsorship>`. If you are an Ubuntu Developer,
 then subscribe the [`ubuntu-archive`](https://launchpad.net/~ubuntu-archive) team to the bugs. If you need help deciding
 whether a package ought to be removed, please discuss on the `ubuntu-devel`
 mailing list rather than asking the archive administrators.
