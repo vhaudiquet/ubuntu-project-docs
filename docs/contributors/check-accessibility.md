@@ -54,8 +54,9 @@ Large text
 - Animations are disabled for users that have {guilabel}`Animation Effects` disabled in the Settings app ({menuselection}`Settings --> Accessibility --> Seeing`).
 - No flashing (there should be fewer than 3 flashes per second)
 - All elements have enough contrast with their background
-    * Read [Contrast checks](#contrast-checks) for further guidance.
+    * Read {ref}`contrast-checks` for further guidance.
 
+(contrast-checks)=
 ### Contrast checks
 
 Although contrast is usually handled at the theme level, you should ensure all elements have enough color contrast so all text and controls are perceivable:
