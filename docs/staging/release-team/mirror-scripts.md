@@ -4,7 +4,6 @@
 ```{note}
 This content comes [from the wiki](https://wiki.ubuntu.com/Mirrors/Scripts)
 It has not yet been reviewed for currency or accuracy.
-(last edited, 2017)
 ```
 
 To be able to create a mirror people can rely on, you need to have all the

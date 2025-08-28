@@ -1,11 +1,9 @@
 (mirrors)=
-
 # Mirrors
 
 ```{note}
 This content comes [from the wiki](https://wiki.ubuntu.com/Mirrors).
 It has not yet been reviewed for currency or accuracy.
-Last updated: 2024
 ```
 
 Looking for a list of Ubuntu {ref}`archive or CD image mirrors <existing-mirrors>`?

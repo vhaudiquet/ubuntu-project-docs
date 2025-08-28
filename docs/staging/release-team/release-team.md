@@ -1,32 +1,17 @@
 (release-team)=
 # The Release Team
 
-```{toctree}
-:titlesonly:
-
-releases
-feature-freeze
-freeze-exceptions
-request-a-freeze-exception
-seed-management
-germinate
-mirrors
-mirror-scripts
-push-mirroring
-```
-
-```{note}
-This page is intended to live in the "who makes Ubuntu" section, and will be
-an "about the team" page. For now, while many pages are in staging, it's also
-gathering together all the pages belonging to the Release team (while they're
-mostly in staging).
-```
-
 ```{note}
 Contents from [wiki: Release Team](https://wiki.ubuntu.com/ReleaseTeam).
 
-This page will live in:
+This page will move to:
 * Who makes Ubuntu -> Roles and responsibilities -> About the Release Team
+```
+
+```{note}
+This page will become an "about the team" page. For now, while many pages are in
+staging, it's also gathering together all the pages belonging to the Release
+team for ease of reference.
 ```
 
 Introduction to the team, what they're responsible for.
@@ -41,7 +26,20 @@ Coordination:
 * [Previous meetings](http://wiki.ubuntu.com/ReleaseTeam/Meeting/)
 
 Relevant links:
-* {ref}`releases`
+
+```{toctree}
+:titlesonly:
+
+releases
+feature-freeze
+freeze-exceptions
+request-a-freeze-exception
+seed-management
+germinate
+mirrors
+mirror-scripts
+push-mirroring
+```
 
 ## How to contact the team
 

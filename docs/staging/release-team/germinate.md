@@ -1,6 +1,13 @@
 (germinate)=
 # Germinate
 
+```{note}
+Page source: [Germinate](https://wiki.ubuntu.com/Germinate)
+
+Will move to:
+* How Ubuntu is made -> concepts
+```
+
 Germinate is a package available in Debian and Ubuntu which starts with lists of
 packages (called seeds) and grows them into a full list of packages including
 dependencies and (in additional lists) suggests, recommends, and sources for

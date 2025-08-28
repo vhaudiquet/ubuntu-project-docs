@@ -2,6 +2,9 @@
 # Request a Freeze exception
 
 ```{note}
+Page source: [freeze exception process](https://wiki.ubuntu.com/FreezeExceptionProcess)
+The rest of the contents of that page are on {ref}`freeze-exceptions`
+
 This page will be moved to:
 * contributors > advanced
 ```

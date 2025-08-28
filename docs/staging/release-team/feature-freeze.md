@@ -5,7 +5,11 @@
 This page will be moved to:
 * how-ubuntu-is-made > concepts
 
-NOTE: this (mostly, except for 'freeze exceptions') covered in {ref}`release-cycle`
+Page sources:
+* [Feature Freeze](https://wiki.ubuntu.com/FeatureFreeze)
+* [UI Freeze](https://wiki.ubuntu.com/UserInterfaceFreeze)
+
+Significant possible overlap with {ref}`freezes`
 ```
 
 During Feature Freeze we stop introducing new features, packages, and APIs, and

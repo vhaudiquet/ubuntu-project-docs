@@ -2,7 +2,7 @@
 # Releases
 
 ```{note}
-[Source page](https://wiki.ubuntu.com/Releases)
+[Source page: Releases](https://wiki.ubuntu.com/Releases)
 ```
 
 Releases are published by the {ref}`release-team` in a [time-based fashion](https://wiki.ubuntu.com/TimeBasedReleases), every 6 months, following a [planned schedule](https://wiki.ubuntu.com/ReleaseSchedule).

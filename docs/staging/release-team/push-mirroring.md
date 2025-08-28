@@ -4,7 +4,6 @@
 ```{note}
 This content comes [from the wiki](https://wiki.ubuntu.com/Mirrors/PushMirroring)
 It has not yet been reviewed for currency or accuracy.
-Last update: 2022
 ```
 
 As explained on [Debian's documentation](https://www.debian.org/mirror/push_mirroring)
