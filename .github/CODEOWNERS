@@ -10,6 +10,10 @@ MIR/
 # - MIR team owns all MIR docs anywhere in the repo
 MIR/ @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk
 
+# Release team PR approvals
+# These files have no prefix, so are collected into the release-team dir(s)
+release-team/ @utkarsh2102 @ginggs @paride
+
 # AA team PR approvals
 # These files are prefixed with "aa-", but not kept in a specific directory
 **/aa-*.md @panlinux @cpaelzer @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof
