@@ -50,7 +50,7 @@ membership. Here are some guidelines:
 To become a {ref}`ubuntu-developers-contributing`,
 {ref}`MOTU <ubuntu-developers-motu>`,
 {ref}`Per-Package Uploader <ubuntu-developers-per-package>`,
-{ref}`Core Developer (core-dev) <ubuntu-developers-core-dev>`,
+{ref}`Ubuntu Core Developer (core-dev) <ubuntu-developers-core-dev>`,
 {ref}`SRU developers <ubuntu-developers-sru>` or
 developer of a delegated team for which the DMB handles applications, you must
 apply to the {ref}`Developer Membership Board <dmb>` via the following process:
