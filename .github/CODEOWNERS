@@ -18,6 +18,10 @@ release-team/ @utkarsh2102 @ginggs @paride
 # These files are prefixed with "aa-", but not kept in a specific directory
 **/aa-*.md @panlinux @cpaelzer @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof
 
+# DMB team PR approvals
+# Like the AA team, these files are prefixed with "dmb-" but not kept in a specific directory
+**/dmb-*.md @cpaelzer @lvoytek @rbasak @utkarsh2102 @athos-ribeiro @bdrung @julian-klode
+
 # TAs' & special teams' ack required for changes to the CODEOWNERS file
 /.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk @panlinux @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof
 
