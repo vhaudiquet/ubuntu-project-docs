@@ -27,6 +27,7 @@ downstreams
 Edubuntu
 enablement
 Eoan
+Ewan
 Fosstodon
 gvfs
 Indri
@@ -48,6 +49,7 @@ Mythbuntu
 packageset
 packagesets
 papercuts
+Paulina
 PDFs
 powerpc
 PPAs
