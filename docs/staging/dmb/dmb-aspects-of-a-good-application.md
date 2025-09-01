@@ -72,7 +72,7 @@ Example:
 
 * Günther is working in the project for quite some time. They have 2 contributions to 3 packages each - and the people sponsoring those have endorsed Günther. But those have been long ago and there are two other sponsors that have done the majority of the work of Günther in recent years. Without an explanation that will make people question if that recent work was not good quality.
 
-* John wants to apply for the rather new debcrafter package set, but it only has one member so far. The requirement to have endorsements from the same level is not a blocker here -- endorsements by people sponsoring for him in other/similar package sets, or core developers, could also back his case.
+* John wants to apply for the rather new Debcrafters package set, but it only has one member so far. The requirement to have endorsements from the same level is not a blocker here -- endorsements by people sponsoring for him in other/similar package sets, or Ubuntu core developers, could also back his case.
 
 ### Partial endorsement
 
