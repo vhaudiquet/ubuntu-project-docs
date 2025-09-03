@@ -17,6 +17,7 @@ Therefore, while contributing to the Ubuntu project, your focus should be on cul
 Consider the following not as "questions you must be able to answer," but rather as "topics to comprehend, accompanied by a few illustrative questions that have arisen in the past."
 
 \*1: "expected level" is a non linear, non unit description of how deep a particular topic should be covered. Abbreviated as B \= Basic, I \= Intermediate, A \= Advanced. If an E is present in the column, this will be mostly demonstrated by Evidence over being to answer questions.
+\*2: The expected level for PPU differs a lot, the outlined ratings are for non seeded leaf packages not affecting boot, applying for PPU of more important packages might have higher expectations with the context of those packages in mind
 
 | Topic | Description => Expected level\*¹ | |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
