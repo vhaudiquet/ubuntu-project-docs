@@ -17,7 +17,7 @@ The DMB normally approves applications either to reduce contributor friction in 
 
 Example:
 
-* Alice is working diligently on Openstack packages, getting many sponsored uploads every cycle. After a second cycle, in which only minimal / minor changes needed to happen, Alice feels confident in applying for cloud packageset upload rights.
+* Alice is working diligently on Openstack packages, getting many sponsored uploads every cycle. After a second cycle, in which only minimal / minor review triggered changes needed to happen, Alice feels confident in applying for cloud packageset upload rights.
 
 ## Culture
 
@@ -66,7 +66,7 @@ That does not mean, if you have many sponsors, that all of them have to endorse 
 
 Example:
 
-* Evelyn is a member of the Canonical Foundations Toolchain Squad. They have worked extensively on Zig, not just on the toolchain but on many leaf packages. Over time, Evelyn has built up a portfolio of helping across Ubuntu, not just with Zig but in other areas. First, they applied for a speciality packageset `zig-packages`, and got endorsements from current packageset uploaders and a Ubuntu core developer, all within Canonical Foundations (but including a Ubuntu core developer outside their immediate team). When applying for Ubuntu core developer, they went through their uploads and asked sponsors from Debcrafters and Server to provide endorsements as well. This shows a work across immediate Canonical Teams.
+* Evelyn is a member of the Canonical Foundations Toolchain Squad. They have worked extensively on Zig, not just on the toolchain but on many leaf packages. Over time, Evelyn has built up a portfolio of helping across Ubuntu, not just with Zig but in other areas. First, they applied for a speciality packageset `zig-packages`, and got endorsements from current packageset uploaders and a Ubuntu core developer, all within Canonical Foundations (but including a Ubuntu core developer outside their immediate team). When applying for Ubuntu core developer, they went through their uploads and asked sponsors from Debcrafters and Server to provide endorsements as well. This demonstrates work and interaction within, but also outside their immediate team.
 
 * Frederick is a member of Canonical Support Engineering. Their work has been focused on SRUs of fixes to stable releases. They attained SRU-dev and are working toward Ubuntu core developer. In their first application, they only included endorsements from current Support Engineering members. This application will raise concerns from the DMB over Frederick’s communication and culture fit.
 

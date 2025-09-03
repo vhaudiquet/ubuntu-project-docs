@@ -47,7 +47,7 @@ membership. Here are some guidelines:
 ## Applying for team membership
 
 
-To become a {ref}`ubuntu-developers-contributing`,
+To become an {ref}`Ubuntu Contributing Developer <ubuntu-developers-contributing>`,
 {ref}`MOTU <ubuntu-developers-motu>`,
 {ref}`Per-Package Uploader <ubuntu-developers-per-package>`,
 {ref}`Ubuntu Core Developer (core-dev) <ubuntu-developers-core-dev>`,
