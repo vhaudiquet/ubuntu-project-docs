@@ -248,7 +248,7 @@ The following package sets currently exist without a team owning them:
 * Apply this knowledge by uploading new packages, and updating existing packages,
   in the `universe` component.
 
-* May also contribute to the `main` component in cooperation with a Core Developer.
+* May also contribute to the `main` component in cooperation with a Ubuntu Core Developer.
 
 * Answer questions of other developers to expand their understanding of
   packaging work.
@@ -307,7 +307,7 @@ The following package sets currently exist without a team owning them:
   are polling Ubuntu Developers.
 
 
-### Join the Core Dev team
+### Join the Ubuntu Core Developers team
 
 * Check the general requirements for {ref}`ubuntu-membership`
 
