@@ -51,7 +51,7 @@ To become an {ref}`Ubuntu Contributing Developer <ubuntu-developers-contributing
 {ref}`MOTU <ubuntu-developers-motu>`,
 {ref}`Per-Package Uploader <ubuntu-developers-per-package>`,
 {ref}`Ubuntu Core Developer (core-dev) <ubuntu-developers-core-dev>`,
-{ref}`SRU developers <ubuntu-developers-sru>` or
+{ref}`SRU developer <ubuntu-developers-sru>` or
 developer of a delegated team for which the DMB handles applications, you must
 apply to the {ref}`Developer Membership Board <dmb>` via the following process:
 
@@ -91,6 +91,7 @@ The {ref}`Developer Membership Board <dmb>` will have prepared for the meeting
 to sponsors, etc.) and ask questions to make sure the applicant qualifies for
 the team.
 During the meeting the DMB members will cast their votes.
+
 There is no mandatory abstinence of voters due to knowing the applicant - after
 all we are looking for just that: evidence and endorsements from people knowing
 the applicant's work and behavior. If a DMB member feels biased by having a
