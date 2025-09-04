@@ -8,12 +8,38 @@ Will move to:
 * How Ubuntu is made -> concepts
 ```
 
+```{admonition} **Seed management** series
+The article series explains seeds and how they are used.
+
+Seeds overview:
+: {ref}`seeds`
+
+Related topics:
+: {ref}`germinate` (this article)
+
+Practical guidance:
+: {ref}`seed-management`
+```
+
 Germinate is a package available in Debian and Ubuntu which starts with lists of
 packages (called seeds) and grows them into a full list of packages including
 dependencies and (in additional lists) suggests, recommends, and sources for
 each of these lists.
 
-## Files You Need
+
+(seed-management-graphs)=
+## Graph of seed structure
+
+Germinate was modified so that it produces a `structure.dot` file which can be
+used to produce a graph of the seeds structure using `graphviz`. This can be
+useful to figure how the seed are overall linked:
+
+```bash
+wget http://people.canonical.com/~ubuntu-archive/germinate-output/ubuntu.precise/structure.dot
+dot -Tpng structure.dot > structure.png
+```
+
+## Files you need
 
 The minimum set of seeds this author has used is:
 
@@ -133,7 +159,7 @@ germinate -S file:///home/user/projects/seeds/ -s ubuntu.hardy -m http://archive
   called supported.
 * Other files are also generated. See the README if you want to know about them.
 
-## Source Code
+## Source code
 
 Germinate, the program that processes seeds and expands out their dependencies,
 is also available in git:
