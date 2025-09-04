@@ -144,6 +144,9 @@ autopkgtest Cloud
 Backport
     A newer version of a {term}`package` ported to an older {term}`Ubuntu release`. They do not come with the same security guarantees as regular packages, exist in a separate {term}`pocket`, and must be manually installed.
 
+    See also:
+    - {ref}`backports`
+
 BZR
 Bazaar
     A distributed {term}`Version Control System` to collaborate on software
