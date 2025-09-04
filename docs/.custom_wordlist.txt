@@ -2,16 +2,20 @@
 allowlist
 apport
 autopkgtests
+autosync
 backport
 backported
 backporting
+binNMUs
 boolean
 bootable
 bootloaders
 bugtracker
+Canonical's
 chroot
 crossbuild
 codecs
+Debcrafters
 debdiff
 dev
 distro
@@ -23,6 +27,7 @@ downstreams
 Edubuntu
 enablement
 Eoan
+Ewan
 Fosstodon
 gvfs
 Indri
@@ -44,6 +49,7 @@ Mythbuntu
 packageset
 packagesets
 papercuts
+Paulina
 PDFs
 powerpc
 PPAs
@@ -57,6 +63,8 @@ sosreport
 SRUs
 subiquity
 Tegra
+Toolchain
+toolchain
 tooltip
 tooltips
 triaged
@@ -65,6 +73,7 @@ unapplied
 unapply
 unpatched
 unshareable
+update_excuses
 uploader
 uploaders
 upstreamed
