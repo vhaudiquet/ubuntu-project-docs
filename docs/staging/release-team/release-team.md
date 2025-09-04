@@ -34,6 +34,7 @@ releases
 feature-freeze
 freeze-exceptions
 request-a-freeze-exception
+seeds
 seed-management
 germinate
 mirrors
