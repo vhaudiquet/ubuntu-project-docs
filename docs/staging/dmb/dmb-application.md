@@ -16,8 +16,8 @@ membership. Here are some guidelines:
   assure your endorsers that you can be trusted with unsupervised upload access
   to the primary Archive.  
 
-  * On your application discourse page, you will describe your areas of work.
-    As a guideline, the DMB will expect to see that you have demonstrated
+  * On your application Discourse page, describe your areas of work.
+    As a guideline, the DMB expects to see that you have demonstrated
     competence in at least those areas.  
 
 * At least some of your endorsers should be your (future) peers. If you are
@@ -55,11 +55,11 @@ To become an {ref}`Ubuntu Contributing Developer <ubuntu-developers-contributing
 developer of a delegated team for which the DMB handles applications, you must
 apply to the {ref}`Developer Membership Board <dmb>` via the following process:
 
-* Create a dedicated discourse page for your application, using the
+* Create a dedicated Discourse page for your application, using the
   [Developer Application Template](https://discourse.ubuntu.com/t/developer-application-template/66670).  
 
 * Ask other developers to endorse your application by replying to your
-  discourse page. A typical application will have three to five endorsements.
+  Discourse page. A typical application has three to five endorsements.
   Developers who [sponsored several uploads for you](https://udd.debian.org/cgi-bin/ubuntu-sponsorships.cgi)
   are good candidates.  
 
@@ -69,7 +69,7 @@ apply to the {ref}`Developer Membership Board <dmb>` via the following process:
 * Announce your application and meeting date from the previous step (agenda) by
   writing an email to the `devel-permissions@` list, which includes:  
 
-  * The link to your discourse application page.  
+  * The link to your Discourse application page.  
 
   * The date of your meeting date and a link to the agenda.  
 
@@ -79,7 +79,7 @@ apply to the {ref}`Developer Membership Board <dmb>` via the following process:
 
 All members of the development community are welcome to attend and ask
 questions, add your feedback (even if unsolicited) as comments to the
-application discourse page or ask questions of an applicant on the
+application Discourse page or ask questions of an applicant on the
 [`devel-permissions` mailing list](https://lists.ubuntu.com/mailman/listinfo/devel-permissions).
 
 Please note that anyone applying for an Ubuntu development team membership is

@@ -92,5 +92,5 @@ that are in the corresponding team package set.
 
 The DMB currently meets every two weeks in `#ubuntu-meeting` on Monday
 alternating between 13:00 UTC and 15:30 UTC. See
-[dmb agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
+[DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
 
