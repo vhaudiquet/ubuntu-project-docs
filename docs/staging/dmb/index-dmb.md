@@ -29,7 +29,6 @@ dmb
 ubuntu-developers
 ubuntu-development
 dmb-application
-dmb-agenda
 dmb-aspects-of-a-good-application
 dmb-application-knowledge-requirements
 dmb-knowledge-base

@@ -54,15 +54,17 @@ their plans.
 
 ### Agenda
 
-We maintain {ref}`an agenda page <dmb-agenda>` with the dates of upcoming
-meetings, the agendas for them and outstanding meeting actions.
+We maintain [an agenda page](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634)
+with the dates of upcoming meetings, the agendas for them and outstanding
+meeting actions.
 
 
 ### Chair
 
 We share the responsibility of chairing the meetings. There should be a list on
-the {ref}`agenda page <dmb-agenda>`. If you have just chaired, rotate the list
-and update the entry at the top of the page so we know who is chairing next.
+the [agenda page](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
+If you have just chaired, rotate the list and update the entry at the top of
+the page so we know who is chairing next.
 
 
 ### Quorum
@@ -220,7 +222,8 @@ meeting log.
      3. Email `technical-board@lists.ubuntu.com` to inform them of the opened
         bug (include a link to the bug).
 
-     4. Add the new TB bug to the {ref}`dmb-agenda` in the "Open TB bugs" section.
+     4. Add the new TB bug to the [DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634)
+        in the "Open TB bugs" section.
 
      5. After the new packageset is created by the TB, a DMB member will need to
         add the appropriate packages.
