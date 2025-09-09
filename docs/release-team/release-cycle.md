@@ -54,7 +54,17 @@ The automatic import of new package versions from Debian ends at the
 {ref}`debian-import-freeze`.
 
 
-## Stabilization and milestones (freezes)
+(release-snapshots)=
+## Snapshots
+
+During a release's development phase, the
+{ref}`Canonical Release Management team <release-team>` organizes
+[monthly snapshot releases](https://discourse.ubuntu.com/t/supercharging-ubuntu-releases-monthly-snapshots-automation/61876). These releases are not intended to
+be used in production, but rather are curated, testable milestones that can be
+used to detect failure modes during the development cycle.
+
+
+## Stabilization and freezes
 
 Developers should increasingly exercise caution in making changes to Ubuntu to
 ensure a stable state is reached in time for the final release date. Archive
@@ -63,7 +73,7 @@ effectively freezing it. The milestones when these restrictions get enabled are
 called "freezes".
 
 During freezes, developers must request {ref}`freeze-exceptions` to approve
-changes (see also {ref}`request-a-freeze-exception`). The release team posts the
+changes (see also {ref}`request-a-freeze-exception`). The Release Team posts the
 current Release Schedule as a Discourse article under the
 ["Release" topic](https://discourse.ubuntu.com/c/project/release). It shows the
 typical order and length of the various freezes.
@@ -87,7 +97,7 @@ Updates.
 (final-release)=
 ## Final Release
 
-Once the release team declares the {ref}`release-candidate` ISO stable and names
+Once the Release Team declares the {ref}`release-candidate` ISO stable and names
 it the "Final Release", a representative of the team announces it on the
 [`ubuntu-announce` mailing list](https://lists.ubuntu.com/archives/ubuntu-announce/).
 
