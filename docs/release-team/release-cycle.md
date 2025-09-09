@@ -54,8 +54,8 @@ The automatic import of new package versions from Debian ends at the
 {ref}`debian-import-freeze`.
 
 
-(release-snapshots)=
-## Snapshots
+(monthly-snapshots)=
+## Monthly Snapshots
 
 During a release's development phase, the
 {ref}`Canonical Release Management team <release-team>` organizes

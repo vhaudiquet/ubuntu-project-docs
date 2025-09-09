@@ -132,7 +132,8 @@ release images (i.e. seeded packages) require the Release Team's approval
 because they've entered the unapproved queue after uploading.
 
 Uploads for packages that do *not* affect beta release images (un-seeded
-packages) will still be auto-accepted until {ref}`final-freeze`.
+packages) will still be auto-accepted until {ref}`final-freeze`. So be
+careful with what you upload.
 
 ```{tip}
 Use the {manpage}`seeded-in-ubuntu(1)` tool, provided by the `ubuntu-dev-tools`
@@ -217,7 +218,7 @@ must reference at least one bug, which is used to track the stable update.
 (release-candidate)=
 ## Release Candidate
 
-The images produced during the monday of the release week before
+The images produced on the Monday of the release week before
 {ref}`final-release` are considered "release candidates".
 
 In an ideal world, the first release candidate would end up being the Final
