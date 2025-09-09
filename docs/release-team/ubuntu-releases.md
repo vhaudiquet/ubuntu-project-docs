@@ -3,22 +3,31 @@
 
 ## Release cadence
 
-{term}`Ubuntu` follows a strict time-based release cycle. Every six months
-since 2004, {term}`Canonical` publishes a new Ubuntu version and its set of
+Ubuntu follows a strict time-based release cycle. Every six months since 2004,
+Canonical publishes a new Ubuntu version ({term}`series`) and its set of
 {term}`packages <Package>` are declared stable (production-quality).
+
 Simultaneously, a new version begins development; it is given its own
-{term}`Code name`, but also referred to as the
-"{term}`Current Release in Development`" or "{term}`Devel`".
+{term}`Code name`, but is also referred to as the "Current Release in
+Development" or "{term}`Devel`" for short.
+
+Every Ubuntu series receives the same production-grade support quality,
+but different types of release receive support for different lengths of time.
 
 
 (lts-releases)=
 ### LTS releases
 
 Since 2006, every fourth release, made every two years in April, receives
-{ref}`long-term-support-lts`. This is the origin of the term {term}`LTS` for
-stable, maintained releases.
+Long Term Support ({term}`LTS`). An estimated 95% of all Ubuntu installations
+are LTS releases.
 
-An estimated 95% of all Ubuntu installations are LTS releases.
+LTS releases receive five years of standard security maintenance for all
+packages in the `main` {ref}`component <archive-components>`. An
+[Ubuntu Pro](https://ubuntu.com/pro) subscription provides access to
+[Expanded Security Maintenance](https://ubuntu.com/security/esm) (ESM),
+which includes security fixes for packages in the `universe` component,
+and covers both `main` and `universe` beyond the five years of standard support.
 
 ```{note}
 Due to the strict time-based six-monthly release cycle, LTS releases only happen
@@ -26,17 +35,18 @@ in even-numbered years (e.g. `20`, `22`, `24`) in April (`04`). The only
 exception to this rule was Ubuntu 6.06 LTS (Dapper Drake).
 ```
 
+
 (point-releases)=
 ### Point releases
 
-To ensure that a fresh install of an {ref}`lts-releases` works on newer hardware
-and does not require a big download of additional updates, Canonical publishes
-**point releases** that include all the updates made so far.
+To ensure that a fresh install of an {ref}`LTS release <lts-releases>` works on
+newer hardware and does not require a large download of additional updates,
+Canonical publishes **point releases** that include all the updates made so far.
 
 The first point release of an LTS is published three months after the initial
-release, and repeated every six months at least until the next LTS is published.
-In practice, Canonical may publish even more point releases for an LTS series,
-depending on the popularity of that LTS series.
+release, and repeated approximately every six months at least until the next LTS
+is published. In practice, Canonical may publish even more point releases for an
+LTS series, if it turns out to be popular.
 
 For example, the Ubuntu 16.04.7 LTS (Xenial Xerus) point release was published
 more than four years after the initial release of Ubuntu 16.04 LTS.
@@ -53,6 +63,10 @@ access to newer {term}`kernels <Kernel>` and newer libraries. They are often
 used inside rapid DevOps processes like {term}`CI`/{term}`CD` pipelines where
 the lifespan of an artifact is likely to be shorter than the support period of
 the interim release.
+
+Interim releases are production-quality and supported for nine months, with
+enough time provided for users to update -- but these releases do not receive
+the long-term commitment of LTS releases.
 
 
 ### Why does Ubuntu use time-based releases?
@@ -86,54 +100,18 @@ components, which are:
   assumed.
 
 `LTS`
-: Any Ubuntu release that receives long term support is marked with `LTS` (see
-  the {ref}`release-lifespan` section for more information).
+: Any Ubuntu release that receives Long Term Support is marked with `LTS`.
 
   Any Ubuntu release that does not receive long term support omits this
   component.
 
 
-### Examples
-
-| Version ID    | Release date     | Support   | End of Standard Support | End of Life   |
-| :---          | :---             | :---      | :---                    | :---          |
-| `22.04 LTS`   | 21 April 2022    | Long term | April 2027              | April 2032    |
-| `22.04.1 LTS` | 11 August 2022   | Long term | April 2027              | April 2032    |
-| `22.10`       | 22 October 2022  | Regular   | July 2023               | July 2023     |
-| `22.04.2 LTS` | 13 February 2023 | Long term | April 2027              | April 2032    |
-| `23.04`       | 20 April 2022    | Regular   | January 2024            | January 2024  |
-
-
-
-(release-lifespan)=
-## Release lifespan
-
-Every Ubuntu {term}`series` receives the same production-grade support quality,
-but the length of time for which an Ubuntu series receives support varies.
-
-
-(regular-support)=
-### Regular support
-
-{ref}`interim-releases` are production-quality releases and are supported for
-nine months, with sufficient time provided for users to update, but these
-releases do not receive the long-term commitment of LTS releases.
-
-
-(long-term-support-lts)=
-### Long Term Support (LTS)
-
-LTS releases receive five years of standard security maintenance for all
-packages in the {term}`main` {term}`component`. With an {term}`Ubuntu Pro`
-subscription, you get access to {term}`Expanded Security Maintenance` (ESM),
-covering security fixes for packages in the {term}`universe` {term}`component`.
-ESM also extends the lifetime of an LTS series from five years to ten years.
+A full list of all the current releases, their codenames, release notes, and
+supported lifetimes can be found on the {ref}`available releases <releases>`
+page.
 
 
 ## Editions
-
-Every Ubuntu release is provided as both a {term}`Server <Ubuntu Server>` and
-{term}`Desktop <Ubuntu Desktop>` edition.
 
 Ubuntu Desktop provides a Graphical User Interface ({term}`GUI`) for everyday
 computing tasks, making it suitable for personal computers and laptops.
@@ -146,11 +124,15 @@ Additionally, each release of Ubuntu is available in minimal configurations,
 which have the fewest possible packages installed: available in the installer
 for Ubuntu Server, Ubuntu Desktop, and as separate cloud images.
 
-Canonical publishes Ubuntu on all major public clouds, and the latest
-{term}`image` for each LTS version will always include any security updates
-provided since the LTS release date, until two weeks prior to the image creation
-date.
+Canonical publishes Ubuntu on all major public clouds, and the
+[latest image](https://cloud-images.ubuntu.com/) for each LTS version will
+always include any security updates provided since the LTS release date, until
+two weeks prior to the image creation date.
 
+```{note}
+TODO: add WSL images to this section
+```
+ 
 
 ## Ubuntu flavors
 

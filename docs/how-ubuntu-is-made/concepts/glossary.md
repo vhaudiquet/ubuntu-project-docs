@@ -430,18 +430,6 @@ Core Dev
 Cryptographic Signature
     *Work in Progress*
 
-Current Release in Development
-    {term}`Ubuntu` follows a strict time-based release cycle. Every six months a
-    new Ubuntu version is released.
-
-    The "Current Release in Development" is the Ubuntu version in development
-    for the next release at any given time. It is also often referred
-    to as "devel".
-
-    Disambiguation: The acronym CRD could also refer to {term}`Coordinated Release Date`
-    See also:
-    * [Ubuntu Releases (explanation)](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/explanation/releases/)
-
 Debian
     **Debian** is a widely-used community-driven
     {term}`Free and Open Source <Free and Open Source Software>`
@@ -492,7 +480,17 @@ Detached Signature
     or entity. 
 
 Devel
-    Shorthand term for the {term}`Current Release in Development`.
+Current Release in Development
+    {term}`Ubuntu` follows a strict time-based release cycle. Every six months a
+    new Ubuntu version is released.
+
+    The "Current Release in Development" is the Ubuntu version in development
+    for the next release at any given time. It is also often referred
+    to as "devel".
+
+    Disambiguation: The acronym CRD could also refer to {term}`Coordinated Release Date`
+    See also:
+    * {ref}`Ubuntu Releases (explanation) <ubuntu-releases>`
 
 DMB
 Developer Membership Board

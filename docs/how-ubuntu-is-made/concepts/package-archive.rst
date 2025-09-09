@@ -183,7 +183,7 @@ The packages of an Ubuntu series are categorized according to whether they are :
 | **Community packages**     | :ref:`archive-components-universe` | :ref:`archive-components-multiverse` |
 +----------------------------+------------------------------------+--------------------------------------+
 
-:term:`Canonical` maintains the base packages and provides security updates. See :ref:`release-lifespan` for more information about the official support provided by Canonical.
+:term:`Canonical` maintains the base packages and provides security updates. See :ref:`ubuntu-releases` for more information about the official support provided by Canonical.
 
 For example, if you look into any of the :ref:`archive-pockets` of the ``devel`` series (|devel-release|_, |devel-updates|_, |devel-security|_, |devel-proposed|_, |devel-backports|_) you see the four components (main, restricted, universe, multiverse) as directories.
 

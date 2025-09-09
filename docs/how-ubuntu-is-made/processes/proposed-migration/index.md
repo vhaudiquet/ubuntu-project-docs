@@ -39,7 +39,7 @@ Issue types:
 
 1. The `*source.changes` file uploaded.
 
-1. If the fix is an {term}`SRU`, or if the release cycle is in a {ref}`feature-freeze-ff`:
+1. If the fix is an {term}`SRU`, or if the release cycle is in a {ref}`feature-freeze`:
 
    * Upload goes into the `unapproved` queue.
    * The SRU team reviews and approves the upload (go to 4).
