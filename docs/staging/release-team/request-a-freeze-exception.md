@@ -138,18 +138,17 @@ After that, subscribe the Release Team as usual.
 
 Refer to {ref}`ui-freeze-exceptions` for more details.
 
-(request-milestone-freeze-exception)=
-### Request Milestone Freeze exception
+(request-final-freeze-exception)=
+### Request Final Freeze exception
 
-Exception requests for Milestone Freeze exceptions must include the following
-additional details:
+Exception requests for {ref}`Final Freeze exceptions <final-freeze-exceptions>`
+must include the following additional details:
 
 * It must fix a bug earmarked by the release team for that particular milestone
 
 * A complete `debdiff` or a merge proposal of the proposed upload must be provided (preferably as
   a bug attachment)
 
-Refer to {ref}`milestone-freeze-exceptions` for more details.
 
 (request-universe-multiverse-exception)=
 ### Request universe/multiverse exception

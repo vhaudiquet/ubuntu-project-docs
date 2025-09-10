@@ -107,8 +107,7 @@ components, which are:
 
 
 A full list of all the current releases, their codenames, release notes, and
-supported lifetimes can be found on the {ref}`available releases <releases>`
-page.
+supported lifetimes can be found on the {ref}`list-of-releases` page.
 
 
 ## Editions
@@ -157,6 +156,9 @@ Officially recognized flavors are:
 In addition to the officially recognized flavors, dozens of other {term}`Linux`
 distributions take Ubuntu as a base for their own distinctive ideas and
 approaches.
+
+Flavors generally support their releases for 3 years in LTS versions (although
+there can be exceptions).
 
 
 ## Further reading
