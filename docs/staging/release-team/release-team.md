@@ -28,7 +28,6 @@ Team's work.
 :hidden:
 
 releases
-feature-freeze
 freeze-exceptions
 request-a-freeze-exception
 seeds
