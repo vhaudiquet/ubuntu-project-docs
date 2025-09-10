@@ -38,4 +38,11 @@ either for contributors or maintainers, depending on the process.
 index-processes
 ```
 
+## Reference material
+
+```{toctree}
+:maxdepth: 1
+
+/release-team/list-of-releases
+```
 
