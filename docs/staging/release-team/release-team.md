@@ -8,27 +8,24 @@ This page will move to:
 * Who makes Ubuntu -> Roles and responsibilities -> About the Release Team
 ```
 
-```{note}
-This page will become an "about the team" page. For now, while many pages are in
-staging, it's also gathering together all the pages belonging to the Release
-team for ease of reference.
-```
+The [Ubuntu Release Team](http://launchpad.net/~ubuntu-release) is responsible
+for the overall {ref}`release-cycle`, which includes monitoring the healthy
+development and stability of the Ubuntu distribution.
 
-Introduction to the team, what they're responsible for.
+During the {term}`devel` development phase, they handle milestones such as
+Freezes and Beta to ensure that the Final Release will be in a good state. For
+{ref}`lts-releases`, the Release Team is also responsible for producing
+{ref}`point-releases` approximately every 6 months (until the next LTS).
 
-Important info:
-* [Release Team Members](https://launchpad.net/~ubuntu-release/+members#active)
-* [Launchpad Team](http://launchpad.net/~ubuntu-release)
+A subset of the Release Team is the
+[Canonical Release Management](https://launchpad.net/~canonical-ubuntu-qa) team.
+This group oversees the Canonical infrastructure that facilitates the Release
+Team's work.
 
-Coordination:
-* Location: Mail to ubuntu-release list
-* [Template](https://wiki.ubuntu.com/ReleaseTeam/Meeting/Agenda/TeamTemplate) to be e-mailed to list each week by teams and product managers.
-* [Previous meetings](http://wiki.ubuntu.com/ReleaseTeam/Meeting/)
-
-Relevant links:
 
 ```{toctree}
 :titlesonly:
+:hidden:
 
 releases
 feature-freeze
@@ -44,17 +41,18 @@ push-mirroring
 
 ## How to contact the team
 
-* IRC: `#ubuntu-release` on Libera.Chat
-* Mailing List: [`ubuntu-release`](https://lists.ubuntu.com/mailman/listinfo/ubuntu-release)
-* Matrix?
-* Discourse?
+The Release Team meets every two weeks. If there is anything you would like to
+bring to their attention, please contact them via their mailing list or Matrix
+channel:
+
+* Mailing List: [`ubuntu-release`](mailto:ubuntu-release@lists.launchpad.net)
+* Matrix: [#release:ubuntu.com](https://matrix.to/#/#release:ubuntu.com)
+
+Alternatively, if there is a bug they should review, subscribe the team and they
+will review on a regular basis.
 
 
 ## Service Level Objectives
-
-If there are any, they can be outlined here.
-
-If not:
 
 This team does not have defined Service Level Objectives.
 
