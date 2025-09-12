@@ -126,7 +126,7 @@ for Ubuntu Server, Ubuntu Desktop, and as separate cloud images.
 Ubuntu is also available for the Windows Subsystem for Linux ({term}`WSL`).
 Ubuntu on WSL provides a full terminal-based development environment on Windows
 that is less resource-intensive than a traditional VM or dual-boot setup. Since
-Ubuntu 24.04 LTS (Noble Numbat), LTS releases of Ubuntu are made available as
+Ubuntu 24.04.2 LTS (Noble Numbat), LTS releases of Ubuntu are made available as
 tar-based images, which can be installed without the Microsoft Store.
 
 Canonical publishes Ubuntu on all major public clouds, and the
