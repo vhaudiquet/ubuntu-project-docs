@@ -1430,6 +1430,10 @@ Ubuntu IRC Council
 Ubuntu Keyserver
     *Work in Progress*
 
+Ubuntu on WSL
+    An edition of Ubuntu built and packaged for the Windows Subsystem for Linux ({term}`WSL`).
+    Ubuntu on WSL provides a fully-functional terminal environment, can launch Linux-native graphical applications, and is tightly integrated with the Windows OS and Windows applications.
+
 Ubuntu Pro
     *Work in Progress*
 
@@ -1578,6 +1582,10 @@ Watch File
     * [Basic overview of the `debian/` directory](https://canonical-ubuntu-packaging-guide.readthedocs-hosted.com/en/latest/reference/debian-dir-overview/)
     * {manpage}`uscan(1)`
     * [Section 4.11. Upstream source location (Debian Policy Manual v4.6.2.0)](https://www.debian.org/doc/debian-policy/ch-source.html#upstream-source-location-debian-watch)
+
+WSL
+    WSL is a virtualisation feature of Windows for running GNU/Linux environments.
+    {term}`Ubuntu on WSL` is the default Linux distribution on WSL.
 
 x64
     See {term}`amd64`
