@@ -123,15 +123,17 @@ Additionally, each release of Ubuntu is available in minimal configurations,
 which have the fewest possible packages installed: available in the installer
 for Ubuntu Server, Ubuntu Desktop, and as separate cloud images.
 
+Ubuntu is also available for the Windows Subsystem for Linux ({term}`WSL`).
+Ubuntu on WSL provides a full terminal-based development environment on Windows
+that is less resource-intensive than a traditional VM or dual-boot setup. Since
+Ubuntu 24.04.2 LTS (Noble Numbat), LTS releases of Ubuntu are made available as
+tar-based images, which can be installed without the Microsoft Store.
+
 Canonical publishes Ubuntu on all major public clouds, and the
 [latest image](https://cloud-images.ubuntu.com/) for each LTS version will
 always include any security updates provided since the LTS release date, until
 two weeks prior to the image creation date.
 
-```{note}
-TODO: add WSL images to this section
-```
- 
 
 ## Ubuntu flavors
 
