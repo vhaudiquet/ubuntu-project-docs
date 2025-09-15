@@ -3,14 +3,17 @@
 
 In case the regular {command}`git-ubuntu`-based {ref}`merge-process` fails, follow these instructions to perform the merge manually.
 
-:::{admonition} **Merging** series
+::::{admonition} **Merging** series
 The article series provides guidance on performing package merges.
 
 Process overview:
 :   * {ref}`merges-syncs`
-    * {ref}`merging`
 
-How to do a merge:
+```{raw} html
+<span style="font-size:0.1px"></span>
+```
+
+{ref}`How to do a merge <merging>`:
 :   1. {ref}`merge-preliminary-steps`
     1. {ref}`merge-process`
     1. {ref}`merge-fix-the-changelog`
@@ -21,7 +24,7 @@ How to do a merge:
 Extra:
 :   * {ref}`merge-manually` (this article)
     * {ref}`merge-cheat-sheet`
-:::
+::::
 
 
 (merge-generate-the-merge-branch)=

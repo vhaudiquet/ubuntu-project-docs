@@ -12,9 +12,12 @@ This article explains how and why Ubuntu imports changes from :term:`Debian`.
 
     Process overview:
       - :ref:`merges-syncs` (this article)
-      - :ref:`merging`
 
-    How to do a merge:
+    .. raw:: html
+
+        <span style="font-size:0.1px"></span>
+
+    :ref:`How to do a merge <merging>`:
       #. :ref:`merge-preliminary-steps`
       #. :ref:`merge-process`
       #. :ref:`merge-fix-the-changelog`

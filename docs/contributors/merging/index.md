@@ -22,9 +22,8 @@ The article series provides guidance on performing package merges.
 
 Process overview:
 :   * {ref}`merges-syncs`
-    * {ref}`merging` (this article)
 
-How to do a merge:
+{ref}`How to do a merge <merging>` (this article):
 :   1. {ref}`merge-preliminary-steps`
     1. {ref}`merge-process`
     1. {ref}`merge-fix-the-changelog`
