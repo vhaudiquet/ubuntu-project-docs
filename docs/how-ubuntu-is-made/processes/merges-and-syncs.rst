@@ -38,8 +38,8 @@ Because Ubuntu is derived from Debian and uses the same package management syste
    :header-rows: 1
 
    * - Sync
-     - Ubuntu package carries no delta (no changes are applied by Ubuntu on top of the Debian package)
-   * - Merge
+     - Merge
+   * - Ubuntu package carries no delta (no changes are applied by Ubuntu on top of the Debian package)
      - Ubuntu package carries a delta (patches are applied by Ubuntu to the Debian package)
 
 

@@ -85,8 +85,3 @@ For a list of packages that have changed in Debian but not merged into Ubuntu, s
 * [universe](https://merges.ubuntu.com/universe.html)
 * [restricted](https://merges.ubuntu.com/restricted.html)
 * [multiverse](https://merges.ubuntu.com/multiverse.html)
-
-
-## Further reading
-
-* {ref}`merges-syncs`

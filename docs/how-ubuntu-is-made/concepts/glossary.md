@@ -1352,7 +1352,7 @@ Ubuntu CVE Tracker
 
 Ubuntu Delta
 Delta
-    In the context of Ubuntu packages, a delta is the difference ({term}`patch`) between a Debian package and an Ubuntu package, i.e. the change that is applied to a Debian package by Ubuntu package maintainers (in the form of {term}`patches <patch>`. Ubuntu packages with a delta are said to "carry a delta".
+    In the context of Ubuntu packages, a delta is the difference ({term}`patch`) between a Debian package and an Ubuntu package, i.e. the change that is applied to a Debian package by Ubuntu package maintainers (in the form of patches). Ubuntu packages with a delta are said to "carry a delta".
 
     See also:
     * {ref}`merging`

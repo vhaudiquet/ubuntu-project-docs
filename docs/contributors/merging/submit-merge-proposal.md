@@ -108,8 +108,3 @@ The results from the latest package tests are published for each Ubuntu release.
 ### Proposed migration
 
 The status of all packages is available from the [Ubuntu archive](https://ubuntu-archive-team.ubuntu.com/proposed-migration/) or one of its subdirectories. The top level directory is for the current dev release. Previous releases are in subdirectories. See {ref}`proposed-migration`.
-
-
-## Further reading
-
-* {ref}`merge-manually`
