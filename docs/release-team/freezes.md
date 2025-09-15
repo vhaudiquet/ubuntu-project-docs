@@ -8,6 +8,9 @@ that the distribution can stabilize as it nears the final release.
 
 See {ref}`release-cycle` for an overview of the entire release process.
 
+{ref}`Freeze exceptions <freeze-exceptions>` can be granted by the
+{ref}`Release Team <release-team>` in some circumstances.
+
 
 (debian-import-freeze)=
 ## Debian Import Freeze
@@ -41,13 +44,47 @@ since the introduction of {ref}`proposed-migration`, syncs happen from
 
 During Feature Freeze (FF), Ubuntu developers stop introducing new features,
 packages, and {term}`API`/{term}`ABI` changes, and instead concentrate on fixing
-bugs in the current release in development (`devel`).
+bugs in the current release in development (`devel`). Note that the upload
+queue is not actually frozen -- uploads will enter the Archive, so be careful.
 
 It is possible to apply for {ref}`exceptions <freeze-exceptions>` under some
-circumstances -- such exceptions must be approved by the Ubuntu Release Team.
+circumstances -- such exceptions must be approved by the
+{ref}`Ubuntu Release Team <release-team>`.
+
+If in doubt, contact the
+[Release Team via Matrix](https://matrix.to/#/#release:ubuntu.com) or subscribe
+`ubuntu-release` to the bug to confirm whether you need an exception or not.
+
+
+### Bug-fix only updates
+
+During FF, updates that *only* contain bug fixes can still be uploaded and don't
+need an exception. However, the developer should **explicitly document** that
+it is a bug-fix only upload in the changelog or sync request.
+
+This includes upstream microreleases, which can be verified by reading the
+detailed upstream changelog, and the diff between the Ubuntu development release
+version and the new upstream version.
+
+
+### NEW packages
+
+NEW source packages do not require exceptions either, since they must be
+{ref}`checked by Archive Administrators <aa-new-review>` before they are
+included in the Archive. For the purposes of Feature Freeze, the upload date
+matters -- all packages in the NEW queue before Feature Freeze will be processed
+without needing an exception.
+
+If you have a NEW upload that isn't a sync from Debian, make sure you obtain the
+agreement of the {ref}`Archive Admin <archive-administration>` team to perform
+the necessary queue reviews *before* you upload.
+
+However, if you integrate the NEW package into an existing one (e.g. by adding a
+dependency or enabling a feature) or add it to a seed, Feature Freeze applies
+and you must apply for an exception.
 
 ```{note}
-The general development activity is still unrestricted until the Feature Freeze;
+General development activity is still unrestricted until the Feature Freeze;
 however, the Feature Freeze is often scheduled for the same day.
 ```
 
@@ -55,17 +92,21 @@ however, the Feature Freeze is often scheduled for the same day.
 (user-interface-freeze)=
 ## User Interface Freeze
 
-The user interface (UI) should be finalized to allow documentation writers and
-translators to work on a consistent target that doesn't render screenshots or
-documentation obsolete.
+The User Interface (UI) is frozen at this point to allow documentation writers
+and translators to work on a fixed target, so that screenshots and documentation
+do not become obsolete while they're working on it.
 
-After the User Interface Freeze (UIF), the following things are not allowed to
-change without a {ref}`freeze exception <freeze-exceptions>`:
+After the UI Freeze (UIF), the following things are not allowed to change
+without a {ref}`UI Freeze exception <ui-freeze-exceptions>`:
 
-* User Interface of individual applications installed by default
+* User Interface of individual applications that are installed by default
+
 * Appearance of the Desktop
+
 * Distribution-specific artwork
-* All user-visible strings in the Desktop and applications installed by default
+
+* All user-visible strings in the Desktop and applications that are installed by
+  default
 
 
 (documentation-string-freeze)=
