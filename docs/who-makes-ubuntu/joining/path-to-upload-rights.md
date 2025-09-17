@@ -168,37 +168,36 @@ intermediate tasks.
 This set of topics and tasks will prepare you to apply for single-package (PPU)
 or Package Set upload rights.
 
-```{mermaid}
+:::{mermaid}
 block-beta
-    columns 2
+  columns 2
 
-    block
-        IntermediateStudies("Intermediate studies")
-        columns 1
-        UnderstandDep8{{"<a href=https://salsa.debian.org/ci-team/autopkgtest/blob/master/doc/README.package-tests.rst>Understand DEP8</a>"}}
-        ComplexPackageMerges{{"Complex package merges"}}
-        SRU{{"<a href=https://canonical-sru-docs.readthedocs-hosted.com/>Study SRU</a>"}}
-        BlockA{{" "}}
-    end
+  block
+    IntermediateStudies("Intermediate studies")
+    columns 1
+    UnderstandDep8{{"<a href=https://salsa.debian.org/ci-team/autopkgtest/blob/master/doc/README.package-tests.rst>Understand DEP8</a>"}}
+    ComplexPackageMerges{{"Complex package merges"}}
+    SRU{{"<a href=https://canonical-sru-docs.readthedocs-hosted.com/>Study SRU</a>"}}
+    BlockA{{" "}}
+  end
    
-    block
-        IntermediateTasks("Intermediate tasks")
-        columns 1
-        AddAUTOPKGTESTS["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/bug-fix/package-tests/>Add Autopkgtest</a>"]
-        ProposeMigration["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/how-ubuntu-is-made/processes/proposed-migration/>Proposed Migration</a>"]
-        DoSRUS["Do SRUS"]
-        WorkOnBugs["Work on packaging bugs/features"]
-    end
+  block
+    IntermediateTasks("Intermediate tasks")
+    columns 1
+    AddAUTOPKGTESTS["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/bug-fix/package-tests/>Add Autopkgtest</a>"]
+    ProposeMigration["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/how-ubuntu-is-made/processes/proposed-migration/>Proposed Migration</a>"]
+    DoSRUS["Do SRUS"]
+    WorkOnBugs["Work on packaging bugs/features"]
+  end
     
-    %% Transitions
-    UnderstandDep8 --> AddAUTOPKGTESTS
-    ComplexPackageMerges --> ProposeMigration
-    SRU --> DoSRUS
+  UnderstandDep8 --> AddAUTOPKGTESTS
+  ComplexPackageMerges --> ProposeMigration
+  SRU --> DoSRUS
 
-    style IntermediateStudies fill: #FFDAB9, stroke:#F4A460;
-    style IntermediateTasks fill:#FFDAB9, stroke:#F4A460;
-    style BlockA fill:transparent,stroke:transparent;
-```
+  style IntermediateStudies fill: #FFDAB9, stroke:#F4A460;
+  style IntermediateTasks fill:#FFDAB9, stroke:#F4A460;
+  style BlockA fill:transparent,stroke:transparent;
+:::
 
 Once you have done enough of these tasks that your team/mentor says you are
 ready to continue your journey, you can move onto the Advanced topics.
@@ -211,42 +210,41 @@ you are particularly focused on.
 (upload-path-advanced)=
 ## Advanced
 
-```{mermaid}
+:::{mermaid}
 block-beta
-    columns 2
+  columns 2
 
-    block
-        AdvancedStudies("Advanced studies")
-        columns 1
+  block
+    AdvancedStudies("Advanced studies")
+    columns 1
 
-        BlockA(" ")
-        BlockB(" ")
-        BlockC(" ")
+    BlockA(" ")
+    BlockB(" ")
+    BlockC(" ")
 
-        StudyFFE{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/staging/release-team/freeze-exceptions/>Study FFE</a>"}}
-        PlusOne{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/advanced/plus-one-maintenance/>Study +1</a>"}}
-    end
+    StudyFFE{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/staging/release-team/freeze-exceptions/>Study FFE</a>"}}
+    PlusOne{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/advanced/plus-one-maintenance/>Study +1</a>"}}
+  end
 
-    block
-        AdvancedTasks("Advanced tasks")
-        columns 1
-        UpstreamSubmissionFixes["Upstream submission fixes/features"]
-        UpstreamSubmissionDelta["Upstream submission of delta"]
-        MilestonesAndExceptions["Milestones and exceptions"]
-        DoAnFFE["Do An FFE"]
-        PlusOneShadowing["+1 Shadowing"]
-    end
+  block
+    AdvancedTasks("Advanced tasks")
+    columns 1
+    UpstreamSubmissionFixes["Upstream submission fixes/features"]
+    UpstreamSubmissionDelta["Upstream submission of delta"]
+    MilestonesAndExceptions["Milestones and exceptions"]
+    DoAnFFE["Do An FFE"]
+    PlusOneShadowing["+1 Shadowing"]
+  end
 
-    StudyFFE-->DoAnFFE
-    PlusOne-->PlusOneShadowing
+  StudyFFE --> DoAnFFE
+  PlusOne --> PlusOneShadowing
 
-    style AdvancedStudies fill: #FFDAB9, stroke:#F4A460;
-    style AdvancedTasks fill:#FFDAB9, stroke:#F4A460;
-    style BlockA fill:transparent,stroke:transparent;
-    style BlockB fill:transparent,stroke:transparent;
-    style BlockC fill:transparent,stroke:transparent;
-
-```
+  style AdvancedStudies fill: #FFDAB9, stroke:#F4A460;
+  style AdvancedTasks fill:#FFDAB9, stroke:#F4A460;
+  style BlockA fill:transparent,stroke:transparent;
+  style BlockB fill:transparent,stroke:transparent;
+  style BlockC fill:transparent,stroke:transparent;
+:::
 
 With enough of these tasks under your belt to demonstrate your skills and
 experience, you can move onto the Expert topics.
@@ -261,38 +259,38 @@ As a member of MOTU, the following tasks and topics will guide you towards
 becoming a Core Developer. Keep doing enough of these tasks until you have the
 experience you need to apply for Core Dev.
 
-```{mermaid}
+:::{mermaid}
 block-beta
-    columns 2
+  columns 2
     
-    block 
-        columns 1
-        ExpertStudies("Expert studies")
+  block 
+    columns 1
+    ExpertStudies("Expert studies")
 
-        StudyLibaryTransitions{{"<a href=https://wiki.debian.org/Teams/ReleaseTeam/Transitions>Study Libary Transitions</a>"}}
-        StudyPackageTransitions{{"<a href=https://wiki.debian.org/PackageTransition>Study Package Transitions</a>"}}
-        BlockA(" ")
-        StudyMIR{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/MIR/main-inclusion-review/>Study MIR</a>"}}
-    end
+    StudyLibaryTransitions{{"<a href=https://wiki.debian.org/Teams/ReleaseTeam/Transitions>Study libary transitions</a>"}}
+    StudyPackageTransitions{{"<a href=https://wiki.debian.org/PackageTransition>Study package transitions</a>"}}
+    BlockA(" ")
+    StudyMIR{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/MIR/main-inclusion-review/>Study MIR</a>"}}
+  end
 
-    block
-        columns 1
-        ExpertTasks("Expert tasks")
+  block
+    columns 1
+    ExpertTasks("Expert tasks")
 
-        DoLibaryTransitions["Do Libary Transitions"]
-        DoPackageTransitions["Do Package Transitions"]
-        DoMIR["Do a MIR"]
-        SeedChange["Seed Change"]
-    end
+    DoLibaryTransitions["Do libary transitions"]
+    DoPackageTransitions["Do package sransitions"]
+    DoMIR["Do an MIR"]
+    SeedChange["Seed change"]
+  end
 
-        StudyLibaryTransitions-->DoLibaryTransitions
-        StudyPackageTransitions-->DoPackageTransitions
-        StudyMIR-->DoMIR
-        StudyMIR-->SeedChange
+  StudyLibaryTransitions-->DoLibaryTransitions
+  StudyPackageTransitions-->DoPackageTransitions
+  StudyMIR-->DoMIR
+  StudyMIR-->SeedChange
 
-    style ExpertStudies fill: #FFDAB9, stroke:#F4A460;
-    style ExpertTasks fill:#FFDAB9, stroke:#F4A460;
-    style BlockA fill:transparent,stroke:transparent;
-```
+  style ExpertStudies fill: #FFDAB9, stroke:#F4A460;
+  style ExpertTasks fill:#FFDAB9, stroke:#F4A460;
+  style BlockA fill:transparent,stroke:transparent;
+:::
 
 
