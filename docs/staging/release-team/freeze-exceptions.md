@@ -1,17 +1,21 @@
 (freeze-exceptions)=
 # Freeze exceptions
 
-```{note}
-This page will be moved to:
-* how-ubuntu-is-made > concepts
-
-Instructions for requesting a freeze exception have been extracted and moved to
-{ref}`request-a-freeze-exception`
-```
-
 This page outlines some of the common scenarios where {ref}`freeze` exceptions
 might be wanted. You should read this page before you
 {ref}`request-a-freeze-exception`.
+
+```{admonition} **Freezes** series
+
+**Process overview:**
+: {ref}`freezes`
+
+**Reference:**
+: {ref}`freeze-exceptions` (this page)
+
+**Practical guidance:**
+: {ref}`request-a-freeze-exception`
+```
 
 
 (feature-freeze-exceptions)=

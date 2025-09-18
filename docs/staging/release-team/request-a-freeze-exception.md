@@ -1,14 +1,22 @@
 (request-a-freeze-exception)=
 # Request a Freeze exception
 
-```{note}
-This page will be moved to:
-* contributors > advanced
-```
-
 Requests for {ref}`freeze-exceptions` are filed as bugs in Launchpad
 against the relevant package (or just "Ubuntu" if the package is not available
 yet).
+
+```{admonition} **Freezes** series
+
+**Process overview:**
+: {ref}`freezes`
+
+**Reference:**
+: {ref}`freeze-exceptions`
+
+**Practical guidance:**
+: {ref}`request-a-freeze-exception` (this page)
+```
+
 
 When you make your request, set the bug status to *New* to ensure the Release
 Team sees the request. Once all the required information is included, file your

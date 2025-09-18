@@ -11,6 +11,18 @@ See {ref}`release-cycle` for an overview of the entire release process.
 {ref}`Freeze exceptions <freeze-exceptions>` can be granted by the
 {ref}`Release Team <release-team>` in some circumstances.
 
+```{admonition} **Freezes** series
+
+**Process overview:**
+: {ref}`freezes` (this page)
+
+**Reference:**
+: {ref}`freeze-exceptions`
+
+**Practical guidance:**
+: {ref}`request-a-freeze-exception`
+```
+
 
 (debian-import-freeze)=
 ## Debian Import Freeze
