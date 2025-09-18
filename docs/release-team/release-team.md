@@ -23,20 +23,6 @@ This group oversees the Canonical infrastructure that facilitates the Release
 Team's work.
 
 
-```{toctree}
-:titlesonly:
-:hidden:
-
-freeze-exceptions
-request-a-freeze-exception
-seeds
-seed-management
-germinate
-mirrors
-mirror-scripts
-push-mirroring
-```
-
 ## How to contact the team
 
 The Release Team meets every two weeks. If there is anything you would like to
