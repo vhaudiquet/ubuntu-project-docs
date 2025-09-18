@@ -29,101 +29,102 @@ contributor. Click any of the nodes to learn more.
 
 :::{mermaid}
 block-beta
-  columns 8
+  columns 6
 
 %% Column 1
   block:col1
-  columns 1
-    space:3
-    Start(("Start"))
-    space
-  end
-
-%% Column 2
-  block:col2
-  columns 1
-    space
-    space
+  columns 2
+    space:5
     Ubuntu{{"<b>Ubuntu<br>path</br>"}}
-    space
+    Start(("Start"))
+    space:2
     Debian{{"<b>Debian<br>path</b>"}}
   end
 
   Start --> Ubuntu
   Start --> Debian
 
+%% Column 2
+  block:col2
+  columns 2
+    space:4
+    Basics("<a href='#upload-path-basics'>Basics</a>")
+    id1((" "))
+    space:2
+    Contributor("<a href="https://www.debian.org/doc/manuals/maint-guide/">Contributor</a>")
+    space
+  end
+
 %% Column 3
   block:col3
-  columns 1
+  columns 2
+    space
     UploadRights{{"<b>Upload<br>rights</b>"}}
+    space:2
+    Intermediate("<a href='#upload-path-intermediate'>Intermediate</a>")
+    id2((" "))
+    space:2
+    Maintainer("<a href='https://wiki.debian.org/DebianMaintainer'>Maintainer</a>")
     space
-    Basics("<a href='#upload-path-basics'>Basics</a>")
-    space
-    Contributor("<a href="https://www.debian.org/doc/manuals/maint-guide/">Contributor</a>")
   end
 
 %% Column 4
   block:col4
-  columns 1
+  columns 2
     PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PPU<br>PackageSet</a>"]
+    space:3
+    Advanced("<a href='#upload-path-advanced'>Advanced</a>")
+    id3((" "))
+    space:2
+    Developer("<a href='https://wiki.debian.org/DebianDeveloper'>Developer</a>")
     space
-    Intermediate("<a href='#upload-path-intermediate'>Intermediate</a>")
-    space
-    Maintainer("<a href='https://wiki.debian.org/DebianMaintainer'>Maintainer</a>")
   end
 
 %% Column 5
   block:col5
-  columns 1
+  columns 2
     MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-MOTU/'>MOTU</a>"]
-    space
-    Advanced("<a href='#upload-path-advanced'>Advanced</a>")
-    space
-    Developer("<a href='https://wiki.debian.org/DebianDeveloper'>Developer</a>")
+    space:3
+    Expert("<a href='#upload-path-expert'>Expert</a>")
+    id4((" "))
+    space:4
   end
 
 %% Column 6
   block:col6
-  columns 1
+    columns 2
     CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-core-dev/'>Core Dev</a>"]
-    space
-    Expert("<a href='#upload-path-expert'>Expert</a>")
-    space:2
+    space:8
   end
 
 %% Connections
 Basics --> Intermediate
 Intermediate --> Advanced
-Intermediate --> PPU
 Advanced --> Expert
-Advanced --> MOTU
-Expert --> CoreDev
+
+id2 --> PPU
+id3 --> MOTU
+Expert --- id4
+id4 --> CoreDev
 
 Contributor --> Maintainer
 Maintainer --> Developer
 
 %% Styling
 classDef debianStyle fill: #F8A3C0, stroke: #DD1155
-  class Debian debianStyle
-  class Contributor debianStyle
-  class Maintainer debianStyle
-  class Developer debianStyle
+  class Debian,Contributor,Maintainer,Developer debianStyle
 
 classDef ubuntuStyle fill: #FFDAB9, stroke: #E95420,stroke-width:1px;
-  class Ubuntu ubuntuStyle
-  class Basics ubuntuStyle
-  class Intermediate ubuntuStyle
-  class Advanced ubuntuStyle
-  class Expert ubuntuStyle
+  class Ubuntu,Basics,Intermediate,Advanced,Expert ubuntuStyle
 
 classDef uploaderStyle fill: #FFDF7E, stroke: #FBAB13
-  class UploadRights uploaderStyle
-  class PPU uploaderStyle
-  class MOTU uploaderStyle
-  class CoreDev uploaderStyle
+  class UploadRights,PPU,MOTU,CoreDev uploaderStyle
 
 classDef invisible fill: transparent, stroke: transparent
-  class col1,col2,col3,col4,col5,col6 invisible
+  class id1,col1,col2,col3,col4,col5,col6 invisible
+
+classDef solid fill: #000, stroke: transparent
+  class id2,id3,id4 solid
 :::
 
 
