@@ -6,6 +6,16 @@ need them at the right moment. "File not found" errors cause a lot of issues
 and annoyances for users. This page provides you with scripts to sync from other
 mirrors and prevent 404's.
 
+```{admonition} **Mirrors** series
+
+**Mirrors overview:**
+: {ref}`About mirrors <mirrors>`
+
+**Reference:**
+: * {ref}`mirror-scripts` (this page)
+: * {ref}`push-mirroring`
+```
+
 
 ## ubumirror
 

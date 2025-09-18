@@ -1,17 +1,25 @@
 (mirrors)=
 # Mirrors
 
-Looking for a list of Ubuntu
-{ref}`Archive or CD image mirrors <existing-mirrors>`?
-
 The distribution of Ubuntu CD images and packages can always be improved. The
 [`ubuntu-mirror-admins`](https://launchpad.net/~ubuntu-mirror-admins) team works
 to improve user experiences every day, making Ubuntu available. You can help
 too, by creating a mirror of your own and providing people near you with a
 reliable mirror.
 
-These pages tell you what to expect, and what Ubuntu expects. You can also find
-example scripts to sync, and guidelines on maintaining your mirror.
+
+```{admonition} **Mirrors** series
+
+**Mirrors overview:**
+: {ref}`About mirrors <mirrors>` (this page)
+
+**Reference:**
+: * {ref}`mirror-scripts`
+: * {ref}`push-mirroring`
+```
+
+
+## Mirror types
 
 There are two types of mirrors:
 
@@ -19,8 +27,9 @@ There are two types of mirrors:
 
 * Normal mirrors (reachable via their own hostname)
 
-If you wish to create a new mirror, please read this page and its sub-pages.
-If you want to apply for being a country mirror, please read {ref}`these requirements <country-mirror>`.
+If you want to create a new mirror, please read this page and its sub-pages.
+To apply for being a country mirror, read
+{ref}`these requirements <country-mirror>`.
 
 
 ## Registration
@@ -37,7 +46,7 @@ button on the [Ubuntu download pages](https://www.ubuntu.com/download).
 
 ## Mirror guidelines
 
-To keep your mirror up to date and working, please follow these guidelines:
+To keep your mirror up to date and working, follow these guidelines:
 
 **Be committed to being a mirror**
 : Obviously, each offer to be an Ubuntu mirror is great and users appreciate it.

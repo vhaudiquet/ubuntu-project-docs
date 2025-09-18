@@ -21,6 +21,16 @@ to sync when it is necessary. SSH is usually used, however we can offer HTTP
 triggers if preferred.
 
 
+```{admonition} **Mirrors** series
+
+**Mirrors overview:**
+: {ref}`About mirrors <mirrors>`
+
+**Reference:**
+: * {ref}`mirror-scripts`
+: * {ref}`push-mirroring` (this page)
+```
+
 ## Setup
 
 Your mirror should have previously been set up to use cron jobs and
