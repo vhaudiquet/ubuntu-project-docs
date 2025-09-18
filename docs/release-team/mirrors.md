@@ -1,6 +1,13 @@
 (mirrors)=
 # Mirrors
 
+```{toctree}
+:maxdepth: 1
+
+mirror-scripts
+push-mirroring
+```
+
 The distribution of Ubuntu CD images and packages can always be improved. The
 [`ubuntu-mirror-admins`](https://launchpad.net/~ubuntu-mirror-admins) team works
 to improve user experiences every day, making Ubuntu available. You can help

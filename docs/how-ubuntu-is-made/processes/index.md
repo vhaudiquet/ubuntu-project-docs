@@ -13,6 +13,7 @@ The processes that together make up the bulk of the work on the creation of Ubun
 
 /release-team/release-cycle
 /release-team/freezes
+/release-team/freeze-exceptions
 ```
 
 

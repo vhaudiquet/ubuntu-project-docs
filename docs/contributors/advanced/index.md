@@ -72,16 +72,17 @@ plus-one-report-template
 * {ref}`plus-one-report-template`
 
 
-## Request package removal
+## Requests
 
 ```{toctree}
 :maxdepth: 1
 
 Request a package removal <aa-request-package-removal>
+Request a freeze exception </release-team/request-a-freeze-exception>
 ```
 
 
-## Main Inclusion requests
+## Main Inclusion
 
 The {ref}`Main Inclusion Review (MIR) <main-inclusion-review>` process ensures
 that both **reporters** and **reviewers** can successfully handle `main`

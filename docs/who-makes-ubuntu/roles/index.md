@@ -40,3 +40,11 @@ SRU/index
 
 archive-administration
 ```
+
+## The Release Team
+
+```{toctree}
+:maxdepth: 1
+
+/release-team/release-team
+```
