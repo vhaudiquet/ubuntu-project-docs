@@ -5,11 +5,14 @@
 This page will be moved to:
 * how-ubuntu-is-made > concepts
 
-Page source: [Freeze Exception Process](https://wiki.ubuntu.com/FreezeExceptionProcess)
-
 Instructions for requesting a freeze exception have been extracted and moved to
 {ref}`request-a-freeze-exception`
 ```
+
+This page outlines some of the common scenarios where {ref}`freeze` exceptions
+might be wanted. You should read this page before you
+{ref}`request-a-freeze-exception`.
+
 
 (feature-freeze-exceptions)=
 ## Feature Freeze exceptions
@@ -23,10 +26,6 @@ Exceptions should be granted if the upload:
 * Contributes to high-priority feature goals for the release
 
 * Is warranted due to other exceptional circumstances, as judged by the release managers.
-
-This page outlines some of the common scenarios where Feature Freeze exceptions
-might be wanted. You should read this page before you
-{ref}`request-a-freeze-exception`.
 
 
 ### ABI/API compatibility
@@ -53,24 +52,24 @@ instructions for your request bug.
 (final-freeze-exceptions)=
 ## Final Freeze exceptions
 
-During the Final Freeze period, extreme caution is exercised
-when considering exceptions, as a regression could cause a deadline to be
-missed, or a build to receive less testing than desired. A request for an
-exception must demonstrate strong rationale and minimal risk for the update to
-be considered.
+During the Final Freeze period, extreme caution is exercised when considering
+exceptions, as a regression could cause a deadline to be missed, or a build to
+receive less testing than desired. A request for an exception must demonstrate
+strong rationale and minimal risk for the update to be considered.
 
 Refer to the {ref}`request-final-freeze-exception` section for additional
 instructions for your request bug.
 
 
 (universe-multiverse-freeze-exceptions)=
-## Exceptions for Universe/Multiverse
+### Exceptions for universe/multiverse
 
 The Freeze Exception process is the same for `universe`/`multiverse` as for
 `main`/`restricted`, except during the last week of development before the
 release. During that time, all uploads need to get approved by the Release Team. 
 
-Refer to the {ref}`request-universe-multiverse-exception` section for additional
-instructions for your request bug.
+The instructions for request bugs for `universe` and `multiverse` are the same
+as those for Final Freeze exceptions. Refer to the
+{ref}`request-final-freeze-exception` section for details.
 
 
