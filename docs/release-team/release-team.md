@@ -1,13 +1,6 @@
 (release-team)=
 # The Release Team
 
-```{note}
-Contents from [wiki: Release Team](https://wiki.ubuntu.com/ReleaseTeam).
-
-This page will move to:
-* Who makes Ubuntu -> Roles and responsibilities -> About the Release Team
-```
-
 The [Ubuntu Release Team](http://launchpad.net/~ubuntu-release) is responsible
 for the overall {ref}`release-cycle`, which includes monitoring the healthy
 development and stability of the Ubuntu distribution.
