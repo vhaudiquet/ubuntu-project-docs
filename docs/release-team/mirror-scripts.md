@@ -1,36 +1,43 @@
 (mirror-scripts)=
 # Mirror scripts
 
-```{note}
-This content comes [from the wiki](https://wiki.ubuntu.com/Mirrors/Scripts)
-It has not yet been reviewed for currency or accuracy.
+To create a mirror people can rely on, you need to have all the files, and you
+need them at the right moment. "File not found" errors cause a lot of issues
+and annoyances for users. This page provides you with scripts to sync from other
+mirrors and prevent 404's.
+
+```{admonition} **Mirrors** series
+
+**Mirrors overview:**
+: {ref}`About mirrors <mirrors>`
+
+**Reference:**
+: * {ref}`mirror-scripts` (this page)
+: * {ref}`push-mirroring`
 ```
 
-To be able to create a mirror people can rely on, you need to have all the
-files, and you need them at the right moment.
-"File not found" errors cause a lot of issues and annoyances for users.
-This page provides you with scripts to sync from other mirrors and prevent 404's.
 
 ## ubumirror
 
-One can use the scripts from the
-[ubumirror](https://code.launchpad.net/~ubumirror-devs/ubumirror/trunk)
-project to keep their mirror in sync, or use the scripts provided below.
+You can use the scripts from the
+[`ubumirror`](https://code.launchpad.net/~ubumirror-devs/ubumirror/trunk)
+project to keep your mirror in sync, or use the scripts provided below. Please
+file any bug reports you find
+[against it](https://bugs.launchpad.net/ubuntu/+source/ubumirror).
 
-This project has been [packaged since Lucid](https://launchpad.net/ubuntu/+source/ubumirror).
-Please file any bug reports you find [against it](https://bugs.launchpad.net/ubuntu/+source/ubumirror).
 
 ## Archive mirrors
 
-For archive mirrors, it is very important **not** to delete packages before the
+For Archive mirrors, it is very important **not** to delete packages before the
 `Packages.gz` files (which hold information about the packages available) are
-updated. Therefore, you need a "two-stage sync". This means that you download
-new packages first, and new `Packages.gz` after that. After you've downloaded
+updated.
+
+Therefore, you need a "**two-stage sync**". This means that you download new
+packages first, and the new `Packages.gz` after that. After you've downloaded
 the `Packages.gz` files, it's safe to delete old packages.
 
-### The script
 
-```
+```none
 #/bin/dash
 
 fatal() {
@@ -68,14 +75,14 @@ rsync --recursive --times --links --safe-links --hard-links \
 date -u > ${BASEDIR}/project/trace/$(hostname -f)
 ```
 
+
 ## Releases mirrors
 
 For Releases mirrors, things are a little less complicated. There are no
-dependencies between files, so you can just `rsync` away.
+dependencies between files, so you can just `rsync`.
 
-### The script
 
-```
+```none
 #/bin/dash
 
 fatal() {

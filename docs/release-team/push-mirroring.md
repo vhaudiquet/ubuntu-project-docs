@@ -1,13 +1,9 @@
 (push-mirroring)=
 # Push mirroring
 
-```{note}
-This content comes [from the wiki](https://wiki.ubuntu.com/Mirrors/PushMirroring)
-It has not yet been reviewed for currency or accuracy.
-```
-
-As explained on [Debian's documentation](https://www.debian.org/mirror/push_mirroring)
-on this subject:
+As explained in
+[Debian's documentation](https://www.debian.org/mirror/push_mirroring) on this
+subject:
 
 > Push mirroring is a form of mirroring that minimizes the time it takes 
 > for changes to the main archive to reach mirrors. The server mirror uses
@@ -24,53 +20,63 @@ So instead of relying on cron jobs to keep things in sync, mirrors can be asked
 to sync when it is necessary. SSH is usually used, however we can offer HTTP
 triggers if preferred.
 
+
+```{admonition} **Mirrors** series
+
+**Mirrors overview:**
+: {ref}`About mirrors <mirrors>`
+
+**Reference:**
+: * {ref}`mirror-scripts`
+: * {ref}`push-mirroring` (this page)
+```
+
 ## Setup
 
-Your mirror should have previously been set up to use cron jobs and mirroring
-scripts. Such scripts {ref}`can be found here <mirror-scripts>`.
+Your mirror should have previously been set up to use cron jobs and
+{ref}`mirroring scripts <mirror-scripts>`.
 
 We recommend that you create an `ubuntu` user and grant it permissions to the
 directory where your mirror is stored. Then place the keys below (or from
 whichever mirror you are syncing from) into that user's `authorized_keys` file.
 
 When the upstream mirror connects as the `ubuntu` user to your mirror, it will
-run the script and background the process. Meanwhile the `rsync` command called
-by the script, will connect to the upstream mirror and sync any changes as needed.
+run the script and background the process. Meanwhile, the `rsync` command called
+by the script will connect to the upstream mirror and sync any changes as needed.
 
-When this setup has been completed, please {ref}`let us know here <mirrors-communication>`
+When this setup has been completed, {ref}`let us know <mirrors-communication>`
 and we'll set up the necessary trigger commands on our end.
 
 If the command is not run in the background, you can try redirecting `stdin`,
 `stdout` and `stderr` to `/dev/null` using the following command :
 
-```
+```none
 command="~/archive-sync </dev/null >/dev/null 2>/dev/null &"
 ```
 
+
 ## Keys
 
-These are the SSH keys used for triggering archive and releases mirrors
-respectively. Please be sure to change the `command=` option to the location of
-your mirroring script and do **not** remove the backgrounding character (`&`)
-after it.
+These are the SSH keys used for triggering Archive and Releases mirrors
+respectively. Be sure to change the `command=` option to the location of your
+mirroring script and do **not** remove the backgrounding character (`&`) after
+it.
 
-The keys below are for mirrors pushed by **Canonical-only**, these mirrors
+The keys below are for mirrors pushed by **Canonical-only**. These mirrors
 should be syncing from **`rsync.archive.ubuntu.com`** (for packages) and
 **`rsync.releases.ubuntu.com`** (for CD release images). Connections from
 Canonical will be originating from the IP address: `91.189.88.154` and
-`185.125.188.80` for archive, and `91.189.88.156` and `185.125.188.81` for
-releases - so please ensure that your firewalls allow this.
+`185.125.188.80` for Archive, and `91.189.88.156` and `185.125.188.81` for
+Releases -- so ensure that your firewalls allow this.
 
-For authenticity; these keys are signed by
-[`Haw Loeung`](https://launchpad.net/~hloeung) with the key ID `0xD10ACEB3227B53FC`.
+If you are not being pushed by Canonical, contact the mirror administrator of
+the mirror you're being pushed from for their keys and be sure to have your sync
+source set to their mirror.
 
-If you are not being pushed by Canonical, please contact the mirror
-administrator of the mirror you're being pushed from for their keys and be sure
-to have your sync source set to their mirror.
 
 ### Archive trigger key
 
-```
+```none
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA384
 
@@ -88,9 +94,10 @@ Fz7eaN0W/O7fwpAFPLrpASseraXILwE=
 -----END PGP SIGNATURE-----
 ```
 
+
 ### Releases trigger key
 
-```
+```none
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA384
 
@@ -109,20 +116,21 @@ JR9bXlpTBqjGCTaLVRFF4faLrLef5Qk=
 -----END PGP SIGNATURE-----
 ```
 
+
 ### HTTP triggers
 
 While SSH triggers (above) are the preferred trigger method, it is also possible
-for the primary Ubuntu archive to send HTTP triggers.
-HTTP triggers can be nearly any format, for example:
+for the primary Ubuntu Archive to send HTTP triggers. HTTP triggers can be
+nearly any format, for example:
 
-```
+```none
 http://ubuntu-archive:8BBsmDsLXpjJvSjM4nZv@cctld.mirrors.example.com/trigger
 http://ubuntu-releases:zT99CGf9V499RH9SQFtV@cctld.mirrors.example.com/trigger
 ```
 
 or:
 
-```
+```none
 http://cctld.mirrors.example.com/ubuntu-archive/53cfa724-f75d-44a1-b9d2-a14e637887bc/trigger
 http://cctld.mirrors.example.com/ubuntu-releases/f4b95974-9862-40ba-a476-f751c30c5f31/trigger
 ```
@@ -134,7 +142,7 @@ random) UUID in the path itself. Treat these URLs as sensitive, to avoid outside
 users triggering unnecessary syncs.
 
 It is up to the mirror administrator to build logic into the HTTP endpoint which
-authenticates the primary Ubuntu archive and begins a sync. This logic varies
+authenticates the primary Ubuntu Archive and begins a sync. This logic varies
 wildly based on your specific platform. Output format is undefined; the primary
 simply loads the URL and moves on without examining the output.
 

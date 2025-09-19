@@ -127,3 +127,11 @@ some working familiarity with Ubuntu development.
 
 Advanced tasks <advanced/index>
 ```
+
+## Mirrors
+
+```{toctree}
+:maxdepth: 1
+
+Set up a mirror </release-team/mirrors>
+```
