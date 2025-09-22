@@ -27,9 +27,6 @@ Ubuntu Membership Board [group in Launchpad](https://launchpad.net/~ubuntu-membe
 
 ubuntu-developers
 ubuntu-development
-dmb-application
-dmb-aspects-of-a-good-application
-dmb-application-knowledge-requirements
 dmb-knowledge-base
 ubuntu-membership
 ```

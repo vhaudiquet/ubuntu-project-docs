@@ -1,5 +1,5 @@
 (dmb-application)=
-# DMB application process
+# Developer Membership application process
 
 ```{note}
 [Page source](https://wiki.ubuntu.com/DeveloperMembershipBoard/ApplicationProcess)
