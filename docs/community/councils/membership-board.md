@@ -1,4 +1,3 @@
 (membership-board)=
-
 # Membership Board
 

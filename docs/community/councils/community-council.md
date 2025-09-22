@@ -1,4 +1,3 @@
 (community-council)=
-
 # Community Council
 

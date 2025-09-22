@@ -10,7 +10,7 @@ how one becomes a member.
 ```{toctree}
 :maxdepth: 1
 
-councils/index
+/community/councils/index
 ```
 
 
