@@ -25,7 +25,6 @@ Ubuntu Membership Board [group in Launchpad](https://launchpad.net/~ubuntu-membe
 :maxdepth: 1
 :hidden:
 
-ubuntu-developers
 ubuntu-development
 dmb-knowledge-base
 ubuntu-membership

@@ -5,15 +5,12 @@
 :titlesonly:
 :hidden:
 
-path-to-upload-rights
-membership-in-packageset
-membership-in-MOTU
-membership-in-core-dev
+dmb-path-to-upload-rights
+dmb-membership-in-packageset
+dmb-membership-in-MOTU
+dmb-membership-in-core-dev
 dmb-application
 ```
-
-(ubuntu-developers)=
-# Ubuntu developers
 
 ```{note}
 [Page source](https://wiki.ubuntu.com/UbuntuDevelopers)
@@ -24,6 +21,9 @@ TODO: There is also some overlap with the community pages (which I have not
 incorporated) that discuss roles and memberships.
 ```
 
+
+(ubuntu-developers)=
+## Ubuntu developers
 
 Ubuntu developers represent an important part of the creation of Ubuntu. They
 have a direct influence on the software included in Ubuntu and whether it meets

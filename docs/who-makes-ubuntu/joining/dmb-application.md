@@ -5,6 +5,13 @@
 [Page source](https://wiki.ubuntu.com/DeveloperMembershipBoard/ApplicationProcess)
 ```
 
+```{toctree}
+:titlesonly:
+:hidden:
+
+dmb-application-knowledge-requirements
+dmb-aspects-of-a-good-application
+```
 
 ## When to apply for team membership
 
