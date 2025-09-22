@@ -7,21 +7,6 @@ Ubuntu, which notably includes uploading to the `main` component. Core Dev
 members also have elevated privileges for re-triggering autopkgtests and
 performing other administrative actions in Ubuntu.
 
-## Application process
-
-1. Plan ahead of time to start attending the
-   [Developer Membership Board (DMB) meetings](https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda)
-   as you prepare your application. If there is a queue of applications, you'll
-   want to reserve a spot early since the meetings are held every 2 weeks and
-   only 2 applications are processed per meeting.
-
-1. {ref}`core-dev-training-and-preparation`
-
-1. [Prepare an application form](https://wiki.ubuntu.com/DeveloperMembershipBoard/ApplicationProcess)
-    in the wiki.
-
-1. Collect **endorsements**.
-
 
 (core-dev-training-and-preparation)=
 ## Training and preparation
@@ -38,7 +23,7 @@ In addition to understanding common tasks documented in this guide, including
 and so on, Core Dev applicants must also have a good understanding of these
 advanced packaging skills, and ideally direct experience with a few of them:
 
-* [Package sponsorship](https://wiki.ubuntu.com/MOTU/Sponsorship/SponsorsQueue)
+* {ref}`Package sponsorship <sponsorship>`
 * {ref}`Seed handling <seed-management>`
 * {ref}`Main inclusion <main-inclusion-review>` for packages
 * [New package](https://wiki.ubuntu.com/UbuntuDevelopment/NewPackages) integration
@@ -56,8 +41,8 @@ and demonstrate these attributes, and discuss them in your application.
 While Core Dev is the highest level for packaging development, there are
 several specialized administrative teams that help keep the archive healthy:
 
-* [Developer Membership Board](https://wiki.ubuntu.com/DeveloperMembershipBoard)
+* {ref}`dmb`
 * [Technical Board](https://wiki.ubuntu.com/TechnicalBoard)
 * {ref}`Archive Administration <archive-administration>`
-* [SRU Administration](https://wiki.ubuntu.com/UbuntuDevelopers#SRUDevelopers)
+* {ref}`ubuntu-developers-sru`
 * [Security](https://wiki.ubuntu.com/SecurityTeam)

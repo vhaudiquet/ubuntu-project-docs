@@ -4,26 +4,6 @@
 MOTU, or "Masters of the Universe", maintain the large collection of packages
 in the `universe` and `multiverse` components (i.e. packages not in `main`).
 
-## Application process
-
-1. Keep an eye on the
-   [Developer Membership Board (DMB) agenda](https://wiki.ubuntu.com/DeveloperMembershipBoard/Agenda),
-   noting when the upcoming meetings are and if there is a queue of applicants;
-   if so, make sure to add yourself to the "Ubuntu MOTU Developer Applications"
-   bullet, since only 2 applications are considered per meeting.
-
-1. {ref}`motu-training-and-preparation`, as needed.
-
-1. [Prepare an application form](https://wiki.ubuntu.com/DeveloperMembershipBoard/ApplicationProcess)
-   in the Ubuntu Wiki.
-
-1. Collect **endorsements** from people who have reviewed or sponsored your
-   packages, or worked with you on noteworthy packaging efforts. If you work
-   for Canonical, seek out diversity in your endorsers by looking outside your
-   immediate team. Since MOTU is more focused on community maintainers, their
-   testimonials are of particular value. Even words from noteworthy Debian
-   maintainers can carry weight for MOTU applications.
-
 
 (motu-training-and-preparation)=
 ## Training and preparation
@@ -79,9 +59,9 @@ More advanced packaging topics you should be comfortable with as a MOTU applican
 
 * Package merges from upstream, to go ahead of Debian's version
 
-* [Ubuntu's release process](https://wiki.ubuntu.com/UbuntuDevelopment/ReleaseProcess),
-  including the
-  [freeze exception process](https://wiki.ubuntu.com/FreezeExceptionProcess)
+* {ref}`Ubuntu's release process <release-process>`, including the
+  {ref}`Freeze Exception process <freeze-exceptions>`
+
 * Understand the `main`/`universe` split, and how that affects dependencies
 
 * {ref}`Seed management <seed-management>`
@@ -98,8 +78,8 @@ More advanced packaging topics you should be comfortable with as a MOTU applican
 * {ref}`Autopkgtest <run-package-tests>` writing, fixing, and understanding
   [of the spec](https://salsa.debian.org/ci-team/autopkgtest/-/blob/master/doc/README.package-tests.rst)
 
-* {ref}`Proposed migration <proposed-migration>` basics, and the
-  [process in general](https://wiki.ubuntu.com/ProposedMigration)
+* {ref}`Proposed migration <proposed-migration>` basics, and the process in
+  general
 
 * {ref}`Transition basics <transitions>`, and the
   [library transitions process](https://ubuntu-archive-team.ubuntu.com/transitions/) 
