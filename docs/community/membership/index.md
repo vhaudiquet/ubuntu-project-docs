@@ -1,9 +1,5 @@
 (ubuntu-membership)=
-# Ubuntu membership
-
-```{note}
-[Wiki page source](https://wiki.ubuntu.com/Membership) and [Community page](https://ubuntu.com/community/docs/membership)
-```
+# Ubuntu Membership
 
 ```{toctree}
 :maxdepth: 1
@@ -12,6 +8,7 @@
 member-perks
 member-requirements
 member-application
+ubuntu-email
 ```
 
 **Ubuntu Membership is an official recognition of significant and sustained
@@ -32,12 +29,10 @@ contribution to Ubuntu or the Ubuntu community.**
 Individuals who apply and are awarded Ubuntu Membership are entitled to a number
 of unique benefits including:
 
-* A certificate signed by Ubuntu [SABDFL](https://ubuntu.com/community/governance#p-83779-sabdfl)
-  and [Canonical](https://canonical.com/) CEO, {spellexception}`Mark Shuttleworth`.  
+* A certificate signed by Ubuntu {ref}`governance-sabdfl` and
+  [Canonical](https://canonical.com/) CEO, {spellexception}`Mark Shuttleworth`.  
 
-* Voting privileges to confirm Ubuntu
-  [Community Council](https://ubuntu.com/community/governance/community-council)
-  nominations.  
+* Voting privileges to confirm Ubuntu {ref}`community-council` nominations.  
 
 * [Ubuntu Pro](https://ubuntu.com/pro) for up to 50 systems for access to ESM
   and Kernel Live Patching.

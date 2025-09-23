@@ -7,6 +7,9 @@
 
 canonical
 debian
+ubuntu-teams
+delegation
+conflict-resolution
 ```
 
 The {ref}`mission of Ubuntu <mission>` draws a very diverse community of participants and collaborators and contributors, who have wildly different interests and goals. We want to draw on the talents of a diverse global community, and to do that, we establish high standards for collaboration, debate, delegation of responsibility and ethics.
@@ -22,7 +25,7 @@ Our goals in setting up the governance structures of Ubuntu are to ensure that:
 3. Necessary decisions are actually taken, even when there is no clear consensus among the community. There is a single path for the appeal or escalation of a decision when needed.
 
 
-## Governance Structure
+## Governance structure
 
 Ubuntu has always been a very openly governed community. This open governance means that we have some community organized and run decision-making groups that help to lead and make decisions about different elements of Ubuntu.
 
@@ -35,20 +38,21 @@ The current governance map of Ubuntu looks like this:
 
 ## Ubuntu Community Council
 
-The social structures and community processes of Ubuntu are supervised by the [Ubuntu Community Council](https://ubuntu.com/community/governance/community-council), which manages nominations and elections for Ubuntu boards and councils. The council is also responsible for the {ref}`Code of Conduct <code-of-conduct>` and tasked with ensuring that community members and leaders live up to the standard it sets.
+The social structures and community processes of Ubuntu are supervised by the {ref}`Ubuntu Community Council <community-council>`, which manages nominations and elections for Ubuntu Boards and Councils. The Council is also responsible for the {ref}`Code of Conduct <code-of-conduct>` and tasked with ensuring that community members and leaders live up to the standard it sets.
 
 The Council is ultimately responsible for dispute resolution, should it be required. For example, in the past, we have helped to resolve conflicts in LoCo teams and in the Ubuntu forums -- both very important parts of the community that have their own leadership structures carrying authority delegated by the Community Council.
 
-The community council meets with the rest of the governance bodies every two months as part of the [Ubuntu Governance Sync Meetings](https://discourse.ubuntu.com/t/announcement-ubuntu-governance-sync-meetings-2025/48996).
+The Community Council meets with the rest of the governance bodies every two months as part of the [Ubuntu Governance Sync Meetings](https://discourse.ubuntu.com/t/announcement-ubuntu-governance-sync-meetings-2025/48996).
 
 
 ## Ubuntu Technical Board
 
-The [Ubuntu Technical Board](https://ubuntu.com/community/governance/technical-board) is responsible for the technical direction of Ubuntu. It makes decisions on package selection, packaging policy, installation systems and processes, kernel, X server, display management, library versions and dependencies. The board works with relevant teams to establish a consensus on the right path to take, especially where diverse elements of Ubuntu cannot find consensus on shared components.
+The {ref}`Ubuntu Technical Board <technical-board>` is responsible for the technical direction of Ubuntu. It makes decisions on package selection, packaging policy, installation systems and processes, kernel, X server, display management, library versions and dependencies. The board works with relevant teams to establish a consensus on the right path to take, especially where diverse elements of Ubuntu cannot find consensus on shared components.
 
 The Ubuntu Technical Board meets every two weeks on IRC -- [date and agenda of the next meeting](https://wiki.ubuntu.com/TechnicalBoardAgenda), alternating with the Community Council. You can propose an item for discussion by putting it on the [Technical Board Agenda](https://wiki.ubuntu.com/TechnicalBoardAgenda) on the Ubuntu Wiki.
 
 
+(governance-sabdfl)=
 ## SABDFL
 
 This is not a democracy, it's a meritocracy. We try to operate more on consensus than on votes, seeking agreement from the people who will have to do the work. [Mark Shuttleworth](https://wiki.ubuntu.com/MarkShuttleworth), as self-appointed benevolent dictator for life (SABDFL), plays the happily undemocratic role of sponsor to the project. He has the ability, with regard to Canonical employees, to ask people to work on specific projects, specific feature goals and specific bugs.

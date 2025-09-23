@@ -1,3 +1,0 @@
-(ubuntu-teams)=
-# Ubuntu Teams
-
