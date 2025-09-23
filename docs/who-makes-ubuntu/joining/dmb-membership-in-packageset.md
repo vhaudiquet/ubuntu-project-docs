@@ -56,7 +56,7 @@ You should also work towards understanding some more advanced packaging topics:
 
 * [Debian policy](http://www.debian.org/doc/debian-policy/)
 
-* {ref}`Ubuntu's release process <release-process>`,
+* {ref}`Ubuntu's release process <release-cycle>`,
   including the {ref}`freeze exception process <request-a-freeze-exception>`
 
 * Running {ref}`autopkgtest <run-package-tests>`

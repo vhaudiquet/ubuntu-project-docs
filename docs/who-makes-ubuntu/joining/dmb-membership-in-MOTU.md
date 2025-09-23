@@ -59,7 +59,7 @@ More advanced packaging topics you should be comfortable with as a MOTU applican
 
 * Package merges from upstream, to go ahead of Debian's version
 
-* {ref}`Ubuntu's release process <release-process>`, including the
+* {ref}`Ubuntu's release process <release-cycle>`, including the
   {ref}`Freeze Exception process <freeze-exceptions>`
 
 * Understand the `main`/`universe` split, and how that affects dependencies
