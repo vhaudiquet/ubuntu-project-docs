@@ -11,9 +11,7 @@ member-application
 ubuntu-email
 ```
 
-**Ubuntu Membership is an official recognition of significant and sustained
-contribution to Ubuntu or the Ubuntu community.**
-
+**Ubuntu Membership is an official recognition of significant and sustained contribution to Ubuntu or the Ubuntu community.**
 
 > "Together we have the opportunity to bring real technological freedom to every
   part of the world, across multiple devices and the cloud, and clothed in an

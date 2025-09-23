@@ -9,7 +9,6 @@ canonical
 debian
 ubuntu-teams
 delegation
-conflict-resolution
 ```
 
 The {ref}`mission of Ubuntu <mission>` draws a very diverse community of participants and collaborators and contributors, who have wildly different interests and goals. We want to draw on the talents of a diverse global community, and to do that, we establish high standards for collaboration, debate, delegation of responsibility and ethics.
