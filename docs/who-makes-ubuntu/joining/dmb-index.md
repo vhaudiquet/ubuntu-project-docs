@@ -116,6 +116,7 @@ development.
 (ubuntu-developers-delegated)=
 ## Ubuntu Developers (from delegated teams)
 
+
 * Are members of a [delegated development group](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
   in Launchpad.
 
@@ -188,6 +189,28 @@ The following package sets currently exist without a team owning them:
   team for membership, or to the Developer Membership Board following the
   {ref}`usual application process <dmb-application>` if membership is handled
   there.
+
+
+(dmb-delegation)=
+## Delegation
+
+[Team delegation procedure](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
+
+The DMB currently delegated approval privileges to:
+
+* The [Desktop team](https://launchpad.net/~ubuntu-desktop) -- [Policy](https://wiki.ubuntu.com/DesktopTeam/Developers)
+
+* The [Kubuntu team](https://launchpad.net/~kubuntu-dev) -- [Policy](https://community.kde.org/Kubuntu/Developers)
+
+* The [Mythbuntu team](https://launchpad.net/~mythbuntu-dev) -- `Policy: http://www.mythbuntu.org/development/policy`
+
+  **TODO: broken link**
+
+* The [Kernel team](https://launchpad.net/~ubuntu-kernel-uploaders) -- [Policy](https://wiki.ubuntu.com/Kernel/Dev/UploadRights)
+
+This delegation includes individual per-package upload privileges for packages
+that are in the corresponding team package set.
+
 
 
 (form-a-delegated-team)=

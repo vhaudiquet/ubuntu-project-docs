@@ -43,8 +43,8 @@ The following changes [were agreed on](http://irclogs.ubuntu.com/2009/10/13/%23u
 * All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@`
   (individual outcomes) (maybe also to the team list)
 
-The implementation of the application process might vary across teams slightly,
-but we expect the following very general procedure:
+
+The implementation of the application process might vary {ref}`across delegated teams <dmb-delegation>` slightly, but we generally expect the following:
 
 * Documentation
 
@@ -55,6 +55,7 @@ but we expect the following very general procedure:
 * Public announcement
 
 
+(dmb-delegation)=
 ## Delegation
 
 [Team delegation procedure](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
@@ -73,6 +74,5 @@ The DMB currently delegated approval privileges to:
 
 This delegation includes individual per-package upload privileges for packages
 that are in the corresponding team package set.
-
 
 
