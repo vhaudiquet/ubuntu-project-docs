@@ -88,3 +88,38 @@ Common paths MOTU members follow are:
 
 * [Other Ubuntu interest groups](https://wiki.ubuntu.com/Teams)
 
+
+-----
+
+
+(ubuntu-developers-motu)=
+## MOTU
+
+* Are [members of the MOTU team](https://launchpad.net/~motu) in Launchpad.
+
+* Are collectively responsible for the maintenance of packages in the `universe`
+  and `multiverse` components.
+
+* Understand packaging concepts, having substantial experience of uploading
+  packages through a sponsor.
+
+* Apply this knowledge by uploading new packages, and updating existing packages,
+  in the `universe` component.
+
+* May also contribute to the `main` component in cooperation with a Ubuntu Core Developer.
+
+* Answer questions of other developers to expand their understanding of
+  packaging work.
+
+* Provide guidance for prospective Ubuntu developers regarding technical issues.
+
+
+### Join MOTU
+
+* Check the general requirements for {ref}`ubuntu-membership`
+
+* Apply to the {ref}`Developer Membership Board <dmb>` using the
+  {ref}`application process <dmb-application>`
+
+
+
