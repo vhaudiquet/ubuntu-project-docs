@@ -6,8 +6,13 @@
 :hidden:
 
 dmb-path-to-upload-rights
+dmb-membership-in-prospective
+dmb-membership-in-contributing
+dmb-membership-in-ppu
 dmb-membership-in-packageset
+dmb-membership-in-delegated
 dmb-membership-in-MOTU
+dmb-membership-in-sru-dev
 dmb-membership-in-core-dev
 dmb-application
 ```
@@ -33,7 +38,7 @@ in Ubuntu, it would look like this:
 * {ref}`Per-Package Uploaders (PPU) <ubuntu-developers-per-package>`,
   who can upload specific packages.
 
-* {ref}`Package Set uploaders <dmb-membership-in-package-set>`
+* {ref}`Package Set uploaders <membership-in-packageset>`
 
 * {ref}`Ubuntu Developers (from delegated teams) <ubuntu-developers-delegated>`,
   who can upload to a specific [Package Set](https://wiki.ubuntu.com/ArchiveReorganisation/Permissions).
