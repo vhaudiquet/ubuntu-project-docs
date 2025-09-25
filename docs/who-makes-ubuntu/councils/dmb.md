@@ -1,13 +1,9 @@
 (dmb)=
 # Developer Membership Board
 
-More information available at:
-
-* **Responsibilities, permissions and more information
-  {ref}`about Ubuntu Developers <ubuntu-developers>`**
-* {ref}`More general information about Ubuntu Development <ubuntu-development>`
-
-The Ubuntu Developer Membership Board operates on the following basis:
+The Ubuntu Developer Membership Board grants Membership to
+{ref}`Ubuntu Developers <ubuntu-developers>` and operates on the following
+basis:
 
 * The list of Developer Membership Board members
   [can be found on Launchpad](https://launchpad.net/~developer-membership-board/+members).
