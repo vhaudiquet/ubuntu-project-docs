@@ -35,3 +35,59 @@ While Core Dev is the highest level for packaging development, there are several
 * {ref}`Archive Administration <archive-administration>`
 * {ref}`ubuntu-developers-sru`
 * [Security](https://wiki.ubuntu.com/SecurityTeam)
+
+
+-----
+
+(ubuntu-developers-core-dev)=
+## Ubuntu Core Developers
+
+* Are members of the [`ubuntu-core-dev` team](https://launchpad.net/~ubuntu-core-dev)
+  in Launchpad.
+
+* Are collectively responsible for the maintenance of all packages in Ubuntu.
+
+* Have a strong working knowledge of packaging concepts and techniques, refined
+  through experience.
+
+* Have a strong working knowledge of Ubuntu project procedures, especially those
+  related to the release process and support commitments, and an understanding
+  of the reasons why they exist; e.g. having done an
+  [SRU](https://documentation.ubuntu.com/sru/en/latest/) or
+  [security fix](https://wiki.ubuntu.com/SecurityTeam/UpdatePreparation).
+
+* Can apply this knowledge to a variety of packages and sub-systems.
+
+* Have a history of substantial direct contributions to the distribution.
+
+* Take a leading role in new development projects to improve Ubuntu.
+
+* Specify, develop and deploy new features for the default installation of Ubuntu.
+
+* Exercise great care in their work, with the understanding that their efforts
+  have a direct impact on others, including:
+
+  * Every Ubuntu user
+
+  * The Ubuntu release team
+
+  * Corporate partners who provide support for Ubuntu
+
+* Feel a sense of personal responsibility for the quality of Ubuntu releases and
+  for the satisfaction of Ubuntu users.
+
+* Are implicitly considered Ubuntu Members.
+
+* Are granted a vote when the Development Membership Board or Technical Board
+  are polling Ubuntu Developers.
+
+
+### Join the Ubuntu Core Developers team
+
+* Check the general requirements for {ref}`ubuntu-membership`
+
+* Apply to the {ref}`Developer Membership Board <dmb>` using the
+  {ref}`application process <dmb-application>`
+
+
+
