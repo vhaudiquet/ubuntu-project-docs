@@ -1,32 +1,24 @@
 (dmb)=
 # Developer Membership Board
 
-The Ubuntu Developer Membership Board grants Membership to
-{ref}`Ubuntu Developers <ubuntu-developers>`. The term for DMB membership is 2
-years. You can find the list of current
-[Developer Membership Board members](https://launchpad.net/~developer-membership-board/+members)
-on Launchpad.
+The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developers>`.
+The term for DMB membership is 2 years.
+You can find the list of current [Developer Membership Board members](https://launchpad.net/~developer-membership-board/+members) on Launchpad.
 
 
 ## Communication
 
-The DMB currently meets every two weeks in `#ubuntu-meeting` on Monday
-alternating between 13:00 UTC and 15:30 UTC. See
-[DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
+The DMB currently meets every two weeks in [`#meeting:ubuntu.com`](https://matrix.to/#/#meeting:ubuntu.com) on Monday alternating between 13:00 UTC and 15:30 UTC.
+See [DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
 
-
-
-* You can reach the board by emailing `devel-permissions@lists.ubuntu.com`.
-  This mailing list is public ([devel-permissions@ archives](https://lists.ubuntu.com/archives/devel-permissions/))
-  and our general process and policy discussions are public; if exceptionally
-  private communication is required, such as discussing the performance of an
-  individual, then use the private list at `developer-membership-board@lists.ubuntu.com`.
+You can reach the board by emailing `devel-permissions@lists.ubuntu.com`.
+This mailing list is public ([`devel-permissions@archives`](https://lists.ubuntu.com/archives/devel-permissions/)) and our general process and policy discussions are public;
+if exceptionally private communication is required, such as discussing the performance of an individual, then use the private list at `developer-membership-board@lists.ubuntu.com`.
   
-* Or you can discuss developer application matters on
-  [IRC](https://wiki.ubuntu.com/IRC) at `#ubuntu-devel`.
+You can discuss developer application matters on the [`#devel:ubuntu.com`](https://matrix.to/#/#devel:ubuntu.com).
 
 
-## Application process
+## Applying for Developer Membership
 
 The Ubuntu Developer Membership Board currently approves:
 
