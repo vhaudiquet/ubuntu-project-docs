@@ -34,17 +34,10 @@ The Ubuntu Developer Membership Board currently approves:
 
 To apply, {ref}`follow this process <dmb-application>`.
 
-The following changes [were agreed on](http://irclogs.ubuntu.com/2009/10/13/%23ubuntu-meeting.html):
 
-* [`devel-permissions@lists.ubuntu.com`](https://lists.ubuntu.com/mailman/listinfo/devel-permissions) list will be used.
+### Applying for delegated teams
 
-* Invitations/applications go there as well as to relevant team lists.
-
-* All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@`
-  (individual outcomes) (maybe also to the team list)
-
-
-The implementation of the application process might vary {ref}`across delegated teams <dmb-delegation>` slightly, but we generally expect the following:
+The implementation of the application process might vary slightly {ref}`for delegated teams <dmb-delegation>`, but we generally expect the following:
 
 * Documentation
 
@@ -55,24 +48,13 @@ The implementation of the application process might vary {ref}`across delegated 
 * Public announcement
 
 
-(dmb-delegation)=
-## Delegation
+## Further infomation
 
-[Team delegation procedure](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
+The following changes [were agreed on](http://irclogs.ubuntu.com/2009/10/13/%23ubuntu-meeting.html):
 
-The DMB currently delegated approval privileges to:
+* [`devel-permissions@lists.ubuntu.com`](https://lists.ubuntu.com/mailman/listinfo/devel-permissions) list will be used.
 
-* The [Desktop team](https://launchpad.net/~ubuntu-desktop) -- [Policy](https://wiki.ubuntu.com/DesktopTeam/Developers)
+* Invitations/applications go there as well as to relevant team lists.
 
-* The [Kubuntu team](https://launchpad.net/~kubuntu-dev) -- [Policy](https://community.kde.org/Kubuntu/Developers)
-
-* The [Mythbuntu team](https://launchpad.net/~mythbuntu-dev) -- `Policy: http://www.mythbuntu.org/development/policy`
-
-  **TODO: broken link**
-
-* The [Kernel team](https://launchpad.net/~ubuntu-kernel-uploaders) -- [Policy](https://wiki.ubuntu.com/Kernel/Dev/UploadRights)
-
-This delegation includes individual per-package upload privileges for packages
-that are in the corresponding team package set.
-
+* All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@` (individual outcomes) (maybe also to the team list)
 
