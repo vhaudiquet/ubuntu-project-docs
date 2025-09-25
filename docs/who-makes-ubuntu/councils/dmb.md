@@ -2,12 +2,19 @@
 # Developer Membership Board
 
 The Ubuntu Developer Membership Board grants Membership to
-{ref}`Ubuntu Developers <ubuntu-developers>` and operates on the following
-basis:
+{ref}`Ubuntu Developers <ubuntu-developers>`. The term for DMB membership is 2
+years. You can find the list of current
+[Developer Membership Board members](https://launchpad.net/~developer-membership-board/+members)
+on Launchpad.
 
-* The list of Developer Membership Board members
-  [can be found on Launchpad](https://launchpad.net/~developer-membership-board/+members).
-  The term for DMB membership is 2 years.
+
+## Communication
+
+The DMB currently meets every two weeks in `#ubuntu-meeting` on Monday
+alternating between 13:00 UTC and 15:30 UTC. See
+[DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
+
+
 
 * You can reach the board by emailing `devel-permissions@lists.ubuntu.com`.
   This mailing list is public ([devel-permissions@ archives](https://lists.ubuntu.com/archives/devel-permissions/))
@@ -76,9 +83,4 @@ This delegation includes individual per-package upload privileges for packages
 that are in the corresponding team package set.
 
 
-## Meeting
-
-The DMB currently meets every two weeks in `#ubuntu-meeting` on Monday
-alternating between 13:00 UTC and 15:30 UTC. See
-[DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
 
