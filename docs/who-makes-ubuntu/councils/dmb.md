@@ -1,14 +1,6 @@
 (dmb)=
 # Developer Membership Board
 
-```{note}
-[Page source](https://wiki.ubuntu.com/DeveloperMembershipBoard)
-
-By request, I did not bring over the [meeting minutes](https://wiki.ubuntu.com/DeveloperMembershipBoard/TeamReports)
-page. The Agenda page may not end up living here, but rather on Discourse
-(decision pending).
-```
-
 More information available at:
 
 * **Responsibilities, permissions and more information
