@@ -1,4 +1,4 @@
-(ubuntu-developers-prospective)=
+(dmb-joining-prospective)=
 # Ubuntu Prospective Developers
 
 This is where you should start if you are interested in joining the development team. Prospective Developers:

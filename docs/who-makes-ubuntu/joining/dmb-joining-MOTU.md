@@ -1,4 +1,4 @@
-(membership-in-motu)=
+(dmb-joining-motu)=
 # Membership in MOTU
 
 MOTU, or "Masters of the Universe", maintain the collection of packages in the `universe` and `multiverse` components (i.e. packages not in `main`).
@@ -39,7 +39,7 @@ Keep track of both experiences that went well, and disasters that you used as va
 
 ### Skill
 
-At a minimum, you must have mastery of the same skills as a {ref}`Package Set Uploader <membership-in-packageset>` would have.
+At a minimum, you must have mastery of the same skills as a {ref}`Package Set Uploader <dmb-joining-packageset>` would have.
 Work through all the items on that page's {ref}`training and preparation <packageset-training-and-preparation>` section, focusing on anything you're uncomfortable with.
 
 The main difference with MOTU is *breadth*.
@@ -80,7 +80,7 @@ Find a way to engage yourself with current community discussions and look for op
 
 Common paths MOTU members follow are:
 
-* {ref}`Core Dev <membership-in-core-dev>`
+* {ref}`Core Dev <dmb-joining-core-dev>`
 
 * [Ubuntu Flavors](https://wiki.ubuntu.com/UbuntuFlavors)
 

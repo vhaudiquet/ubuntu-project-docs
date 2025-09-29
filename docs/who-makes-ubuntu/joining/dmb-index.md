@@ -1,5 +1,5 @@
-(ubuntu-developer-membership)=
-# Ubuntu Developer Membership
+(ubuntu-developers)=
+# Ubuntu Developers
 
 ```{toctree}
 :titlesonly:
@@ -28,35 +28,36 @@ these contributions. If you don't have upload rights yet,
 If you wanted to categorize the different kinds of involvement and upload rights
 in Ubuntu, it would look like this:
 
-* {ref}`ubuntu-developers-prospective` who probably just started contributing
+* {ref}`dmb-joining-prospective` who probably just started contributing
   to Ubuntu.
 
-* {ref}`ubuntu-developers-contributing`, who were recognized with
+* {ref}`dmb-joining-contributing`, who were recognized with
   {ref}`ubuntu-membership`.
 
-* {ref}`Per-Package Uploaders (PPU) <ubuntu-developers-per-package>`,
+* {ref}`Per-Package Uploaders (PPU) <dmb-joining-ppu>`,
   who can upload specific packages.
 
-* {ref}`Package Set uploaders <membership-in-packageset>`
+* {ref}`Package Set uploaders <dmb-joining-packageset>`
 
-* {ref}`Ubuntu Developers (from delegated teams) <ubuntu-developers-delegated>`,
+* {ref}`Ubuntu Developers (from delegated teams) <dmb-joining-delegated>`,
   who can upload to a specific [Package Set](https://wiki.ubuntu.com/ArchiveReorganisation/Permissions).
 
-* {ref}`MOTU <ubuntu-developers-motu>`, who can upload to
+* {ref}`MOTU <dmb-joining-motu>`, who can upload to
   {ref}`universe and multiverse <archive-components>`.
 
-* {ref}`SRU developers <ubuntu-developers-sru>`, who can upload any package but
+* {ref}`SRU developers <dmb-joining-sru-dev>`, who can upload any package but
   only to stable releases.
 
-* {ref}`Ubuntu Core Developers (core-dev) <ubuntu-developers-core-dev>`,
+* {ref}`Ubuntu Core Developers (core-dev) <dmb-joining-core-dev>`,
   who can upload to all areas of Ubuntu.
 
 See {ref}`path-to-upload-rights` below for a visual guide.
 
 
-## Benefits
+(ubuntu-developer-membership)=
+## Ubuntu Developer membership
 
-Ubuntu Developers get all the {ref}`benefitsof Ubuntu Membership <member-perks>`.
+Ubuntu Developers get all the {ref}`benefits of Ubuntu Membership <member-perks>`.
 They also get:
 
 * Voting privileges to confirm Ubuntu [Technical Board](https://wiki.ubuntu.com/TechnicalBoard) and {ref}`dmb` nominations.
@@ -69,6 +70,7 @@ They also get:
 A few Per-Package Uploaders are not members of [`ubuntu-dev`](https://launchpad.net/~ubuntu-dev) and are not eligible for these benefits.
 One way to check this is to run `bin/lp-check-membership` from the `lptools` package.
 ```
+
 
 (path-to-upload-rights)=
 ## Path to upload rights
@@ -84,9 +86,9 @@ These interactive charts show the skills needed to obtain permissions for
 uploading changes to the Ubuntu Package Archive. They can be used as a guide
 to help build your applications for upload rights on:
 
-* {ref}`PPU <membership-in-ppu>` and {ref}`Package Sets <membership-in-packageset>`
-* {ref}`MOTU <membership-in-motu>`, 
-* {ref}`Core Developer <membership-in-core-dev>`
+* {ref}`PPU <dmb-joining-ppu>` and {ref}`Package Sets <dmb-joining-packageset>`
+* {ref}`MOTU <dmb-joining-motu>`, 
+* {ref}`Core Developer <dmb-joining-core-dev>`
 
 
 ### The overall journey
@@ -328,9 +330,9 @@ block-beta
   block:right
     columns 2
     space
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*</a>"]
+    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-ppu/'>PPU*</a>"]
     space
-    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PackageSet</a>"]
+    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>Package Set</a>"]
     space:8
   end
 

@@ -1,4 +1,4 @@
-(ubuntu-developers-delegated)=
+(dmb-joining-delegated)=
 # Ubuntu Developers (from delegated teams)
 
 * Are members of a [delegated development group](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
@@ -25,7 +25,7 @@
 * Are granted a vote when the {ref}`Development Membership Board <dmb>` or
   Technical Board are polling Ubuntu Developers.
 
-* Are considered as {ref}`ubuntu-developers-contributing` when working outside
+* Are considered as {ref}`dmb-joining-contributing` when working outside
   their delegated subset of packages.
 
 At the current time, the following teams are considered delegated teams

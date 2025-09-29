@@ -1,10 +1,10 @@
-(membership-in-packageset)=
+(dmb-joining-packageset)=
 # Membership in Package Set
 
 Upload rights can be given for certain **Package Sets**, such as 'server' or 'desktop'.
 The original design intent was for the Package Set level (also called "Per Package Uploaders (PPU)") to be applied to individuals who will only be working on a very small set of packages.
 
-For this reason, some people skip this level and head straight for {ref}`MOTU <membership-in-MOTU>` or {ref}`Core Dev <membership-in-core-dev>`.
+For this reason, some people skip this level and head straight for {ref}`MOTU <dmb-joining-MOTU>` or {ref}`Core Dev <dmb-joining-core-dev>`.
 If you already have strong packaging experience via another distro, you can certainly consider doing this.
 
 That said, even if you intend to *eventually* apply for Core Dev membership, gaining Package Set first can be an effective way to build towards those roles, allowing you to upload your own work (within limits), and participate in reviews and {ref}`sponsorship <sponsorship>`.

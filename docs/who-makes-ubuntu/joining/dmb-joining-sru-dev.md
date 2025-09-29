@@ -1,4 +1,4 @@
-(ubuntu-developers-sru)=
+(dmb-joining-sru-dev)=
 # SRU Developers
 
 SRU Developers are developers with a specialisation in working on [stable release updates](https://documentation.ubuntu.com/sru/en/latest/) in Ubuntu.

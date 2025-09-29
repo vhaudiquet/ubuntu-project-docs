@@ -1,4 +1,4 @@
-(ubuntu-developers-contributing)=
+(dmb-joining-contributing)=
 # Ubuntu Contributing Developers
 
 Ubuntu Contributing Developers are members of the [`ubuntu-developer-members`](https://launchpad.net/~ubuntu-developer-members) team in Launchpad.

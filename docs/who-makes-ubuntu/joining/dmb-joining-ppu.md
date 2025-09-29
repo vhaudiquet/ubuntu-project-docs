@@ -1,4 +1,4 @@
-(membership-in-ppu)=
+(dmb-joining-ppu)=
 # Per-Package Uploaders
 
 Per-Package Uploaders are developers with a specialization in a specific package (or packages) in Ubuntu.
