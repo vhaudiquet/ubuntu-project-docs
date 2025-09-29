@@ -84,7 +84,7 @@ These interactive charts show the skills needed to obtain permissions for
 uploading changes to the Ubuntu Package Archive. They can be used as a guide
 to help build your applications for upload rights on:
 
-* {ref}`Package Sets <membership-in-packageset>`
+* {ref}`PPU <membership-in-ppu>` and {ref}`Package Sets <membership-in-packageset>`
 * {ref}`MOTU <membership-in-motu>`, 
 * {ref}`Core Developer <membership-in-core-dev>`
 
@@ -131,7 +131,7 @@ block-beta
   block:col3
   columns 2
     UploadRights{{"<b>Upload<br>rights</b>"}}
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PPU*</a>"]
+    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-ppu/'>PPU*</a>"]
     space:2
     Intermediate("<a href='#upload-path-intermediate'>Intermediate</a>")
     id2((" "))

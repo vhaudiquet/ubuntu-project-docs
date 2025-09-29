@@ -1,4 +1,4 @@
-(ubuntu-developers-per-package)=
+(membership-in-ppu)=
 # Per-Package Uploaders
 
 Per-Package Uploaders are developers with a specialization in a specific package (or packages) in Ubuntu.
