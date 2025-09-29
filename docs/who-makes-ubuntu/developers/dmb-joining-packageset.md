@@ -1,13 +1,18 @@
 (dmb-joining-packageset)=
-# Membership in Package Set
+# Package Set uploaders
 
-Upload rights can be given for certain **Package Sets**, such as 'server' or 'desktop'.
-The original design intent was for the Package Set level (also called "Per Package Uploaders (PPU)") to be applied to individuals who will only be working on a very small set of packages.
+Upload rights can be given for certain **[Package Sets](https://ubuntu-archive-team.ubuntu.com/packagesets/)**, such as '[ubuntu-server](https://ubuntu-archive-team.ubuntu.com/packagesets/questing/ubuntu-server)' or '[ubuntu-desktop](https://ubuntu-archive-team.ubuntu.com/packagesets/questing/ubuntu-desktop)'.
+The original design intent was for the Package Set level to be applied to individuals who will only be working on a very small set of packages.
 
 For this reason, some people skip this level and head straight for {ref}`MOTU <dmb-joining-MOTU>` or {ref}`Core Dev <dmb-joining-core-dev>`.
 If you already have strong packaging experience via another distro, you can certainly consider doing this.
 
 That said, even if you intend to *eventually* apply for Core Dev membership, gaining Package Set first can be an effective way to build towards those roles, allowing you to upload your own work (within limits), and participate in reviews and {ref}`sponsorship <sponsorship>`.
+
+
+## Sponsorship
+
+Membership in Package Set means that you can review and {ref}`sponsor uploads <sponsorship>` to your Package Set.
 
 
 (packageset-training-and-preparation)=
@@ -16,6 +21,8 @@ That said, even if you intend to *eventually* apply for Core Dev membership, gai
 We're going to describe an idealized training program here; however, no two applications are exactly the same, and there is a lot of flexibility in expectations.
 This is particularly true for Package Set given that it is, by definition, of limited scope.
 Just be prepared to give extra justification if you diverge substantially from the expectations listed below.
+
+In terms of the {ref}`uploaders-journey`, you should work your way through the study topics and tasks in the {ref}`upload-path-basics`, {ref}`upload-path-intermediate` and {ref}`upload-path-advanced`, as more specifically outlined below.
 
 
 ### The basics
@@ -73,6 +80,17 @@ The less experience you have in Debian or other open source communities, the mor
 Finally, you'll know you're past ready for applying if anyone ever asks, "How do you not already have upload rights??"
 
 
+## Voting
+
+Package Set members are granted a vote when the {ref}`dmb` or Technical Board are polling Ubuntu Developers.
+
+
+## Become a Package Set uploader
+
+First check the general requirements for {ref}`ubuntu-membership`.
+You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
+
+
 ## Further information
 
 * {ref}`dmb-aspects-of-a-good-application`
@@ -80,30 +98,7 @@ Finally, you'll know you're past ready for applying if anyone ever asks, "How do
 
 Once you've been granted Package Set upload permissions, there are at least three distinct directions you could embark on, depending on your goals:
 
-* MOTU, if you want to go deeper into the Ubuntu packaging world.
+* {ref}`dmb-joining-motu`, if you want to go deeper into the Ubuntu packaging world.
 * Membership in packaging teams at other distributions, if you want to broaden the reach of your software.
 * Upstream maintainer in your project(s) of interest, if you want to focus more on the development of the software itself.
-
-
------
-
-### Package Sets and seed updates
-
-Ubuntu distribution is {ref}`organized into seeds <seed-management>`. The basic seeds, which define what goes into the Archive's `main` component, are:
-`minimal`, `boot`, `standard`, `desktop`, `ship`, `live`, and `supported`.
-There are many other seeds, which can be seen at:
-
-* [DMB -- packageset](https://git.launchpad.net/~developer-membership-board/+git/packageset/tree/)
-
-* [Core Dev -- Ubuntu](https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/ubuntu/tree/)
-
-* [Core Dev -- platform](https://git.launchpad.net/~ubuntu-core-dev/ubuntu-seeds/+git/platform/tree/)
-
-For some seeds, we currently have an automated way to guarantee that the packages included in (or removed from) a seed are automatically included (or excluded) from its Package Set equivalent (thus guaranteeing, or denying, upload permissions to a developer with rights to this Package Set).
-
-The process to automatically generate this 1:1 mapping (among seeds <--> Package Sets) is described at:
-[DMB -- packageset](https://git.launchpad.net/~developer-membership-board/+git/packageset/tree/) README file.
-
-
-
 

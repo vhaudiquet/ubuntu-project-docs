@@ -1,7 +1,14 @@
 (dmb-joining-motu)=
-# Membership in MOTU
+# MOTU
 
 MOTU, or "Masters of the Universe", maintain the collection of packages in the `universe` and `multiverse` components (i.e. packages not in `main`).
+They are [members of the MOTU team](https://launchpad.net/~motu) in Launchpad.
+
+In terms of the {ref}`uploaders-journey`, MOTU are {ref}`experts <upload-path-expert>` in Ubuntu Development, answering questions of other developers to expand their understanding of packaging work, and providing guidance for prospective Ubuntu developers regarding technical issues.
+
+They understand packaging concepts, having substantial experience of uploading packages through a sponsor.
+They then apply this knowledge by uploading new packages to, and updating existing packages in, the `universe` component.
+MOTU may also contribute to the `main` component in cooperation with a {ref}`dmb-joining-core-dev`.
 
 
 (motu-training-and-preparation)=
@@ -76,6 +83,12 @@ Finally, an important element of MOTU is working with the wider Ubuntu developme
 Find a way to engage yourself with current community discussions and look for opportunities to contribute.
 
 
+### Become a MOTU
+
+First check the general requirements for {ref}`ubuntu-membership`.
+You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
+
+
 ## Further reading
 
 Common paths MOTU members follow are:
@@ -87,39 +100,4 @@ Common paths MOTU members follow are:
 * [Ubuntu derivatives](https://wiki.ubuntu.com/DerivativeTeam/Derivatives)
 
 * [Other Ubuntu interest groups](https://wiki.ubuntu.com/Teams)
-
-
------
-
-
-(ubuntu-developers-motu)=
-## MOTU
-
-* Are [members of the MOTU team](https://launchpad.net/~motu) in Launchpad.
-
-* Are collectively responsible for the maintenance of packages in the `universe`
-  and `multiverse` components.
-
-* Understand packaging concepts, having substantial experience of uploading
-  packages through a sponsor.
-
-* Apply this knowledge by uploading new packages, and updating existing packages,
-  in the `universe` component.
-
-* May also contribute to the `main` component in cooperation with a Ubuntu Core Developer.
-
-* Answer questions of other developers to expand their understanding of
-  packaging work.
-
-* Provide guidance for prospective Ubuntu developers regarding technical issues.
-
-
-### Join MOTU
-
-* Check the general requirements for {ref}`ubuntu-membership`
-
-* Apply to the {ref}`Developer Membership Board <dmb>` using the
-  {ref}`application process <dmb-application>`
-
-
 

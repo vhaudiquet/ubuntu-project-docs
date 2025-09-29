@@ -91,7 +91,8 @@ to help build your applications for upload rights on:
 * {ref}`Core Developer <dmb-joining-core-dev>`
 
 
-### The overall journey
+(uploaders-journey)=
+### The uploader's journey
 
 Since Ubuntu is based on Debian, they share a similar technical skillset. This
 means that as a contributor, you may want to contribute to Debian as well as
@@ -108,9 +109,9 @@ contributor. Click any of the nodes to learn more.
 (upload-path-basics)=
 ### Basics
 
-These topics will get you started with a good foundation for your future contributions to Ubuntu.
 As a {ref}`Prospective Developer <dmb-joining-prospective>` you should start your learning here.
-As you complete tasks that build your confidence and skills, you can apply to become a {ref}`Contributing Developer <dmb-joining-contributing>`.
+These topics will get you started with a good foundation for your future contributions to Ubuntu.
+As you complete tasks that build your confidence and skills, you can apply for Ubuntu Developer Membership as a {ref}`Contributing Developer <dmb-joining-contributing>`.
 
 ```{include} /who-makes-ubuntu/developers/diagrams/basics.txt
 ```
