@@ -156,17 +156,7 @@ membership. Here are some guidelines:
   development community. Consider hanging out on IRC, joining in with
   discussions and helping new contributors.  
 
-* You are encouraged to participate in peer review and to help with the
-  training of new developers. This will make your application stronger.
 
-* The DMB will expect you to have a need to upload directly such that membership
-  of the requested team will fulfil this need. Usually the need is to reduce
-  friction by eliminating sponsorship delays and/or the burden of sponsorship
-  review work from your sponsors. In this case you will be expected to
-  demonstrate your need in the form of already sponsored uploads to some of the
-  packages for which you are requesting direct upload access. These examples
-  will also help the DMB to assess your technical readiness to upload the
-  requested packages without sponsorship supervision.
 
 
 (dmb-application-meeting)=

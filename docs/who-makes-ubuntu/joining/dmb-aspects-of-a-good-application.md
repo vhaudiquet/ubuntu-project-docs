@@ -12,6 +12,8 @@ If you need different considerations for some reason, make sure to explain this 
 Applicants must have an existing track record of sponsored uploads to the packages they are requesting direct upload access to.
 The DMB normally approves applications either to reduce contributor friction in needing sponsorship or to save the work of sponsors.
 
+You are encouraged to participate in peer review and to help with the training of new developers. This will make your application stronger.
+
 Example:
 
 * Alice is working diligently on Openstack packages, getting many sponsored uploads every cycle. After a second cycle, in which only minimal / minor review triggered changes needed to happen, Alice feels confident in applying for cloud packageset upload rights.
