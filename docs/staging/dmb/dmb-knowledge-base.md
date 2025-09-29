@@ -21,18 +21,7 @@ This page is authoritative. If you think you've found a mistake, please
 [email the DMB](mailto:developer-membership-board@lists.ubuntu.com).
 
 
-## Communication
 
-Most non-real-time conversation happens on the
-[`devel-permissions` public list](https://lists.ubuntu.com/mailman/listinfo/devel-permissions).
-Real-time meetings happen on IRC on Libera in `#ubuntu-meeting` according to our
-regular meeting schedule.
-
-Since part of the nature of our work is to deal with assessing personal conduct
-and abilities, depending on the topic it sometimes isn't appropriate for us to
-deliberate in public, or for others to contact us in public. For these matters,
-we use the [private `developer-membership-board` list](https://lists.ubuntu.com/mailman/listinfo/developer-membership-board)
-and the private Matrix room (by invite only) as appropriate.
 
 
 ## Conducting meetings
