@@ -5,7 +5,11 @@ Information *about* and *for* the Ubuntu Councils and Boards
 
 ```{toctree}
 :maxdepth: 1
-:glob:
 
-*
+community-council
+technical-board
+membership-board
+dmb
+conflict-resolution
+delegation
 ```
