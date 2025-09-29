@@ -1,6 +1,12 @@
 (dmb)=
 # Developer Membership Board
 
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+dmb-meetings
+```
 The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developer-membership>`.
 The term for DMB membership is 2 years.
 You can find the list of current [Developer Membership Board members](https://launchpad.net/~developer-membership-board/+members) on Launchpad.
