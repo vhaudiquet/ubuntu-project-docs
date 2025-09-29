@@ -1,5 +1,5 @@
 (ubuntu-developers-per-package)=
-## Per-Package Uploaders
+# Per-Package Uploaders
 
 Per-Package Uploaders are developers with a specialization in a specific package (or packages) in Ubuntu.
 They are granted direct upload to the Ubuntu Archive for those packages.
@@ -7,7 +7,7 @@ They are granted direct upload to the Ubuntu Archive for those packages.
 They have enough technical knowledge of the package(s) in question from documented work in the package through sponsorship, work in other distributions, or work upstream.
 They understand that such upload access does not permit sole-maintainership, but rather the right to participate in the maintenance of the package(s) as part of a team.
 
-Per-Package Uploaders Understand the broad strokes of the {ref}`release schedule <releases>`, {ref}`relevant freezes <freezes>` affecting the package(s) in question, and the appropriate means by which to handle any exceptions.
+Per-Package Uploaders Understand the broad strokes of the {ref}`release schedule <ubuntu-releases>`, {ref}`relevant freezes <freezes>` affecting the package(s) in question, and the appropriate means by which to handle any exceptions.
 
 They need to show advocacy and support from existing developers, indicating that their previous work on the package warrants unsupervised upload rights.
 They also need to have documented previous concern for the packages in question in Ubuntu, including previous uploads, effective bug management, etc.
@@ -27,7 +27,7 @@ There is a slightly special procedure for Debian Developers wishing to have uplo
 They are granted a vote when the Development Membership Board or Technical Board are polling Ubuntu Developers.
 
 
-### Join the Per-Package Uploaders
+## Join the Per-Package Uploaders
 
 * Check the general requirements for {ref}`ubuntu-membership`.
 

@@ -1,5 +1,5 @@
 (ubuntu-developers-prospective)=
-## Ubuntu Prospective Developers
+# Ubuntu Prospective Developers
 
 This is where you should start if you are interested in joining the development team. Prospective Developers:
 
@@ -20,7 +20,7 @@ This is where you should start if you are interested in joining the development 
 For more information about sponsoring, read {ref}`sponsorship process <sponsorship>`.
 
 
-### Become a Prospective Developer
+## Become a Prospective Developer
 
 There are no requirements to be a Prospective Developer, and anyone with interest is encouraged to become involved.
 Please see the links at the top of this page for pointers in some of the many ways to start contributing to Ubuntu development.

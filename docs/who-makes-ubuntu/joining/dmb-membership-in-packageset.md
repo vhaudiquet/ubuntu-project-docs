@@ -76,7 +76,7 @@ Finally, you'll know you're past ready for applying if anyone ever asks, "How do
 ## Further information
 
 * {ref}`dmb-aspects-of-a-good-application`
-* {ref}`joining-a-role`
+* {ref}`ubuntu-developer-membership`
 
 Once you've been granted Package Set upload permissions, there are at least three distinct directions you could embark on, depending on your goals:
 

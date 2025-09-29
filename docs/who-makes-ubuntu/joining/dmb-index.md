@@ -1,4 +1,4 @@
-(ubuntu-developers)=
+(ubuntu-developer-membership)=
 # Ubuntu Developer Membership
 
 ```{toctree}
@@ -55,7 +55,7 @@ in Ubuntu, it would look like this:
 
 ## Benefits
 
-Ubuntu Developers get all the {ref}`benefits <member-perks>` of Ubuntu Membership.
+Ubuntu Developers get all the {ref}`benefitsof Ubuntu Membership <member-perks>`.
 They also get:
 
 * Voting privileges to confirm Ubuntu [Technical Board](https://wiki.ubuntu.com/TechnicalBoard) and {ref}`dmb` nominations.
