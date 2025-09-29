@@ -69,8 +69,8 @@ Attend your meeting
 (packageset-create-discourse-post)=
 ### Create a Discourse post for yourself
 
-Create a dedicated Discourse page for your application, using the
-[Developer Application Template](https://discourse.ubuntu.com/t/developer-application-template/66670).
+Create a dedicated Discourse page for your application in the [Developer Membership section](https://discourse.ubuntu.com/c/community/developer-membership/423),
+using the [Developer Application Template](https://discourse.ubuntu.com/t/developer-application-template/66670).
 
 On this page you should (at least):
 
@@ -94,16 +94,16 @@ copy and paste the
 [Developer Application Template](https://discourse.ubuntu.com/t/developer-application-template/66670)
 and add your details in each section.
 
+Specify in your post title what upload rights you're applying for.
+
 ```{note}
 You can look at
 [past Wiki applications](https://wiki.ubuntu.com/Home?action=fullsearch&context=180&value=DeveloperApplication&titlesearch=Titles)
 such as
 [`Paride`'s](https://wiki.ubuntu.com/ParideLegovini/UbuntuServerDeveloperApplication)
-or check out the [Discourse membership section](https://discourse.ubuntu.com/c/community/membership/93)
+or check out the Discourse [Ubuntu Membership section](https://discourse.ubuntu.com/c/community/membership/93)
 if you need some examples.
 ```
-
-Specify in your post title what upload rights you're applying for.
 
 
 (packageset-collect-endorsements)=
