@@ -7,6 +7,7 @@
 
 dmb-meetings
 dmb-restaffing
+dmb-rules
 ```
 The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developer-membership>`.
 The term for DMB membership is 2 years.
