@@ -11,7 +11,7 @@ You have upload rights
 
 You do not have upload rights
 : * Work with a sponsor who does the upload for you.
-  * See {ref}`find-a-sponsor` for guidance on how to get your upload sponsored.
+  * See {ref}`how-to-find-a-sponsor` for guidance on how to get your upload sponsored.
 
 
 ## Prepare a description

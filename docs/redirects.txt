@@ -100,3 +100,4 @@ contributors/patching/patch-management/ contributors/patching/manage-patches/
 contributors/patching/salsa-dual-maintenance/ contributors/patching/dual-maintenance-with-salsa-and-git-ubuntu/
 contributors/setup/get-package-source/ contributors/setup/get-the-source-of-a-package/
 contributors/setup/setup/ contributors/setup/set-up-for-ubuntu-development/
+contributors/merging/submit-merge-proposal/ contributors/merging/git-ubuntu-merge-proposal/

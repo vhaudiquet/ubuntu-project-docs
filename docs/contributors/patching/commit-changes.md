@@ -59,6 +59,7 @@ A more complex example:
 ```
 
 
+(write-the-changelog-entry)=
 ## Write the changelog entry
 
 For the changelog entry, you can often reuse (or even directly cut and paste) text from the Git commit or commits you've already made. However, there are some specific changes required that are unique to the changelog. Use these guidelines to create changelog entries:
