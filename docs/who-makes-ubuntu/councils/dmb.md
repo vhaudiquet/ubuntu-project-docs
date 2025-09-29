@@ -48,7 +48,7 @@ To apply, {ref}`follow this process <dmb-application>`.
 
 ### Applying for delegated teams
 
-The implementation of the application process might vary slightly {ref}`for delegated teams <dmb-delegation>`, but we generally expect the following:
+The implementation of the application process might vary slightly {ref}`for delegated teams <dmb-joining-delegated>`, but we generally expect the following:
 
 * Documentation
 

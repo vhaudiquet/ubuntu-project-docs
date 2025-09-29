@@ -8,7 +8,7 @@ They are granted direct upload to the Ubuntu Archive for those packages.
 (ppu-training-and-preparation)=
 ## Training and preparation
 
-In terms of the Ubuntu {ref}`uploaders journey`, Per-Package Uploaders are considered somewhere between an {ref}`upload-path-intermediate`- and {ref}`upload-path-advanced`-level Developer, and they may need to go further into the Advanced path depending on the complexity of the package they wish to help maintain.
+In terms of the Ubuntu {ref}`uploaders-journey`, Per-Package Uploaders are considered somewhere between an {ref}`upload-path-intermediate`- and {ref}`upload-path-advanced`-level Developer, and they may need to go further into the Advanced path depending on the complexity of the package they wish to help maintain.
 
 ```{include} /who-makes-ubuntu/developers/diagrams/intermediate.txt
 ```
