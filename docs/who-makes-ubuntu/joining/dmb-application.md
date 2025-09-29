@@ -133,30 +133,9 @@ noteworthy Debian maintainers can carry weight for MOTU applications.
 
 ## When to apply for team membership
 
-It can be difficult to know when you are ready to apply for uploader team
-membership. Here are some guidelines:
-
-* There is no minimum number of sponsored uploads into the Archive that you need
-  to have. You need to have demonstrated enough previous work to be able to
-  assure your endorsers that you can be trusted with unsupervised upload access
-  to the primary Archive.  
-
-  * On your application Discourse page, describe your areas of work.
-    As a guideline, the DMB expects to see that you have demonstrated
-    competence in at least those areas.  
-
-* At least some of your endorsers should be your (future) peers. If you are
-  applying for upload rights to a package set, for example, we will expect to
-  see your fellow set members providing endorsements.
-
-* You should have knowledge of the Ubuntu release cycle and processes (for
-  example SRUs).
-
-* It is nice and probably makes your application easier if you are a part of the
-  development community. Consider hanging out on IRC, joining in with
-  discussions and helping new contributors.  
-
-
+It can be difficult to know when you are ready to apply for uploader team membership.
+For some advice and guidance, check out the {ref}`dmb-aspects-of-a-good-application` page.
+To understand how the Ubuntu development skills map to the various uploader levels, you may also find it helpful to refer to {ref}`dmb-application-knowledge-requirements`.
 
 
 (dmb-application-meeting)=
