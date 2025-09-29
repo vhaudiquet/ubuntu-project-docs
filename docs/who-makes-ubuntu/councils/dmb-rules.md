@@ -1,5 +1,5 @@
 (dmb-rules)=
-# Rules
+# DMB rules
 
 This section contains rules and regulations for the {ref}`dmb` to use when conducting its business.
 Changes to these rules should be proposed by a board member and voted on by the board.
