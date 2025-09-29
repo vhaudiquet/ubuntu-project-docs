@@ -354,11 +354,7 @@ the above teams. Those should only be added to
 [`~ubuntu-developer-members`](https://launchpad.net/~ubuntu-developer-members).
 
 
-## Applications from DDs
 
-DDs who are PPU through the normal process can apply by email to have their
-access extended to further packages they (or a team they are a member of)
-maintain. This only requires one DMB member to agree in order to pass.
 
 
 

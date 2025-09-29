@@ -132,8 +132,9 @@ That is, the list of packages one can upload can be further extended after the i
 This includes team-maintained packages.
 
 To exercise this process, the Debian Developer should first be an existing Ubuntu developer, for example by applying for Per-Package Upload rights as per the above process or by joining the MOTU team if interest is broad.
-Subsequent changes are requested by mailing `devel-permissions@lists.ubuntu.com` listing the packages to add.
+Subsequent changes are requested by mailing `devel-permissions@lists.ubuntu.com` listing the packages to add. This only requires one DMB member to agree in order to pass.
 If the "impact" of the packages changes -- for example, one of the packages is part of release media for the first time -- the DMB may wish to ask some further clarifying questions to satisfy itself that the Debian Developer is sufficiently familiar with the differences between Ubuntu and Debian to upload the package(s) in question without supervision.
+
 
 
 ## Applying for upload permissions which grant no further access
