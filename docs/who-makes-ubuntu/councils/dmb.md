@@ -6,6 +6,7 @@
 :hidden:
 
 dmb-meetings
+dmb-restaffing
 ```
 The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developer-membership>`.
 The term for DMB membership is 2 years.
@@ -65,4 +66,6 @@ The following changes [were agreed on](http://irclogs.ubuntu.com/2009/10/13/%23u
 * Invitations/applications go there as well as to relevant team lists.
 
 * All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@` (individual outcomes) (maybe also to the team list).
+
+
 
