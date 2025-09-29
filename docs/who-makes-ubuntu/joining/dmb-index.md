@@ -5,14 +5,14 @@
 :titlesonly:
 :hidden:
 
-dmb-membership-in-prospective
-dmb-membership-in-contributing
-dmb-membership-in-ppu
-dmb-membership-in-packageset
-dmb-membership-in-delegated
-dmb-membership-in-MOTU
-dmb-membership-in-sru-dev
-dmb-membership-in-core-dev
+dmb-joining-prospective
+dmb-joining-contributing
+dmb-joining-ppu
+dmb-joining-packageset
+dmb-joining-delegated
+dmb-joining-MOTU
+dmb-joining-sru-dev
+dmb-joining-core-dev
 dmb-application
 ```
 
@@ -131,7 +131,7 @@ block-beta
   block:col3
   columns 2
     UploadRights{{"<b>Upload<br>rights</b>"}}
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-ppu/'>PPU*</a>"]
+    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-ppu/'>PPU*</a>"]
     space:2
     Intermediate("<a href='#upload-path-intermediate'>Intermediate</a>")
     id2((" "))
@@ -144,7 +144,7 @@ block-beta
   block:col4
   columns 2
     space
-    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PPU*<br>PackageSet</a>"]
+    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*<br>PackageSet</a>"]
     space:2
     Advanced("<a href='#upload-path-advanced'>Advanced</a>")
     id3((" "))
@@ -157,7 +157,7 @@ block-beta
   block:col5
   columns 2
     space
-    MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-MOTU/'>MOTU</a>"]
+    MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-MOTU/'>MOTU</a>"]
     space:2
     Expert("<a href='#upload-path-expert'>Expert</a>")
     id4((" "))
@@ -168,7 +168,7 @@ block-beta
   block:col6
     columns 2
     space
-    CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-core-dev/'>Core Dev</a>"]
+    CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-core-dev/'>Core Dev</a>"]
     space:2
     Main("<a href='#upload-path-expert'>Expert<br>in main</a>")
     id5((" "))
@@ -277,7 +277,7 @@ block-beta
   block:right
     columns 2
     space
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PPU*</a>"]
+    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*</a>"]
     space:8
   end
 
@@ -328,9 +328,9 @@ block-beta
   block:right
     columns 2
     space
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PPU*</a>"]
+    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*</a>"]
     space
-    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-packageset/'>PackageSet</a>"]
+    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PackageSet</a>"]
     space:8
   end
 
@@ -386,7 +386,7 @@ block-beta
   block:motu
     columns 2
     id2((" "))
-    MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-MOTU/'>MOTU</a>"]
+    MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-MOTU/'>MOTU</a>"]
     space:4
     id3((" "))
     space
@@ -413,7 +413,7 @@ block-beta
   block:coredev
     columns 2
     space
-    CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/membership-in-core-dev/'>Core Dev</a>"]
+    CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-core-dev/'>Core Dev</a>"]
     space:6
   end
  
