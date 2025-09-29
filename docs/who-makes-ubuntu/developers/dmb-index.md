@@ -111,7 +111,7 @@ contributor. Click any of the nodes to learn more.
 These topics will get you started with a good foundation for your future
 contributions to Ubuntu. As a {ref}`dmb-joining-prospective` you should start
 your learning here, and as you build your confidence and skills, you can apply
-to become a {ref}`dmb-joining-developing`.
+to become a {ref}`dmb-joining-contributing`.
 
 ```{include} /diagrams/basics.txt
 ```
