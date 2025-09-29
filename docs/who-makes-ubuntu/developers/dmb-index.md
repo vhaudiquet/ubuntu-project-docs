@@ -101,23 +101,21 @@ This diagram shows the overall expected progression paths you can take as a
 contributor. Click any of the nodes to learn more.
 
 
-```{include} /diagrams/overall-path.txt
+```{include} /who-makes-ubuntu/developers/diagrams/overall-path.txt
 ```
 
 
 (upload-path-basics)=
 ### Basics
 
-These topics will get you started with a good foundation for your future
-contributions to Ubuntu. As a {ref}`dmb-joining-prospective` you should start
-your learning here, and as you build your confidence and skills, you can apply
-to become a {ref}`dmb-joining-contributing`.
+These topics will get you started with a good foundation for your future contributions to Ubuntu.
+As a {ref}`Prospective Developer <dmb-joining-prospective>` you should start your learning here.
+As you complete tasks that build your confidence and skills, you can apply to become a {ref}`Contributing Developer <dmb-joining-contributing>`.
 
-```{include} /diagrams/basics.txt
+```{include} /who-makes-ubuntu/developers/diagrams/basics.txt
 ```
 
-Once your team and/or mentor says you are ready for more, you can move onto the
-Intermediate-level tasks.
+Once your team and/or mentor says you are ready for more, you can move onto the Intermediate-level tasks.
 
 
 (upload-path-intermediate)=
@@ -126,21 +124,21 @@ Intermediate-level tasks.
 This set of topics are more in-depth, as well as being quite hands-on.
 Completing the tasks in this set will prepare you for Advanced-level work.
 
-```{include} /diagrams/intermediate.txt
+```{include} /who-makes-ubuntu/developers/diagrams/intermediate.txt
 ```
 
 Once you have done enough of these tasks that your team/mentor says you are
 ready to continue your journey, you can move onto the Advanced topics.
 
 At this time, you may also be ready to apply for Per-Package Upload (PPU) rights.
-This will depend very much on the package you are interested in gaining upload
-rights for. Some packages will need you to complete the Advanced path first.
+This will depend very much on the package you are interested in gaining upload rights for.
+Some of the more complex packages will need you to complete the Advanced path first.
 
 
 (upload-path-advanced)=
 ### Advanced
 
-```{include} /diagrams/advanced.txt
+```{include} /who-makes-ubuntu/developers/diagrams/advanced.txt
 ```
 
 With enough of these tasks under your belt to demonstrate your skills and
@@ -161,7 +159,7 @@ If you want to, you can continue your Expert-level studies by further
 specializing in `main` -- you need to do this if you want to apply for
 the Core Developer role.
 
-```{include} /diagrams/expert.txt
+```{include} /who-makes-ubuntu/developers/diagrams/expert.txt
 ```
 
 

@@ -25,7 +25,7 @@ This page is authoritative. If you think you've found a mistake, please
 
 
 
-### Actions after a successful application
+## Actions after a successful application
 
 1. Assign two meeting actions: one to make ACL changes, and one to announce
    the successful applicant. This is to make sure that the announcement does not
@@ -111,7 +111,7 @@ This page is authoritative. If you think you've found a mistake, please
 
    See {ref}`dmb-teams-to-add-uploaders-to`.
 
-   * If applying for {ref}`ubuntu-developers-contributing` membership, the
+   * If applying for {ref}`dmb-joining-contributing` membership, the
      applicant should only be added to the
      [`~ubuntu-developer-members`](https://launchpad.net/~ubuntu-developer-members)
      team and nothing more.
@@ -305,7 +305,7 @@ Based on [this thread](https://lists.ubuntu.com/archives/ubuntu-devel/2017-Febru
 [the DMB agreed](https://irclogs.ubuntu.com/2017/02/27/%23ubuntu-meeting.html#t19:32)
 to create [a new team for SRU developers](https://launchpad.net/~ubuntu-sru-developers).
 This was [announced to ubuntu-devel on 28 February 2017](https://lists.ubuntu.com/archives/ubuntu-devel/2017-February/039702.html).
-See {ref}`ubuntu-developers-sru` for details.
+See {ref}`dmb-joining-sru-dev` for details.
 
 This team is for contributors who work mostly on SRUs but don't necessarily yet
 have experience in wider Ubuntu development. Team membership allows the sponsors
@@ -348,7 +348,7 @@ of `~ubuntu-uploaders`. In these cases applicants must satisfy the membership
 critera: granting upload rights without membership is not possible.
 
 This is, of course, only the case when adding **uploaders**. Memberships such
-as for {ref}`ubuntu-developers-contributing`, which do not grant any upload
+as for {ref}`dmb-joining-contributing`, which do not grant any upload
 rights to the Ubuntu Archive, do not require adding the new members to any of
 the above teams. Those should only be added to
 [`~ubuntu-developer-members`](https://launchpad.net/~ubuntu-developer-members).

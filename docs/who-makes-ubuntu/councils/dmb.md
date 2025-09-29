@@ -10,7 +10,7 @@ dmb-restaffing
 dmb-rules
 ```
 
-The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developer-membership>`.
+The Ubuntu Developer Membership Board grants Membership to {ref}`Ubuntu Developers <ubuntu-developers>`.
 The term for DMB membership is 2 years.
 You can find the list of current [Developer Membership Board members](https://launchpad.net/~developer-membership-board/+members) on Launchpad.
 
@@ -31,17 +31,17 @@ You can discuss developer application matters on the {matrix}`devel` Matrix chan
 
 The Ubuntu Developer Membership Board currently approves:
 
-* {ref}`Contributing Developers <ubuntu-developers-contributing>` (Ubuntu Membership)
+* {ref}`Contributing Developers <dmb-joining-contributing>` (Ubuntu Membership)
 
-* {ref}`Per-Package Uploaders <ubuntu-developers-per-package>`
+* {ref}`Per-Package Uploaders <dmb-joining-ppu>`
 
-* {ref}`Package Set <membership-in-packageset>`
+* {ref}`Package Set <dmb-joining-packageset>`
 
-* {ref}`MOTU <ubuntu-developers-motu>`
+* {ref}`MOTU <dmb-joining-motu>`
 
-* {ref}`SRU Developers <ubuntu-developers-sru>`
+* {ref}`SRU Developers <dmb-joining-sru-dev>`
 
-* {ref}`Core Developers <ubuntu-developers-core-dev>`
+* {ref}`Core Developers <dmb-joining-core-dev>`
 
 To apply, {ref}`follow this process <dmb-application>`.
 

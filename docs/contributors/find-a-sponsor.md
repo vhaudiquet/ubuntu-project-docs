@@ -78,8 +78,8 @@ sponsors outside your usual circle.
 Canonical employees typically have ready sponsors from their team mates.
 However, sponsors can also be found elsewhere in Canonical or in the wider
 community. Having a diversity of sponsors can be useful when
-{ref}`applying <path-to-upload-rights>` for {ref}`MOTU <membership-in-MOTU>`
-and {ref}`Core Dev <membership-in-core-dev>`,
+{ref}`applying <path-to-upload-rights>` for {ref}`MOTU <dmb-joining-MOTU>`
+and {ref}`Core Dev <dmb-joining-core-dev>`,
 since it will demonstrate breadth of your experience and trustworthiness.
 
 

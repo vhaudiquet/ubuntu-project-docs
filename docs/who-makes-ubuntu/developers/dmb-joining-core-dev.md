@@ -33,7 +33,7 @@ While Core Dev is the highest level for packaging development, there are several
 * {ref}`dmb`
 * [Technical Board](https://wiki.ubuntu.com/TechnicalBoard)
 * {ref}`Archive Administration <archive-administration>`
-* {ref}`ubuntu-developers-sru`
+* {ref}`dmb-joining-sru-dev`
 * [Security](https://wiki.ubuntu.com/SecurityTeam)
 
 

@@ -15,9 +15,9 @@ developer (their **sponsor**) will upload the changes on their behalf.
 Sponsors are contributors with proven packaging skills, who have gained upload
 rights for a particular package. One can get upload rights for:
 
-* {ref}`certain sets of packages <membership-in-packageset>`
-* {ref}`all universe packages <membership-in-MOTU>`
-* {ref}`the full Archive <membership-in-core-dev>`
+* {ref}`certain sets of packages <dmb-joining-packageset>`
+* {ref}`all universe packages <dmb-joining-MOTU>`
+* {ref}`the full Archive <dmb-joining-core-dev>`
 
 
 Canonical employees are treated no differently than general community members
