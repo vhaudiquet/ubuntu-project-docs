@@ -86,6 +86,15 @@ RULE: If any of the above checks in this section the MIR team can decide to
 RULE: skip the rest of the check until these basic questions are resolved.
 
 [Dependencies]
+RULE: Long ago also build dependencies needed to be in main, but since 14.04
+RULE: that no more is the case. Therefore if checking in the build logs do not
+RULE: rely on sections like "Install main build dependencies (apt-based
+RULE: resolver)". Similarly some of the tools shown below are capable of
+RULE: checking both, build and runtime dependencies. Only runtime dependencies
+RULE: matter.
+RULE: This got further complex with languages like rust that embed their code
+RULE: into static builds by default - there as you can read in the respective
+RULE: section build dependencies matter just like runtime dependencies.
 OK:
 TODO: - no other Dependencies to MIR due to this
 TODO:   - SRCPKG checked with `check-mir`
