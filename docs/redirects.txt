@@ -41,7 +41,7 @@ staging/release-team/release-team/ release-team/release-team/
 staging/release-team/releases/ release-team/list-of-releases/
 staging/dmb/dmb-application/ who-makes-ubuntu/developers/dmb-application/
 staging/dmb/dmb/ who-makes-ubuntu/councils/dmb/
-staging/dmb/index-dmb/ who-makes-ubuntu/developers/dmb-index/
+staging/dmb/index-dmb/ staging/dmb/index-umb/
 staging/dmb/ubuntu-developers/ who-makes-ubuntu/developers/dmb-index/
 staging/dmb/dmb-application-knowledge-requirements/ who-makes-ubuntu/developers/dmb-application-knowledge-requirements/
 staging/dmb/dmb-aspects-of-a-good-application/ who-makes-ubuntu/developers/dmb-aspects-of-a-good-application/
