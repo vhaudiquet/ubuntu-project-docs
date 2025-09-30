@@ -39,7 +39,17 @@ staging/release-team/push-mirroring/ release-team/push-mirroring/
 staging/push-mirroring/ release-team/push-mirroring/
 staging/release-team/release-team/ release-team/release-team/
 staging/release-team/releases/ release-team/list-of-releases/
-
+staging/dmb/dmb-application/ who-makes-ubuntu/developers/dmb-application/
+staging/dmb/dmb/ who-makes-ubuntu/councils/dmb/
+staging/dmb/index-dmb/ who-makes-ubuntu/developers/dmb-index/
+staging/dmb/ubuntu-developers/ who-makes-ubuntu/developers/dmb-index/
+staging/dmb/dmb-application-knowledge-requirements/ who-makes-ubuntu/developers/dmb-application-knowledge-requirements/
+staging/dmb/dmb-aspects-of-a-good-application/ who-makes-ubuntu/developers/dmb-aspects-of-a-good-application/
+who-makes-ubuntu/joining/index/ who-makes-ubuntu/developers/dmb-index/
+who-makes-ubuntu/joining/membership-in-core-dev/ who-makes-ubuntu/developers/dmb-joining-core-dev/
+who-makes-ubuntu/joining/membership-in-MOTU/ who-makes-ubuntu/developers/dmb-joining-MOTU/
+who-makes-ubuntu/joining/membership-in-packageset/ who-makes-ubuntu/developers/dmb-joining-packageset/
+who-makes-ubuntu/joining/path-to-upload-rights/ who-makes-ubuntu/developers/dmb-index/
 
 # Pages moved around
 reference/glossary/ how-ubuntu-is-made/concepts/glossary/
