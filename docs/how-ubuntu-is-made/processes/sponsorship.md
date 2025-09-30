@@ -36,7 +36,7 @@ Canonical employees are treated no differently than general community members an
 :::
 
 How do I become a sponsor?
-: See the {ref}`joining-a-role` section for guidance on how to get upload rights to the Archive.
+: See the {ref}`ubuntu-developers` section for guidance on how to get upload rights to the Archive.
 
 How do I find a sponsor?
 : See {ref}`how-to-find-a-sponsor` when seeking sponsorship for uploading changes or syncing a package.

@@ -29,7 +29,7 @@ In terms of the {ref}`uploaders-journey`, you should work your way through the s
 
 Ideally, you should have a solid mastery of the basic packaging skills for Debian/Ubuntu distributions, including the following:
 
-* {ref}`Fixing bugs in packages <fix-a-bug-in-a-package>`
+* {ref}`Fixing bugs in packages <how-to-fix-a-bug-in-a-package>`
 * Building binary packages from source, using `sbuild` or `debuild` in a
   `chroot` or `lxc` environment
 * Creating the initial packaging for new software
@@ -52,7 +52,7 @@ You should also work towards understanding some more advanced packaging topics:
 
 * {ref}`Ubuntu's release process <release-cycle>`, including the {ref}`freeze exception process <freeze-exceptions>`
 
-* Running {ref}`autopkgtest <run-package-tests>`
+* Running {ref}`autopkgtest <how-to-run-package-tests>`
 
 * Troubleshooting the {ref}`migration of packages <proposed-migration>` from `-proposed`.
 
