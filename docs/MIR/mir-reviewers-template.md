@@ -305,6 +305,12 @@ RULE:   argument to dh_makeshlibs -V? (pass such a patch on to Debian, but
 RULE:   don't block on it).
 RULE:   Note that for C++, see https://wiki.ubuntu.com/DailyRelease/FAQ
 RULE:   for a method to demangle C++ symbols files.
+RULE: - There are shared object only meant for internal use, examples
+RULE:   that come to mind are .so for perl or python implementation.
+RULE:   in such cases symbols tracking is not needed as it isn't meant
+RULE:   to expose an external API/ABI. But then in return we should ensure
+RULE:   the package does not ship external headers to build against e.g.
+RULE:   in a -dev package or similar.
 RULE: - Does it have a watch file? (If relevant, e.g. non-native)
 RULE: - Is its update history slow or sporadic?
 RULE: - Is the current release packaged?
@@ -330,6 +336,9 @@ TODO-B:   If symbols tracking isn't used then it's recommended to investigate
 TODO-B:   using an alternative like abigail or abi-compliance-check in CI
 TODO-B:   or bumping SOVER with every package update.
 TODO-C: - symbols tracking not applicable for this kind of code.
+TODO-D: - symbols tracking not applicable for this kind of code because it
+TODO-D:   the shared objects are only used internally and no headers made
+TODO-D:   available.
 TODO-A: - debian/watch is present and looks ok (if needed, e.g. non-native)
 TODO-B: - debian/watch is not present but also not needed (e.g. native)
 TODO: - Upstream update history is (good/slow/sporadic)
