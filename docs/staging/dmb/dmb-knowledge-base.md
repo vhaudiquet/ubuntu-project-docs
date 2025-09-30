@@ -38,10 +38,7 @@ This page is authoritative. If you think you've found a mistake, please
      uploader team page, and add the applicant to the team.
 
    * Modification of the package list for an existing packageset can also be done
-     directly by the DMB. This requires using
-     `the `edit-acl` tool: https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl`
-
-     **Note from Sally: this Launchpad link is broken**
+     directly by the DMB. This requires using the [`edit-acl` tool](https://git.launchpad.net/ubuntu-archive-tools/tree/edit-acl)
 
      * Example: (replace `add` with `delete` to remove a package instead of adding):
 
@@ -63,12 +60,7 @@ This page is authoritative. If you think you've found a mistake, please
 
         * For a new PPU, the uploader is the applicant
 
-     2. Open a bug against the [ubuntu-community project](https://launchpad.net/ubuntu-community),
-        and the bug description should include the exact
-        `edit-acl: https://bazaar.launchpad.net/~ubuntu-archive/ubuntu-archive-tools/trunk/view/head:/edit-acl`
-        command to run.
-
-        **Note from Sally: this LP link is broken**
+     2. Open a bug against the [ubuntu-community project](https://launchpad.net/ubuntu-community), and the bug description should include the exact [`edit-acl`](https://git.launchpad.net/ubuntu-archive-tools/tree/edit-acl) command to run.
 
         * For PPU creation, [file a bug with this subject](https://bugs.launchpad.net/ubuntu-community/+filebug?field.title=[TB/DMB]%20PPU%20for%20)
           and include the PPU member name
