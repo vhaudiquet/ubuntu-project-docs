@@ -18,8 +18,6 @@ They are considered as {ref}`dmb-joining-contributing` when working outside thei
 
 ## Current delegated teams
 
-[Team delegation procedure](https://wiki.ubuntu.com/UbuntuDevelopers/TeamDelegation)
-
 Delegated teams admitting their own members:
 : * [Ubuntu Desktop Developers](https://wiki.ubuntu.com/DesktopTeam/Developers) (Launchpad: [`~ubuntu-desktop`](https://launchpad.net/~ubuntu-desktop))
 : * [Mythbuntu Developers](http://www.mythbuntu.org/development/policy) (Launchpad: [`~mythbuntu-dev`](https://launchpad.net/~mythbuntu-dev))

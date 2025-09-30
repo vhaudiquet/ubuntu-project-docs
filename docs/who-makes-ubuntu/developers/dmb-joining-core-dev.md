@@ -61,13 +61,12 @@ First check the general requirements for {ref}`ubuntu-membership`.
 You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
 
 
-## Further information
+## Next steps
 
 While Core Dev is the highest level for packaging development, there are several specialized administrative teams that help keep the Archive healthy:
 
 * {ref}`dmb`
 * [Technical Board](https://wiki.ubuntu.com/TechnicalBoard)
 * {ref}`Archive Administration <archive-administration>`
-* {ref}`dmb-joining-sru-dev`
-* [Security](https://wiki.ubuntu.com/SecurityTeam)
+* The SRU team
 

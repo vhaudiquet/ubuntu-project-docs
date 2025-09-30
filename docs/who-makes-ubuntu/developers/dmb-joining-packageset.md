@@ -91,12 +91,9 @@ First check the general requirements for {ref}`ubuntu-membership`.
 You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
 
 
-## Further information
+## Next steps
 
-* {ref}`dmb-aspects-of-a-good-application`
-* {ref}`ubuntu-developer-membership`
-
-Once you've been granted Package Set upload permissions, there are at least three distinct directions you could embark on, depending on your goals:
+Once you have been granted Package Set upload permissions, there are at least three distinct directions you could embark on, depending on your goals:
 
 * {ref}`dmb-joining-motu`, if you want to go deeper into the Ubuntu packaging world.
 * Membership in packaging teams at other distributions, if you want to broaden the reach of your software.

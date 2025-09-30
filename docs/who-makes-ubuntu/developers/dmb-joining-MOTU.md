@@ -89,15 +89,11 @@ First check the general requirements for {ref}`ubuntu-membership`.
 You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
 
 
-## Further reading
+## Next steps
 
 Common paths MOTU members follow are:
 
 * {ref}`Core Dev <dmb-joining-core-dev>`
-
-* [Ubuntu Flavors](https://wiki.ubuntu.com/UbuntuFlavors)
-
-* [Ubuntu derivatives](https://wiki.ubuntu.com/DerivativeTeam/Derivatives)
 
 * [Other Ubuntu interest groups](https://wiki.ubuntu.com/Teams)
 

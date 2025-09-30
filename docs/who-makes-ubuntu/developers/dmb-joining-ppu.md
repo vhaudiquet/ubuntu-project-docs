@@ -40,13 +40,14 @@ PPU members are granted a vote when the {ref}`dmb` or Technical Board are pollin
 ## Become a Per-Package Uploader
 
 First check the general requirements for {ref}`ubuntu-membership`.
-
 You can then apply to the {ref}`dmb` using the {ref}`dmb-application`.
 
 
 ## Next steps
 
-If you have an interest in a wide variety of packages, you are encouraged to strive for membership in one or more existing development teams.
-In cases where a given small set of packages attracts the interest of more than one specialised developer, the Developer Membership Board may recommend the foundation of a team.
-See {ref}`form-a-delegated-team`.
+If you have an interest in a wide variety of packages, you are encouraged to strive for membership in one or more existing development teams. You may, depending on your interest, choose to go for:
+
+* {ref}`dmb-joining-packageset`
+* {ref}`dmb-joining-motu`
+* {ref}`dmb-joining-core-dev`
 

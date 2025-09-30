@@ -28,3 +28,12 @@ Make sure you meet the {ref}`sru-dev-training-and-preparation` description, and 
 
 You can then apply to the {ref}`Developer Membership Board <dmb>` using the {ref}`application process <dmb-application>`.
 
+
+## Next steps
+
+Depending on your interest, after becoming an SRU developer you may wish to go for:
+
+* {ref}`dmb-joining-ppu`
+* {ref}`dmb-joining-packageset`
+* {ref}`dmb-joining-motu`
+* {ref}`dmb-joining-core-dev`
