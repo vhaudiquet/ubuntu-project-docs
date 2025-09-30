@@ -16,10 +16,6 @@ Update:
 
 * Private Matrix room access
 
-* List of DMB member IRC nicknames in `ubottu`'s `!dmb-ping`
-
-  * Can be requested by typing: `!no dmb-ping is <comma separated list of IRC usernames>: DMB ping.`
-
 * Calendar meeting event invitation list
 
 * Send welcome email to new DMB members (see the previous one)

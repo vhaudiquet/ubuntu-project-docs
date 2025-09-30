@@ -22,7 +22,12 @@ This rule [was proposed](https://lists.ubuntu.com/archives/devel-permissions/202
 (dmb-voting-and-quorum)=
 ## Voting and quorum
 
-> Quorum votes are required, however if quorum is not reached at first meeting, at the next meeting majority present votes are required.
+Applications must reach +1 in order to pass.
+If the meeting is quorate and all members present vote in the same way (+1 or -1), then the application will have passed or failed -- the remaining members cannot overturn the vote.
+If the vote is in doubt then it is *hung* and the remaining members will be asked to vote by email or at the next meeting.
+In this case those members are entitled to ask the applicant further questions if they still have any upon reviewing the meeting log.
+
+> Quorum votes are required to make any decision., however if quorum is not reached at first meeting, at the next meeting majority present votes are required.
 
 The details for this rule, and **quorum** voting in particular, are not always clear, so the TL:DR for this rule is, any proposal or application that is voted on at a regular meeting must use the process shown in the Python function below;
 if the function does not result in pass or fail, then at the next scheduled meeting, the vote will pass with only a majority of present members (meaning the sum of votes from present members must be greater than 0).
@@ -63,3 +68,16 @@ def do_vote(*votes, total_members=7):
 
 This function represents the meaning of **quorum** votes.
 Note that if **`total_members`** is 7, if the number of voters is less than 4, it is impossible to pass or fail.
+
+
+(dmb-application-communication)=
+## Application-related communication
+
+The following details [are agreed on](http://irclogs.ubuntu.com/2009/10/13/%23ubuntu-meeting.html):
+
+* [`devel-permissions@lists.ubuntu.com`](https://lists.ubuntu.com/mailman/listinfo/devel-permissions) list will be used.
+
+* Invitations/applications go there as well as to relevant team lists.
+
+* All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@` (individual outcomes) (maybe also to the team list).
+

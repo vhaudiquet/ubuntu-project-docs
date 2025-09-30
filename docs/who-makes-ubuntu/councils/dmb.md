@@ -17,12 +17,11 @@ You can find the list of current [Developer Membership Board members](https://la
 
 ## Communication
 
-The DMB currently meets every two weeks in {matrix}`meeting` on Monday alternating between 13:00 UTC and 15:30 UTC.
-See [DMB agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
+The DMB currently holds {ref}`meetings <dmb-meetings>` every two weeks.
 
 Most asynchronous conversation happens on the [`devel-permissions` mailing list](https://lists.ubuntu.com/mailman/listinfo/devel-permissions).
 This mailing list is public ([`devel-permissions@archives`](https://lists.ubuntu.com/archives/devel-permissions/)), as are our general process and policy discussions.
-If private communication is required, such as discussing the performance of an individual, then use the [private `developer-membership-board` list](https://lists.ubuntu.com/mailman/listinfo/developer-membership-board). A private Matrix room may also be used (by invitation only).
+If private communication is required, such as discussing the performance of an individual, then use the [private `developer-membership-board` list](https://lists.ubuntu.com/mailman/listinfo/developer-membership-board).
   
 You can discuss developer application matters on the {matrix}`devel` Matrix channel.
 
@@ -58,16 +57,8 @@ The implementation of the application process might vary slightly {ref}`for dele
 
 * Public announcement
 
+* Follows the {ref}`dmb-application-communication`
 
-## Further infomation
-
-The following changes [were agreed on](http://irclogs.ubuntu.com/2009/10/13/%23ubuntu-meeting.html):
-
-* [`devel-permissions@lists.ubuntu.com`](https://lists.ubuntu.com/mailman/listinfo/devel-permissions) list will be used.
-
-* Invitations/applications go there as well as to relevant team lists.
-
-* All approvals go to `ubuntu-devel@` (meeting minutes) and `devel-permissions@` (individual outcomes) (maybe also to the team list).
 
 
 

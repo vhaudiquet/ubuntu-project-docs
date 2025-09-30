@@ -6,23 +6,23 @@ The {ref}`dmb` conducts meetings every two weeks.
 
 ## Scheduling
 
-Meetings currently run every other week, alternating between 16:00 UTC and 19:00 UTC.
-In the case of vacation such as over New Year, cancel or move individual meetings as appropriate, but please try not to push all future meetings around, as this can cause some confusion.
+DMB meetings are held on Mondays alternating between 13:00 UTC and 15:30 UTC. 
+In case of common vacations (such as over New Year), a meeting may be skipped.
+[Refer to the Agenda](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634) to check on the times, dates and topics of upcoming meetings.
 
 The meeting schedule can be changed by the DMB by majority vote, and it is expected for the schedule to be confirmed or changed as necessary at the first meeting after new DMB members are elected.
 Please also consider the needs of pending and future applicants if changing the schedule, as doing so may affect their plans.
 
 
-## Agenda
+## Meeting location
 
-We maintain [an agenda page](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634) with the dates of upcoming meetings, the agendas for them and outstanding meeting actions.
+The meeting starts on Matrix in the {matrix}`meeting` channel, and we then offer to move to a Google Meet. If participants are unable (or do not want) to use Google Meet, we conduct the meeting on Matrix. 
 
 
 ## Chair
 
 We share the responsibility of chairing the meetings.
-There should be a list on the [agenda page](https://discourse.ubuntu.com/t/ubuntu-developer-membership-board-agenda/66634).
-If you have just chaired, rotate the list and update the entry at the top of the page so we know who is chairing next.
+At the end of every meeting, we pre-select the next meeting's chair.
 
 
 ## Quorum
@@ -61,8 +61,8 @@ See [the original thread](https://lists.ubuntu.com/archives/devel-permissions/20
 
 * Try to handle applicants in the order they applied; earliest first.
 
-* Applicants will usually attend a Matrix meeting to be questioned by the DMB on matters that members wish to clarify before they can vote.
-  If the applicants or the DMB are having trouble meeting each other then the application may be handled over email, but **it is important this happens in a timely fashion**.
+* Applicants will usually attend a Matrix/Google Meets meeting to be questioned by the DMB on matters that members wish to clarify before they can vote.
+  If the applicants or the DMB are having trouble meeting each other (for example, due to time zone) then as a fallback, the application may be handled over email, but **it is important this happens in a timely fashion**.
 
 * Many of our applicants do not have English as their first language.
 
@@ -73,11 +73,4 @@ See [the original thread](https://lists.ubuntu.com/archives/devel-permissions/20
 * Make sure that the applicant has signed the [Ubuntu Code of Conduct](https://launchpad.net/codeofconduct/2.0).
   It must be signed by every Ubuntu Developer.
 
-
-## Voting
-
-Applications have to reach +1 in order to pass.
-If the meeting is quorate and all members present vote in the same way (+1 or -1), then the application will have passed or failed -- the remaining members cannot overturn the vote.
-If the vote is in doubt then it is *hung* and the remaining members will be asked to vote by email or at the next meeting.
-In this case those members are entitled to ask the applicant further questions if they still have any upon reviewing the meeting log.
 
