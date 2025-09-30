@@ -6,8 +6,8 @@ block-beta
     AdvancedStudies("Advanced studies")
     columns 1
     space:3
-    StudyFFE{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/staging/release-team/freeze-exceptions/>Study FFE</a>"}}
-    PlusOne{{"<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/advanced/plus-one-maintenance/>Study +1</a>"}}
+    StudyFFE{{"<a href=https://documentation.ubuntu.com/project/release-team/freeze-exceptions/>Study FFE</a>"}}
+    PlusOne{{"<a href=https://documentation.ubuntu.com/project/contributors/advanced/plus-one-maintenance/>Study +1</a>"}}
   end
 
   block:middle
@@ -23,9 +23,9 @@ block-beta
   block:right
     columns 2
     space
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-ppu/'>PPU*</a>"]
+    PPU["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-ppu/'>PPU*</a>"]
     space
-    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>Package Set</a>"]
+    PackageSet["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-packageset/'>Package Set</a>"]
     space:8
   end
 

@@ -30,7 +30,7 @@ block-beta
   block:col3
   columns 2
     UploadRights{{"<b>Upload<br>rights</b>"}}
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-ppu/'>PPU*</a>"]
+    PPU["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-ppu/'>PPU*</a>"]
     space:2
     Intermediate("<a href='#upload-path-intermediate'>Intermediate</a>")
     id2((" "))
@@ -43,7 +43,7 @@ block-beta
   block:col4
   columns 2
     space
-    PackageSet["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*<br>PackageSet</a>"]
+    PackageSet["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-packageset/'>PPU*<br>PackageSet</a>"]
     space:2
     Advanced("<a href='#upload-path-advanced'>Advanced</a>")
     id3((" "))
@@ -56,7 +56,7 @@ block-beta
   block:col5
   columns 2
     space
-    MOTU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-MOTU/'>MOTU</a>"]
+    MOTU["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-motu/'>MOTU</a>"]
     space:2
     Expert("<a href='#upload-path-expert'>Expert</a>")
     id4((" "))
@@ -67,7 +67,7 @@ block-beta
   block:col6
     columns 2
     space
-    CoreDev["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-core-dev/'>Core Dev</a>"]
+    CoreDev["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-core-dev/'>Core Dev</a>"]
     space:2
     Main("<a href='#upload-path-expert'>Expert<br>in main</a>")
     id5((" "))

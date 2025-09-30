@@ -14,8 +14,8 @@ block-beta
   block:middle
     columns 1
     IntermediateTasks("Intermediate tasks")
-    AddAUTOPKGTESTS["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/bug-fix/package-tests/>Add Autopkgtest</a>"]
-    ProposeMigration["<a href=https://canonical-ubuntu-project.readthedocs-hosted.com/how-ubuntu-is-made/processes/proposed-migration/>Proposed Migration</a>"]
+    AddAUTOPKGTESTS["<a href=https://documentation.ubuntu.com/project/contributors/bug-fix/package-tests/>Add Autopkgtest</a>"]
+    ProposeMigration["<a href=https://documentation.ubuntu.com/project/how-ubuntu-is-made/processes/proposed-migration/>Proposed Migration</a>"]
     DoSRUS["Do SRUS"]
     WorkOnBugs["Work on packaging bugs/features"]
   end
@@ -23,7 +23,7 @@ block-beta
   block:right
     columns 2
     space
-    PPU["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/who-makes-ubuntu/joining/dmb-joining-packageset/'>PPU*</a>"]
+    PPU["<a href='https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-ppu/'>PPU*</a>"]
     space:8
   end
 

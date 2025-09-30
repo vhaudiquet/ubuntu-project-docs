@@ -12,7 +12,7 @@ columns 2
   block:right
     InitialTasks("Initial tasks")
     columns 1
-    BugTriage["<a href='https://canonical-ubuntu-project.readthedocs-hosted.com/contributors/bug-triage/'>Bug triage</a>"]
+    BugTriage["<a href='https://documentation.ubuntu.com/project/contributors/bug-triage/'>Bug triage</a>"]
     BiteSizedBugs["Bite-sized bugs"]
     TrivialPackgeMerges["Trivial package merges"]
   end
