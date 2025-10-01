@@ -1,11 +1,6 @@
 (dmb-application-knowledge-requirements)=
 # DMB application knowledge requirements
 
-```{note}
-Extension of [Source page](https://wiki.ubuntu.com/RobieBasak/DMB/Expectations)
-based on DMB discussions, and the ubuntu uploaders program feedback
-```
-
 There are several {ref}`dmb-aspects-of-a-good-application`, but questions are often asked around what knowledge and evidence an applicant should provide.
 
 In the table below we show the topics, descriptions of what the topic includes, and the depth to which the topic should be understood for each role.
@@ -52,5 +47,5 @@ Consider the following not as "questions you must be able to answer," but rather
 | Upload and testing of stable release updates (SRU) | Demonstrate experience of stable release updates to packages in Ubuntu. Multiple uploads to the same package are good, but the wider the application should allow uploads, the more demonstrating some width is required. | BE | BE | IE | IE | AE |
 | **Universe vs Main** |  |  |  |  |  |  |
 | **Main Inclusion Review (MIR) process** | Understand the {ref}`MIR process <main-inclusion-review>` and its purpose; When invoking the MIR process is needed, and how to do so. | B | I |  | B | A |
-| Understand main vs universe | Why does the [split exist](https://documentation.ubuntu.com/server/tutorial/managing-software/#where-do-packages-come-from%20)? What does it mean to the Developer? What does it mean to the user? | B | I | I | A | A |
+| Understand main vs universe | Why does the [split exist](https://documentation.ubuntu.com/server/tutorial/managing-software/#where-do-packages-come-from)? What does it mean to the Developer? What does it mean to the user? | B | I | I | A | A |
 | MIR submission | Having submitted, and finalized, MIR cases. |  | BE |  |  | IE |

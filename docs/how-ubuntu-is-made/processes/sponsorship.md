@@ -27,16 +27,16 @@ For sponsors:
 
 Sponsors are contributors with proven packaging skills who have gained upload rights for a particular package set or area of the Archive. There are three categories of upload rights:
 
-* {ref}`certain sets of packages <membership-in-packageset>`
-* {ref}`all universe packages <membership-in-MOTU>`
-* {ref}`the full Archive <membership-in-core-dev>`
+* {ref}`certain sets of packages <dmb-joining-packageset>`
+* {ref}`all universe packages <dmb-joining-MOTU>`
+* {ref}`the full Archive <dmb-joining-core-dev>`
 
 :::{note}
 Canonical employees are treated no differently than general community members and must follow the same processes for gaining upload rights.
 :::
 
 How do I become a sponsor?
-: See the {ref}`joining-a-role` section for guidance on how to get upload rights to the Archive.
+: See the {ref}`ubuntu-developers` section for guidance on how to get upload rights to the Archive.
 
 How do I find a sponsor?
 : See {ref}`how-to-find-a-sponsor` when seeking sponsorship for uploading changes or syncing a package.
