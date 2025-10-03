@@ -10,7 +10,7 @@ how one becomes a member.
 ```{toctree}
 :maxdepth: 1
 
-/community/councils/index
+councils/index
 ```
 
 
@@ -35,7 +35,7 @@ Explanation of the various pathways, expectations, and how to apply for a role.
 ```{toctree}
 :maxdepth: 1
 
-joining/index
+developers/dmb-index
 ```
 
 ## Ubuntu Membership

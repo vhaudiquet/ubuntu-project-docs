@@ -15,7 +15,7 @@ This page (and staging area) will be removed as it becomes unnecessary.
 :hidden: true
 :glob:
 
-staging/dmb/index-dmb
+staging/dmb/index-umb
 staging/release-team/seeds
 staging/release-team/seed-management
 staging/release-team/germinate
