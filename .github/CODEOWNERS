@@ -14,6 +14,10 @@ MIR/ @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk
 # These files have no prefix, so are collected into the release-team dir(s)
 release-team/ @utkarsh2102 @ginggs @paride
 
+# Community team PR approvals
+# These files have no prefix, and are all collected into the `docs/community` dir
+community/ @aaronprisk @ilvipero
+
 # AA team PR approvals
 # These files are prefixed with "aa-", but not kept in a specific directory
 **/aa-*.md @panlinux @cpaelzer @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof
@@ -23,7 +27,7 @@ release-team/ @utkarsh2102 @ginggs @paride
 **/dmb-*.md @cpaelzer @lvoytek @rbasak @utkarsh2102 @athos-ribeiro @bdrung @julian-klode
 
 # TAs' & special teams' ack required for changes to the CODEOWNERS file
-/.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk @panlinux @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof
+/.github/CODEOWNERS @s-makin @rkratky @slyon @setharnold @joalif @didrocks @cpaelzer @MylesJP @pushkarnk @panlinux @paride @ginggs @schopin-pro @mwhudson @utkarsh2102 @tjaalton @seb128 @raof @aaronprisk @ilvipero
 
 # +1 maintenance PR approvals
 plus-one-*.md @schopin-pro @s-makin @rkratky
